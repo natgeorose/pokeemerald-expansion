@@ -423,4 +423,5 @@ Route8_Text_Elder:
 	.string "be careful if you are going further\l"
 	.string "up the mountains.\p"
 	.string "A blizzard can strike at any moment\n"
-	.string "without warning.$"
+	.string "without another warning.$"
+	
