@@ -1,5 +1,5 @@
 #define ENABLE_HEAT_START_MENU           TRUE    // If TRUE, enables the heat start menu feature
-#define HEAT_MENUS_SAVEBLOCK_PALETTES    FALSE   // If TRUE, start menu palette setting is saved to SaveBlock2. If FALSE, always uses default palette. In heat_menu_palettes.c you can change the logic that loads the right palette
+#define HEAT_MENUS_SAVEBLOCK_PALETTES    TRUE   // If TRUE, start menu palette setting is saved to SaveBlock2. If FALSE, always uses default palette. In heat_menu_palettes.c you can change the logic that loads the right palette
 
 // change these configs to toggle showing/hiding certain menu options
 // note that some options are also dependent on flags or other conditions
@@ -15,12 +15,12 @@
 // shortcut to open a menu with the L button without having it show up on one of the options
 // if you want to disable the L button shortcut, set this to HSMO_COUNT. 
 // Otherwise, set it to HSMO_POKEDEX, HSMO_POKETCH, HSMO_PARTY, HSMO_BAG or another menu option as listed in the MENU enum in heat_start_menu.c
-#define HSM_CONFIG_L_SHORTCUT       HSMO_COUNT
+#define HSM_CONFIG_L_SHORTCUT       HSMO_POKETCH
 
 // set this to TRUE to enable opening the debug menu by pressing R while in the start menu
 #define HSM_CONFIG_R_DEBUG          FALSE
 
-#define ENABLE_HEAT_SELECT_MENU     FALSE   // If TRUE, enables the heat select menu feature. 
+#define ENABLE_HEAT_SELECT_MENU     TRUE   // If TRUE, enables the heat select menu feature. 
 // remember to go into config/save.h to enable ENABLE_MULTIPLE_REGISTERED_ITEMS as well if you want to scroll through a list of registered items on this menu
 // also remember to enable OW_USE_FAKE_RTC in config/overworld.h if you want to use the time picker feature
 // also remember to set up the I_EXP_SHARE_FLAG if you want the start button to toggle Exp-All on/off, and to set I_EXP_SHARE_ITEM to GEN_6 or higher in config/item.h
