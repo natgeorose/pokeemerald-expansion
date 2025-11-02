@@ -33,4 +33,4 @@
 // I just never wrapped my head around it. the time waiting functions and AccurateTimeOfDay function are coherent with each other when using Fake RTC and this time-picker, 
 // which is what matters most for gameplay purposes.
 
-#define INFINITE_REPEL_FLAG         0 // assign this to an unused flag if you want the select button inside the select menu to toggle between infinite repel ON and OFF
+#define INFINITE_REPEL_FLAG         FLAG_INFINITE_REPEL // assign this to an unused flag if you want the select button inside the select menu to toggle between infinite repel ON and OFF
