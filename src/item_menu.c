@@ -305,16 +305,16 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_GIVE]              = {gMenuText_Give,               {ItemMenu_Give}},
     [ACTION_CANCEL]            = {gText_Cancel2,                {ItemMenu_Cancel}},
     [ACTION_BATTLE_USE]        = {gMenuText_Use,                {ItemMenu_UseInBattle}},
-    [ACTION_CHECK]             = {COMPOUND_STRING("CHECK"),     {ItemMenu_UseOutOfBattle}},
-    [ACTION_WALK]              = {COMPOUND_STRING("WALK"),      {ItemMenu_UseOutOfBattle}},
+    [ACTION_CHECK]             = {COMPOUND_STRING("Check"),     {ItemMenu_UseOutOfBattle}},
+    [ACTION_WALK]              = {COMPOUND_STRING("Walk"),      {ItemMenu_UseOutOfBattle}},
     #if ENABLE_MULTIPLE_REGISTERED_ITEMS
-    [ACTION_DESELECT]          = {COMPOUND_STRING("DESELECT"),  {ItemMenu_Deselect}},
+    [ACTION_DESELECT]          = {COMPOUND_STRING("Deselect"),  {ItemMenu_Deselect}},
     #else
-    [ACTION_DESELECT]          = {COMPOUND_STRING("DESELECT"),  {ItemMenu_Register}},
+    [ACTION_DESELECT]          = {COMPOUND_STRING("Deselect"),  {ItemMenu_Register}},
     #endif
-    [ACTION_CHECK_TAG]         = {COMPOUND_STRING("CHECK TAG"), {ItemMenu_CheckTag}},
+    [ACTION_CHECK_TAG]         = {COMPOUND_STRING("Check Tag"), {ItemMenu_CheckTag}},
     [ACTION_CONFIRM]           = {gMenuText_Confirm,            {Task_FadeAndCloseBagMenu}},
-    [ACTION_SHOW]              = {COMPOUND_STRING("SHOW"),      {ItemMenu_Show}},
+    [ACTION_SHOW]              = {COMPOUND_STRING("Show"),      {ItemMenu_Show}},
     [ACTION_GIVE_FAVOR_LADY]   = {gMenuText_Give2,              {ItemMenu_GiveFavorLady}},
     [ACTION_CONFIRM_QUIZ_LADY] = {gMenuText_Confirm,            {ItemMenu_ConfirmQuizLady}},
     [ACTION_BY_NAME]           = {COMPOUND_STRING("Name"),      {ItemMenu_SortByName}},
