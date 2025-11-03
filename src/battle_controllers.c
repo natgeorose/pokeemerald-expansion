@@ -3124,6 +3124,8 @@ void UpdateFriendshipFromXItem(u32 battler)
         gBattleResources->bufferA[battler][1] = REQUEST_FRIENDSHIP_BATTLE;
         SetBattlerMonData(battler, GetBattlerParty(battler), gBattlerPartyIndexes[battler]);
     }
+}
+
 u32 Rogue_GetBattleSpeedScale(bool32 forHealthbar)
 {
     u8 battleSceneOption = VarGet(B_BATTLE_SPEED); // Originally GetBattleSceneOption() with a saveblock stored value;
