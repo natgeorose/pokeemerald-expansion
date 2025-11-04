@@ -872,7 +872,7 @@ struct
     [MENU_CATALOG_MOWER]   = {COMPOUND_STRING("Lawn Mower"),      CursorCb_CatalogMower},
     [MENU_CHANGE_FORM]     = {COMPOUND_STRING("Change Form"),     CursorCb_ChangeForm},
     [MENU_CHANGE_ABILITY]  = {COMPOUND_STRING("Change Ability"),  CursorCb_ChangeAbility},
-    [MENU_POKEDEX]         = {COMPOUND_STRING("Pokedex"),         CursorCb_Pokedex},
+    [MENU_POKEDEX]         = {gText_PokedexParty,		       CursorCb_Pokedex},
 };
 
 static const u8 sPartyMenuAction_SummarySwitchCancel[] = {MENU_SUMMARY, MENU_SWITCH, MENU_CANCEL1};

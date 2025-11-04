@@ -492,6 +492,7 @@ static void Task_HandleWhichMoveInput(u8 taskId);
 static void Task_HideFollowerNPCForTeleport(u8);
 static void FieldCallback_RockClimb(void);
 static void CursorCb_Pokedex(u8 taskId);
+const u8 gText_PokedexParty[] = _("{COLOR RED}Pokedex");
 
 // static const data
 #include "data/party_menu.h"
