@@ -8,6 +8,7 @@
 #include "battle_pyramid_bag.h"
 #include "bg.h"
 #include "decompress.h"
+#include "dexnav.h"
 #include "event_data.h"
 #include "event_object_movement.h"
 #include "event_object_lock.h"
@@ -794,7 +795,7 @@ static bool8 IsMenuOptionEnabledInGame(u8 menu)
   case HSMO_BAG:
     return TRUE;
   case HSMO_POKETCH:
-    return GetSafariZoneFlag() == FALSE && FlagGet(FLAG_SYS_POKENAV_GET) == TRUE;
+    return GetSafariZoneFlag() == FALSE && FlagGet(DN_FLAG_DEXNAV_GET) == TRUE;
   case HSMO_TRAINER_CARD:
     return TRUE;
   case HSMO_SAVE:
@@ -1459,7 +1460,7 @@ static void HeatStartMenu_ShowMapNameWindow(void)
     CopyWindowToVram(sHeatStartMenu->sMapNameWindowId, COPYWIN_GFX);
 }
 
-static const u8 gText_Poketch[] = _("PokeNav");
+static const u8 gText_Poketch[] = _("DexNav");
 static const u8 gText_Pokedex[] = _("Pokédex");
 static const u8 gText_Party[]   = _("Party");
 static const u8 gText_Bag[]     = _("Bag");
@@ -1686,6 +1687,19 @@ static void DoCleanUpAndOpenTrainerCard(void)
       ShowPlayerTrainerCard(CB2_ReturnToFieldWithOpenMenu); // Display trainer card
       DestroyTask(FindTaskIdByFunc(Task_HeatStartMenu_HandleMainInput));
     }
+  }
+}
+
+static void DoCleanUpAndOpenDexNav(void)
+{
+  if (!gPaletteFade.active)
+  {
+    PlayRainStoppingSoundEffect();
+    HeatStartMenu_ExitAndClearTilemap(TRUE);
+    CleanupOverworldWindowsAndTilemaps();
+    CreateTask(Task_OpenDexNavFromStartMenu, 0);
+    DestroyTask(FindTaskIdByFunc(Task_HeatStartMenu_HandleMainInput));
+    
   }
 }
 
@@ -2054,7 +2068,7 @@ static void HeatStartMenu_OpenMenu(void)
   switch (menuSelected)
   {
   case HSMO_POKETCH:
-    DoCleanUpAndChangeCallback(CB2_InitPokeNav);
+    DoCleanUpAndOpenDexNav();
     break;
   case HSMO_POKEDEX:
     DoCleanUpAndChangeCallback(CB2_OpenPokedex);
