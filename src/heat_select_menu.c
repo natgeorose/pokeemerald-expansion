@@ -481,8 +481,8 @@ static void HSelM_Handle_ABUTTON(u8 taskId)
     UseRegisteredKeyItemOnField();
     #endif
 }
-const u8 gText_FollowTurnedOn[] = _("Your Pokémon will go back in its\nPoké Ball.");
-const u8 gText_FollowTurnedOff[] = _("Your Pokémon will follow you now!");
+const u8 gText_FollowTurnedOn[] = _("Your Pokémon returned to its\nPoké Ball.");
+const u8 gText_FollowTurnedOff[] = _("Your Pokémon will follow you!");
 #define TOGGLE_FOLLOW_WITHOUT_EXITING FALSE
 static void HSelM_Handle_LBUTTON(u8 taskId){
     if(sHeatSelectMenu->mode == HSELM_MODE_TIME_PICKER)
@@ -518,6 +518,7 @@ static void HSelM_Handle_LBUTTON(u8 taskId){
             HSelM_ExitAndCleanup(TRUE);
             DestroyTask(taskId);
         }
+        UpdateFollowingPokemon();
         return;
     }
 }
