@@ -263,7 +263,10 @@ bool8 HSelM_LSectionState(void)
     }
     else
     {
-        return TRUE; // TODO: read L button state
+        if(B_FLAG_FOLLOWERS_DISABLED > TEMP_FLAGS_END){
+            return FlagGet(B_FLAG_FOLLOWERS_DISABLED);
+        }
+        return TRUE; // TODO: read SELECT button state if you don't use it for follower toggling
     }
 }
 bool8 HSelM_RSectionState(void){
@@ -275,7 +278,10 @@ bool8 HSelM_RSectionState(void){
     }
     else
     {
-        return TRUE; // R activates time picking mode
+        if(B_FLAG_FOLLOWERS_DISABLED > TEMP_FLAGS_END){
+            return FlagGet(B_FLAG_FOLLOWERS_DISABLED);
+        }
+        return TRUE; // TODO: read SELECT button state if you don't use it for infinite repel toggling
     }
 }
 bool8 HSelM_SelectSectionState(void){
@@ -475,6 +481,9 @@ static void HSelM_Handle_ABUTTON(u8 taskId)
     UseRegisteredKeyItemOnField();
     #endif
 }
+const u8 gText_FollowTurnedOn[] = _("Your Pokémon will go back in its\nPoké Ball.");
+const u8 gText_FollowTurnedOff[] = _("Your Pokémon will follow you now!");
+#define TOGGLE_FOLLOW_WITHOUT_EXITING FALSE
 static void HSelM_Handle_LBUTTON(u8 taskId){
     if(sHeatSelectMenu->mode == HSELM_MODE_TIME_PICKER)
     {
@@ -489,10 +498,26 @@ static void HSelM_Handle_LBUTTON(u8 taskId){
         return; // RTC not enabled, can't wait until a time of day
         #endif
     } else {
-        PlaySE(SE_SELECT);
-        HSelM_ExitAndCleanup(TRUE);
-        DestroyTask(taskId);
-        // TODO: add functionality for L button in main mode
+        if (B_FLAG_FOLLOWERS_DISABLED > TEMP_FLAGS_END)
+        {
+            PlaySE(SE_SELECT);
+            bool32 isTurningOn = !FlagGet(B_FLAG_FOLLOWERS_DISABLED);
+            FlagToggle(B_FLAG_FOLLOWERS_DISABLED);
+            #if TOGGLE_FOLLOW_WITHOUT_EXITING
+            HSelM_RefreshUI();
+            #else
+            StringExpandPlaceholders(gStringVar4, isTurningOn ? gText_FollowTurnedOn : gText_FollowTurnedOff);
+            HSelM_ExitAndCleanup(FALSE);
+            DisplayItemMessageOnField(taskId, gStringVar4, Task_CloseAfterMessage);
+            #endif
+        }
+        else
+        {
+            PlaySE(SE_SELECT);
+            // TODO: customize functionality for select button in main mode if you're not using infinite repel toggle
+            HSelM_ExitAndCleanup(TRUE);
+            DestroyTask(taskId);
+        }
         return;
     }
 }
@@ -979,7 +1004,7 @@ static void HSelM_PrintLeftIconParametrized(bool32 flash)
         else
         {
             // TODO: customize left button sprite (and functionality in the other functions with a TODO note)
-            spriteId = AddItemIconSprite(TAG_LEFT_ICON, TAG_LEFT_ICON, ITEM_PREMIER_BALL);
+            spriteId = AddItemIconSprite(TAG_LEFT_ICON, TAG_LEFT_ICON, ITEM_MAGMA_EMBLEM);
             if (spriteId != MAX_SPRITES)
             {
                 *spriteIdLoc = spriteId;
@@ -1253,6 +1278,8 @@ static void HSelM_UpdateTopTextWindow(void)
 
 static const u8 gText_On[]    = _("On");
 static const u8 gText_Off[]    = _("Off");
+static const u8 gText_Yah[]    = _("Yes");
+static const u8 gText_Nah[]    = _("No");
 static const u8 gText_Pokevial_Dose_Count[] = _("{STR_VAR_1}/{STR_VAR_2}");
 static const u8 gText_WaitTime_Morning[] = _("Morning");
 static void HSelM_UpdateLTextWindow(void)
@@ -1268,7 +1295,7 @@ static void HSelM_UpdateLTextWindow(void)
     else
     {
         // TODO: customize L window text for your own use case
-        StringExpandPlaceholders(gStringVar4, state? gText_On : gText_Off);
+        StringExpandPlaceholders(gStringVar4, state? gText_Nah : gText_Yah);
     }
 
     HSelM_PrintCenteredStringVar4Background(sHeatSelectMenu->sLTextWindowId, FONT_SMALL, sWindowTemplate_L.width, state);
