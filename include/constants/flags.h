@@ -1235,8 +1235,8 @@
 #define FLAG_TOGGLE_WILD_ENCOUNTER                                  0x49D // Former Unused Flag
 #define FLAG_POKE_RIDER                                             0x49E // Former Unused Flag
 #define FLAG_FORCE_SHINY                                            0x49F // Former Unused Flag
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
+#define FLAG_RUNNING_SHOES_TOGGLE                                   0x4A0 // Former Unused Flag
+#define FLAG_AUTORUN_MENU_TOGGLE                                    0x4A1 // Former Unused Flag
 #define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
 #define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag

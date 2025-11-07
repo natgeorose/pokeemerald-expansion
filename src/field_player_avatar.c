@@ -34,6 +34,8 @@
 #include "constants/songs.h"
 #include "constants/trainer_types.h"
 
+EWRAM_DATA bool8 gRunToggleBtnSet = FALSE;
+
 #define NUM_FORCED_MOVEMENTS 18
 #define NUM_ACRO_BIKE_COLLISIONS 5
 
@@ -816,27 +818,9 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
         }
         else
         {
-            // Player collided with something. Certain collisions have special handling that precludes the normal collision effect.
-            // COLLISION_STOP_SURFING and COLLISION_PUSHED_BOULDER's effects are started by CheckForObjectEventCollision.
-            // COLLISION_LEDGE_JUMP's effect is handled further up in this function, so it will never reach this point.
-            // COLLISION_ROTATING_GATE is unusual however, this was probably included by mistake. When the player walks into a
-            // rotating gate that cannot rotate there is no additional handling, it's just a regular collision. Its exclusion here
-            // means that the player avatar won't update if they encounter this kind of collision. This has two noticeable effects:
-            // - Colliding with it head-on stops the player dead, rather than playing the walking animation and playing a bump sound effect
-            // - Colliding with it by changing direction won't turn the player avatar, their walking animation will just speed up.
-#ifdef BUGFIX
-            if (collision != COLLISION_STOP_SURFING
-             && collision != COLLISION_LEDGE_JUMP
-             && collision != COLLISION_PUSHED_BOULDER)
-#else
-            if (collision != COLLISION_STOP_SURFING
-             && collision != COLLISION_LEDGE_JUMP
-             && collision != COLLISION_PUSHED_BOULDER
-             && collision != COLLISION_ROTATING_GATE)
-#endif
-            {
+            u8 adjustedCollision = collision - COLLISION_STOP_SURFING;
+            if (adjustedCollision > 3)
                 PlayerNotOnBikeCollide(direction);
-            }
             return;
         }
     }
@@ -858,22 +842,71 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
         return;
     }
 
-    if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER) && (heldKeys & B_BUTTON) && FlagGet(FLAG_SYS_B_DASH)
+    if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER) && (gRunToggleBtnSet || (FlagGet(FLAG_RUNNING_SHOES_TOGGLE) && !FlagGet(FLAG_AUTORUN_MENU_TOGGLE)) || (heldKeys & B_BUTTON))
+    && FlagGet(FLAG_SYS_B_DASH)
+
      && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0 && !FollowerNPCComingThroughDoor())
     {
-        if (ObjectMovingOnRockStairs(&gObjectEvents[gPlayerAvatar.objectEventId], direction))
-            PlayerRunSlow(direction);
+        if (FlagGet(DN_FLAG_SEARCHING) && (heldKeys & A_BUTTON))
+        {
+            gPlayerAvatar.creeping = TRUE;
+            PlayerWalkSlow(direction);
+        }
+        
+        if (gRunToggleBtnSet)
+        {
+            gRunToggleBtnSet = FALSE;
+            if (FlagGet(FLAG_RUNNING_SHOES_TOGGLE) == FALSE)
+            {
+                FlagSet(FLAG_RUNNING_SHOES_TOGGLE);
+                PlayerRun(direction);
+                gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
+                return;
+            }
+            else
+            {
+                FlagClear(FLAG_RUNNING_SHOES_TOGGLE);
+                gRunToggleBtnSet = FALSE;
+                if (!(heldKeys & B_BUTTON))
+                {
+                    PlayerWalkNormal(direction);
+                }
+                else
+                {
+                    PlayerRun(direction);
+                    gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
+                }
+                return;
+            } 
+        }
+        PlayerRun(direction);
+        gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
+        return;
+     }
+     else
+     {
+        gRunToggleBtnSet = FALSE;
+                // Not running, so check for creeping
+        if (FlagGet(DN_FLAG_SEARCHING) && (heldKeys & A_BUTTON))
+        {
+            gPlayerAvatar.creeping = TRUE;
+            PlayerWalkSlow(direction);
+        }
         else
-            PlayerRun(direction);
+        {
+            gPlayerAvatar.creeping = FALSE;
+            PlayerWalkNormal(direction);
+        }
+        PlayerWalkNormal(direction);
+     }
 
+    if (ObjectMovingOnRockStairs(&gObjectEvents[gPlayerAvatar.objectEventId], direction))
+    {
+        PlayerRunSlow(direction);
         gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
         return;
     }
-    else if (FlagGet(DN_FLAG_SEARCHING) && (heldKeys & A_BUTTON))
-    {
-        gPlayerAvatar.creeping = TRUE;
-        PlayerWalkSlow(direction);
-    }
+    // creeping stuff was here
     else
     {
         if (ObjectMovingOnRockStairs(&gObjectEvents[gPlayerAvatar.objectEventId], direction))

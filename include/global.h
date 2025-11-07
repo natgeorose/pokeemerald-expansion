@@ -587,6 +587,7 @@ struct SaveBlock2
              u16 optionsStartMenuPalette:2; // whether the start menu is in the default palette
              #endif
              u16 optionsBattleSpeed:2; // OPTIONS_BATTLE_SPEED_[1x/2x/3x/4x]
+             u16 optionsToggleRun:1;
              //u16 padding1:4;
              //u16 padding2;
     /*0x18*/ struct Pokedex pokedex;

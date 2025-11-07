@@ -36,6 +36,7 @@
 // Added for heat menu palettes
 #define tStartMenuPalette data[7]
 #define tBattleSpeed data[8]
+#define tToggleRun data[9]
 #endif
 
 // page 1 options
@@ -57,6 +58,7 @@ enum
 {
     MENUITEM_MENUPAL,
     MENUITEM_BATTLESPEED,
+    MENUITEM_TOGGLERUN,
     MENUITEM_CANCEL_PG2,
     MENUITEM_COUNT_PG2,
 };
@@ -80,6 +82,7 @@ enum
 // page 2
 #define YPOS_MENUPAL      (MENUITEM_MENUPAL * 16)
 #define YPOS_BATTLESPEED  (MENUITEM_BATTLESPEED * 16)
+#define YPOS_TOGGLERUN    (MENUITEM_TOGGLERUN * 16)
 #define PAGE_COUNT 2
 #endif
 
@@ -110,12 +113,15 @@ static void Task_OptionMenuFadeIn_Pg2(u8 taskId);
 static void Task_OptionMenuProcessInput_Pg2(u8 taskId);
 static u8 MenuPal_ProcessInput(u8 selection);
 static void MenuPal_DrawChoices(u8 selection);
+static u8   ToggleRun_ProcessInput(u8 selection);
+static void ToggleRun_DrawChoices(u8 selection);
 EWRAM_DATA static u8 sCurrPage = 0;
 
 static const u8 *const sOptionMenuItemsNames_Pg2[MENUITEM_COUNT_PG2] =
 {
     [MENUITEM_MENUPAL]        = gText_MenuPal,
     [MENUITEM_BATTLESPEED]     = gText_BattleSpeed,
+    [MENUITEM_TOGGLERUN]       = gText_ToggleRun,
     [MENUITEM_CANCEL_PG2]      = gText_OptionMenuCancel,
 };
 #endif
@@ -212,6 +218,7 @@ static void ReadAllCurrentSettings(u8 taskId)
     gTasks[taskId].tStartMenuPalette = gSaveBlock2Ptr->optionsStartMenuPalette;
     #endif
     gTasks[taskId].tBattleSpeed = gSaveBlock2Ptr->optionsBattleSpeed;
+    gTasks[taskId].tToggleRun = gSaveBlock2Ptr->optionsToggleRun;
 }
 
 static void DrawOptionsPg1(u8 taskId)
@@ -233,6 +240,7 @@ static void DrawOptionsPg2(u8 taskId)
     ReadAllCurrentSettings(taskId);
     MenuPal_DrawChoices(gTasks[taskId].tStartMenuPalette);
     BattleSpeed_DrawChoices(gTasks[taskId].tBattleSpeed);
+    ToggleRun_DrawChoices(gTasks[taskId].tToggleRun);
     HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
@@ -334,7 +342,14 @@ static void Task_OptionMenuProcessInput_Pg2(u8 taskId)
 
             if (previousOption != gTasks[taskId].tBattleSpeed)
                 BattleSpeed_DrawChoices(gTasks[taskId].tBattleSpeed);
-            break;         
+            break;
+        case MENUITEM_TOGGLERUN:
+            previousOption = gTasks[taskId].tToggleRun;
+            gTasks[taskId].tToggleRun = ToggleRun_ProcessInput(gTasks[taskId].tToggleRun);
+
+            if (previousOption != gTasks[taskId].tToggleRun)
+                ToggleRun_DrawChoices(gTasks[taskId].tToggleRun);
+            break;  
         default:
             return;
         }
@@ -570,6 +585,7 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->optionsStartMenuPalette = gTasks[taskId].tStartMenuPalette;
     #endif
     gSaveBlock2Ptr->optionsBattleSpeed = gTasks[taskId].tBattleSpeed;
+    gSaveBlock2Ptr->optionsToggleRun = gTasks[taskId].tToggleRun;
 
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
     gTasks[taskId].func = Task_OptionMenuFadeOut;
@@ -644,6 +660,40 @@ static void BattleSpeed_DrawChoices(u8 selection)
     DrawOptionMenuChoice(gText_BattleSpeed2x, 104 + xSpacer, YPOS_BATTLESPEED, styles[1]);
     DrawOptionMenuChoice(gText_BattleSpeed3x, 104 + 2 * xSpacer, YPOS_BATTLESPEED, styles[2]);
     DrawOptionMenuChoice(gText_BattleSpeed4x, GetStringRightAlignXOffset(1, gText_BattleSpeed4x, 198), YPOS_BATTLESPEED, styles[3]);
+}
+
+static u8 ToggleRun_ProcessInput(u8 selection)
+{
+    if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+    {
+        selection ^= 1;
+        sArrowPressed = TRUE;
+    }
+
+
+    if (selection == 0) 
+    {
+        FlagSet(FLAG_AUTORUN_MENU_TOGGLE);
+        FlagClear(FLAG_RUNNING_SHOES_TOGGLE);
+    }
+    else
+    {
+        FlagClear(FLAG_AUTORUN_MENU_TOGGLE);
+    }
+
+    return selection;
+}
+
+static void ToggleRun_DrawChoices(u8 selection)
+{
+    u8 styles[2];
+
+    styles[0] = 0;
+    styles[1] = 0;
+    styles[selection] = 1;
+
+    DrawOptionMenuChoice(gText_ToggleRunHold, 104, YPOS_TOGGLERUN, styles[0]);
+    DrawOptionMenuChoice(gText_ToggleRunToggle, GetStringRightAlignXOffset(FONT_NORMAL, gText_ToggleRunHold, 186), YPOS_TOGGLERUN, styles[1]);
 }
 
 static u8 TextSpeed_ProcessInput(u8 selection)
