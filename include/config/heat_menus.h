@@ -20,7 +20,7 @@
 // set this to TRUE to enable opening the debug menu by pressing R while in the start menu
 #define HSM_CONFIG_R_DEBUG          FALSE
 
-#define ENABLE_HEAT_SELECT_MENU     TRUE   // If TRUE, enables the heat select menu feature. 
+#define ENABLE_HEAT_SELECT_MENU     FLAG_ENABLE_SELECT_MENU   // If TRUE, enables the heat select menu feature. 
 // remember to go into config/save.h to enable ENABLE_MULTIPLE_REGISTERED_ITEMS as well if you want to scroll through a list of registered items on this menu
 // also remember to enable OW_USE_FAKE_RTC in config/overworld.h if you want to use the time picker feature
 // also remember to set up the I_EXP_SHARE_FLAG if you want the start button to toggle Exp-All on/off, and to set I_EXP_SHARE_ITEM to GEN_6 or higher in config/item.h

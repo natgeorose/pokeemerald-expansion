@@ -249,7 +249,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
         return TRUE;
     
     #if ENABLE_HEAT_SELECT_MENU
-    if (input->pressedSelectButton)
+    if (input->pressedSelectButton && FlagGet(ENABLE_HEAT_SELECT_MENU) == TRUE)
     {
         PlaySE(SE_WIN_OPEN);
         HideMapNamePopUpWindow();
