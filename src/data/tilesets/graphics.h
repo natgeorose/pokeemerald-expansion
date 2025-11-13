@@ -1634,3 +1634,41 @@ const u16 gTilesetPalettes_UnionRoom[][16] =
 };
 
 const u32 gTilesetTiles_UnionRoom[] = INCBIN_U32("data/tilesets/secondary/union_room/tiles.4bpp.fastSmol");
+
+const u16 gTilesetPalettes_Serenado[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/serenado/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Serenado[] = INCBIN_U32("data/tilesets/primary/serenado/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Cairwind[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cairwind/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Cairwind[] = INCBIN_U32("data/tilesets/secondary/cairwind/tiles.4bpp.lz");
