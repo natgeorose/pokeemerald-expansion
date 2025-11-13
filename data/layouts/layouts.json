@@ -4414,8 +4414,8 @@
     {
       "id": "LAYOUT_CAIRWIND_TOWN",
       "name": "CairwindTown_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 48,
+      "height": 40,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/CairwindTown/border.bin",
