@@ -74,11 +74,7 @@
     },
     {
       "id": "MAPSEC_MAUVILLE_CITY",
-      "name": "Mauville City",
-      "x": 8,
-      "y": 6,
-      "width": 2,
-      "height": 1
+      "name": "Mauville City"
     },
     {
       "id": "MAPSEC_RUSTBORO_CITY",
@@ -694,48 +690,48 @@
       "name": ""
     },
     {
-      "id": "MAPSEC_PALLET_TOWN",
-      "name": "Pallet Town"
+      "id": "MAPSEC_CAIRWIND_TOWN",
+      "name": "Cairwind Town"
     },
     {
-      "id": "MAPSEC_VIRIDIAN_CITY",
-      "name": "Viridian City"
+      "id": "MAPSEC_MOORDEN_VILLAGE",
+      "name": "Moorden Village"
     },
     {
-      "id": "MAPSEC_PEWTER_CITY",
-      "name": "Pewter City"
+      "id": "MAPSEC_QUILSPRING_TOWN",
+      "name": "Quilspring Town"
     },
     {
-      "id": "MAPSEC_CERULEAN_CITY",
-      "name": "Cerulean City"
+      "id": "MAPSEC_FELLHAVEN_TOWN",
+      "name": "Fellhaven Town"
     },
     {
-      "id": "MAPSEC_LAVENDER_TOWN",
-      "name": "Lavender Town"
+      "id": "MAPSEC_SUNDARA_VILLAGE",
+      "name": "Sundara Village"
     },
     {
-      "id": "MAPSEC_VERMILION_CITY",
-      "name": "Vermilion City"
+      "id": "MAPSEC_VEILBORA_TOWN",
+      "name": "Veilbora Town"
     },
     {
-      "id": "MAPSEC_CELADON_CITY",
-      "name": "Celadon City"
+      "id": "MAPSEC_REME_CITY",
+      "name": "Reme City"
     },
     {
-      "id": "MAPSEC_FUCHSIA_CITY",
-      "name": "Fushia City"
+      "id": "MAPSEC_RAJANOR_TOWN",
+      "name": "Rajanor Town"
     },
     {
-      "id": "MAPSEC_CINNABAR_ISLAND",
-      "name": "Cinnabar Island"
+      "id": "MAPSEC_KARADUNE_TOWN",
+      "name": "Karadune Town"
     },
     {
-      "id": "MAPSEC_INDIGO_PLATEAU",
-      "name": "Indigo Plateau"
+      "id": "MAPSEC_ELARU_TOWN",
+      "name": "Elaru Town"
     },
     {
-      "id": "MAPSEC_SAFFRON_CITY",
-      "name": "Saffron City"
+      "id": "MAPSEC_SOLOAM_VILLAGE",
+      "name": "Soloam Village"
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
@@ -797,59 +793,59 @@
     },
     {
       "id": "MAPSEC_ROUTE_13",
-      "name": "ROUTE 13"
+      "name": "Route 13"
     },
     {
       "id": "MAPSEC_ROUTE_14",
-      "name": "ROUTE 14"
+      "name": "Route 14"
     },
     {
       "id": "MAPSEC_ROUTE_15",
-      "name": "ROUTE 15"
+      "name": "Route 15"
     },
     {
-      "id": "MAPSEC_ROUTE_16",
-      "name": "ROUTE 16"
+      "id": "MAPSEC_LACUNREST_TOWN",
+      "name": "Lacunrest Town"
     },
     {
-      "id": "MAPSEC_ROUTE_17",
-      "name": "ROUTE 17"
+      "id": "MAPSEC_HIGARD_TOWN",
+      "name": "Higard Town"
     },
     {
-      "id": "MAPSEC_ROUTE_18",
-      "name": "ROUTE 18"
+      "id": "MAPSEC_CYNDUR_PEAK",
+      "name": "Cyndur Peak"
     },
     {
-      "id": "MAPSEC_ROUTE_19",
-      "name": "ROUTE 19"
+      "id": "MAPSEC_MT_UMBRA",
+      "name": "Mt. Umbra"
     },
     {
-      "id": "MAPSEC_ROUTE_20",
-      "name": "ROUTE 20"
+      "id": "MAPSEC_ASHELODE_MINES",
+      "name": "Ashlode Mines"
     },
     {
-      "id": "MAPSEC_ROUTE_21",
-      "name": "ROUTE 21"
+      "id": "MAPSEC_KARADUNE_CEMETARY",
+      "name": "Karadune Cemetary"
     },
     {
-      "id": "MAPSEC_ROUTE_22",
-      "name": "ROUTE 22"
+      "id": "MAPSEC_ELARU_TEMPLE",
+      "name": "Elaru Temple"
     },
     {
-      "id": "MAPSEC_ROUTE_23",
-      "name": "ROUTE 23"
+      "id": "MAPSEC_EREWOOD_GROVE",
+      "name": "Erewood Grove"
     },
     {
-      "id": "MAPSEC_ROUTE_24",
-      "name": "ROUTE 24"
+      "id": "MAPSEC_CALWYN_SPRINGS",
+      "name": "Calwyn Springs"
     },
     {
-      "id": "MAPSEC_ROUTE_25",
-      "name": "ROUTE 25"
+      "id": "MAPSEC_COALSCORCH_QUARRY",
+      "name": "Coalscorch Quarry"
     },
     {
-      "id": "MAPSEC_VIRIDIAN_FOREST",
-      "name": "VIRIDIAN FOREST"
+      "id": "MAPSEC_LAKE_SERENADO",
+      "name": "Lake Serenado"
     },
     {
       "id": "MAPSEC_MT_MOON",
