@@ -559,8 +559,8 @@
     {
       "id": "MAPSEC_VICTORY_ROAD",
       "name": "Victory Road",
-      "x": 27,
-      "y": 9,
+      "x": 13,
+      "y": 1,
       "width": 1,
       "height": 1
     },
@@ -689,47 +689,91 @@
     },
     {
       "id": "MAPSEC_CAIRWIND_TOWN",
-      "name": "Cairwind Town"
+      "name": "Cairwind Town",
+      "x": 9,
+      "y": 9,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_MOORDEN_VILLAGE",
-      "name": "Moorden Village"
+      "name": "Moorden Village",
+      "x": 5,
+      "y": 10,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_QUILSPRING_TOWN",
-      "name": "Quilspring Town"
+      "name": "Quilspring Town",
+      "x": 1,
+      "y": 7,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_FELLHAVEN_TOWN",
-      "name": "Fellhaven Town"
+      "name": "Fellhaven Town",
+      "x": 9,
+      "y": 6,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_SUNDARA_VILLAGE",
-      "name": "Sundara Village"
+      "name": "Sundara Village",
+      "x": 6,
+      "y": 2,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_VEILBORA_TOWN",
-      "name": "Veilbora Town"
+      "name": "Veilbora Town",
+      "x": 13,
+      "y": 6,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_REME_CITY",
-      "name": "Reme City"
+      "name": "Reme City",
+      "x": 18,
+      "y": 6,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_RAJANOR_TOWN",
-      "name": "Rajanor Town"
+      "name": "Rajanor Town",
+      "x": 18,
+      "y": 10,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_KARADUNE_TOWN",
-      "name": "Karadune Town"
+      "name": "Karadune Town",
+      "x": 23,
+      "y": 11,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_ELARU_TOWN",
-      "name": "Elaru Town"
+      "name": "Elaru Town",
+      "x": 5,
+      "y": 14,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_SOLOAM_VILLAGE",
-      "name": "Soloam Village"
+      "name": "Soloam Village",
+      "x": 21,
+      "y": 3,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
@@ -741,111 +785,219 @@
     },
     {
       "id": "MAPSEC_ROUTE_1",
-      "name": "Route 1"
+      "name": "Route 1",
+      "x": 6,
+      "y": 10,
+      "width": 4,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_2",
-      "name": "Route 2"
+      "name": "Route 2",
+      "x": 5,
+      "y": 11,
+      "width": 1,
+      "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_3",
-      "name": "Route 3"
+      "name": "Route 3",
+      "x": 5,
+      "y": 8,
+      "width": 1,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_4",
-      "name": "Route 4"
+      "name": "Route 4",
+      "x": 2,
+      "y": 7,
+      "width": 3,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_5",
-      "name": "Route 5"
+      "name": "Route 5",
+      "x": 5,
+      "y": 6,
+      "width": 4,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_6",
-      "name": "Route 6"
+      "name": "Route 6",
+      "x": 6,
+      "y": 3,
+      "width": 1,
+      "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_7",
-      "name": "Route 7"
+      "name": "Route 7",
+      "x": 9,
+      "y": 7,
+      "width": 1,
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_8",
-      "name": "Route 8"
+      "name": "Route 8",
+      "x": 10,
+      "y": 6,
+      "width": 3,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_9",
-      "name": "Route 9"
+      "name": "Route 9",
+      "x": 13,
+      "y": 2,
+      "width": 1,
+      "height": 4
     },
     {
       "id": "MAPSEC_ROUTE_10",
-      "name": "Route 10"
+      "name": "Route 10",
+      "x": 14,
+      "y": 6,
+      "width": 4,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_11",
-      "name": "Route 11"
+      "name": "Route 11",
+      "x": 18,
+      "y": 7,
+      "width": 1,
+      "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_12",
-      "name": "Route 12"
+      "name": "Route 12",
+      "x": 18,
+      "y": 11,
+      "width": 5,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_13",
-      "name": "Route 13"
+      "name": "Route 13",
+      "x": 18,
+      "y": 3,
+      "width": 1,
+      "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_14",
-      "name": "Route 14"
+      "name": "Route 14",
+      "x": 19,
+      "y": 3,
+      "width": 2,
+      "height": 1
     },
     {
       "id": "MAPSEC_ROUTE_15",
-      "name": "Route 15"
+      "name": "Route 15",
+      "x": 17,
+      "y": 2,
+      "width": 2,
+      "height": 1
     },
     {
       "id": "MAPSEC_LACUNREST_TOWN",
-      "name": "Lacunrest Town"
+      "name": "Lacunrest Town",
+      "x": 16,
+      "y": 2,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_HIGARD_TOWN",
-      "name": "Higard Town"
+      "name": "Higard Town",
+      "x": 14,
+      "y": 3,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_CYNDUR_PEAK",
-      "name": "Cyndur Peak"
+      "name": "Cyndur Peak",
+      "x": 13,
+      "y": 0,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_MT_UMBRA",
-      "name": "Mt. Umbra"
+      "name": "Mt. Umbra",
+      "x": 12,
+      "y": 11,
+      "width": 2,
+      "height": 1
     },
     {
       "id": "MAPSEC_ASHELODE_MINES",
-      "name": "Ashlode Mines"
+      "name": "Ashlode Mines",
+      "x": 17,
+      "y": 12,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_KARADUNE_CEMETARY",
-      "name": "Karadune Cemetary"
+      "name": "Karadune Cemetary",
+      "x": 23,
+      "y": 10,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_ELARU_TEMPLE",
-      "name": "Elaru Temple"
+      "name": "Elaru Temple",
+      "x": 6,
+      "y": 14,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_EREWOOD_GROVE",
-      "name": "Erewood Grove"
+      "name": "Erewood Grove",
+      "x": 5,
+      "y": 7,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_CALWYN_SPRINGS",
-      "name": "Calwyn Springs"
+      "name": "Calwyn Springs",
+      "x": 10,
+      "y": 7,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_COALSCORCH_QUARRY",
-      "name": "Coalscorch Quarry"
+      "name": "Coalscorch Quarry",
+      "x": 7,
+      "y": 2,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_LAKE_SERENADO",
-      "name": "Lake Serenado"
+      "name": "Lake Serenado",
+      "x": 17,
+      "y": 1,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_CRETACEOUS_PARK",
-      "name": "Cretaceous Park"
+      "name": "Cretaceous Park",
+      "x": 19,
+      "y": 8,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_S_S_ANNE",
