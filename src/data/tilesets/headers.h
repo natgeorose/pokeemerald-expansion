@@ -852,3 +852,14 @@ const struct Tileset gTileset_Cairwind =
     .metatileAttributes = gMetatileAttributes_Cairwind,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Route1 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Route1,
+    .palettes = gTilesetPalettes_Route1,
+    .metatiles = gMetatiles_Route1,
+    .metatileAttributes = gMetatileAttributes_Route1,
+    .callback = NULL,
+};
