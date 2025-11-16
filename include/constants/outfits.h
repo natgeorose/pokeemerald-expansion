@@ -16,8 +16,10 @@
 //! outfits
 #define OUTFIT_NONE 0
 #define OUTFIT_USUAL_GREEN 1
-#define OUTFIT_UNUSUAL_RED 2
-#define OUTFIT_COUNT 3
+#define OUTFIT_FEMALE_GREEN 2
+#define OUTFIT_UNUSUAL_RED 3
+#define OUTFIT_FEMALE_RED 4
+#define OUTFIT_COUNT 5
 
 // inclusive
 #define OUTFIT_BEGIN OUTFIT_USUAL_GREEN
