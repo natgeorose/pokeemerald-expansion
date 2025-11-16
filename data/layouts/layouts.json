@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/CairwindTown/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE1",
+      "name": "Route1_Layout",
+      "width": 90,
+      "height": 40,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Route1",
+      "border_filepath": "data/layouts/Route1/border.bin",
+      "blockdata_filepath": "data/layouts/Route1/map.bin"
     }
   ]
 }

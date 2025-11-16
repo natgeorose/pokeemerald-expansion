@@ -1,12 +1,12 @@
 {
-  "id": "MAP_CAIRWIND_TOWN",
-  "name": "CairwindTown",
-  "layout": "LAYOUT_CAIRWIND_TOWN",
-  "music": "MUS_RG_LAVENDER",
-  "region_map_section": "MAPSEC_CAIRWIND_TOWN",
+  "id": "MAP_ROUTE1",
+  "name": "Route1",
+  "layout": "LAYOUT_ROUTE1",
+  "music": "MUS_BW12_032",
+  "region_map_section": "MAPSEC_ROUTE_1",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_TOWN",
+  "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -14,9 +14,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE1",
-      "offset": -61,
-      "direction": "down"
+      "map": "MAP_CAIRWIND_TOWN",
+      "offset": 61,
+      "direction": "up"
     }
   ],
   "object_events": [],

@@ -1161,3 +1161,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 
 	.include "data/maps/CairwindTown/scripts.inc"
+
+	.include "data/maps/Route1/scripts.inc"
