@@ -253,9 +253,9 @@
 #define P_FAMILY_REGISTEEL               FALSE
 #define P_FAMILY_LATIAS                  FALSE
 #define P_FAMILY_LATIOS                  FALSE
-#define P_FAMILY_KYOGRE                  P_GEN_3_POKEMON
-#define P_FAMILY_GROUDON                 P_GEN_3_POKEMON
-#define P_FAMILY_RAYQUAZA                P_GEN_3_POKEMON
+#define P_FAMILY_KYOGRE                  FALSE
+#define P_FAMILY_GROUDON                 FALSE
+#define P_FAMILY_RAYQUAZA                FALSE
 #define P_FAMILY_JIRACHI                 P_GEN_3_POKEMON
 #define P_FAMILY_DEOXYS                  P_GEN_3_POKEMON
 
@@ -374,9 +374,9 @@
 #define P_FAMILY_DURANT                  P_GEN_5_POKEMON
 #define P_FAMILY_DEINO                   P_GEN_5_POKEMON
 #define P_FAMILY_LARVESTA                P_GEN_5_POKEMON
-#define P_FAMILY_COBALION                P_GEN_5_POKEMON
-#define P_FAMILY_TERRAKION               P_GEN_5_POKEMON
-#define P_FAMILY_VIRIZION                P_GEN_5_POKEMON
+#define P_FAMILY_COBALION                FALSE
+#define P_FAMILY_TERRAKION               FALSE
+#define P_FAMILY_VIRIZION                FALSE
 #define P_FAMILY_TORNADUS                P_GEN_5_POKEMON
 #define P_FAMILY_THUNDURUS               P_GEN_5_POKEMON
 #define P_FAMILY_RESHIRAM                FALSE
