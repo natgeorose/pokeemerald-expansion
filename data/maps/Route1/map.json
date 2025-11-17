@@ -17,6 +17,11 @@
       "map": "MAP_CAIRWIND_TOWN",
       "offset": 61,
       "direction": "up"
+    },
+    {
+      "map": "MAP_MOORDEN_VILLAGE",
+      "offset": -13,
+      "direction": "left"
     }
   ],
   "object_events": [],
