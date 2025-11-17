@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_Route1",
       "border_filepath": "data/layouts/Route1/border.bin",
       "blockdata_filepath": "data/layouts/Route1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOORDEN_VILLAGE",
+      "name": "MoordenVillage_Layout",
+      "width": 36,
+      "height": 30,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/MoordenVillage/border.bin",
+      "blockdata_filepath": "data/layouts/MoordenVillage/map.bin"
     }
   ]
 }
