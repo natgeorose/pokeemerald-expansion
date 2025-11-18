@@ -4440,6 +4440,16 @@
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/MoordenVillage/border.bin",
       "blockdata_filepath": "data/layouts/MoordenVillage/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE7",
+      "name": "Route7_Layout",
+      "width": 40,
+      "height": 60,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/Route7/border.bin",
+      "blockdata_filepath": "data/layouts/Route7/map.bin"
     }
   ]
 }
