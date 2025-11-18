@@ -1166,3 +1166,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route1/scripts.inc"
 
 	.include "data/maps/MoordenVillage/scripts.inc"
+
+	.include "data/maps/Route7/scripts.inc"
