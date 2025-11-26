@@ -130,7 +130,7 @@
 #define OW_POPUP_BW_COLOR_WHITE    1   // White pop-up from W2
 
 // Configuration
-#define OW_POPUP_BW_COLOR          OW_POPUP_BW_COLOR_BLACK  // B2W2 use different colors for their map pop-ups.
+#define OW_POPUP_BW_COLOR          OW_POPUP_BW_COLOR_WHITE  // B2W2 use different colors for their map pop-ups.
 #define OW_POPUP_BW_TIME_MODE      OW_POPUP_BW_TIME_12_HR    // Determines what type of time is shown.
 #define OW_POPUP_BW_ALPHA_BLEND    FALSE                    // Enables alpha blending/transparency for the pop-ups. Mainly intended to be used with the black color option.
                                                             // Setting this to TRUE will cause graphical errors with the Day Night System enabled.
@@ -151,7 +151,7 @@
 
 // Text colors of Namebox. The numbers corresponds to the palette index.
 // The BG color is not provided as it always needs to be 0.
-#define OW_NAME_BOX_FOREGROUND_COLOR  15
-#define OW_NAME_BOX_SHADOW_COLOR      1
+#define OW_NAME_BOX_FOREGROUND_COLOR  2
+#define OW_NAME_BOX_SHADOW_COLOR      13
 
 #endif // GUARD_CONFIG_OVERWORLD_H
