@@ -4414,7 +4414,7 @@
     {
       "id": "LAYOUT_CAIRWIND_TOWN",
       "name": "CairwindTown_Layout",
-      "width": 48,
+      "width": 53,
       "height": 40,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Cairwind",
