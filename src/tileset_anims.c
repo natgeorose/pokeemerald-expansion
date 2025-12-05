@@ -24,6 +24,7 @@ static void (*sSecondaryTilesetAnimCallback)(u16);
 static void _InitPrimaryTilesetAnimation(void);
 static void _InitSecondaryTilesetAnimation(void);
 static void TilesetAnim_General(u16);
+static void TilesetAnim_Serenado(u16);
 static void TilesetAnim_Building(u16);
 static void TilesetAnim_Rustboro(u16);
 static void TilesetAnim_Dewford(u16);
@@ -47,6 +48,7 @@ static void QueueAnimTiles_General_Flower(u16);
 static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
 static void QueueAnimTiles_General_Waterfall(u16);
+static void QueueAnimTiles_Serenado_Waterfall(u16);
 static void QueueAnimTiles_General_LandWaterEdge(u16);
 static void QueueAnimTiles_Building_TVTurnedOn(u16);
 static void QueueAnimTiles_Rustboro_WindyWater(u16, u8);
@@ -125,16 +127,28 @@ const u16 *const gTilesetAnims_General_SandWaterEdge[] = {
     gTilesetAnims_General_SandWaterEdge_Frame0
 };
 
-const u16 gTilesetAnims_General_Waterfall_Frame0[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/0.4bpp");
-const u16 gTilesetAnims_General_Waterfall_Frame1[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/1.4bpp");
-const u16 gTilesetAnims_General_Waterfall_Frame2[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/2.4bpp");
-const u16 gTilesetAnims_General_Waterfall_Frame3[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/3.4bpp");
+const u16 gTilesetAnims_General_Waterfall_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/waterfall/0.4bpp");
+const u16 gTilesetAnims_General_Waterfall_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/waterfall/1.4bpp");
+const u16 gTilesetAnims_General_Waterfall_Frame2[] = INCBIN_U16("data/tilesets/primary/general/anim/waterfall/2.4bpp");
+const u16 gTilesetAnims_General_Waterfall_Frame3[] = INCBIN_U16("data/tilesets/primary/general/anim/waterfall/3.4bpp");
 
 const u16 *const gTilesetAnims_General_Waterfall[] = {
     gTilesetAnims_General_Waterfall_Frame0,
     gTilesetAnims_General_Waterfall_Frame1,
     gTilesetAnims_General_Waterfall_Frame2,
     gTilesetAnims_General_Waterfall_Frame3
+};
+
+const u16 gTilesetAnims_Serenado_Waterfall_Frame0[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/0.4bpp");
+const u16 gTilesetAnims_Serenado_Waterfall_Frame1[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/1.4bpp");
+const u16 gTilesetAnims_Serenado_Waterfall_Frame2[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/2.4bpp");
+const u16 gTilesetAnims_Serenado_Waterfall_Frame3[] = INCBIN_U16("data/tilesets/primary/serenado/anim/waterfall/3.4bpp");
+
+const u16 *const gTilesetAnims_Serenado_Waterfall[] = {
+    gTilesetAnims_Serenado_Waterfall_Frame0,
+    gTilesetAnims_Serenado_Waterfall_Frame1,
+    gTilesetAnims_Serenado_Waterfall_Frame2,
+    gTilesetAnims_Serenado_Waterfall_Frame3
 };
 
 const u16 gTilesetAnims_General_LandWaterEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/land_water_edge/0.4bpp");
@@ -622,6 +636,13 @@ void InitTilesetAnim_General(void)
     sPrimaryTilesetAnimCallback = TilesetAnim_General;
 }
 
+void InitTilesetAnim_Serenado(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_Serenado;
+}
+
 void InitTilesetAnim_Building(void)
 {
     sPrimaryTilesetAnimCounter = 0;
@@ -641,6 +662,12 @@ static void TilesetAnim_General(u16 timer)
         QueueAnimTiles_General_Waterfall(timer / 16);
     if (timer % 16 == 4)
         QueueAnimTiles_General_LandWaterEdge(timer / 16);
+}
+
+static void TilesetAnim_Serenado(u16 timer)
+{
+    if (timer % 16 == 0)
+        QueueAnimTiles_Serenado_Waterfall(timer / 16);
 }
 
 static void TilesetAnim_Building(u16 timer)
@@ -671,6 +698,12 @@ static void QueueAnimTiles_General_Waterfall(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_General_Waterfall);
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(496)), 6 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_Serenado_Waterfall(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_Serenado_Waterfall);
+    AppendTilesetAnimToBuffer(gTilesetAnims_Serenado_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(454)), 4 * TILE_SIZE_4BPP);
 }
 
 void InitTilesetAnim_Petalburg(void)

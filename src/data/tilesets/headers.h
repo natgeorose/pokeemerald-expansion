@@ -839,7 +839,7 @@ const struct Tileset gTileset_Serenado =
     .palettes = gTilesetPalettes_Serenado,
     .metatiles = gMetatiles_Serenado,
     .metatileAttributes = gMetatileAttributes_Serenado,
-    .callback = NULL,
+    .callback = InitTilesetAnim_Serenado,
 };
 
 const struct Tileset gTileset_Cairwind =
