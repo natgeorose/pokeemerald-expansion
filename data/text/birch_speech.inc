@@ -1,13 +1,13 @@
 gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of Pokémon!\p"
-	.string "My name is Birch.\p"
-	.string "But everyone calls me the Pokémon\n"
-	.string "Professor.\p"
+	.string "Hello, allow me to welcome you\n"
+	.string "to the online learning portal!\l"
+	.string "My name is Professor Pine.\p"
+	.string "I will be your instructor for\n"
+	.string "today's lesson on Pokémon.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "This is what we call a “Pokémon.”\p"
+	.string "This is what we call a Pokémon.\p"
 	.string "\n"
 	.string "$"
 
