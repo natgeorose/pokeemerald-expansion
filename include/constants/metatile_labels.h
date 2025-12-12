@@ -117,6 +117,9 @@
 #define METATILE_Building_TV_Off  0x002
 #define METATILE_Building_TV_On   0x003
 
+// gTileset_Cairwind
+#define METATILE_Cairwind_Blue_Door  0x225
+
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206
@@ -708,8 +711,9 @@
 #define METATILE_SecretBase_YellowBrick_Top             0x226
 
 // gTileset_Serenado
-#define METATILE_Serenado_Serenado_PC  0x06D
-#define METATILE_Serenado_TallGrass    0x002
+#define METATILE_Serenado_General_Door  0x14C
+#define METATILE_Serenado_Gym_Door      0x154
+#define METATILE_Serenado_PC_Door       0x06D
 
 // gTileset_Shop
 #define METATILE_Shop_Door_Elevator   0x285
