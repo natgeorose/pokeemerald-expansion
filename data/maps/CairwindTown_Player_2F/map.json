@@ -1,0 +1,37 @@
+{
+  "id": "MAP_CAIRWIND_TOWN_PLAYER_2F",
+  "name": "CairwindTown_Player_2F",
+  "layout": "LAYOUT_CAIRWIND_TOWN_PLAYER_2F",
+  "music": "MUS_BW12_WHITE_FOREST",
+  "region_map_section": "MAPSEC_CAIRWIND_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_CAIRWIND_TOWN_PLAYER_2F",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 0,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
+  ]
+}

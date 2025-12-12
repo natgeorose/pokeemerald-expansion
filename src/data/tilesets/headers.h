@@ -863,3 +863,14 @@ const struct Tileset gTileset_Route1 =
     .metatileAttributes = gMetatileAttributes_Route1,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Indoor =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Indoor,
+    .palettes = gTilesetPalettes_Indoor,
+    .metatiles = gMetatiles_Indoor,
+    .metatileAttributes = gMetatileAttributes_Indoor,
+    .callback = NULL,
+};

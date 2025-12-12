@@ -4450,6 +4450,36 @@
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/Route7/border.bin",
       "blockdata_filepath": "data/layouts/Route7/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE7_1F",
+      "name": "Route7_1F_Layout",
+      "width": 40,
+      "height": 60,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Route7_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Route7_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_PLAYER_1F",
+      "name": "CairwindTown_Player_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/CairwindTown_Player_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_Player_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_PLAYER_2F",
+      "name": "CairwindTown_Player_2F_Layout",
+      "width": 10,
+      "height": 7,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/CairwindTown_Player_2F/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_Player_2F/map.bin"
     }
   ]
 }

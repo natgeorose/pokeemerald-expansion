@@ -1,0 +1,42 @@
+{
+  "id": "MAP_ROUTE7_1F",
+  "name": "Route7_1F",
+  "layout": "LAYOUT_ROUTE7_1F",
+  "music": "MUS_BW12_046",
+  "region_map_section": "MAPSEC_ROUTE_7",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 13,
+      "y": 57,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7_1F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 13,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7_1F",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

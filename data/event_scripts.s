@@ -1168,3 +1168,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MoordenVillage/scripts.inc"
 
 	.include "data/maps/Route7/scripts.inc"
+
+	.include "data/maps/Route7_1F/scripts.inc"
+
+	.include "data/maps/CairwindTown_Player_1F/scripts.inc"
+
+	.include "data/maps/CairwindTown_Player_2F/scripts.inc"
