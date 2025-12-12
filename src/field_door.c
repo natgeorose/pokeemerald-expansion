@@ -135,7 +135,7 @@ static const u16 sDoorNullPalette49[16] = {};
 static const u8 sDoorAnimTiles_Serenado_PC_Door[] = INCBIN_U8("graphics/door_anims/serenado_pc.4bpp");
 static const u8 sDoorAnimTiles_Serenado_Gym_Door[] = INCBIN_U8("graphics/door_anims/serenado_gym.4bpp");
 static const u8 sDoorAnimTiles_Serenado_General_Door[] = INCBIN_U8("graphics/door_anims/serenado_general.4bpp");
-static const u8 sDoorAnimTiles_Cairwind_Blue_Door[] = INCBIN_U8("graphics/door_anims/serenado_general.4bpp");
+static const u8 sDoorAnimTiles_Cairwind_Blue_Door[] = INCBIN_U8("graphics/door_anims/cairwind_door.4bpp");
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
