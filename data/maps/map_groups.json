@@ -629,6 +629,7 @@
   ],
   "gMapGroup_IndoorCairwind": [
     "CairwindTown_Player_1F",
-    "CairwindTown_Player_2F"
+    "CairwindTown_Player_2F",
+    "CairwindTown_PC"
   ]
 }

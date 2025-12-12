@@ -1174,3 +1174,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CairwindTown_Player_1F/scripts.inc"
 
 	.include "data/maps/CairwindTown_Player_2F/scripts.inc"
+
+	.include "data/maps/CairwindTown_PC/scripts.inc"
