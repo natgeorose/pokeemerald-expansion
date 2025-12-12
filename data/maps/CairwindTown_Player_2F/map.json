@@ -19,8 +19,8 @@
       "x": 7,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_CAIRWIND_TOWN_PLAYER_2F",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_CAIRWIND_TOWN_PLAYER_1F",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [],
@@ -31,7 +31,23 @@
       "y": 5,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CairwindTown_Player_2F_EventScript_PC"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CairwindTown_Player_2F_EventScript_PC"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CairwindTown_Player_2F_EventScript_PC"
     }
   ]
 }
