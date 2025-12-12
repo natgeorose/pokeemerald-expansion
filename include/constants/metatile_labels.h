@@ -708,7 +708,8 @@
 #define METATILE_SecretBase_YellowBrick_Top             0x226
 
 // gTileset_Serenado
-#define METATILE_Serenado_TallGrass  0x002
+#define METATILE_Serenado_Serenado_PC  0x06D
+#define METATILE_Serenado_TallGrass    0x002
 
 // gTileset_Shop
 #define METATILE_Shop_Door_Elevator   0x285
