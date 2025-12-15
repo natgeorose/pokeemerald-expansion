@@ -214,6 +214,9 @@ const u16 gTrainerPalette_MagmaAdmin[] = INCBIN_U16("graphics/trainers/front_pic
 const u32 gTrainerFrontPic_Wally[] = INCBIN_U32("graphics/trainers/front_pics/wally.4bpp.smol");
 const u16 gTrainerPalette_Wally[] = INCBIN_U16("graphics/trainers/palettes/wally.gbapal");
 
+const u32 gTrainerFrontPic_James[] = INCBIN_U32("graphics/trainers/front_pics/james.4bpp.smol");
+const u16 gTrainerPalette_James[] = INCBIN_U16("graphics/trainers/front_pics/james.gbapal");
+
 const u32 gTrainerFrontPic_Brendan[] = INCBIN_U32("graphics/trainers/front_pics/brendan.4bpp.smol");
 const u16 gTrainerPalette_Brendan[] = INCBIN_U16("graphics/trainers/palettes/brendan.gbapal");
 
