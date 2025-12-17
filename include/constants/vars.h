@@ -269,7 +269,7 @@
 #define VAR_SET_TERRAIN                                  0x40F9 // Former Unused Var
 #define VAR_LEVEL_CAP                                    0x40FA // Former Unused Var
 #define VAR_LAST_REPEL_MENU                              0x40FB // Former Unused Var
-#define VAR_UNUSED_0x40FC                                0x40FC // Unused Var
+#define VAR_STORY                                        0x40FC // Former Unused Var
 #define VAR_UNUSED_0x40FD                                0x40FD // Unused Var
 #define VAR_UNUSED_0x40FE                                0x40FE // Unused Var
 #define VAR_UNUSED_0x40FF                                0x40FF // Unused Var
