@@ -4490,6 +4490,76 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/CairwindTown_PC/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_PC/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_JAMES_1F",
+      "name": "CairwindTown_James_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/CairwindTown_James_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_James_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_ISABEL_2F",
+      "name": "CairwindTown_Isabel_2F_Layout",
+      "width": 10,
+      "height": 7,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/CairwindTown_Isabel_2F/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_Isabel_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_ISABEL_1F",
+      "name": "CairwindTown_Isabel_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/CairwindTown_Isabel_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_Isabel_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_HOUSE_1",
+      "name": "CairwindTown_House_1_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/CairwindTown_House_1/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_House_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_HOUSE_2",
+      "name": "CairwindTown_House_2_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/CairwindTown_House_2/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_House_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_HOUSE_3",
+      "name": "CairwindTown_House_3_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/CairwindTown_House_3/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_House_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAIRWIND_TOWN_JAMES_2F",
+      "name": "CairwindTown_James_2F_Layout",
+      "width": 10,
+      "height": 7,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/CairwindTown_James_2F/border.bin",
+      "blockdata_filepath": "data/layouts/CairwindTown_James_2F/map.bin"
     }
   ]
 }
