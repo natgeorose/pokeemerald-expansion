@@ -14590,15 +14590,15 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
 
-    [ITEM_OUTFIT_BOX] =
+    [ITEM_SUITCASE] =
     {
-        .name = ITEM_NAME("Outfit Box"),
+        .name = ITEM_NAME("Suitcase"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-             "A box for storing\n"
-             "your collections of\n"
-             "Outfits safely."),
+             "A suitcase for\n"
+             "storing outfits\n"
+             "safely. Thanks Mom!"),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_OutfitBox,

@@ -21,9 +21,10 @@
   ],
   "object_events": [
     {
+      "local_id": "LOCALID_JAMES",
       "graphics_id": "OBJ_EVENT_GFX_JAMES",
       "x": 12,
-      "y": 57,
+      "y": 53,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -31,7 +32,91 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_UNUSED_0x4A3"
+    },
+    {
+      "local_id": "LOCALID_ISABEL",
+      "graphics_id": "OBJ_EVENT_GFX_LEAF",
+      "x": 24,
+      "y": 55,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_UNUSED_0x054"
+    },
+    {
+      "local_id": "LOCALID_PINE",
+      "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
+      "x": 15,
+      "y": 56,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_ROUTE7_PINE"
+    },
+    {
+      "local_id": "LOCALID_BERITH",
+      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
+      "x": 15,
+      "y": 57,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route7_EventScript_BerithDefault",
+      "flag": "FLAG_ROUTE7_PINE"
+    },
+    {
+      "local_id": "LOCALID_JAMES_2",
+      "graphics_id": "OBJ_EVENT_GFX_JAMES",
+      "x": 22,
+      "y": 56,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route7_EventScript_James",
+      "flag": "FLAG_ROUTE7_PINE"
+    },
+    {
+      "local_id": "LOCALID_ISABEL_2",
+      "graphics_id": "OBJ_EVENT_GFX_LEAF",
+      "x": 24,
+      "y": 56,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route_7_EventScript_IsabelStay",
+      "flag": "FLAG_ROUTE7_PINE"
+    },
+    {
+      "local_id": "LOCALID_BAG",
+      "graphics_id": "OBJ_EVENT_GFX_BIRCHS_BAG",
+      "x": 21,
+      "y": 56,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route7_EventScript_OpenBag",
+      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
     }
   ],
   "warp_events": [
@@ -49,27 +134,72 @@
       "x": 11,
       "y": 59,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_STORY",
+      "var_value": "3",
+      "script": "Route_7_EventScript_JamesEntrance_1"
     },
     {
       "type": "trigger",
       "x": 12,
       "y": 59,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_STORY",
+      "var_value": "3",
+      "script": "Route_7_EventScript_JamesEntrance_2"
     },
     {
       "type": "trigger",
       "x": 13,
       "y": 59,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_STORY",
+      "var_value": "3",
+      "script": "Route_7_EventScript_JamesEntrance_3"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 57,
+      "elevation": 0,
+      "var": "VAR_STORY",
+      "var_value": "6",
+      "script": "Route_7_EventScript_StopLeft"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 58,
+      "elevation": 0,
+      "var": "VAR_STORY",
+      "var_value": "6",
+      "script": "Route_7_EventScript_StopMiddle"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 58,
+      "elevation": 0,
+      "var": "VAR_STORY",
+      "var_value": "6",
+      "script": "Route_7_EventScript_StopMiddle"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 58,
+      "elevation": 0,
+      "var": "VAR_STORY",
+      "var_value": "6",
+      "script": "Route_7_EventScript_StopMiddle"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 57,
+      "elevation": 0,
+      "var": "VAR_STORY",
+      "var_value": "6",
+      "script": "Route_7_EventScript_StopRight"
     }
   ],
   "bg_events": []

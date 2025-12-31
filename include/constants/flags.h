@@ -98,8 +98,8 @@
 #define FLAG_RESCUED_BIRCH                       0x52
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
 
-#define FLAG_UNUSED_0x054                    0x54  // Unused Flag
-#define FLAG_UNUSED_0x055                    0x55  // Unused Flag
+#define FLAG_UNUSED_0x054                    0x54  // Former Unused Flag
+#define FLAG_UNUSED_0x055                    0x55  // Former Unused Flag
 
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
 #define FLAG_MET_RIVAL_MOM                   0x57
@@ -1238,11 +1238,11 @@
 #define FLAG_RUNNING_SHOES_TOGGLE                                   0x4A0 // Former Unused Flag
 #define FLAG_AUTORUN_MENU_TOGGLE                                    0x4A1 // Former Unused Flag
 #define FLAG_ENABLE_SELECT_MENU                                     0x4A2 // Former Unused Flag
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
-#define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
-#define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
-#define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
+#define FLAG_UNUSED_0x4A3                                           0x4A3 // Former Unused FlagUnknwn
+#define FLAG_UNUSED_0x4A4                                           0x4A4 // Former Unused FlagZubat
+#define FLAG_ROUTE7_PINE                                            0x4A5 // Former Unused Flag
+#define FLAG_CAIRWIND_MOVE                                          0x4A6 // Former Unused Flag
+#define FLAG_JAMES_ROUTE_1                                          0x4A7 // Former Unused Flag
 #define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
 #define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
 #define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag

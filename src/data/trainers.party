@@ -11356,19 +11356,16 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_1 ===
 Name: James
-Class: Bug Catcher
-Pic: Bug Catcher
+Class: Pkmn Trainer 1
+Pic: James
 Gender: Male
 Music: Male
+Mugshot: Green
 Double Battle: No
 AI: Check Bad Move
 
-Nincada
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nincada
-Level: 6
+Machop (M)
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_2 ===
