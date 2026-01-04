@@ -84,6 +84,10 @@ Route_1_EventScript_JamesBattle::
 	setspeaker Speaker_James
 	msgbox Route_1_Text_JamesRival, MSGBOX_DEFAULT
 	closemessage
+	giveitem ITEM_POKE_BALL, 5
+	setspeaker Speaker_James
+	msgbox Route_1_Text_JamesFinal, MSGBOX_DEFAULT
+	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkDown
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_FaceRight
@@ -119,6 +123,12 @@ Route_1_Text_JamesRival:
 	.string "harder and win next time!\p"
 	.string "First I have to ask my dad though,\n"
 	.string "that will be the hard part.\p"
+	.string "Oh, now that you're a real Pokémon\n"
+	.string "Trainer you can use these!$"
+
+Route_1_Text_JamesFinal:
+	.string "I'm going to catch more Pokémon\n"
+	.string "before our rematch!\p"
 	.string "We will see you soon, I'm sure of it!$"
 
 Route_1_Movement_JamesDefeat:

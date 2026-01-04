@@ -100,7 +100,7 @@ Route7_1F_EventScript_Entrance::
 	applymovement LOCALID_ISABEL, Route7_1F_Movement_IsabelRun
 	delay 3
 	applymovement LOCALID_PLAYER, Route7_1F_Movement_PlayerRun
-	delay 9
+	delay 6
 	special RemoveCameraObject
 	setvar VAR_STORY, 4
 	playse SE_EXIT
@@ -409,33 +409,31 @@ Route7_1F_Movement_PlayerSecondRoom:
 	walk_faster_up
 	walk_faster_up
 	walk_faster_up
-	walk_faster_up
 	step_end
 
 Route_7_1F_Text_JamesDeadEnd:
 	.string "It's a dead end!$"
 
 Route_7_1F_Text_IsabelWhy:
-	.string "Why did you lead us into\n"
-	.string "a cave with a dead end?!$"
+	.string "Why did you lead us into a cave with\n"
+	.string "a dead end?!$"
 
 Route_7_1F_Text_JamesHey:
-	.string "Hey I didn't know it was a\n"
-	.string "dead end! Besides, look at\p"
-	.string "these weird markings!\n"
+	.string "Hey I didn't know it was a dead\n"
+	.string "end! Besides, look at these weird\p"
+	.string "markings!\n"
 	.string "You're welcome! $"
 
 Route_7_1F_Text_IsabelRuins:
-	.string "I'll thank you if we\n"
-	.string "survive this!$"
+	.string "I'll thank you if we survive this!$"
 
 Route_7_1F_Text_IsabelRuinsTwo:
 	.string "Wait did you say weird markings?$"
 
 Route_7_1F_Text_IsabelRuinsThree:
 	.string "Oh wow these are really exquisite!\p"
-	.string "I haven't seen anything like\n"
-	.string "these runes before!\p"
+	.string "I haven't seen anything like these\n"
+	.string "runes before!\p"
 	.string "And I didn't know there was a cave\n"
 	.string "here, there's no record of it.$"
 

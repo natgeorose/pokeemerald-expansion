@@ -262,8 +262,9 @@ Route7_EventScript_Unown::
 	msgbox Route_7_Text_PineWhat, MSGBOX_DEFAULT
 	closemessage
 	special SpawnCameraObject
-	applymovement LOCALID_CAMERA, Common_Movement_WalkDownFast
-	applymovement LOCALID_CAMERA, Common_Movement_WalkDownFast
+	applymovement LOCALID_CAMERA, Common_Movement_WalkDown
+	waitmovement 0
+	applymovement LOCALID_CAMERA, Common_Movement_WalkDown
 	waitmovement 0
 	applymovement LOCALID_PINE, Route7_Movement_PineApproach
 	applymovement LOCALID_BERITH, Route7_Movement_PineApproach
@@ -531,11 +532,15 @@ Route7_EventScript_Pokedex::
 	setspeaker Speaker_Pine
 	msgbox Route_7_Text_PineMustApologize, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_JAMES, Common_Movement_WalkInPlaceFasterDown
+	delay 4
+	applymovement LOCALID_JAMES_2, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
 	setspeaker Speaker_James
 	msgbox Route_7_Text_JamesMustBattle, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_FaceLeft
 	applymovement LOCALID_JAMES_2, Route7_Movement_JamesLeaveBattle
 	waitmovement 0
 	removeobject LOCALID_JAMES_2
@@ -547,6 +552,7 @@ Route7_EventScript_Pokedex::
 	setspeaker Speaker_Berith
 	msgbox Route_7_Text_BerithGo, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
 	applymovement LOCALID_BERITH, Common_Movement_FaceRight
 	waitmovement 0
 	setspeaker Speaker_Berith
@@ -556,6 +562,7 @@ Route7_EventScript_Pokedex::
 	waitmovement 0
 	delay 5
 	removeobject LOCALID_BAG
+	applymovement LOCALID_PLAYER, Common_Movement_FaceLeft
 	applymovement LOCALID_BERITH, Route7_Movement_FinishLeave
 	applymovement LOCALID_PINE, Route7_Movement_FinishLeave
 	waitmovement 0
@@ -581,7 +588,7 @@ Route_7_Text_PineMustApologize:
 	.string "Now I must apologize, usually I\n"
 	.string "have a couple of other items to give\p"
 	.string "to new Trainers, but with only my\n"
-	.string "field bag on me they are back in my lab.\p"
+	.string "field bag on me, they are back in my lab.\p"
 	.string "Please come see me in my lab at\n"
 	.string "Serenado University in Quilspring Town,\p"
 	.string "and I will make sure that you have\n"

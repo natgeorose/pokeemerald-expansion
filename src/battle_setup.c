@@ -634,13 +634,6 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
 
     tileBehavior = MapGridGetMetatileBehaviorAt(x, y);
 
-    if (MetatileBehavior_IsTallGrass(tileBehavior))
-        return BATTLE_ENVIRONMENT_GRASS;
-    if (MetatileBehavior_IsLongGrass(tileBehavior))
-        return BATTLE_ENVIRONMENT_LONG_GRASS;
-    if (MetatileBehavior_IsSandOrDeepSand(tileBehavior))
-        return BATTLE_ENVIRONMENT_SAND;
-
     switch (gMapHeader.mapType)
     {
     case MAP_TYPE_TOWN:
@@ -678,6 +671,19 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         if (MetatileBehavior_IsBridgeOverWater(tileBehavior) == TRUE)
             return BATTLE_ENVIRONMENT_WATER;
     }
+
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE7) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE7))
+        return BATTLE_ENVIRONMENT_UNDERWATER;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE1) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE1))
+        return BATTLE_ENVIRONMENT_GRASS;
+
+    if (MetatileBehavior_IsTallGrass(tileBehavior))
+        return BATTLE_ENVIRONMENT_GRASS;
+    if (MetatileBehavior_IsLongGrass(tileBehavior))
+        return BATTLE_ENVIRONMENT_LONG_GRASS;
+    if (MetatileBehavior_IsSandOrDeepSand(tileBehavior))
+        return BATTLE_ENVIRONMENT_SAND;
+
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE113) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE113))
         return BATTLE_ENVIRONMENT_SAND;
     if (GetSavedWeather() == WEATHER_SANDSTORM)
