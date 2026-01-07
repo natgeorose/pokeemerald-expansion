@@ -4467,7 +4467,7 @@
       "width": 13,
       "height": 10,
       "primary_tileset": "gTileset_Indoor",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_Player_1F/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_Player_1F/map.bin"
     },
@@ -4485,7 +4485,7 @@
       "id": "LAYOUT_CAIRWIND_TOWN_PC",
       "name": "CairwindTown_PC_Layout",
       "width": 15,
-      "height": 11,
+      "height": 10,
       "primary_tileset": "gTileset_Indoor",
       "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_PC/border.bin",
@@ -4507,7 +4507,7 @@
       "width": 10,
       "height": 7,
       "primary_tileset": "gTileset_Indoor",
-      "secondary_tileset": "gTileset_Cairwind",
+      "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_Isabel_2F/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_Isabel_2F/map.bin"
     },
@@ -4517,7 +4517,7 @@
       "width": 13,
       "height": 10,
       "primary_tileset": "gTileset_Indoor",
-      "secondary_tileset": "gTileset_Cairwind",
+      "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_Isabel_1F/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_Isabel_1F/map.bin"
     },
@@ -4527,7 +4527,7 @@
       "width": 13,
       "height": 10,
       "primary_tileset": "gTileset_Indoor",
-      "secondary_tileset": "gTileset_Cairwind",
+      "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_House_1/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_House_1/map.bin"
     },
@@ -4537,7 +4537,7 @@
       "width": 13,
       "height": 10,
       "primary_tileset": "gTileset_Indoor",
-      "secondary_tileset": "gTileset_Cairwind",
+      "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_House_2/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_House_2/map.bin"
     },
@@ -4547,7 +4547,7 @@
       "width": 13,
       "height": 10,
       "primary_tileset": "gTileset_Indoor",
-      "secondary_tileset": "gTileset_Cairwind",
+      "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_House_3/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_House_3/map.bin"
     },
