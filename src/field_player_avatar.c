@@ -2034,8 +2034,8 @@ static bool32 Fishing_GetRodOut(struct Task *task)
     };
     const s16 minRounds2[] = {
         [OLD_ROD]   = 1,
-        [GOOD_ROD]  = 3,
-        [SUPER_ROD] = 6
+        [GOOD_ROD]  = 2,
+        [SUPER_ROD] = 2
     };
 
     task->tRoundsPlayed = 0;

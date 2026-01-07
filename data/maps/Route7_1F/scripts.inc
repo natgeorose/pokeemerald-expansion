@@ -10,7 +10,7 @@ Route7_1F_OnFrame:
 Route7_1F_EventScript_Entrance::
 	lockall
 	delay 10
-	setflag FLAG_UNUSED_0x4A3
+	setflag FLAG_ROUTE7_1F_UNOWN
 	applymovement LOCALID_PLAYER, Common_Movement_WalkUp2
 	applymovement LOCALID_PLAYER, Common_Movement_WalkUp
 	delay 5
@@ -104,7 +104,7 @@ Route7_1F_EventScript_Entrance::
 	special RemoveCameraObject
 	setvar VAR_STORY, 4
 	playse SE_EXIT
-	setflag FLAG_UNUSED_0x4A4
+	setflag FLAG_ROUTE7_1F_ZUBAT
 	warpsilent MAP_ROUTE7_1F, 2
 	releaseall
 	end

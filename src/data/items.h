@@ -12666,11 +12666,11 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SUPER_ROD] =
     {
-        .name = ITEM_NAME("Super Rod"),
+        .name = ITEM_NAME("Fishing Rod"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "The best fishing\n"
-            "rod for catching\n"
+            "A fishing rod\n"
+            "for catching\n"
             "wild Pokémon."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
@@ -12699,7 +12699,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TOWN_MAP] =
     {
-        .name = ITEM_NAME("Town Map"),
+        .name = ITEM_NAME("Region Map"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Can be viewed\n"

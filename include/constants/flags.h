@@ -1081,7 +1081,7 @@
 #define FLAG_ITEM_ROUTE_119_RARE_CANDY                              0x404
 #define FLAG_ITEM_ROUTE_119_HYPER_POTION_1                          0x405
 #define FLAG_ITEM_ROUTE_120_NUGGET                                  0x406
-#define FLAG_ITEM_ROUTE_120_FULL_HEAL                               0x407
+#define FLAG_ITEM_ROUTE_1_FULL_HEAL                                 0x407
 #define FLAG_ITEM_ROUTE_123_CALCIUM                                 0x408
 #define FLAG_ITEM_ROUTE_123_RARE_CANDY                              0x409 // Unused Flag, leftover from R/S. In Emerald this is a hidden item and uses a different flag
 #define FLAG_ITEM_ROUTE_127_ZINC                                    0x40A
@@ -1238,8 +1238,8 @@
 #define FLAG_RUNNING_SHOES_TOGGLE                                   0x4A0 // Former Unused Flag
 #define FLAG_AUTORUN_MENU_TOGGLE                                    0x4A1 // Former Unused Flag
 #define FLAG_ENABLE_SELECT_MENU                                     0x4A2 // Former Unused Flag
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Former Unused FlagUnknwn
-#define FLAG_UNUSED_0x4A4                                           0x4A4 // Former Unused FlagZubat
+#define FLAG_ROUTE7_1F_UNOWN                                        0x4A3 // Former Unused Flag
+#define FLAG_ROUTE7_1F_ZUBAT                                        0x4A4 // Former Unused Flag
 #define FLAG_ROUTE7_PINE                                            0x4A5 // Former Unused Flag
 #define FLAG_CAIRWIND_MOVE                                          0x4A6 // Former Unused Flag
 #define FLAG_JAMES_ROUTE_1                                          0x4A7 // Former Unused Flag

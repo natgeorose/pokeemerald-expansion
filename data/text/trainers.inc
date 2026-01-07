@@ -69,16 +69,16 @@ Route102_Text_TianaPostBattle:
 	.string "To keep winning my way up, I see that\n"
 	.string "I have to catch more Pokémon.$"
 
-Route103_Text_DaisyIntro:
-	.string "Did you feel the tug of our\n"
-	.string "soul-soothing fragrance?$"
+Route1_Text_LilyIntro:
+	.string "It is a beautiful day for a battle,\n"
+	.string "do you not think so?$"
 
-Route103_Text_DaisyDefeated:
-	.string "You weren't led astray by our aroma…$"
+Route1_Text_LilyDefeat:
+	.string "At least the day is still beautiful.$"
 
-Route103_Text_DaisyPostBattle:
-	.string "Aromatherapy is a form of mental\n"
-	.string "healing that works with fragrances.$"
+Route1_Text_LilyPostBattle:
+	.string "As much fun as it is battling,\n"
+	.string "make sure to enjoy the nice day.$"
 
 Route103_Text_AmyIntro:
 	.string "Amy: I'm Amy.\n"
@@ -415,17 +415,17 @@ Route104_Text_CindyPostRematch:
 	.string "“Hello” is the beginning of “good-bye.”\n"
 	.string "I hope we meet again.$"
 
-Route104_Text_DarianIntro:
-	.string "I fished up a tough-looking Pokémon!\p"
-	.string "It has this magical quality to it!\n"
-	.string "It surely looks tough, yes it does!$"
+Route1_Text_DarianIntro:
+	.string "We locked eyes!\p"
+	.string "That means you can't say no to a\n"
+	.string "Pokémon battle!$"
 
-Route104_Text_DarianDefeat:
+Route1_Text_DarianDefeat:
 	.string "What the…$"
 
-Route104_Text_DarianPostBattle:
-	.string "Hey, Magikarp, you sure don't live up\n"
-	.string "to your name, do you?$"
+Route1_Text_DarianPostBattle:
+	.string "I guess I should have said no to\n"
+	.string "that Pokémon battle...$"
 
 Route105_Text_FosterIntro:
 	.string "There's supposed to be a mystical\n"
@@ -2182,17 +2182,16 @@ Route116_Text_ClarkPostBattle:
 	.string "It's no big deal if there's no tunnel.\n"
 	.string "To a Hiker, mountains are roads!$"
 
-Route116_Text_JoeyIntro:
-	.string "My Pokémon rule!\n"
-	.string "Check them out!$"
+Route1_Text_JoeyIntro:
+	.string "Go, my Pokémon!$"
 
-Route116_Text_JoeyDefeat:
-	.string "Ouch! A scrape!\n"
-	.string "I have to put on a bandage!$"
+Route1_Text_JoeyDefeat:
+	.string "No, my Pokémon!\n"
+	.string "How could you!$"
 
-Route116_Text_JoeyPostBattle:
-	.string "Bandages are signs of toughness!\n"
-	.string "I've got another one!$"
+Route1_Text_JoeyPostBattle:
+	.string "My Pokémon will have to get stronger\n"
+	.string "to face you again!$"
 
 Route116_Text_JoseIntro:
 	.string "My Bug Pokémon are tough!\n"
@@ -2575,19 +2574,15 @@ Route117_Text_AishaPostBattle:
 	.string "I think that if you worry about losing,\n"
 	.string "you're more likely to lose.$"
 
-Route118_Text_RoseIntro:
-	.string "The aroma of flowers has a magical\n"
-	.string "power. It cleanses us body and soul.$"
+Route1_Text_DeliaIntro:
+	.string "My Pokémon are ready to take you on!$"
 
-Route118_Text_RoseDefeat:
-	.string "Oh, dear me.\n"
-	.string "I seem to have lost.$"
+Route1_Text_DeliaDefeat:
+	.string "We lost?!$"
 
-Route118_Text_RosePostBattle:
-	.string "Flowers, Pokémon…\n"
-	.string "I love whatever smells nice.\p"
-	.string "Stinky things…\n"
-	.string "I'll pass.$"
+Route1_Text_DeliaPostBattle:
+	.string "I love my Pokémon all the same,\n"
+	.string "even if we lost.$"
 
 Route118_Text_RoseRegister:
 	.string "Sniff… That odor--it's a PokéNav!\n"

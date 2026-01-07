@@ -154,7 +154,7 @@ CairwindTown_Text_LittleBoy:
 
 CairwindTown_EventScript_Maniac::
 	lockall
-	setspeaker Speaker_Boy
+	setspeaker Speaker_Scientist
 	msgbox CairwindTown_Text_Maniac, MSGBOX_NPC
 	closemessage
 	releaseall
@@ -206,4 +206,52 @@ CairwindTown_EventScript_LeaveBeforeMap::
 
 CairwindTown_Text_LeaveBeforeMap:
 	.string "I should talk to Mom before I leave.$"
+
+Speaker_Elder:
+    .string "Elder$"
+
+CairwindTown_EventScript_Expert::
+	lockall
+	setspeaker Speaker_Elder
+	msgbox CairwindTown_Text_Expert, MSGBOX_NPC
+	releaseall
+	end
+
+CairwindTown_Text_Expert:
+	.string "Ahh I do love the fresh mountain\n"
+	.string "air, it keeps me feeling young.$"
+
+CairwindTown_EventScript_BoyPost::
+	lockall
+	setspeaker Speaker_Boy
+	msgbox CairwindTown_Text_BoyPost, MSGBOX_NPC
+	releaseall
+	end
+
+CairwindTown_Text_BoyPost:
+	.string "Professor Pine is so cool, I\n"
+	.string "can't believe he visited here!$"
+
+CairwindTown_EventScript_LassPost::
+	lockall
+	setspeaker Speaker_Lass
+	msgbox CairwindTown_Text_LassPost, MSGBOX_NPC
+	releaseall
+	end
+
+CairwindTown_Text_LassPost:
+	.string "You can only carry 6 Pokémon on\n"
+	.string "you at any given time, so make sure\p"
+	.string "to switch them out occasionally!$"
+
+CairwindTown_EventScript_GirlPost::
+	lockall
+	setspeaker Speaker_Girl
+	msgbox CairwindTown_Text_GirlPost, MSGBOX_NPC
+	releaseall
+	end
+
+CairwindTown_Text_GirlPost:
+	.string "Cairwind Town is so peaceful,\n"
+	.string "I want to stay here forever!$"
 

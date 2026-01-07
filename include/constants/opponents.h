@@ -39,8 +39,8 @@
 #define TRAINER_SHELLY_SEAFLOOR_CAVERN       33
 #define TRAINER_ARCHIE                       34
 #define TRAINER_LEAH                         35
-#define TRAINER_DAISY                        36
-#define TRAINER_ROSE_1                       37
+#define TRAINER_LILY                        36
+#define TRAINER_DELIA                       37
 #define TRAINER_FELIX                        38
 #define TRAINER_VIOLET                       39
 #define TRAINER_ROSE_2                       40
