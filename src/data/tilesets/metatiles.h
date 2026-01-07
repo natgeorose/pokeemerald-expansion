@@ -219,3 +219,6 @@ const u16 gMetatileAttributes_Route1[] = INCBIN_U16("data/tilesets/secondary/rou
 
 const u16 gMetatiles_Indoor[] = INCBIN_U16("data/tilesets/primary/indoor/metatiles.bin");
 const u16 gMetatileAttributes_Indoor[] = INCBIN_U16("data/tilesets/primary/indoor/metatile_attributes.bin");
+
+const u16 gMetatiles_pc[] = INCBIN_U16("data/tilesets/secondary/pc/metatiles.bin");
+const u16 gMetatileAttributes_pc[] = INCBIN_U16("data/tilesets/secondary/pc/metatile_attributes.bin");

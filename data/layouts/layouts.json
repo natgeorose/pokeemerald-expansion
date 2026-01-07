@@ -4485,9 +4485,9 @@
       "id": "LAYOUT_CAIRWIND_TOWN_PC",
       "name": "CairwindTown_PC_Layout",
       "width": 15,
-      "height": 12,
+      "height": 11,
       "primary_tileset": "gTileset_Indoor",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/CairwindTown_PC/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_PC/map.bin"
     },
