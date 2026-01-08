@@ -525,6 +525,7 @@ Route7_EventScript_Pokedex::
 	msgbox Route7_Text_ReceivedPokedex, MSGBOX_DEFAULT
 	waitfanfare
 	setflag FLAG_SYS_POKEDEX_GET
+	setflag FLAG_ADVENTURE_STARTED
 	special SetUnlockedPokedexFlags
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
 	setflag FLAG_SYS_NATIONAL_DEX

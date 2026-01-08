@@ -29,6 +29,7 @@ CairwindTown_Player_1F_EventScript_MomSpeech::
 	setflag FLAG_ROUTE7_PINE
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	setflag FLAG_CAIRWIND_MOVE
+	setflag FLAG_CAIRWIND_MART
 	releaseall
 	end
 

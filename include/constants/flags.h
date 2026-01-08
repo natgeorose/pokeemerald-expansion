@@ -809,7 +809,7 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8
-#define FLAG_HIDE_CAIRWIND_JAMES              0x2F9
+#define FLAG_HIDE_CAIRWIND_JAMES                                    0x2F9
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
@@ -1243,7 +1243,7 @@
 #define FLAG_ROUTE7_PINE                                            0x4A5 // Former Unused Flag
 #define FLAG_CAIRWIND_MOVE                                          0x4A6 // Former Unused Flag
 #define FLAG_JAMES_ROUTE_1                                          0x4A7 // Former Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
+#define FLAG_CAIRWIND_MART                                          0x4A8 // Former Unused Flag
 #define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
 #define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag

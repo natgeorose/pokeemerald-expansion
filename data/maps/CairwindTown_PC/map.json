@@ -10,7 +10,7 @@
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
-  "show_map_name": true,
+  "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
   "object_events": [
@@ -24,7 +24,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CairwindTown_PC_EventScript_Boy",
       "flag": "0"
     },
     {
@@ -37,10 +37,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CairwindTown_PC_EventScript_Beauty",
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_NURSE",
       "graphics_id": "OBJ_EVENT_GFX_NURSE",
       "x": 7,
       "y": 3,
@@ -50,7 +51,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Common_EventScript_SerenadoNurse",
       "flag": "0"
     },
     {
@@ -63,8 +64,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "CairwindTown_PC_EventScript_Clerk",
+      "flag": "FLAG_CAIRWIND_MART"
     }
   ],
   "warp_events": [
@@ -77,5 +78,14 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_PC_EventScript_VendingMachine"
+    }
+  ]
 }
