@@ -4437,7 +4437,7 @@
       "width": 36,
       "height": 30,
       "primary_tileset": "gTileset_Serenado",
-      "secondary_tileset": "gTileset_Cairwind",
+      "secondary_tileset": "gTileset_Village",
       "border_filepath": "data/layouts/MoordenVillage/border.bin",
       "blockdata_filepath": "data/layouts/MoordenVillage/map.bin"
     },
