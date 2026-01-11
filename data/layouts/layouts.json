@@ -4434,8 +4434,8 @@
     {
       "id": "LAYOUT_MOORDEN_VILLAGE",
       "name": "MoordenVillage_Layout",
-      "width": 36,
-      "height": 30,
+      "width": 48,
+      "height": 46,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Village",
       "border_filepath": "data/layouts/MoordenVillage/border.bin",
@@ -4560,6 +4560,56 @@
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/CairwindTown_James_2F/border.bin",
       "blockdata_filepath": "data/layouts/CairwindTown_James_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOORDEN_VILLAGE_PC",
+      "name": "MoordenVillagePC_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/MoordenVillagePC/border.bin",
+      "blockdata_filepath": "data/layouts/MoordenVillagePC/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOORDEN_VILLAGE_HOUSE_1",
+      "name": "MoordenVillageHouse_1_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/MoordenVillageHouse_1/border.bin",
+      "blockdata_filepath": "data/layouts/MoordenVillageHouse_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOORDEN",
+      "name": "Moorden_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/Moorden/border.bin",
+      "blockdata_filepath": "data/layouts/Moorden/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOORDEN_VILLAGE_HOUSE_3",
+      "name": "MoordenVillageHouse_3_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/MoordenVillageHouse_3/border.bin",
+      "blockdata_filepath": "data/layouts/MoordenVillageHouse_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE3",
+      "name": "Route3_Layout",
+      "width": 60,
+      "height": 68,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Village",
+      "border_filepath": "data/layouts/Route3/border.bin",
+      "blockdata_filepath": "data/layouts/Route3/map.bin"
     }
   ]
 }

@@ -34,7 +34,8 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124",
-    "gMapGroup_IndoorCairwind"
+    "gMapGroup_IndoorCairwind",
+    "gMapGroup_IndoorMoorden"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -97,7 +98,8 @@
     "CairwindTown",
     "Route1",
     "MoordenVillage",
-    "Route7"
+    "Route7",
+    "Route3"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -638,5 +640,11 @@
     "CairwindTown_House_1",
     "CairwindTown_House_2",
     "CairwindTown_House_3"
+  ],
+  "gMapGroup_IndoorMoorden": [
+    "MoordenVillagePC",
+    "MoordenVillageHouse_1",
+    "Moorden",
+    "MoordenVillageHouse_3"
   ]
 }
