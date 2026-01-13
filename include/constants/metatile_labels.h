@@ -711,9 +711,7 @@
 #define METATILE_SecretBase_YellowBrick_Top             0x226
 
 // gTileset_Serenado
-#define METATILE_Serenado_General       0x165
 #define METATILE_Serenado_General_Door  0x14C
-#define METATILE_Serenado_Gym           0x16D
 #define METATILE_Serenado_Gym_Door      0x154
 #define METATILE_Serenado_PC_Door       0x06D
 
