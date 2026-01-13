@@ -4610,6 +4610,16 @@
       "secondary_tileset": "gTileset_Village",
       "border_filepath": "data/layouts/Route3/border.bin",
       "blockdata_filepath": "data/layouts/Route3/map.bin"
+    },
+    {
+      "id": "LAYOUT_EREWOOD_GROVE",
+      "name": "ErewoodGrove_Layout",
+      "width": 64,
+      "height": 80,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Erewood",
+      "border_filepath": "data/layouts/ErewoodGrove/border.bin",
+      "blockdata_filepath": "data/layouts/ErewoodGrove/map.bin"
     }
   ]
 }

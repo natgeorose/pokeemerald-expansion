@@ -225,3 +225,6 @@ const u16 gMetatileAttributes_pc[] = INCBIN_U16("data/tilesets/secondary/pc/meta
 
 const u16 gMetatiles_Village[] = INCBIN_U16("data/tilesets/secondary/village/metatiles.bin");
 const u16 gMetatileAttributes_Village[] = INCBIN_U16("data/tilesets/secondary/village/metatile_attributes.bin");
+
+const u16 gMetatiles_Erewood[] = INCBIN_U16("data/tilesets/secondary/erewood/metatiles.bin");
+const u16 gMetatileAttributes_Erewood[] = INCBIN_U16("data/tilesets/secondary/erewood/metatile_attributes.bin");
