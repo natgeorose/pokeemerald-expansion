@@ -4605,7 +4605,7 @@
       "id": "LAYOUT_ROUTE3",
       "name": "Route3_Layout",
       "width": 60,
-      "height": 72,
+      "height": 74,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Village",
       "border_filepath": "data/layouts/Route3/border.bin",
