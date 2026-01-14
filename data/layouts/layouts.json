@@ -4605,7 +4605,7 @@
       "id": "LAYOUT_ROUTE3",
       "name": "Route3_Layout",
       "width": 60,
-      "height": 68,
+      "height": 72,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Village",
       "border_filepath": "data/layouts/Route3/border.bin",
@@ -4620,6 +4620,26 @@
       "secondary_tileset": "gTileset_Erewood",
       "border_filepath": "data/layouts/ErewoodGrove/border.bin",
       "blockdata_filepath": "data/layouts/ErewoodGrove/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE4",
+      "name": "Route4_Layout",
+      "width": 66,
+      "height": 44,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/Route4/border.bin",
+      "blockdata_filepath": "data/layouts/Route4/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN",
+      "name": "QuilspringTown_Layout",
+      "width": 41,
+      "height": 36,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Quilspring",
+      "border_filepath": "data/layouts/QuilspringTown/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown/map.bin"
     }
   ]
 }

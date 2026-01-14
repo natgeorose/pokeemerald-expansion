@@ -192,6 +192,12 @@
       "map": "MAP_PETALBURG_CITY",
       "x": 15,
       "y": 15
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE4",
+      "map": "MAP_ROUTE4",
+      "x": 30,
+      "y": 22
     }
   ]
 }

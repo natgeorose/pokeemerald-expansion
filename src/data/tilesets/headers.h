@@ -907,3 +907,14 @@ const struct Tileset gTileset_Erewood =
     .metatileAttributes = gMetatileAttributes_Erewood,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Quilspring =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Quilspring,
+    .palettes = gTilesetPalettes_Quilspring,
+    .metatiles = gMetatiles_Quilspring,
+    .metatileAttributes = gMetatileAttributes_Quilspring,
+    .callback = NULL,
+};
