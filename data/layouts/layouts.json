@@ -4634,8 +4634,8 @@
     {
       "id": "LAYOUT_QUILSPRING_TOWN",
       "name": "QuilspringTown_Layout",
-      "width": 41,
-      "height": 36,
+      "width": 50,
+      "height": 40,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Quilspring",
       "border_filepath": "data/layouts/QuilspringTown/border.bin",
