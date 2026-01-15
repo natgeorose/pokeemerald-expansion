@@ -59,99 +59,15 @@ EventScript_CancelCut::
 
 Text_WantToCut:
 	.string "This tree looks like it can be\n"
-	.string "Cut down!\p"
-	.string "Would you like to Cut it?$"
+	.string "cut down!\p"
+	.string "Would you like to cut it?$"
 
 Text_MonUsedFieldMove:
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 Text_CantCut:
 	.string "This tree looks like it can be\n"
-	.string "Cut down!$"
-
-@ Use rock smash from party menu
-EventScript_UseRockSmash::
-	lockall
-	goto EventScript_RockSmashCommon
-
-@ Interact with smashable rock
-EventScript_RockSmash::
-	lockall
-	checkfieldmove FIELD_MOVE_ROCK_SMASH, TRUE
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSmashRock
-	setfieldeffectargument 0, VAR_RESULT
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	buffermovename STR_VAR_2, MOVE_ROCK_SMASH
-	msgbox Text_WantToSmash, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_CancelSmash
-	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
-	closemessage
-EventScript_RockSmashCommon:
-	@ check if follower should use the field move
-	isfollowerfieldmoveuser VAR_0x8004
-	setfieldeffectargument 3, VAR_0x8004 @ skip pose if so
-	dofieldeffect FLDEFF_USE_ROCK_SMASH
-	waitstate
-EventScript_SmashRock:: @ fallthrough
-	setflag FLAG_SAFE_FOLLOWER_MOVEMENT
-	call_if_eq VAR_0x8004, TRUE, EventScript_FollowerFieldMove
-	applymovement VAR_LAST_TALKED, Movement_SmashRock
-	waitmovement 0
-	removeobject VAR_LAST_TALKED
-	specialvar VAR_RESULT, TryUpdateRusturfTunnelState
-	goto_if_eq VAR_RESULT, TRUE, EventScript_EndSmash
-	special RockSmashWildEncounter
-	goto_if_eq VAR_RESULT, FALSE, EventScript_EndSmash
-	waitstate
-	releaseall
-	end
-
-EventScript_FollowerFieldMove:
-	getdirectiontoface VAR_0x8005, OBJ_EVENT_ID_FOLLOWER, OBJ_EVENT_ID_PLAYER
-	specialvar VAR_0x8006, GetPlayerFacingDirection
-	goto_if_eq VAR_0x8005, DIR_NONE, EventScript_FollowerFieldMoveEnd
-	@ Swap follower and player
-	call EventScript_FollowerSwap
-	@ Face follower in direction and jump
-	switch VAR_0x8006
-	case DIR_NORTH, EventScript_FollowerJumpNorth
-	case DIR_EAST, EventScript_FollowerJumpEast
-	case DIR_SOUTH, EventScript_FollowerJumpSouth
-	case DIR_WEST, EventScript_FollowerJumpWest
-	
-EventScript_FollowerFieldMoveEnd:
-	return
-
-EventScript_FollowerSwap:
-	switch VAR_0x8005
-	case DIR_NORTH, EventScript_FollowerMoveNorth
-	case DIR_EAST, EventScript_FollowerMoveEast
-	case DIR_SOUTH, EventScript_FollowerMoveSouth
-	case DIR_WEST, EventScript_FollowerMoveWest
-	return
-
-EventScript_FollowerMoveNorth:
-	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkDown
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
-	waitmovement 0
-	return
-
-EventScript_FollowerMoveEast:
-	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkLeft
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
-	waitmovement 0
-	return
-
-EventScript_FollowerMoveSouth:
-	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkUp
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
-	waitmovement 0
-	return
-    releaseall
-    end
+	.string "cut down!$"
 
 @ Use cut from party menu (for the bag item)
 EventScript_UseCut::
@@ -163,22 +79,15 @@ Movement_CutTreeDown:
     step_end
 
 Text_WantToCutWithPokemon:
-    .string "This tree can be CUT down.\n"
+    .string "This tree can be cut down.\n"
     .string "Want {STR_VAR_1} to help?$"
 
 Text_MonHelpedCut:
     .string "{STR_VAR_1} helped you clear the way!$"
 
 Text_WantToCutWithItem:
-    .string "This tree can be CUT down.\n"
+    .string "This tree can be cut down.\n"
     .string "Use the {STR_VAR_2}?$"
-
-Text_CantCut:
-    .string "This tree looks like it can be\n"
-    .string "CUT down!$"
-
-Text_MonUsedFieldMove:
-    .string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 @##################################################################
 @ Rock Smash
@@ -269,7 +178,7 @@ EventScript_CancelSmash::
 
 Text_WantToSmash:
 	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use Rock Smash?$"
+	.string "Would you like to shatter it?$"
 
 Text_CantSmash:
 	.string "It's a rugged rock, but a Pokémon\n"
@@ -342,11 +251,11 @@ EventScript_CancelStrength::
 Text_WantToStrength:
 	.string "It's a big boulder, but a Pokémon\n"
 	.string "may be able to push it aside.\p"
-	.string "Would you like to use Strength?$"
+	.string "Would you like to move it?$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used Strength!\p"
-	.string "{STR_VAR_1}'s Strength made it\n"
+	.string "{STR_VAR_1} used its strength!\p"
+	.string "{STR_VAR_1}'s power made it\n"
 	.string "possible to move boulders around!$"
 
 Text_WantToUseStrengthWithPokemon:
@@ -358,14 +267,14 @@ Text_WantToUseStrengthWithItem:
     .string "Use the {STR_VAR_2}?$"
 
 Text_StrengthActivated:
-    .string "STRENGTH made it possible to move\n"
+    .string "Strength made it possible to move\n"
     .string "boulders around!$"
 
 Text_StrengthAlreadyActivated:
-    .string "STRENGTH is already in effect.$"
+    .string "Strength is already in effect.$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a Pokémon\n"
     .string "may be able to push it aside.$"
 
 @##################################################################
@@ -431,7 +340,7 @@ Text_CantWaterfall:
 
 Text_WantToWaterfall:
 	.string "It's a large waterfall.\n"
-	.string "Would you like to use Waterfall?$"
+	.string "Would you like to scale it?$"
 
 Text_MonUsedWaterfall:
 	.string "{STR_VAR_1} used Waterfall.$"
@@ -524,11 +433,11 @@ EventScript_NoSurface::
 
 @ --- New Text ---
 Text_WantToDiveWithPokemon:
-    .string "The sea is deep here.\n"
-    .string "Want {STR_VAR_1} to help you DIVE?$"
+    .string "The water is deep here.\n"
+    .string "Want {STR_VAR_1} to help you dive?$"
 
 Text_WantToDiveWithItem:
-    .string "The sea is deep here.\n"
+    .string "The water is deep here.\n"
     .string "Use the {STR_VAR_2}?$"
 
 Text_PlayerUsedDiveItem:
@@ -579,12 +488,12 @@ EventScript_UseCutGrass::
 	goto EventScript_CutGrassCommon
 
 Text_CantDive:
-	.string "The sea is deep here. A Pokémon\n"
+	.string "The water is deep here. A Pokémon\n"
 	.string "may be able to go underwater.$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use Dive?$"
+	.string "The water is deep here.\n"
+	.string "Would you like to dive?$"
 
 Text_MonUsedDive:
 	.string "{STR_VAR_1} used Dive.$"

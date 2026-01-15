@@ -1,6 +1,6 @@
 gText_WantToSurfWithPokemon:
     .string "The water is dyed a deep blue…\n"
-    .string "Want {STR_VAR_1} to help you SURF?$"
+    .string "Want {STR_VAR_1} to help you surf?$"
 
 gText_MonHelpedSurf:
     .string "{STR_VAR_1} helped you travel across\n"

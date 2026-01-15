@@ -1654,6 +1654,15 @@ static void CB2_OpenOutfitBoxFromBag(void)
 }
 
 static void Task_OpenRegisteredOutfitBox(u8 taskId)
+{
+    if (!gPaletteFade.active)
+    {
+        CleanupOverworldWindowsAndTilemaps();
+        OpenOutfitMenu(CB2_ReturnToField);
+        DestroyTask(taskId);
+    }
+}
+
 static void ItemUseOnFieldCB_Cut(u8 taskId)
 {
     LockPlayerFieldControls();

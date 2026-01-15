@@ -2768,6 +2768,7 @@
 	.macro setspeaker name:req
 	callnative SetSpeaker
 	.4byte \name
+	.endm
 
 @ 	VS Seeker
 	.macro vsseeker_rematchid rematchId:req
