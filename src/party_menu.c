@@ -1517,15 +1517,7 @@ static void HandleChooseMonSelection(u8 taskId, s8 *slotPtr)
         case PARTY_ACTION_SEND_MON_TO_BOX:
         {
             u8 partyId = (u8)*slotPtr;
-            if (partyId == 0 || ((gBattleTypeFlags & BATTLE_TYPE_DOUBLE) && partyId == 1))
-            {
-                // Can't select if mon is currently on the field
-                PlaySE(SE_FAILURE);
-                DisplayPartyMenuMessage(gText_CannotSendMonToBoxActive, FALSE);
-                ScheduleBgCopyTilemapToVram(2);
-                gTasks[taskId].func = Task_ReturnToChooseMonAfterText;
-            }
-            else if ((gBattleTypeFlags & BATTLE_TYPE_MULTI) && partyId >= (PARTY_SIZE / 2))
+            if ((gBattleTypeFlags & BATTLE_TYPE_MULTI) && partyId >= (PARTY_SIZE / 2))
             {
                 // Can't select if mon doesn't belong to you
                 PlaySE(SE_FAILURE);
@@ -2945,22 +2937,70 @@ static void SetPartyMonSelectionActions(struct Pokemon *mons, u8 slotId, u8 acti
     }
 }
 
+// Field moves that can be used via items and should be excluded from the party menu
+static const u16 sItemBasedFieldMoves[] =
+{
+    MOVE_CUT,
+    MOVE_SURF,
+    MOVE_STRENGTH,
+    MOVE_ROCK_SMASH,
+    MOVE_DIVE,
+    MOVE_WATERFALL,
+};
+
+// Check if a field move should be excluded from the party menu (because it has an item alternative)
+static bool8 IsFieldMoveExcludedFromPartyMenu(u16 moveId)
+{
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(sItemBasedFieldMoves); i++)
+    {
+        if (sItemBasedFieldMoves[i] == moveId)
+            return TRUE;
+    }
+    return FALSE;
+}
+
 static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
+// modified for field move implementation
 {
     u8 i, j;
 
     sPartyMenuInternal->numActions = 0;
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_SUMMARY);
 
-    // Add field moves to action list
-    for (i = 0; i < MAX_MON_MOVES; i++)
+    u16 species = GetMonData(&mons[slotId], MON_DATA_SPECIES);
+    if (!GetMonData(&mons[slotId], MON_DATA_IS_EGG))
     {
-        for (j = 0; j != FIELD_MOVES_COUNT; j++)
+        // Loop through all possible field moves
+        for (i = 0; i < FIELD_MOVES_COUNT; i++)
         {
-            if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == FieldMove_GetMoveId(j))
+            u16 moveId = FieldMove_GetMoveId(i);
+
+            // Case 1: Fly and Flash - show if learnable and badge obtained
+            if (moveId == MOVE_FLY || moveId == MOVE_FLASH)
             {
-                AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + MENU_FIELD_MOVES);
-                break;
+                if (IsFieldMoveUnlocked(i) && CanLearnTeachableMove(species, moveId))
+                {
+                    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, i + MENU_FIELD_MOVES);
+                }
+            }
+            // Case 2: Item-based field moves - excluded from party menu
+            else if (IsFieldMoveExcludedFromPartyMenu(moveId))
+            {
+                // Do nothing, effectively removing them from the menu.
+            }
+            // Case 3: All other field moves (Dig, Soft-Boiled, etc.)
+            else
+            {
+                // Use the original logic: check if the Pokémon knows the move.
+                for (j = 0; j < MAX_MON_MOVES; j++)
+                {
+                    if (GetMonData(&mons[slotId], MON_DATA_MOVE1 + j) == moveId)
+                    {
+                        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, i + MENU_FIELD_MOVES);
+                        break; // Move found, stop checking this Pokémon's moves
+                    }
+                }
             }
         }
     }
@@ -4280,7 +4320,7 @@ bool32 SetUpFieldMove_Surf(void)
     if (!CheckFollowerNPCFlag(FOLLOWER_NPC_FLAG_CAN_SURF))
         return FALSE;
 
-    if (PartyHasMonWithSurf() == TRUE && IsPlayerFacingSurfableFishableWater() == TRUE)
+    if (IsPlayerFacingSurfableFishableWater() == TRUE)
     {
         gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
         gPostMenuFieldCallback = FieldCallback_Surf;
@@ -4302,10 +4342,16 @@ bool32 SetUpFieldMove_Fly(void)
     if (!CheckFollowerNPCFlag(FOLLOWER_NPC_FLAG_CAN_LEAVE_ROUTE))
         return FALSE;
 
+    // First, check if the map allows flying.
     if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
-        return TRUE;
-    else
-        return FALSE;
+        {
+        // If it does, then perform a check for a valid Pokémon or item.
+        if (CanUseFly() == TRUE)
+            return TRUE;
+    }
+
+    // If any check fails, return FALSE.
+    return FALSE;
 }
 
 void CB2_ReturnToPartyMenuFromFlyMap(void)
@@ -6445,6 +6491,7 @@ static void DeleteInvalidFusionMoves(struct Pokemon *mon, u32 species)
     }
 }
 
+#if P_FUSION_FORMS
 static void SwapFusionMonMoves(struct Pokemon *mon, const u16 moveTable[][2], u32 mode)
 {
     u32 oldMoveIndex, newMoveIndex;
@@ -6465,13 +6512,16 @@ static void SwapFusionMonMoves(struct Pokemon *mon, const u16 moveTable[][2], u3
         {
             if (move == moveTable[j][oldMoveIndex])
             {
+                u32 pp = GetMovePP(moveTable[j][newMoveIndex]);
                 SetMonData(mon, MON_DATA_MOVE1 + i, &moveTable[j][newMoveIndex]);
-                SetMonData(mon, MON_DATA_PP1 + i, &gMovesInfo[moveTable[j][newMoveIndex]].pp);
+                SetMonData(mon, MON_DATA_PP1 + i, &pp);
             }
         }
     }
 
 }
+#endif //P_FUSION_FORMS
+
 static void Task_TryItemUseFusionChange(u8 taskId)
 {
     struct Pokemon *mon = &gPlayerParty[gTasks[taskId].firstFusionSlot];
@@ -6565,31 +6615,35 @@ static void Task_TryItemUseFusionChange(u8 taskId)
         {
             if (gTasks[taskId].fusionType == FUSE_MON)
             {
+#if P_FUSION_FORMS
 #if P_FAMILY_KYUREM
 #if P_FAMILY_RESHIRAM
                 if (gTasks[taskId].tExtraMoveHandling == SWAP_EXTRA_MOVES_KYUREM_WHITE)
-                    SwapFusionMonMoves(mon, gKyurenWhiteSwapMoveTable, FUSE_MON);
+                    SwapFusionMonMoves(mon, gKyuremWhiteSwapMoveTable, FUSE_MON);
 #endif //P_FAMILY_RESHIRAM
 #if P_FAMILY_ZEKROM
                 if (gTasks[taskId].tExtraMoveHandling == SWAP_EXTRA_MOVES_KYUREM_BLACK)
-                    SwapFusionMonMoves(mon, gKyurenBlackSwapMoveTable, FUSE_MON);
+                    SwapFusionMonMoves(mon, gKyuremBlackSwapMoveTable, FUSE_MON);
 #endif //P_FAMILY_ZEKROM
 #endif //P_FAMILY_KYUREM
+#endif //P_FUSION_FORMS
                 if (gTasks[taskId].moveToLearn != 0)
                     FormChangeTeachMove(taskId, gTasks[taskId].moveToLearn, gTasks[taskId].firstFusionSlot);
             }
             else //(gTasks[taskId].fusionType == UNFUSE_MON)
             {
+#if P_FUSION_FORMS
 #if P_FAMILY_KYUREM
 #if P_FAMILY_RESHIRAM
                 if (gTasks[taskId].tExtraMoveHandling == SWAP_EXTRA_MOVES_KYUREM_WHITE)
-                    SwapFusionMonMoves(mon, gKyurenWhiteSwapMoveTable, UNFUSE_MON);
+                    SwapFusionMonMoves(mon, gKyuremWhiteSwapMoveTable, UNFUSE_MON);
 #endif //P_FAMILY_RESHIRAM
 #if P_FAMILY_ZEKROM
                 if (gTasks[taskId].tExtraMoveHandling == SWAP_EXTRA_MOVES_KYUREM_BLACK)
-                    SwapFusionMonMoves(mon, gKyurenBlackSwapMoveTable, UNFUSE_MON);
+                    SwapFusionMonMoves(mon, gKyuremBlackSwapMoveTable, UNFUSE_MON);
 #endif //P_FAMILY_ZEKROM
 #endif //P_FAMILY_KYUREM
+#endif //P_FUSION_FORMS
                 if ( gTasks[taskId].tExtraMoveHandling == FORGET_EXTRA_MOVES)
                 {
                     DeleteInvalidFusionMoves(mon, gTasks[taskId].fusionResult);
