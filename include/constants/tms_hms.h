@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
+    F(IRON_HEAD) \
     F(DRAGON_CLAW) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
@@ -21,7 +21,7 @@
     F(PROTECT) \
     F(RAIN_DANCE) \
     F(GIGA_DRAIN) \
-    F(SAFEGUARD) \
+    F(WILL_O_WISP) \
     F(FRUSTRATION) \
     F(SOLAR_BEAM) \
     F(IRON_TAIL) \
@@ -33,25 +33,74 @@
     F(PSYCHIC) \
     F(SHADOW_BALL) \
     F(BRICK_BREAK) \
-    F(DOUBLE_TEAM) \
+    F(FOCUS_BLAST) \
     F(REFLECT) \
-    F(SHOCK_WAVE) \
+    F(ENERGY_BALL) \
     F(FLAMETHROWER) \
     F(SLUDGE_BOMB) \
     F(SANDSTORM) \
     F(FIRE_BLAST) \
     F(ROCK_TOMB) \
     F(AERIAL_ACE) \
-    F(TORMENT) \
+    F(AURORA_VEIL) \
     F(FACADE) \
-    F(SECRET_POWER) \
+    F(ROOST) \
     F(REST) \
     F(ATTRACT) \
     F(THIEF) \
-    F(STEEL_WING) \
-    F(SKILL_SWAP) \
-    F(SNATCH) \
-    F(OVERHEAT)
+    F(HONE_CLAWS) \
+    F(CHARGE_BEAM) \
+    F(COACHING) \
+    F(OVERHEAT) \
+    F(ACROBATICS) \
+    F(TRAILBLAZE) \
+    F(BULLDOZE) \
+    F(SNARL) \
+    F(VENOSHOCK) \
+    F(VOLT_SWITCH) \
+    F(DRAIN_PUNCH) \
+    F(DAZZLING_GLEAM) \
+    F(POISON_JAB) \
+    F(BODY_PRESS) \
+    F(SCALD) \
+    F(TAILWIND) \
+    F(DRAGON_PULSE) \
+    F(ICE_SPINNER) \
+    F(SMART_STRIKE) \
+    F(STEALTH_ROCK) \
+    F(DARK_PULSE) \
+    F(LEECH_LIFE) \
+    F(TRICK_ROOM) \
+    F(BREAKING_SWIPE) \
+    F(STONE_EDGE) \
+    F(GYRO_BALL) \
+    F(SWORDS_DANCE) \
+    F(FLAME_CHARGE) \
+    F(LOW_SWEEP) \
+    F(ROCK_SLIDE) \
+    F(X_SCISSOR) \
+    F(THUNDER_WAVE) \
+    F(U_TURN) \
+    F(SUBSTITUTE) \
+    F(FLASH_CANNON) \
+    F(HEX) \
+    F(DRAGON_TAIL) \
+    F(ELECTRO_BALL) \
+    F(SLUDGE_WAVE) \
+    F(ENCORE) \
+    F(BRUTAL_SWING) \
+    F(PLAY_ROUGH) \
+    F(EXPANDING_FORCE) \
+    F(SHADOW_CLAW) \
+    F(AVALANCHE) \
+    F(FOUL_PLAY) \
+    F(POWER_GEM) \
+    F(CLOSE_COMBAT) \
+    F(DRAGON_DANCE) \
+    F(PSYSHOCK) \
+    F(EARTH_POWER) \
+    F(GRASS_KNOT) \
+    F(SCALE_SHOT) \
 
 #define FOREACH_HM(F) \
     F(CUT) \
