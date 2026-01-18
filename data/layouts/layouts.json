@@ -4625,9 +4625,9 @@
       "id": "LAYOUT_ROUTE4",
       "name": "Route4_Layout",
       "width": 66,
-      "height": 44,
+      "height": 42,
       "primary_tileset": "gTileset_Serenado",
-      "secondary_tileset": "gTileset_Cairwind",
+      "secondary_tileset": "gTileset_Route4",
       "border_filepath": "data/layouts/Route4/border.bin",
       "blockdata_filepath": "data/layouts/Route4/map.bin"
     },

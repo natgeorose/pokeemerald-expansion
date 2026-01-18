@@ -12115,6 +12115,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_EREWOOD_GROVE",
+          "base_label": "gErewoodGrove",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_PHANTUMP"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_TOEDSCOOL"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_VENIPEDE"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_NICKIT"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_MASCHIFF"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_EKANS"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_PHANTUMP"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_NICKIT"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_FOONGUS"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_FOONGUS"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_FOONGUS"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_FOONGUS"
+              }
+            ]
+          }
         }
       ]
     },
