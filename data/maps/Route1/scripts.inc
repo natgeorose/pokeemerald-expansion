@@ -247,18 +247,21 @@ Route1_EventScript_Gentleman::
 	faceplayer
 	goto_if_set FLAG_ITEM_ROUTE_1_FULL_HEAL, Route1_EventScript_ReceivedFullHeal
 	setspeaker Speaker_Gentleman
-	msgbox Route1_Text_GentlemanGiveItem, MSGBOX_NPC
+	msgbox Route1_Text_GentlemanGiveItem, MSGBOX_DEFAULT
 	closemessage	
 	giveitem ITEM_FULL_HEAL
 	setspeaker Speaker_Gentleman
-	msgbox Route1_Text_GentlemanGoodLuck, MSGBOX_NPC
+	msgbox Route1_Text_GentlemanGoodLuck, MSGBOX_DEFAULT
+	closemessage
 	setflag FLAG_ITEM_ROUTE_1_FULL_HEAL
 	releaseall
 	end
 
 Route1_EventScript_ReceivedFullHeal::
+	lockall
 	setspeaker Speaker_Gentleman
-	msgbox Route1_Text_GentlemanGoodLuck, MSGBOX_NPC
+	msgbox Route1_Text_GentlemanGoodLuck, MSGBOX_DEFAULT
+	closemessage
 	releaseall
 	end
 

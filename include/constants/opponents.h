@@ -127,7 +127,7 @@
 #define TRAINER_CINDY_4                     121
 #define TRAINER_CINDY_5                     122
 #define TRAINER_CINDY_6                     123
-#define TRAINER_MELISSA                     124
+#define TRAINER_VIOLA                     124
 #define TRAINER_SHEILA                      125
 #define TRAINER_SHIRLEY                     126
 #define TRAINER_JESSICA_1                   127
@@ -235,7 +235,7 @@
 #define TRAINER_JEFFREY_3                   229
 #define TRAINER_JEFFREY_4                   230
 #define TRAINER_JEFFREY_5                   231
-#define TRAINER_EDWARD                      232
+#define TRAINER_ASTOR                      232
 #define TRAINER_PRESTON                     233
 #define TRAINER_VIRGIL                      234
 #define TRAINER_BLAKE                       235
@@ -276,7 +276,7 @@
 #define TRAINER_WINONA_1                    270
 #define TRAINER_TATE_AND_LIZA_1             271
 #define TRAINER_JUAN_1                      272
-#define TRAINER_JERRY_1                     273
+#define TRAINER_KOLBY                     273
 #define TRAINER_TED                         274
 #define TRAINER_PAUL                        275
 #define TRAINER_JERRY_2                     276
@@ -284,7 +284,7 @@
 #define TRAINER_JERRY_4                     278
 #define TRAINER_JERRY_5                     279
 #define TRAINER_KAREN_1                     280
-#define TRAINER_GEORGIA                     281
+#define TRAINER_ARIEL                     281
 #define TRAINER_KAREN_2                     282
 #define TRAINER_KAREN_3                     283
 #define TRAINER_KAREN_4                     284
@@ -709,7 +709,7 @@
 #define TRAINER_RHETT                       703
 #define TRAINER_TYRON                       704
 #define TRAINER_CELINA                      705
-#define TRAINER_BIANCA                      706
+#define TRAINER_OPAL                      706
 #define TRAINER_HAYDEN                      707
 #define TRAINER_SOPHIE                      708
 #define TRAINER_COBY                        709
@@ -718,7 +718,7 @@
 #define TRAINER_ANGELINA                    712
 #define TRAINER_KAI                         713
 #define TRAINER_CHARLOTTE                   714
-#define TRAINER_DEANDRE                     715
+#define TRAINER_KELAN                     715
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_1       716
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_2       717
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_3       718

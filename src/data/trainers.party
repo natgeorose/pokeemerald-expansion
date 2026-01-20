@@ -2274,8 +2274,8 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Odor Sleuth
 - Sand Attack
 
-=== TRAINER_MELISSA ===
-Name: Melissa
+=== TRAINER_VIOLA ===
+Name: Viola
 Class: Beauty
 Pic: Beauty
 Gender: Female
@@ -2283,8 +2283,12 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Marill
-Level: 21
+Rockruff (F)
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dottler (F)
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHEILA ===
@@ -4090,8 +4094,8 @@ Beautifly
 Level: 38
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_EDWARD ===
-Name: Edward
+=== TRAINER_ASTOR ===
+Name: Astor
 Class: Psychic
 Pic: Psychic M
 Gender: Male
@@ -4099,10 +4103,13 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Abra
-Level: 15
+Natu (M)
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
+
+Chingling (M)
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PRESTON ===
 Name: Preston
@@ -5116,8 +5123,8 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Beam
 - Rest
 
-=== TRAINER_JERRY_1 ===
-Name: Jerry
+=== TRAINER_KOLBY ===
+Name: Kolby
 Class: School Kid
 Pic: School Kid M
 Gender: Male
@@ -5125,9 +5132,13 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Ralts
+Spinarak (M)
 Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golett (M)
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TED ===
 Name: Ted
@@ -5248,8 +5259,8 @@ Shroomish
 Level: 9
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_GEORGIA ===
-Name: Georgia
+=== TRAINER_ARIEL ===
+Name: Ariel
 Class: School Kid
 Pic: School Kid F
 Gender: Female
@@ -5257,12 +5268,12 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Shroomish
-Level: 16
+Milcery (F)
+Level: 9
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Beautifly
-Level: 16
+Spheal (F)
+Level: 9
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_KAREN_2 ===
@@ -8595,12 +8606,12 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Marill
-Level: 18
+Marill (F)
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lombre
-Level: 18
+Glameow (F)
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARTHA ===
@@ -11366,16 +11377,33 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_2 ===
 Name: James
-Class: Bug Catcher
+Class: Pkmn Trainer 1
 Pic: Bug Catcher
 Gender: Male
 Music: Male
+Mugshot: Yellow
 Double Battle: No
 AI: Basic Trainer
 
-Ninjask
-Level: 27
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Rufflet (M)
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Hone Claws
+- Peck
+- Rock Smash
+
+Skiddo (M)
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Vine Whip
+- Tackle
+- Growth
+
+Machop (M)
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_3 ===
 Name: James
@@ -13106,8 +13134,8 @@ Roselia
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BIANCA ===
-Name: Bianca
+=== TRAINER_OPAL ===
+Name: Opal
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
@@ -13115,8 +13143,12 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Shroomish
-Level: 18
+Pichu (F)
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Cubchoo (F)
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAYDEN ===
@@ -13243,8 +13275,8 @@ Nuzleaf
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DEANDRE ===
-Name: Deandre
+=== TRAINER_KELAN ===
+Name: Kelan
 Class: Youngster
 Pic: Youngster
 Gender: Male
@@ -13252,16 +13284,16 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Zigzagoon
-Level: 14
+Snubbull (M)
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Tackle
+- Tail Whip
+- Charm
 
-Aron
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Electrike
-Level: 14
+Houndour (M)
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===

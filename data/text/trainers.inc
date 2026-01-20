@@ -1825,16 +1825,16 @@ Route114_Text_ShanePostBattle:
 	.string "I think it's great that I can go\n"
 	.string "camping with my Pokémon.$"
 
-Route114_Text_NancyIntro:
-	.string "I need to exercise after a meal.\n"
+Route3_Text_NancyIntro:
+	.string "I saw you coming from a mile away!\n"
 	.string "Let's have a match!$"
 
-Route114_Text_NancyDefeat:
+Route3_Text_NancyDefeat:
 	.string "Oh, no!$"
 
-Route114_Text_NancyPostBattle:
-	.string "I just had a tasty meal.\n"
-	.string "I'm getting drowsy…$"
+Route3_Text_NancyPostBattle:
+	.string "I saw you coming and I still\n"
+	.string "couldn't beat you…$"
 
 Route114_Text_SteveIntro:
 	.string "Ufufufufufu…\n"
@@ -4789,3 +4789,66 @@ VSSeeker_Text_TrainersNotReady::
 	.string "The other Trainers don't appear\n"
 	.string "to be ready for battle.\p"
 	.string "Let's wait till later.{PAUSE_UNTIL_PRESS}$"
+
+Route3_Text_AstorIntro:
+	.string "We will defeat you with our\n"
+	.string "psychic power!$"
+
+Route3_Text_AstorDefeat:
+	.string "That's a shock!$"
+
+Route3_Text_AstorPostBattle:
+	.string "How was our power not enough?$"
+
+Route3_Text_OpalIntro:
+	.string "I just had a snack, I'm\n"
+	.string "all fueled up for a battle!$"
+
+Route3_Text_OpalDefeat:
+	.string "Ut oh!\n"
+	.string "I think I ate too quickly!$"
+
+Route3_Text_OpalPostBattle:
+	.string "After food and that battle,\n"
+	.string "I think I need a nap.$"
+
+Route3_Text_KelanIntro:
+	.string "I'm the king of this route!\n"
+	.string "I'm not going to lose!$"
+
+Route3_Text_KelanDefeat:
+	.string "What happened?$"
+
+Route3_Text_KelanPostBattle:
+	.string "I guess I need to train more\n"
+	.string "to become the king again.$"
+
+Route4_Text_KolbyIntro:
+	.string "I'm going to scare my sister with\n"
+	.string "my Bug Pokémon!$"
+
+Route4_Text_KolbyDefeat:
+	.string "Ahh!$"
+
+Route4_Text_KolbyPostBattle:
+	.string "Your Pokémon scared me!$"
+
+Route4_Text_ArielIntro:
+	.string "Waaaah my brother is chasing me!$"
+
+Route4_Text_ArielDefeat:
+	.string "Stop it!$"
+
+Route4_Text_ArielPostBattle:
+	.string "Please don't chase me too.$"
+
+Route4_Text_ViolaIntro:
+	.string "The flowers here are so pretty,\n"
+	.string "just like my Pokémon.$"
+
+Route4_Text_ViolaDefeat:
+	.string "My beautiful Pokémon!$"
+
+Route4_Text_ViolaPostBattle:
+	.string "Just ignore us and look at\n"
+	.string "flowers.$"

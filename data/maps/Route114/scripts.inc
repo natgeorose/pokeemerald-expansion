@@ -95,8 +95,8 @@ Route114_EventScript_Shane::
 	end
 
 Route114_EventScript_Nancy::
-	trainerbattle_single TRAINER_NANCY, Route114_Text_NancyIntro, Route114_Text_NancyDefeat
-	msgbox Route114_Text_NancyPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_NANCY, Route3_Text_NancyIntro, Route3_Text_NancyDefeat
+	msgbox Route3_Text_NancyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Steve::

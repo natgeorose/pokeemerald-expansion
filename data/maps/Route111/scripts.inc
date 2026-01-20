@@ -532,7 +532,7 @@ Route111_EventScript_Hayden::
 	end
 
 Route111_EventScript_Bianca::
-	trainerbattle_single TRAINER_BIANCA, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat
+	trainerbattle_single TRAINER_OPAL, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat
 	msgbox Route111_Text_BiancaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
