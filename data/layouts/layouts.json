@@ -4634,12 +4634,102 @@
     {
       "id": "LAYOUT_QUILSPRING_TOWN",
       "name": "QuilspringTown_Layout",
-      "width": 50,
+      "width": 52,
       "height": 40,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Quilspring",
       "border_filepath": "data/layouts/QuilspringTown/border.bin",
       "blockdata_filepath": "data/layouts/QuilspringTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE4_DAYCARE",
+      "name": "Route4_Daycare_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/Route4_Daycare/border.bin",
+      "blockdata_filepath": "data/layouts/Route4_Daycare/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_PC",
+      "name": "QuilspringTown_PC_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/QuilspringTown_PC/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_PC/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_UNIVERSITY",
+      "name": "QuilspringTown_University_Layout",
+      "width": 41,
+      "height": 30,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_University/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_University/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_HOUSE_PINE",
+      "name": "QuilspringTown_HousePine_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_HousePine/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_HousePine/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_GYM",
+      "name": "QuilspringTown_Gym_Layout",
+      "width": 23,
+      "height": 32,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_HOUSE_1",
+      "name": "QuilspringTown_House_1_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_House_1/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_House_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_HOUSE_2",
+      "name": "QuilspringTown_House_2_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_House_2/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_House_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_HOUSE_3",
+      "name": "QuilspringTown_House_3_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_House_3/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_House_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_BAR",
+      "name": "QuilspringTown_Bar_Layout",
+      "width": 19,
+      "height": 14,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_Bar/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_Bar/map.bin"
     }
   ]
 }

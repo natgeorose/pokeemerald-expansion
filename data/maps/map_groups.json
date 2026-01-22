@@ -35,7 +35,9 @@
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124",
     "gMapGroup_IndoorCairwind",
-    "gMapGroup_IndoorMoorden"
+    "gMapGroup_IndoorMoorden",
+    "gMapGroup_IndoorSerenado",
+    "gMapGroup_IndoorQuilspring"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -649,5 +651,18 @@
     "MoordenVillageHouse_1",
     "Moorden",
     "MoordenVillageHouse_3"
+  ],
+  "gMapGroup_IndoorSerenado": [
+    "Route4_Daycare"
+  ],
+  "gMapGroup_IndoorQuilspring": [
+    "QuilspringTown_University",
+    "QuilspringTown_PC",
+    "QuilspringTown_HousePine",
+    "QuilspringTown_Gym",
+    "QuilspringTown_Bar",
+    "QuilspringTown_House_1",
+    "QuilspringTown_House_2",
+    "QuilspringTown_House_3"
   ]
 }

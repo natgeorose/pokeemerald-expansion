@@ -1218,3 +1218,21 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route4/scripts.inc"
 
 	.include "data/maps/QuilspringTown/scripts.inc"
+
+	.include "data/maps/Route4_Daycare/scripts.inc"
+
+	.include "data/maps/QuilspringTown_PC/scripts.inc"
+
+	.include "data/maps/QuilspringTown_University/scripts.inc"
+
+	.include "data/maps/QuilspringTown_HousePine/scripts.inc"
+
+	.include "data/maps/QuilspringTown_Gym/scripts.inc"
+
+	.include "data/maps/QuilspringTown_House_1/scripts.inc"
+
+	.include "data/maps/QuilspringTown_House_2/scripts.inc"
+
+	.include "data/maps/QuilspringTown_House_3/scripts.inc"
+
+	.include "data/maps/QuilspringTown_Bar/scripts.inc"

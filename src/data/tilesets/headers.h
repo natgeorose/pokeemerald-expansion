@@ -929,3 +929,14 @@ const struct Tileset gTileset_Route4 =
     .metatileAttributes = gMetatileAttributes_Route4,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_IndoorQuilspring =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_IndoorQuilspring,
+    .palettes = gTilesetPalettes_IndoorQuilspring,
+    .metatiles = gMetatiles_IndoorQuilspring,
+    .metatileAttributes = gMetatileAttributes_IndoorQuilspring,
+    .callback = NULL,
+};

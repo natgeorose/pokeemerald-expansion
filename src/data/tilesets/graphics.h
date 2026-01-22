@@ -1805,3 +1805,22 @@ const u16 gTilesetPalettes_Route4[][16] =
 };
 
 const u32 gTilesetTiles_Route4[] = INCBIN_U32("data/tilesets/secondary/route_4/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_IndoorQuilspring[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/indoor_quilspring/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_IndoorQuilspring[] = INCBIN_U32("data/tilesets/secondary/indoor_quilspring/tiles.4bpp.lz");
