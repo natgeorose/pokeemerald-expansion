@@ -136,6 +136,7 @@ static const u8 sDoorAnimTiles_Serenado_PC_Door[] = INCBIN_U8("graphics/door_ani
 static const u8 sDoorAnimTiles_Serenado_Gym_Door[] = INCBIN_U8("graphics/door_anims/serenado_gym.4bpp");
 static const u8 sDoorAnimTiles_Serenado_General_Door[] = INCBIN_U8("graphics/door_anims/serenado_general.4bpp");
 static const u8 sDoorAnimTiles_Cairwind_Blue_Door[] = INCBIN_U8("graphics/door_anims/cairwind_door.4bpp");
+static const u8 sDoorAnimTiles_Quilspring_Door[] = INCBIN_U8("graphics/door_anims/quilspring.4bpp");
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -229,6 +230,7 @@ static const u8 sDoorAnimPalettes_Serenado_PC_Door[] = {5, 5, 5, 5, 5, 5, 5, 5};
 static const u8 sDoorAnimPalettes_Serenado_Gym_Door[] = {5, 5, 5, 5, 5, 5, 5, 5};
 static const u8 sDoorAnimPalettes_Serenado_General_Door[] = {5, 5, 5, 5, 5, 5, 5, 5};
 static const u8 sDoorAnimPalettes_Cairwind_Blue_Door[] = {10, 10, 10, 10, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Quilspring_Door[] = {7, 7, 7, 7, 7, 7, 7, 7};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -291,6 +293,7 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_Serenado_Gym_Door,                            DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Serenado_Gym_Door, sDoorAnimPalettes_Serenado_Gym_Door},
     {METATILE_Serenado_General_Door,                        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Serenado_General_Door, sDoorAnimPalettes_Serenado_General_Door},
     {METATILE_Cairwind_Blue_Door,                           DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Cairwind_Blue_Door, sDoorAnimPalettes_Cairwind_Blue_Door},
+    {METATILE_Quilspring_Door,                              DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Quilspring_Door, sDoorAnimPalettes_Quilspring_Door},
     {},
 };
 

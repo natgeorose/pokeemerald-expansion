@@ -124,7 +124,7 @@ Route7_1F_Movement_JamesEnter:
 Route_7_1F_Text_JamesLetsGo:
 	.string "Now that we are all here, let's\n"
 	.string "go find some Pokémon! \p"
-	.string "Go Machop!$"
+	.string "Go Riolu!$"
 
 Route7_1F_Movement_MachopEnter:
 	walk_up
@@ -164,7 +164,7 @@ Route7_1F_Movement_Zubat3Enter:
 
 Route_7_1F_Text_JamesGetThem:
 	.string "Here we go, it's a Zubat!\n"
-	.string "Machop, let's take him on!$"
+	.string "Riolu, let's take him on!$"
 
 Route_7_1F_Text_JamesNowTwo:
 	.string "Uhh there's two now...\p"

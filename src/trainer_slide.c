@@ -56,6 +56,14 @@ static const u8* const sTrainerSlides[DIFFICULTY_COUNT][TRAINERS_COUNT][TRAINER_
 {
     [DIFFICULTY_NORMAL] =
     {
+        [TRAINER_NYX] =
+        {
+            [TRAINER_SLIDE_LAST_SWITCHIN] = COMPOUND_STRING("Very interesting, you're good! Now let's\nsee how this story will end.{PAUSE_UNTIL_PRESS}"),
+        },
+        [TRAINER_JAMES_2] =
+        {
+            [TRAINER_SLIDE_LAST_SWITCHIN] = COMPOUND_STRING("You got better, but so did we!\nWe're not done yet!{PAUSE_UNTIL_PRESS}"),
+        }
     },
 };
 

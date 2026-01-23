@@ -104,7 +104,7 @@ Route_1_EventScript_JamesBattle::
 
 Route_1_Text_JamesEnter:
 	.string "There you are {PLAYER}!\p"
-	.string "Machop and I have been training, we\n"
+	.string "Riolu and I have been training, we\n"
 	.string "are ready for our first Pokémon battle!\p"
 	.string "Hope you're ready for a fight!$"
 
@@ -113,7 +113,7 @@ Route_1_Text_JamesDefeat:
 
 Route_1_Text_JamesLeave:
 	.string "You really are a natural, {PLAYER}.\p"
-	.string "I even got Machop before you got your\n"
+	.string "I even got Riolu before you got your\n"
 	.string "Pokémon, and you still beat us.$"
 
 Route_1_Text_JamesRival:

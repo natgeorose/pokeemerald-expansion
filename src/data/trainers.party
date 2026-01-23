@@ -4787,39 +4787,42 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Crunch
 
-=== TRAINER_ROXANNE_1 ===
-Name: Roxanne
+=== TRAINER_NYX ===
+Name: Nyx
 Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
+Items: Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Pink
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Zorua (F)
+Level: 14
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hone Claws
+- Fury Swipes
+- Snarl
+- Torment
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Vullaby (F)
+Level: 14
+Ability: Big Pecks
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Snarl
+- Pluck
+- Leer
+- Mean Look
 
-Nosepass @ Oran Berry
+Persian-Alola (F) @ Oran Berry
 Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+Ability: Technician
+IVs: 31 HP / 31 Atk / 31 Def / 15 SpA / 18 SpD / 15 Spe
+- Snarl
+- Scratch
+- Icy Wind
+- Confuse Ray
 
 === TRAINER_BRAWLY_1 ===
 Name: Brawly
@@ -4855,47 +4858,48 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Reversal
 - Bulk Up
 
-=== TRAINER_WATTSON_1 ===
-Name: Wattson
+=== TRAINER_CELESTE ===
+Name: Celeste
 Class: Leader
 Pic: Leader Wattson
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
+Gender: Female
+Music: Female
+Items: Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Blue
 
-Voltorb
-Level: 20
+Swellow (F)
+Level: 28
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+- Endeavor
+- Brave Bird
+- Tailwind
+- Steel Wing
 
-Electrike
-Level: 20
+Sigilyph (F)
+Level: 28
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
+- Ancient Power
+- Psychic
+- Air Slash
+- Tailwind
 
-Magneton
-Level: 22
+Minior
+Level: 28
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
-- Thunder Wave
-- Sonic Boom
+- Acrobatics
+- Rock Slide
+- Earth Power
+- Tailwind
 
-Manectric @ Sitrus Berry
-Level: 24
+Togekiss (F) @ Sitrus Berry
+Level: 29
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+- Dazzling Gleam
+- Air Slash
+- Aura Sphere
+- Tailwind
 
 === TRAINER_FLANNERY_1 ===
 Name: Flannery
@@ -11371,14 +11375,14 @@ Mugshot: Yellow
 Double Battle: No
 AI: Basic Trainer
 
-Machop (M)
+Riolu (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_2 ===
 Name: James
 Class: Pkmn Trainer 1
-Pic: Bug Catcher
+Pic: James
 Gender: Male
 Music: Male
 Mugshot: Yellow
@@ -11401,9 +11405,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Growth
 
-Machop (M)
+Riolu (M)
 Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Quick Attack
+- Low Sweep
+- Metal Claw
+- Bite
 
 === TRAINER_JAMES_3 ===
 Name: James
