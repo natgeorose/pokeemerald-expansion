@@ -42,8 +42,6 @@ SootopolisCity_Gym_B1F_EventScript_Bethany::
 	end
 
 SootopolisCity_Gym_B1F_EventScript_Annika::
-	trainerbattle_single TRAINER_ANNIKA, SootopolisCity_Gym_B1F_Text_AnnikaIntro, SootopolisCity_Gym_B1F_Text_AnnikaDefeat
-	msgbox SootopolisCity_Gym_B1F_Text_AnnikaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 SootopolisCity_Gym_B1F_EventScript_Daphne::
@@ -154,20 +152,6 @@ SootopolisCity_Gym_B1F_Text_BethanyDefeat:
 SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
 	.string "I wish I could forget about lost causes\n"
 	.string "before I can manage an “Oops!”$"
-
-SootopolisCity_Gym_B1F_Text_AnnikaIntro:
-	.string "I can battle with really rare Pokémon\n"
-	.string "if you'd like.$"
-
-SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
-	.string "Oh, there now! Did you have a good look\n"
-	.string "at my Pokémon?$"
-
-SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
-	.string "I came to this Gym because Juan\n"
-	.string "praised me for my darling Pokémon.\p"
-	.string "Oh, if only I'd met Juan years ago\n"
-	.string "when I was younger…$"
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro:
 	.string "Giggle…\n"

@@ -381,16 +381,33 @@ Route104_Text_WinstonPostRematch:
 	.string "seem to win at Pokémon…\p"
 	.string "It's so deep, the world of Pokémon…$"
 
-Route104_Text_CindyIntro:
-	.string "We must have been fated to meet.\n"
-	.string "May I ask you for a battle?$"
+QuilspringTown_Gym_Text_ClaraIntro:
+	.string "Do I know how to get to the Leader?\n"
+	.string "Sure I do!\p"
+	.string "Beat me and I'll give you a hint!$"
 
-Route104_Text_CindyDefeat:
+QuilspringTown_Gym_Text_ClaraDefeat:
 	.string "Oh, my!$"
 
-Route104_Text_CindyPostBattle:
-	.string "“Hello” is the beginning of “good-bye.”\n"
-	.string "I hope we meet again.$"
+QuilspringTown_Gym_Text_ClaraPostBattle:
+	.string "You should look for a hidden\n"
+	.string "button inside of a book!\p"
+	.string "Where is the book?\n"
+	.string "I'm not giving you another hint!$"
+
+QuilspringTown_Gym_Text_AnnikaIntro:
+	.string "I like how I get to read different\n"
+	.string "books from those I read in school here.\p"
+	.string "Oh okay, I can give you a hint if you\n"
+	.string "defeat me.$"
+
+QuilspringTown_Gym_Text_AnnikaDefeat:
+	.string "Wow you're good!$"
+
+QuilspringTown_Gym_Text_AnnikaPostBattle:
+	.string "I just wanted to read...\p"
+	.string "All I know is you are looking for\n"
+	.string "something in the first row of books.$"
 
 Route104_Text_CindyRegister1:
 	.string "Hello, we meet again.\p"

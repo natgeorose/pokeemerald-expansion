@@ -3,7 +3,7 @@ MossdeepCity_MapScripts::
 	.byte 0
 
 MossdeepCity_OnTransition:
-	clearflag FLAG_MOSSDEEP_GYM_SWITCH_1
+	clearflag FLAG_SYS_QUILSPRING_PUZZLE_COMPLETED
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_2
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_3
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_4
