@@ -4685,7 +4685,7 @@
       "id": "LAYOUT_QUILSPRING_TOWN_GYM",
       "name": "QuilspringTown_Gym_Layout",
       "width": 23,
-      "height": 32,
+      "height": 34,
       "primary_tileset": "gTileset_Indoor",
       "secondary_tileset": "gTileset_IndoorQuilspring",
       "border_filepath": "data/layouts/QuilspringTown_Gym/border.bin",

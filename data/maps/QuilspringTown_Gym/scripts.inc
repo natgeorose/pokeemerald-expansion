@@ -7,7 +7,7 @@ QuilspringTown_Gym_OnLoad:
 	end
 
 QuilspringTown_Gym_EventScript_ShowSecretDoor::
-	setmetatile 11, 17, METATILE_Indoor_NonDoor, FALSE
+	setmetatile 11, 19, METATILE_Indoor_NonDoor, FALSE
 	return
 
 Speaker_Clara:
@@ -56,7 +56,7 @@ QuilspringTown_Gym_EventScript_YouPressedIt::
 	closemessage
 	playse SE_DOOR
 	delay 40
-	setmetatile 11, 17, METATILE_Indoor_NonDoor, FALSE
+	setmetatile 11, 19, METATILE_Indoor_NonDoor, FALSE
 	special DrawWholeMapView
 	setflag FLAG_SYS_QUILSPRING_PUZZLE_COMPLETED
 	releaseall

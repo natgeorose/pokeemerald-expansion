@@ -253,7 +253,7 @@
 #define METATILE_GenericBuilding_TrickHouse_Stairs_Down  0x219
 
 // gTileset_Indoor
-#define METATILE_Indoor_NonDoor              0x01E
+#define METATILE_Indoor_NonDoor  0x01E
 
 // gTileset_InsideOfTruck
 #define METATILE_InsideOfTruck_DoorClosedFloor_Bottom  0x21D
@@ -438,7 +438,7 @@
 #define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
 
 // gTileset_Quilspring
-#define METATILE_Quilspring_Door                         0x23D
+#define METATILE_Quilspring_Door  0x23D
 
 // gTileset_Rustboro
 #define METATILE_Rustboro_Door_Gray  0x21F
