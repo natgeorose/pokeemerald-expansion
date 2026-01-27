@@ -340,14 +340,14 @@
 #define FLAG_RECEIVED_AURORA_TICKET          0x13A
 #define FLAG_RECEIVED_MYSTIC_TICKET          0x13B
 #define FLAG_RECEIVED_OLD_SEA_MAP            0x13C
-#define FLAG_WONDER_CARD_UNUSED_1            0x13D // These Wonder Card flags are referenced but never set
-#define FLAG_WONDER_CARD_UNUSED_2            0x13E
-#define FLAG_WONDER_CARD_UNUSED_3            0x13F
-#define FLAG_WONDER_CARD_UNUSED_4            0x140
-#define FLAG_WONDER_CARD_UNUSED_5            0x141
-#define FLAG_WONDER_CARD_UNUSED_6            0x142
-#define FLAG_WONDER_CARD_UNUSED_7            0x143
-#define FLAG_WONDER_CARD_UNUSED_8            0x144
+#define FLAG_RECEIVED_TM_SNARL           0x13D // These Wonder Card flags are referenced but never set
+#define FLAG_RECEIVED_TM_WILL_O_WISP            0x13E
+#define FLAG_RECEIVED_TM_TAILWIND            0x13F
+#define FLAG_RECEIVED_TM_ELECTRO_BALL            0x140
+#define FLAG_RECEIVED_TM_SCALE_SHOT            0x141
+#define FLAG_RECEIVED_TM_POISON_JAB            0x142
+#define FLAG_RECEIVED_TM_ICE_SPINNER            0x143
+#define FLAG_RECEIVED_TM_EXPANDING_FORCE            0x144
 #define FLAG_WONDER_CARD_UNUSED_9            0x145
 #define FLAG_WONDER_CARD_UNUSED_10           0x146
 #define FLAG_WONDER_CARD_UNUSED_11           0x147
@@ -1056,8 +1056,8 @@
 #define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
 #define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
-#define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0x3EE
-#define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF
+#define FLAG_ITEM_MOORDEN_NET_BALL                              0x3EE
+#define FLAG_ITEM_MOORDEN_SUPER_POTION                                0x3EF
 #define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0x3F0
 #define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1
 #define FLAG_ITEM_ROUTE_111_HP_UP                                   0x3F2
@@ -1316,14 +1316,14 @@
 #define FLAG_UNUSED_0x4EE                                           0x4EE // Unused Flag
 #define FLAG_UNUSED_0x4EF                                           0x4EF // Unused Flag
 
-#define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0
-#define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1
-#define FLAG_DEFEATED_MAUVILLE_GYM                                  0x4F2
-#define FLAG_DEFEATED_LAVARIDGE_GYM                                 0x4F3
-#define FLAG_DEFEATED_PETALBURG_GYM                                 0x4F4
-#define FLAG_DEFEATED_FORTREE_GYM                                   0x4F5
-#define FLAG_DEFEATED_MOSSDEEP_GYM                                  0x4F6
-#define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7
+#define FLAG_DEFEATED_QUILSPRING_GYM                                  0x4F0
+#define FLAG_DEFEATED_SUNDARA_GYM                                   0x4F1
+#define FLAG_DEFEATED_VEILBORA_GYM                                  0x4F2
+#define FLAG_DEFEATED_REME_GYM                                 0x4F3
+#define FLAG_DEFEATED_KARADUNE_GYM                                 0x4F4
+#define FLAG_DEFEATED_ELARU_GYM                                   0x4F5
+#define FLAG_DEFEATED_HIGARD_GYM                                  0x4F6
+#define FLAG_DEFEATED_LACUNREST_GYM                                0x4F7
 #define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
 
 #define FLAG_UNUSED_0x4F9                                           0x4F9 // Unused Flag

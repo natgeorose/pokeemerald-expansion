@@ -2110,18 +2110,21 @@ Level: 42
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_CLARA ===
-Name: Cindy
-Class: Lady
-Pic: Lady
+Name: Clara
+Class: Lass
+Pic: Lass
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
 Zigzagoon-Galar (F)
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Tackle
+- Sand Attack
+- Mud Slap
 
 Inkay (F)
 Level: 12

@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "QuilspringTown_Gym_EventScript_Nyx",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "NULL",
+      "script": "QuilspringTown_Gym_EventScript_Clara",
       "flag": "0"
     },
     {
@@ -50,20 +50,21 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "NULL",
+      "script": "QuilspringTown_Gym_EventScript_Annika",
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_JIM",
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
-      "x": 12,
-      "y": 30,
+      "x": 14,
+      "y": 31,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "QuilspringTown_Gym_EventScript_Jim",
       "flag": "0"
     }
   ],
@@ -106,7 +107,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_2"
     },
     {
       "type": "sign",
@@ -114,7 +115,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_3"
     },
     {
       "type": "sign",
@@ -122,7 +123,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_4"
     },
     {
       "type": "sign",
@@ -130,7 +131,7 @@
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_5"
     },
     {
       "type": "sign",
@@ -138,7 +139,7 @@
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_6"
     },
     {
       "type": "sign",
@@ -146,7 +147,7 @@
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_7"
     },
     {
       "type": "sign",
@@ -154,7 +155,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_1"
     },
     {
       "type": "sign",
@@ -162,7 +163,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_8"
     },
     {
       "type": "sign",
@@ -170,7 +171,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_9"
     },
     {
       "type": "sign",
@@ -178,7 +179,7 @@
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "QuilspringTown_Gym_EventScript_Book_10"
     }
   ]
 }
