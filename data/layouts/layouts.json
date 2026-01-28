@@ -4730,6 +4730,16 @@
       "secondary_tileset": "gTileset_IndoorQuilspring",
       "border_filepath": "data/layouts/QuilspringTown_Bar/border.bin",
       "blockdata_filepath": "data/layouts/QuilspringTown_Bar/map.bin"
+    },
+    {
+      "id": "LAYOUT_QUILSPRING_TOWN_UNIVERSITY_2F",
+      "name": "QuilspringTown_University_2F_Layout",
+      "width": 22,
+      "height": 17,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_IndoorQuilspring",
+      "border_filepath": "data/layouts/QuilspringTown_University_2F/border.bin",
+      "blockdata_filepath": "data/layouts/QuilspringTown_University_2F/map.bin"
     }
   ]
 }

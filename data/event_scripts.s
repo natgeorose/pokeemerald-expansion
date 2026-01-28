@@ -1236,3 +1236,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/QuilspringTown_House_3/scripts.inc"
 
 	.include "data/maps/QuilspringTown_Bar/scripts.inc"
+
+	.include "data/maps/QuilspringTown_University_2F/scripts.inc"
