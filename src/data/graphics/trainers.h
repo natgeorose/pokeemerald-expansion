@@ -217,6 +217,9 @@ const u16 gTrainerPalette_Wally[] = INCBIN_U16("graphics/trainers/palettes/wally
 const u32 gTrainerFrontPic_James[] = INCBIN_U32("graphics/trainers/front_pics/james.4bpp.smol");
 const u16 gTrainerPalette_James[] = INCBIN_U16("graphics/trainers/front_pics/james.gbapal");
 
+const u32 gTrainerFrontPic_Isabel[] = INCBIN_U32("graphics/trainers/front_pics/isabel.4bpp.smol");
+const u16 gTrainerPalette_Isabel[] = INCBIN_U16("graphics/trainers/front_pics/isabel.gbapal");
+
 const u32 gTrainerFrontPic_Brendan[] = INCBIN_U32("graphics/trainers/front_pics/brendan.4bpp.smol");
 const u16 gTrainerPalette_Brendan[] = INCBIN_U16("graphics/trainers/palettes/brendan.gbapal");
 
@@ -405,6 +408,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_RS_BRENDAN, gTrainerFrontPic_RubySapphireBrendan, gTrainerPalette_RubySapphireBrendan),
     TRAINER_SPRITE(TRAINER_PIC_RS_MAY, gTrainerFrontPic_RubySapphireMay, gTrainerPalette_RubySapphireMay),
     TRAINER_SPRITE(TRAINER_PIC_JAMES, gTrainerFrontPic_James, gTrainerPalette_James),
+    TRAINER_SPRITE(TRAINER_PIC_ISABEL, gTrainerFrontPic_Isabel, gTrainerPalette_Isabel),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =
