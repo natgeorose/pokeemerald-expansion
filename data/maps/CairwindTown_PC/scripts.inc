@@ -55,15 +55,9 @@ CairwindTown_PC_EventScript_Clerk::
 
 	.align 2
 CairwindTown_PC_Pokemart:
-	.2byte ITEM_POTION
 	.2byte ITEM_POKE_BALL
-	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_MASTER_BALL
 	.2byte ITEM_NEST_BALL
-	.2byte ITEM_DUSK_BALL
-	.2byte ITEM_QUICK_BALL
-	.2byte ITEM_REPEAT_BALL
+	.2byte ITEM_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING

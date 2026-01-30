@@ -3762,7 +3762,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Archie = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maxie = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,

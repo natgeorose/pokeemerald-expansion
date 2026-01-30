@@ -215,11 +215,11 @@ Route1_Text_YouWantFishingRod:
 	.string "Searching in tall grass for Pokémon\n"
 	.string "can only get you so far!\p"
 	.string "If you want to catch the best Water\n"
-	.string "Pokémon that Serenado has to offer,\p"
+	.string "Pokémon that Serenado has to offer,\l"
 	.string "you'll need to be able to fish!\p"
 	.string "As a veteran fisherman, I always\n"
 	.string "carry a spare Fishing Rod on me.\p"
-	.string "What do you think?\p"
+	.string "What do you think?\n"
 	.string "Do you want a Fishing Rod?$"
 
 Route1_Text_FishingRodIsSuper:
@@ -271,7 +271,7 @@ Route1_Text_GentlemanGiveItem:
 	.string "if your objective is Quilspring Town\p"
 	.string "you still have quite a ways to go.\p"
 	.string "The road up ahead is treacherous,\n"
-	.string "you should take this to help keep\p"
+	.string "you should take this to help keep\l"
 	.string "your Pokémon safe.$"
 
 Route1_Text_GentlemanGoodLuck:
@@ -291,7 +291,7 @@ Route1_Text_BlackBelt:
 	.string "This is my favorite spot to relax,\n"
 	.string "the sound of water is so peaceful.\p"
 	.string "I hope you can take a break and relax,\n"
-	.string "Pokémon battles and adventures can be\p"
+	.string "Pokémon battles and adventures can be\l"
 	.string "quite taxing, no matter your experience.$"
 
 Route1_EventScript_LittleBoy::
@@ -305,7 +305,7 @@ Route1_Text_LittleBoy:
 	.string "Did you know that sometimes you can\n"
 	.string "fight two wild Pokémon at once?\p"
 	.string "If you have more than one Pokémon while\n"
-	.string "walking in tall grass,\p"
+	.string "walking in tall grass,\l"
 	.string "multiple Pokémon could jump out at you!$"
 
 Route1_EventScript_RouteSignCairwind::

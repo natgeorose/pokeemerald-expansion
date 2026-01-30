@@ -56,3 +56,18 @@ MoordenVillage_Text_Elder:
 	.string "very long time now. But I always\l"
 	.string "welcomed those fearing disaster.$"
 
+MoordenVillage_EventScript_TownSign::
+	msgbox MoordenVillage_Text_TownSign, MSGBOX_SIGN
+	end
+
+MoordenVillage_Text_TownSign:
+	.string "Moorden Village\n"
+	.string "“The peaceful river village.”$"
+
+MoordenVillage_EventScript_Bell::
+	msgbox MoordenVillage_Text_Bell, MSGBOX_SIGN
+	end
+
+MoordenVillage_Text_Bell:
+	.string "It's a large, golden bell.$"
+

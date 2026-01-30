@@ -99,7 +99,7 @@ Route4_Text_Maniac:
 	.string "As a Trainer it would serve you well\n"
 	.string "to learn about breeding.\p"
 	.string "Natures, traits, and even moves can\n"
-	.string "be inherited,\p"
+	.string "be inherited,\l"
 	.string "if you know what you are doing.$"
 
 Route4_EventScript_Woman::
@@ -161,7 +161,7 @@ Route4_Text_WomanIntro:
 	.string "Kolby! Ariel! Please come back!\p"
 	.string "...\p"
 	.string "Oh what am I to do? I gave my kids\n"
-	.string "their first Pokémon,\p"
+	.string "their first Pokémon,\l"
 	.string "and now they won't listen to me!\p"
 	.string "You there, please help me! Maybe if\n"
 	.string "you defeat them in a battle they\p"
@@ -183,8 +183,16 @@ Route4_Text_WomanGiveSootheBell:
 	.string "Hopefully they have calmed down and\n"
 	.string "will listen to me now.\p"
 	.string "As promised, please take this Soothe\n"
-	.string "Bell. If it can't calm down my kids,\p"
+	.string "Bell. If it can't calm down my kids,\l"
 	.string "hopefully it can soothe your Pokémon.$"
 
+Route4_EventScript_RouteSign::
+	msgbox Route4_Text_RouteSign, MSGBOX_SIGN
+	end
+
+Route4_Text_RouteSign:
+	.string "Route 4\p"
+	.string "{LEFT_ARROW} Quilspring Town\n"
+	.string "{RIGHT_ARROW} Erewood Grove$"
 
 

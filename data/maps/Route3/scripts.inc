@@ -82,3 +82,15 @@ Route3_Text_Elder:
 	.string "Be careful in Erewood Grove up ahead.\p"
 	.string "The dense forest is creepy, and it's\n"
 	.string "very easy to get lost in there.$"
+
+Route3_EventScript_BugCatcherTwo::
+	lockall
+	setspeaker Speaker_BugCatcher
+	msgbox Route3_Text_BugCatcherTwo, MSGBOX_NPC
+	releaseall
+	end
+
+Route3_Text_BugCatcherTwo:
+	.string "There are so many Pokémon on this\n"
+	.string "route! I don't know which ones to\l"
+	.string "catch first!$"
