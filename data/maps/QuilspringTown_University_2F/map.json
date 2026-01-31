@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "QuilspringTown_University_2F_EventScript_Berith",
+      "flag": "FLAG_HIDE_QUILSPRING_BERITH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "QuilspringTown_University_2F_EventScript_Girl",
       "flag": "0"
     }
   ],
@@ -64,8 +64,8 @@
       "x": 12,
       "y": 8,
       "elevation": 0,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_X_DEFENSE",
+      "flag": "FLAG_HIDDEN_ITEM_QUILSPRING_U_X_DEF"
     }
   ]
 }

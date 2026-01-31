@@ -3928,7 +3928,7 @@ void UpdateTrainerFanClubGameClear(void)
         FlagClear(FLAG_HIDE_FANCLUB_BOY);
         FlagClear(FLAG_HIDE_FANCLUB_LITTLE_BOY);
         FlagClear(FLAG_HIDE_FANCLUB_LADY);
-        FlagClear(FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER);
+        FlagClear(FLAG_HIDE_QUILSPRING_JAMES);
         VarSet(VAR_LILYCOVE_FAN_CLUB_STATE, 1);
     }
 }

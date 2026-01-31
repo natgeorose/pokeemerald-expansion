@@ -98,6 +98,8 @@ Route_1_EventScript_JamesBattle::
 	removeobject LOCALID_JAMES
 	setvar VAR_STORY, 10
 	setflag FLAG_JAMES_ROUTE_1
+	setflag FLAG_HIDE_QUILSPRING_ISABEL
+	setflag FLAG_HIDE_QUILSPRING_JAMES
 	clearflag FLAG_CAIRWIND_MART
 	releaseall
 	end

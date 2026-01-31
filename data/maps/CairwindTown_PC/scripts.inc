@@ -1,6 +1,13 @@
 CairwindTown_PC_MapScripts::
 	.byte 0
 
+CairwindTown_PC_EventScript_Nurse::
+	lockall
+	setvar VAR_0x800B, LOCALID_CAIRWIND_NURSE
+	call Common_EventScript_SerenadoNurse
+	releaseall
+	end
+
 CairwindTown_PC_EventScript_Boy::
 	lockall
 	setspeaker Speaker_Boy

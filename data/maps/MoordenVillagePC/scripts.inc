@@ -1,6 +1,13 @@
 MoordenVillagePC_MapScripts::
 	.byte 0
 
+MoordenVillage_PC_EventScript_Nurse::
+	lockall
+	setvar VAR_0x800B, LOCALID_MOORDEN_NURSE
+	call Common_EventScript_SerenadoNurse
+	releaseall
+	end
+
 MoordenVillage_PC_EventScript_Clerk::
 	lockall
 	faceplayer

@@ -13376,12 +13376,12 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PARCEL] =
     {
-        .name = ITEM_NAME("Parcel"),
+        .name = ITEM_NAME("Trainer's Kit"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A parcel for Prof.\n"
-            "Oak from a Pokémon\n"
-            "Mart's clerk."),
+            "A collection of\n"
+            "useful items from\n"
+            "Prof. Pine."),
         .importance = 2,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,

@@ -545,7 +545,7 @@
 #define FLAG_HIDDEN_ITEMS_START                                                         0x1F4
 #define FLAG_HIDDEN_ITEM_ROUTE_1_POKE_BALL             (FLAG_HIDDEN_ITEMS_START + 0x00)
 #define FLAG_HIDDEN_ITEM_ROUTE_4_POTION                  (FLAG_HIDDEN_ITEMS_START + 0x01)
-#define FLAG_HIDDEN_ITEM_ROUTE_111_STARDUST                  (FLAG_HIDDEN_ITEMS_START + 0x02)
+#define FLAG_HIDDEN_ITEM_QUILSPRING_U_X_DEF                  (FLAG_HIDDEN_ITEMS_START + 0x02)
 #define FLAG_HIDDEN_ITEM_ROUTE_113_ETHER                     (FLAG_HIDDEN_ITEMS_START + 0x03)
 #define FLAG_HIDDEN_ITEM_ROUTE_114_CARBOS                    (FLAG_HIDDEN_ITEMS_START + 0x04)
 #define FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM                   (FLAG_HIDDEN_ITEMS_START + 0x05)
@@ -778,9 +778,9 @@
 
 #define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
 
-#define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
-#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
-#define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
+#define FLAG_HIDE_QUILSPRING_JAMES                     0x2DA
+#define FLAG_HIDE_QUILSPRING_ISABEL                          0x2DB
+#define FLAG_HIDE_QUILSPRING_BERITH                    0x2DC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF
@@ -1061,7 +1061,7 @@
 #define FLAG_ITEM_ROUTE_3_TRAILBLAZE                            0x3F0
 #define FLAG_ITEM_ROUTE_3_DIRE_HIT                                0x3F1
 #define FLAG_ITEM_ROUTE_3_POKE_DOLL                                   0x3F2
-#define FLAG_ITEM_ROUTE_112_NUGGET                                  0x3F3
+#define FLAG_ITEM_QUILSPRING_CARBOS                                  0x3F3
 #define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0x3F4
 #define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
 #define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6

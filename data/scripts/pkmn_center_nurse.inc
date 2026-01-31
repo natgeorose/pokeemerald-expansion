@@ -142,7 +142,7 @@ Common_EventScript_SerenadoNurse::
 	closemessage
 	incrementgamestat GAME_STAT_USED_POKECENTER
 	hidefollower 0
-	applymovement LOCALID_NURSE, Common_Movement_FaceLeft
+	applymovement VAR_0x800B, Common_Movement_FaceLeft
 	waitmovement 0
 	fadescreenswapbuffers FADE_TO_BLACK
 	playfanfare MUS_HEAL
@@ -150,7 +150,7 @@ Common_EventScript_SerenadoNurse::
 	special HealPlayerParty
 	callnative UpdateFollowingPokemon
 	fadescreenswapbuffers FADE_FROM_BLACK
-	applymovement LOCALID_NURSE, Common_Movement_FaceDown
+	applymovement VAR_0x800B, Common_Movement_FaceDown
 	waitmovement 0
 	setspeaker Speaker_Nurse
 	msgbox gText_WeHopeToSeeYouAgain, MSGBOX_DEFAULT
