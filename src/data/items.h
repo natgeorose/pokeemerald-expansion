@@ -14755,7 +14755,7 @@ const struct Item gItemsInfo[] =
     
      [ITEM_CUT_TOOL] =
     {
-        .name = ITEM_NAME("Cut Item"),
+        .name = ITEM_NAME("Woodcutter's Axe"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A handy tool that\n"
@@ -14765,8 +14765,8 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Cut,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_Axe,
+        .iconPalette = gItemIconPalette_Axe,
     },
 
     [ITEM_FLY_TOOL] =
