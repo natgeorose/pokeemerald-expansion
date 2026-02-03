@@ -4457,7 +4457,7 @@
       "width": 40,
       "height": 60,
       "primary_tileset": "gTileset_Serenado",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_Underground",
       "border_filepath": "data/layouts/Route7_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route7_1F/map.bin"
     },
@@ -4740,6 +4740,16 @@
       "secondary_tileset": "gTileset_IndoorQuilspring",
       "border_filepath": "data/layouts/QuilspringTown_University_2F/border.bin",
       "blockdata_filepath": "data/layouts/QuilspringTown_University_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_EREWOOD_GROVE_B1F",
+      "name": "ErewoodGrove_B1F_Layout",
+      "width": 64,
+      "height": 80,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Underground",
+      "border_filepath": "data/layouts/ErewoodGrove_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/ErewoodGrove_B1F/map.bin"
     }
   ]
 }

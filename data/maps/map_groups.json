@@ -442,7 +442,8 @@
     "AlteringCave",
     "MeteorFalls_StevensCave",
     "Route7_1F",
-    "ErewoodGrove"
+    "ErewoodGrove",
+    "ErewoodGrove_B1F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

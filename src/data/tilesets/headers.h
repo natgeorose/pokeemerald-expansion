@@ -940,3 +940,14 @@ const struct Tileset gTileset_IndoorQuilspring =
     .metatileAttributes = gMetatileAttributes_IndoorQuilspring,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Underground =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Underground,
+    .palettes = gTilesetPalettes_Underground,
+    .metatiles = gMetatiles_Underground,
+    .metatileAttributes = gMetatileAttributes_Underground,
+    .callback = NULL,
+};

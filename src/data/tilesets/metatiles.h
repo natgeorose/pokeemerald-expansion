@@ -237,3 +237,6 @@ const u16 gMetatileAttributes_Route4[] = INCBIN_U16("data/tilesets/secondary/rou
 
 const u16 gMetatiles_IndoorQuilspring[] = INCBIN_U16("data/tilesets/secondary/indoor_quilspring/metatiles.bin");
 const u16 gMetatileAttributes_IndoorQuilspring[] = INCBIN_U16("data/tilesets/secondary/indoor_quilspring/metatile_attributes.bin");
+
+const u16 gMetatiles_Underground[] = INCBIN_U16("data/tilesets/secondary/underground/metatiles.bin");
+const u16 gMetatileAttributes_Underground[] = INCBIN_U16("data/tilesets/secondary/underground/metatile_attributes.bin");
