@@ -11754,7 +11754,7 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_TIMBURR"
+                "species": "SPECIES_MAKUHITA"
               },
               {
                 "min_level": 3,
@@ -12339,6 +12339,75 @@
                 "min_level": 3,
                 "max_level": 5,
                 "species": "SPECIES_OSHAWOTT"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_EREWOOD_GROVE_B1F",
+          "base_label": "gErewoodGrove_B1F",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_KAKUNA"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_HOOTHOOT"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_BRAMBLIN"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_PHANTUMP"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_NICKIT"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_ROWLET"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_PHANTUMP"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_NICKIT"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_ZORUA"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_ZORUA"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_ZORUA"
+              },
+              {
+                "min_level": 9,
+                "max_level": 11,
+                "species": "SPECIES_ZORUA"
               }
             ]
           }

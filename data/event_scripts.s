@@ -1240,3 +1240,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/QuilspringTown_University_2F/scripts.inc"
 
 	.include "data/maps/ErewoodGrove_B1F/scripts.inc"
+
+	.include "data/maps/Route5/scripts.inc"
