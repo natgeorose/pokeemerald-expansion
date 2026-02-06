@@ -80,6 +80,7 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_QUIL_PINE",
       "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
       "x": 35,
       "y": 18,
@@ -171,6 +172,7 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_UNI_JAMES",
       "graphics_id": "OBJ_EVENT_GFX_JAMES",
       "x": 39,
       "y": 20,

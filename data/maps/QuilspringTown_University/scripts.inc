@@ -247,6 +247,7 @@ QuilspringTown_University_Text_Isabel:
 
 QuilspringTown_University_EventScript_Pine::
 	lockall
+	goto_if_set FLAG_DEFEATED_QUILSPRING_GYM, QuilspringTown_University_EventScript_PinePostGym
 	goto_if_eq VAR_STORY, 10, QuilspringTown_University_EventScript_PineItems
 	setspeaker Speaker_Pine
 	msgbox QuilspringTown_University_Text_PineDefault, MSGBOX_NPC
@@ -265,6 +266,45 @@ QuilspringTown_University_EventScript_PineItems::
 	setflag FLAG_ENABLE_SELECT_MENU
 	setflag FLAG_DEXNAV_GET
 	setvar VAR_STORY, 11
+	closemessage
+	releaseall
+	end
+
+QuilspringTown_University_EventScript_PinePostGym::
+	goto_if_set FLAG_RECEIVED_HM_CUT, LOCALID_QUIL_JAMES
+	setspeaker Speaker_Pine
+	msgbox QuilspringTown_University_Text_PineCongrats, MSGBOX_DEFAULT
+	closemessage
+	givemon SPECIES_EEVEE, 10
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+	setspeaker Speaker_Pine
+	msgbox QuilspringTown_University_Text_PineContinue, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_UNI_JAMES, Common_Movement_ExclamationMark
+	waitmovement 0
+	playse SE_PIN
+	delay 10
+	applymovement LOCALID_QUIL_PINE, Common_Movement_FaceRight
+	applymovement LOCALID_PLAYER, Common_Movement_FaceRight
+	applymovement LOCALID_UNI_JAMES, QuilspringTown_University_Movement_JamesEnter
+	waitmovement 0
+	setspeaker Speaker_James
+	msgbox QuilspringTown_University_Text_JamesErewood, MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_CUT_TOOL
+	setspeaker Speaker_James
+	msgbox QuilspringTown_University_Text_JamesCut, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_UNI_JAMES, QuilspringTown_University_Movement_JamesLeave
+	waitmovement 0
+	setflag FLAG_RECEIVED_HM_CUT
+	releaseall
+	end
+
+QuilspringTown_University_EventScript_PineDefaultPost::
+	setspeaker Speaker_Pine
+	msgbox QuilspringTown_University_Text_PineDefault, MSGBOX_NPC
 	closemessage
 	releaseall
 	end
@@ -303,6 +343,9 @@ QuilspringTown_University_Text_PineExplain:
 	.string "If you have any questions, you\n"
 	.string "can view the guides that I have\l"
 	.string "on the bookshelf in the back.\p"
+	.string "Finally, there is a Trainer Phone\n"
+	.string "that will allow you to call others\l"
+	.string "on your journey.\p"
 	.string "There is one other thing that I\n"
 	.string "may want your help with,\p"
 	.string "but I think I should wait on that\n"
@@ -312,5 +355,64 @@ QuilspringTown_University_Text_PineExplain:
 	.string "Leader, Nyx, and we'll talk.\p"
 	.string "Good luck to you!$"
 
+QuilspringTown_University_Text_PineCongrats:
+	.string "I see you now have the Ink Badge,\n"
+	.string "congratulations on your victory!\p"
+	.string "While she is the first Gym Leader\n"
+	.string "in Serenado, Nyx is certainly no\l"
+	.string "pushover as a Trainer.\p"
+	.string "Now, I am certain you are the right\n"
+	.string "person to help me out.\p"
+	.string "In my research I have come across a\n"
+	.string "Pokémon that is not normally native\l"
+	.string "to Serenado,\p"
+	.string "but I believe it has the ability to\n"
+	.string "thrive in this environment.\p"
+	.string "I believe that studying this Pokémon,\n"
+	.string "Eevee, will give us great insights\p"
+	.string "into how Pokémon adapt to new\n"
+	.string "environments, especially since Eevee\l"
+	.string "can evolve into many different Pokémon.\p"
+	.string "As a more experienced Trainer I trust\n"
+	.string "that you will take good care of this\l"
+	.string "Pokémon, and bring it on your journey.\p"
+	.string "Please welcome Eevee to your team!$"
 
+QuilspringTown_University_Text_PineContinue:
+	.string "Now then!\p"
+	.string "If you wish to continue your adventure\n"
+	.string "towards the Pokémon League, you should\l"
+	.string "make your way through Erewood Grove.\p"
+	.string "On the end of Route 6 lies Sundara\n"
+	.string "Village, where the next Gym awaits you.$"
+
+QuilspringTown_University_Text_JamesErewood:
+	.string "Are you going through Erewood Grove?\p"
+	.string "The forest is really dense, it's almost\n"
+	.string "impossible to get through! You'll need\l"
+	.string "a way of cutting down trees!\p"
+	.string "I can help you out there, the good thing\n"
+	.string "about my dad being a woodcutter is I\l"
+	.string "have a spare axe on me!$"
+
+QuilspringTown_University_Text_JamesCut:
+	.string "You can use that to cut down small\n"
+	.string "trees. Sometimes your Pokémon may want\l"
+	.string "to help you as well!\p"
+	.string "I'll meet you in Erewood Grove to show\n"
+	.string "you how to use it.$"
+
+
+QuilspringTown_University_Movement_JamesEnter:
+	walk_left
+	walk_up
+	walk_left
+	step_end
+
+QuilspringTown_University_Movement_JamesLeave:
+	walk_right
+	walk_down
+	walk_right
+	face_down
+	step_end
 

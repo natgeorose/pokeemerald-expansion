@@ -13,6 +13,7 @@ Common_EventScript_SetGymTrainers::
 QuilspringTown_Gym_SetGymTrainers::
 	settrainerflag TRAINER_ANNIKA
 	settrainerflag TRAINER_CLARA
+	settrainerflag TRAINER_TIANA
 	return
 
 DewfordTown_Gym_SetGymTrainers::

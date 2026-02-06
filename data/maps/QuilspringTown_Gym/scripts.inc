@@ -33,6 +33,15 @@ QuilspringTown_Gym_EventScript_Annika::
 	msgbox QuilspringTown_Gym_Text_AnnikaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Speaker_Tiana:
+    .string "Tiana$"
+
+QuilspringTown_Gym_EventScript_Tiana::
+	trainerbattle_single TRAINER_TIANA, QuilspringTown_Gym_Text_TianaIntro, QuilspringTown_Gym_Text_TianaDefeat
+	setspeaker Speaker_Tiana
+	msgbox QuilspringTown_Gym_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 QuilspringTown_Gym_EventScript_FoundSwitch::
 	call_if_defeated TRAINER_CLARA, QuilspringTown_Gym_EventScript_CheckSwitch
 	msgbox QuilspringTown_Gym_Text_FilledWithBooks, MSGBOX_AUTOCLOSE

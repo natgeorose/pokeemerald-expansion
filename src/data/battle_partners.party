@@ -44,3 +44,37 @@ EVs: 252 Atk / 252 SpA / 6 SpD
 - Protect
 - Solar Beam
 - Dragon Claw
+
+=== PARTNER_JAMES ===
+Name: James
+Class: Pkmn Trainer 1
+Pic: Brendan
+Gender: Male
+Music: Male
+Back Pic: Red
+AI: Smart Trainer
+
+Riolu (M) @ Eviolite
+Level: 16
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Coaching
+- Low Sweep
+- Metal Claw
+- Bite
+
+Rufflet (M)
+Level: 15
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Tailwind
+- Hone Claws
+- Wing Attack
+- Rock Smash
+
+Skiddo (M)
+Level: 15
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leech Seed
+- Razor Leaf
+- Mud Shot
+- Growth
+

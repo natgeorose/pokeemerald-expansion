@@ -25,7 +25,7 @@ Route7_1F_EventScript_Entrance::
 	playmoncry SPECIES_MACHOP, CRY_MODE_NORMAL
 	waitmoncry
 	special SpawnCameraObject
-	applymovement LOCALID_CAMERA, Common_Movement_WalkUp2
+	applymovement LOCALID_CAMERA, Common_Movement_WalkUp
 	applymovement LOCALID_JAMES, Common_Movement_FaceUp
 	applymovement LOCALID_ISABEL, Common_Movement_FaceUp
 	applymovement LOCALID_MACHOP, Route7_1F_Movement_MachopEnter
@@ -41,6 +41,7 @@ Route7_1F_EventScript_Entrance::
 	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
 	applymovement LOCALID_ZUBAT_1, Route7_1F_Movement_Zubat1Enter
 	waitmovement 0
+	setobjectmovementtype LOCALID_ZUBAT_1, MOVEMENT_TYPE_WALK_IN_PLACE_DOWN
 	setspeaker Speaker_James
 	msgbox Route_7_1F_Text_JamesGetThem, MSGBOX_DEFAULT
 	closemessage
@@ -58,6 +59,7 @@ Route7_1F_EventScript_Entrance::
 	applymovement LOCALID_MACHOP, Common_Movement_FaceLeft
 	applymovement LOCALID_ZUBAT_2, Route7_1F_Movement_Zubat2Enter
 	waitmovement 0
+	setobjectmovementtype LOCALID_ZUBAT_2, MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT
 	setspeaker Speaker_James
 	msgbox Route_7_1F_Text_JamesNowTwo, MSGBOX_DEFAULT
 	closemessage
@@ -74,6 +76,7 @@ Route7_1F_EventScript_Entrance::
 	applymovement LOCALID_MACHOP, Common_Movement_FaceRight
 	applymovement LOCALID_ZUBAT_3, Route7_1F_Movement_Zubat3Enter
 	waitmovement 0
+	setobjectmovementtype LOCALID_ZUBAT_3, MOVEMENT_TYPE_WALK_IN_PLACE_LEFT
 	setspeaker Speaker_James
 	msgbox Route_7_1F_Text_JamesOhNo, MSGBOX_DEFAULT
 	closemessage
@@ -87,9 +90,8 @@ Route7_1F_EventScript_Entrance::
 	msgbox Route_7_1F_Text_JamesRun, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_CAMERA, Common_Movement_WalkDownFast
-	applymovement LOCALID_CAMERA, Common_Movement_WalkDownFast
 	applymovement LOCALID_JAMES, Route7_1F_Movement_JamesRun
-	delay 4
+	delay 3
 	applymovement LOCALID_ISABEL, Common_Movement_ExclamationMark
 	waitmovement 0
 	delay 1
@@ -299,6 +301,9 @@ Route7_1F_EventScript_Unknown::
 	applymovement LOCALID_ZUBAT_1, Route7_1F_Movement_ZubatRuins
 	applymovement LOCALID_ZUBAT_2, Route7_1F_Movement_ZubatRuins
 	applymovement LOCALID_ZUBAT_3, Route7_1F_Movement_ZubatRuins
+	setobjectmovementtype LOCALID_ZUBAT_1, MOVEMENT_TYPE_WALK_IN_PLACE_UP
+	setobjectmovementtype LOCALID_ZUBAT_2, MOVEMENT_TYPE_WALK_IN_PLACE_UP
+	setobjectmovementtype LOCALID_ZUBAT_3, MOVEMENT_TYPE_WALK_IN_PLACE_UP
 	waitmovement 0
 	setspeaker Speaker_James
 	msgbox Route_7_1F_Text_JamesLikeNow, MSGBOX_DEFAULT

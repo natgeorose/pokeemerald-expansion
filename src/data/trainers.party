@@ -9364,26 +9364,31 @@ Seviper
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TABITHA_MOSSDEEP ===
-Name: Tabitha
-Class: Magma Admin
-Pic: Magma Admin
+=== TRAINER_NATE_EREWOOD ===
+Name: Nate
+Class: Aqua Admin
+Pic: Nate
 Gender: Male
-Music: Magma
+Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Camerupt
-Level: 36
+Pawniard (M)
+Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thief
+- Metal Claw
+- Fury Cutter
+- Headbutt
 
-Mightyena
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Golbat
-Level: 40
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tatsugiri-Stretchy (M)
+Level: 16
+Nature: Adamant
+IVs: 12 HP / 12 Atk / 12 Def / 0 SpA / 12 SpD / 12 Spe
+- Water Gun
+- Rapid Spin
+- Helping Hand
+- Icy Wind
 
 === TRAINER_EDWIN_2 ===
 Name: Edwin
@@ -11055,12 +11060,12 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Zigzagoon
-Level: 4
+Poochyena (F)
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
-Level: 4
+Meowth-Alola (F)
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HALEY_1 ===
@@ -11250,8 +11255,8 @@ Wailmer
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_RICK ===
-Name: Rick
+=== TRAINER_REID ===
+Name: Reid
 Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
@@ -11259,12 +11264,12 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Wurmple
-Level: 4
+Paras (M)
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
-Level: 4
+Cascoon (M)
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LYLE ===
@@ -13554,26 +13559,30 @@ Camerupt
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_MAXIE_MOSSDEEP ===
-Name: Maxie
-Class: Magma Leader
-Pic: Magma Leader Maxie
+=== TRAINER_NICK_EREWOOD ===
+Name: Nick
+Class: Aqua Leader
+Pic: Nick
 Gender: Male
-Music: Magma
+Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Mightyena
-Level: 42
+Gastly (M)
+Level: 15
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hex
+- Smog
+- Confuse Ray
+- Disable
 
-Crobat
-Level: 43
+Combusken (M)
+Level: 16
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Camerupt
-Level: 44
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Flame Charge
+- Double Kick
+- Quick Attack
+- Peck
 
 === TRAINER_PETE ===
 Name: Pete

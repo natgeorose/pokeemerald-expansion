@@ -46,28 +46,29 @@ Route102_Text_AllenPostBattle:
 	.string "I haven't won once yet…\n"
 	.string "I wish I would win soon…$"
 
-Route102_Text_RickIntro:
-	.string "Hahah! Our eyes met!\n"
+ErewoodGrove_Text_ReidIntro:
+	.string "Ahhh! You scared me!\n"
 	.string "I'll take you on with my Bug Pokémon!$"
 
-Route102_Text_RickDefeated:
-	.string "Ow! Down and out!$"
+ErewoodGrove_Text_ReidDefeat:
+	.string "Down and out!$"
 
-Route102_Text_RickPostBattle:
-	.string "If you lock eyes with a Trainer,\n"
-	.string "you have to challenge! It's a rule!$"
+ErewoodGrove_Text_ReidPostBattle:
+	.string "It's too scary in this forest.\n"
+	.string "Be careful walking around here!$"
 
-Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best Trainer.\p"
-	.string "Help me further my career!$"
+QuilspringTown_Gym_Text_TianaIntro:
+	.string "I'm busy reading, but I can spare\n"
+	.string "some time for a battle!\p"
+	.string "I'll give you a hint if you win, but\n"
+	.string "that won't happen!$"
 
-Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+QuilspringTown_Gym_Text_TianaDefeat:
+	.string "I should have stuck to reading…$"
 
-Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more Pokémon.$"
+QuilspringTown_Gym_Text_TianaPostBattle:
+	.string "Beat the other two Trainers to unlock\n"
+	.string "the secret of the Gym.$"
 
 Route1_Text_LilyIntro:
 	.string "It is a beautiful day for a battle,\n"
