@@ -4735,7 +4735,7 @@
       "id": "LAYOUT_QUILSPRING_TOWN_UNIVERSITY_2F",
       "name": "QuilspringTown_University_2F_Layout",
       "width": 22,
-      "height": 17,
+      "height": 18,
       "primary_tileset": "gTileset_Indoor",
       "secondary_tileset": "gTileset_IndoorQuilspring",
       "border_filepath": "data/layouts/QuilspringTown_University_2F/border.bin",
