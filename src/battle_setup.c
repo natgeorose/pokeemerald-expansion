@@ -676,6 +676,10 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         return BATTLE_ENVIRONMENT_UNDERWATER;
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE1) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE1))
         return BATTLE_ENVIRONMENT_GRASS;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_EREWOOD_GROVE) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_EREWOOD_GROVE))
+        return BATTLE_ENVIRONMENT_GRASS;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_EREWOOD_GROVE_B1F) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_EREWOOD_GROVE_B1F))
+        return BATTLE_ENVIRONMENT_GRASS;
 
     if (MetatileBehavior_IsTallGrass(tileBehavior))
         return BATTLE_ENVIRONMENT_GRASS;
@@ -792,7 +796,7 @@ u8 GetTrainerBattleTransition(void)
     if (trainerClass == TRAINER_CLASS_TEAM_MAGMA
         || trainerClass == TRAINER_CLASS_MAGMA_LEADER
         || trainerClass == TRAINER_CLASS_MAGMA_ADMIN)
-        return B_TRANSITION_MAGMA;
+        return B_TRANSITION_AQUA;
 
     if (trainerClass == TRAINER_CLASS_TEAM_AQUA
         || trainerClass == TRAINER_CLASS_AQUA_LEADER

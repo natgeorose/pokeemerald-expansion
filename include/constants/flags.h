@@ -817,7 +817,7 @@
 #define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE
 #define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF
 #define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300
-#define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301
+#define FLAG_HIDE_EREWOOD_NICKNATE                      0x301
 #define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
 #define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303
 #define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304
@@ -1062,7 +1062,7 @@
 #define FLAG_ITEM_ROUTE_3_DIRE_HIT                                0x3F1
 #define FLAG_ITEM_ROUTE_3_POKE_DOLL                                   0x3F2
 #define FLAG_ITEM_QUILSPRING_CARBOS                                  0x3F3
-#define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0x3F4
+#define FLAG_ITEM_EREWOOD_BIG_ROOT                               0x3F4
 #define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
 #define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6
 #define FLAG_ITEM_ROUTE_114_PROTEIN                                 0x3F7

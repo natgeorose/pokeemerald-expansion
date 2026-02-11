@@ -15,6 +15,7 @@
   "connections": null,
   "object_events": [
     {
+      "local_id": "LOCALID_EREWOOD_TREE",
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
       "x": 24,
       "y": 56,
@@ -49,14 +50,14 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "trainer_sight_or_berry_tree_id": "ITEM_BIG_ROOT",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_EREWOOD_BIG_ROOT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 19,
-      "y": 66,
+      "y": 65,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 2,
@@ -171,22 +172,38 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_EREWOOD_NATE",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
       "x": 24,
       "y": 49,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_EREWOOD_NICKNATE"
     },
     {
+      "local_id": "LOCALID_EREWOOD_NICK",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
       "x": 25,
       "y": 49,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_EREWOOD_NICKNATE"
+    },
+    {
+      "local_id": "LOCALID_EREWOOD_JAMES",
+      "graphics_id": "OBJ_EVENT_GFX_JAMES",
+      "x": 16,
+      "y": 57,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -194,7 +211,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_EREWOOD_NICKNATE"
     }
   ],
   "warp_events": [
@@ -287,20 +304,20 @@
     {
       "type": "trigger",
       "x": 24,
-      "y": 54,
+      "y": 55,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "ErewoodGrove_EventScript_ChooseParty"
+      "var": "VAR_STORY",
+      "var_value": "13",
+      "script": "ErewoodGrove_EventScript_JamesEnter"
     },
     {
       "type": "trigger",
       "x": 25,
-      "y": 54,
+      "y": 55,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "ErewoodGrove_EventScript_ChooseParty"
+      "var": "VAR_STORY",
+      "var_value": "13",
+      "script": "ErewoodGrove_EventScript_JamesEnter"
     }
   ],
   "bg_events": []
