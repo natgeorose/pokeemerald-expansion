@@ -818,9 +818,9 @@
 #define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF
 #define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300
 #define FLAG_HIDE_EREWOOD_NICKNATE                      0x301
-#define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
+#define FLAG_HIDE_EREWOOD_JAMES                          0x302
 #define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303
-#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304
+#define FLAG_HIDE_EREWOOD_EGG_THIEF                              0x304
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0x305
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
@@ -1063,10 +1063,10 @@
 #define FLAG_ITEM_ROUTE_3_POKE_DOLL                                   0x3F2
 #define FLAG_ITEM_QUILSPRING_CARBOS                                  0x3F3
 #define FLAG_ITEM_EREWOOD_BIG_ROOT                               0x3F4
-#define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
-#define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6
-#define FLAG_ITEM_ROUTE_114_PROTEIN                                 0x3F7
-#define FLAG_ITEM_ROUTE_115_SUPER_POTION                            0x3F8
+#define FLAG_ITEM_ESCAPE_ROPE                             0x3F5
+#define FLAG_ITEM_EREWOOD_GROVE_GRASS_KNOT                              0x3F6
+#define FLAG_ITEM_EREWOOD_GROVE_LEAF_STONE                                 0x3F7
+#define FLAG_ITEM_EREWOOD_GROVE_TIMID_MINT                            0x3F8
 #define FLAG_ITEM_ROUTE_115_TM_FOCUS_PUNCH                          0x3F9
 #define FLAG_ITEM_ROUTE_115_IRON                                    0x3FA
 #define FLAG_ITEM_ROUTE_116_ETHER                                   0x3FB

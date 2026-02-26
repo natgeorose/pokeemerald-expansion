@@ -2355,18 +2355,18 @@ Route116_Text_JohnsonPostBattle:
 	.string "Want to stay here and keep\n"
 	.string "me company?$"
 
-Route117_Text_IsaacIntro:
-	.string "Listen, could I get you to battle\n"
-	.string "the Pokémon I'm raising?$"
+ErewoodGrove_Text_IsaacIntro:
+	.string "You can learn a lot by studying\n"
+	.string "the Pokémon your opponent uses.$"
 
-Route117_Text_IsaacDefeat:
-	.string "You've raised yours superbly…$"
+ErewoodGrove_Text_IsaacDefeat:
+	.string "See now I have learned that you\n"
+	.string "have strong Pokémon.$"
 
-Route117_Text_IsaacPostBattle:
-	.string "Pokémon isn't all about power.\p"
-	.string "Polishing a unique aspect of one's\n"
-	.string "character is another way of enjoying\l"
-	.string "Pokémon.$"
+ErewoodGrove_Text_IsaacPostBattle:
+	.string "Pokémon isn't all about power though.\n"
+	.string "Strong Pokémon are only as strong\l"
+	.string "as the Trainer using them.$"
 
 Route117_Text_IsaacRegister:
 	.string "I'm going to redouble my training.\n"
@@ -2706,29 +2706,46 @@ Route118_Text_DeandrePostBattle:
 	.string "battle team?\p"
 	.string "You can copy me--I don't mind!$"
 
-Route119_Text_BrentIntro:
-	.string "We're the Mimic Circle!\n"
-	.string "We Mimic what you do!$"
+ErewoodGrove_Text_GordonIntro:
+	.string "Go! My Bug team!$"
 
-Route119_Text_BrentDefeat:
-	.string "Whoopsie!\n"
-	.string "I lost!$"
+ErewoodGrove_Text_GordonDefeat:
+	.string "No! My Bug team!$"
 
-Route119_Text_BrentPostBattle:
-	.string "What's so good about mimicry?\p"
-	.string "Fufufu…\n"
-	.string "You'll never understand…$"
+ErewoodGrove_Text_GordonPostBattle:
+	.string "My Bug team may need some work.$"
 
-Route119_Text_DonaldIntro:
-	.string "So, we finally meet!\n"
-	.string "My Bug Pokémon will keep you company!$"
+ErewoodGrove_Text_ZekeIntro:
+	.string "Let my Bug Pokémon greet you!$"
 
-Route119_Text_DonaldDefeat:
+ErewoodGrove_Text_ZekeDefeat:
 	.string "I wish we'd never met…$"
 
-Route119_Text_DonaldPostBattle:
-	.string "I want to Mimic you some more.\n"
-	.string "Can you hurry up and move?$"
+ErewoodGrove_Text_ZekePostBattle:
+	.string "They just wanted to be friends.$"
+
+ErewoodGrove_Text_MicahIntro:
+	.string "From my disguise I appear!\n"
+	.string "Can you defeat a real ninja?$"
+
+ErewoodGrove_Text_MicahDefeat:
+	.string "It seems you can!$"
+
+ErewoodGrove_Text_MicahPostBattle:
+	.string "Us ninjas do love our disguises!$"
+
+ErewoodGrove_Text_SylviaIntro:
+	.string "Even at the risk of life, I will win\n"
+	.string "this battle!$"
+
+ErewoodGrove_Text_SylviaDefeat:
+	.string "What did you do...\n"
+	.string "How could you...$"
+
+ErewoodGrove_Text_SylviaPostBattle:
+	.string "How dare you beat me, Trainer.\p"
+	.string "It won't be my fault if something\n"
+	.string "horrible happens to befall you.$"
 
 Route119_Text_TaylorIntro:
 	.string "If you step forward, we step forward.\p"
@@ -2886,17 +2903,26 @@ Route119_Text_TakashiPostBattle:
 	.string "My surprise attack ended in\n"
 	.string "failure…$"
 
-Route119_Text_HideoIntro:
-	.string "To hide a tree, use a forest!$"
+ErewoodGrove_Text_ElyIntro:
+	.string "A dark forest is the perfect\n"
+	.string "training spot for a ninja!$"
 
-Route119_Text_HideoDefeat:
-	.string "I bow to your superiority.$"
+ErewoodGrove_Text_ElyDefeat:
+	.string "I bow to you.$"
 
-Route119_Text_HideoPostBattle:
-	.string "To hide a tree, use a forest!\n"
-	.string "To hide a Pokémon, use a Pokémon!\p"
-	.string "There is no deep, hidden meaning\n"
-	.string "to that.$"
+ErewoodGrove_Text_ElyPostBattle:
+	.string "I must train harder to be a\n"
+	.string "stronger ninja.$"
+
+ErewoodGrove_Text_MargoIntro:
+	.string "The forest is haunting, be careful\n"
+	.string "you don't upset the spirits!$"
+
+ErewoodGrove_Text_MargoDefeat:
+	.string "...$"
+
+ErewoodGrove_Text_MargoPostBattle:
+	.string "The spirits are impressed!$"
 
 Route119_Text_ChrisIntro:
 	.string "You spoke to me…\n"
@@ -3566,18 +3592,6 @@ Route123_Text_AlbertoPostBattle:
 	.string "scatter during battles.\p"
 	.string "I'm going to make a hat with\n"
 	.string "Bird Pokémon feathers.$"
-
-Route123_Text_EdIntro:
-	.string "When there are no Trainers around,\n"
-	.string "I let my Pokémon battle each other.\l"
-	.string "I watch them.$"
-
-Route123_Text_EdDefeat:
-	.string "I kind of like your Pokémon.$"
-
-Route123_Text_EdPostBattle:
-	.string "Hehe, I'm swiping your battling ideas!\n"
-	.string "I think they'll make me better.$"
 
 Route123_Text_JonasIntro:
 	.string "I lay in ambush, and a Trainer has\n"

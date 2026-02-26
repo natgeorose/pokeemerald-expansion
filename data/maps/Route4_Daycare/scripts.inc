@@ -7,6 +7,8 @@ Route4_PokemonDayCare_EventScript_Man::
 	switch VAR_EGG_QUEST
 	case 0, Route4_PokemonDayCare_EventScript_ManIntro
 	case 1, Route4_PokemonDayCare_EventScript_ManPlease
+	case 2, Route4_PokemonDayCare_EventScript_ManGiveEgg
+	case 3, Route4_PokemonDayCare_EventScript_ManLeave
 	end
 
 Route4_PokemonDayCare_EventScript_ManIntro::
@@ -46,4 +48,42 @@ Route4_PokemonDayCare_EventScript_ManPlease::
 Route4_PokemonDayCare_Text_ManPlease:
 	.string "Please help me! The thief is\n"
 	.string "somewhere in Erewood Grove!$"
+
+Route4_PokemonDayCare_EventScript_ManGiveEgg::
+	setspeaker Speaker_Caretaker
+	msgbox Route4_PokemonDayCare_Text_ManThanks, MSGBOX_NPC
+	closemessage
+	giveegg SPECIES_TOGEPI
+	setspeaker Speaker_Caretaker
+	msgbox Route4_PokemonDayCare_Text_ManLeave, MSGBOX_NPC
+	closemessage
+	setvar VAR_EGG_QUEST, 3
+	releaseall
+	end
+
+Route4_PokemonDayCare_Text_ManThanks:
+	.string "The thief came back and returned our\n"
+	.string "Pokémon eggs!\l"
+	.string "I know this all thanks to you.\p"
+	.string "This means I can keep my job, I\n"
+	.string "don't know what I would've done\l"
+	.string "without you.\p"
+	.string "And I know the perfect way to repay\n"
+	.string "you for your help!\p"
+	.string "As a junior caretaker, I've been\n"
+	.string "raising different kinds of Pokémon.\p"
+	.string "Recently one of my Pokémon laid an\n"
+	.string "egg, and I think you are the perfect\l"
+	.string "Trainer to raise it!$"
+
+Route4_PokemonDayCare_EventScript_ManLeave::
+	setspeaker Speaker_Caretaker
+	msgbox Route4_PokemonDayCare_Text_ManLeave, MSGBOX_NPC
+	closemessage
+	releaseall
+	end
+
+Route4_PokemonDayCare_Text_ManLeave:
+	.string "Thank you, and take good care of\n"
+	.string "that egg!$"
 

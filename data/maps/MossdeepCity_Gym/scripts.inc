@@ -239,8 +239,6 @@ MossdeepCity_Gym_EventScript_Maura::
 	end
 
 MossdeepCity_Gym_EventScript_Sylvia::
-	trainerbattle_single TRAINER_SYLVIA, MossdeepCity_Gym_Text_SylviaIntro, MossdeepCity_Gym_Text_SylviaDefeat
-	msgbox MossdeepCity_Gym_Text_SylviaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MossdeepCity_Gym_EventScript_Nate::
@@ -475,19 +473,6 @@ MossdeepCity_Gym_Text_MauraPostBattle:
 	.string "For those who lazed idly, there is\n"
 	.string "only despair at the end.\p"
 	.string "What goes around comes around…$"
-
-MossdeepCity_Gym_Text_SylviaIntro:
-	.string "Even at the risk of life, I will win\n"
-	.string "this battle!$"
-
-MossdeepCity_Gym_Text_SylviaDefeat:
-	.string "What you do…\n"
-	.string "It horrifies me…$"
-
-MossdeepCity_Gym_Text_SylviaPostBattle:
-	.string "How dare you beat me…\p"
-	.string "It won't be my fault if something\n"
-	.string "horrible befalls you…$"
 
 MossdeepCity_Gym_Text_NateIntro:
 	.string "Hohoho.\p"

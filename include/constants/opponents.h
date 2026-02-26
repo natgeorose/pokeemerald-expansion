@@ -38,7 +38,7 @@
 #define TRAINER_SHELLY_WEATHER_INSTITUTE     32
 #define TRAINER_SHELLY_SEAFLOOR_CAVERN       33
 #define TRAINER_ARCHIE                       34
-#define TRAINER_LEAH                         35
+#define TRAINER_MARGO                         35
 #define TRAINER_LILY                        36
 #define TRAINER_DELIA                       37
 #define TRAINER_FELIX                        38
@@ -226,8 +226,8 @@
 #define TRAINER_ETHAN_3                     220
 #define TRAINER_ETHAN_4                     221
 #define TRAINER_ETHAN_5                     222
-#define TRAINER_BRENT                       223
-#define TRAINER_DONALD                      224
+#define TRAINER_GORDON                       223
+#define TRAINER_ZEKE                      224
 #define TRAINER_TAYLOR                      225
 #define TRAINER_JEFFREY_1                   226
 #define TRAINER_DEREK                       227
@@ -541,7 +541,7 @@
 #define TRAINER_MAY_ROUTE_103_TORCHIC       535
 #define TRAINER_MAY_ROUTE_110_TORCHIC       536
 #define TRAINER_MAY_ROUTE_119_TORCHIC       537
-#define TRAINER_ISAAC_1                     538
+#define TRAINER_ISAAC                     538
 #define TRAINER_DAVIS                       539
 #define TRAINER_MITCHELL                    540
 #define TRAINER_ISAAC_2                     541
@@ -654,7 +654,7 @@
 #define TRAINER_GERALD                      648
 #define TRAINER_VIVIAN                      649
 #define TRAINER_DANIELLE                    650
-#define TRAINER_HIDEO                       651
+#define TRAINER_ELY                       651
 #define TRAINER_KEIGO                       652
 #define TRAINER_RILEY                       653
 #define TRAINER_FLINT                       654

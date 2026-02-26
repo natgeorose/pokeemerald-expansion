@@ -62,12 +62,12 @@ static bool32 IsFieldMoveUnlocked_RockClimb(void)
 
 static bool32 IsFieldMoveUnlocked_Teleport(void)
 {
-    return TRUE;
+    return FlagGet(FLAG_ITEM_ESCAPE_ROPE);
 }
 
 static bool32 IsFieldMoveUnlocked_Dig(void)
 {
-    return TRUE;
+    return FlagGet(FLAG_ITEM_ESCAPE_ROPE);
 }
 
 static bool32 IsFieldMoveUnlocked_SecretPower(void)

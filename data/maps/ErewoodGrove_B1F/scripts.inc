@@ -67,4 +67,123 @@ ErewoodGrove_B1F_Text_JamesSystem:
 ErewoodGrove_B1F_Text_James:
 	.string "I'll heal your Pokémon, good luck!$"
 
+ErewoodGrove_B1F_EventScript_Hollow1::
+	goto_if_unset FLAG_ITEM_ESCAPE_ROPE, ErewoodGrove_B1F_EventScript_NoRope
+	lockall
+	msgbox ErewoodGrove_B1F_Text_ClimbHollow, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, ErewoodGrove_B1F_EventScript_WarpHollow1
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_NoRope::
+	msgbox ErewoodGrove_B1F_Text_NoRope, MSGBOX_DEFAULT
+	closemessage
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_WarpHollow1::
+	warpsilent MAP_EREWOOD_GROVE, 24, 49
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_Hollow2::
+	lockall
+	msgbox ErewoodGrove_B1F_Text_ClimbHollow, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, ErewoodGrove_B1F_EventScript_WarpHollow2
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_WarpHollow2::
+	warpsilent MAP_EREWOOD_GROVE, 57, 60
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_Hollow3::
+	lockall
+	msgbox ErewoodGrove_B1F_Text_ClimbHollow, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, ErewoodGrove_B1F_EventScript_WarpHollow3
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_WarpHollow3::
+	warpsilent MAP_EREWOOD_GROVE, 53, 10
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_Hollow4::
+	lockall
+	msgbox ErewoodGrove_B1F_Text_ClimbHollow, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, ErewoodGrove_B1F_EventScript_WarpHollow4
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_WarpHollow4::
+	warpsilent MAP_EREWOOD_GROVE, 10, 8
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_Hollow5::
+	lockall
+	msgbox ErewoodGrove_B1F_Text_ClimbHollow, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, ErewoodGrove_B1F_EventScript_WarpHollow5
+	releaseall
+	end
+
+ErewoodGrove_B1F_EventScript_WarpHollow5::
+	warpsilent MAP_EREWOOD_GROVE, 30, 31
+	releaseall
+	end
+
+ErewoodGrove_B1F_Text_NoRope:
+	.string "There's light coming from the top of\n"
+	.string "the tree trunk.$"
+
+ErewoodGrove_B1F_Text_ClimbHollow:
+	.string "There's light coming from the top of\n"
+	.string "the tree trunk.\p"
+	.string "Use the Escape Rope to climb out of\n"
+	.string "the tree hollow?$"
+
+ErewoodGrove_B1F_EventScript_EscapeRope::
+	lockall
+	finditem ITEM_ESCAPE_ROPE
+	setobjectxyperm LOCALID_EREWOOD_B1F_JAMES, 13, 76
+	removeobject LOCALID_EREWOOD_B1F_JAMES
+	delay 1
+	addobject LOCALID_EREWOOD_B1F_JAMES
+	special SpawnCameraObject
+	applymovement LOCALID_CAMERA, Common_Movement_WalkDown2
+	applymovement LOCALID_EREWOOD_B1F_JAMES, ErewoodGrove_B1F_Movement_JamesSecond
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
+	waitmovement 0
+	setspeaker Speaker_James
+	msgbox ErewoodGrove_B1F_Text_JamesEscapeRope, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_HIDE_EREWOOD_NICKNATE
+	clearflag FLAG_HIDE_EREWOOD_JAMES
+	setflag FLAG_ITEM_ESCAPE_ROPE
+	special RemoveCameraObject
+	warpsilent MAP_EREWOOD_GROVE, 24, 49
+	releaseall
+	end
+
+ErewoodGrove_B1F_Movement_JamesSecond:
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	step_end
+
+ErewoodGrove_B1F_Text_JamesEscapeRope:
+	.string "An Escape Rope, that's perfect!\n"
+	.string "Now let's get out of here!$"
+
 

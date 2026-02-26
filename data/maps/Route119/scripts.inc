@@ -318,13 +318,9 @@ Route119_EventScript_WeatherInstituteSign::
 	end
 
 Route119_EventScript_Brent::
-	trainerbattle_single TRAINER_BRENT, Route119_Text_BrentIntro, Route119_Text_BrentDefeat
-	msgbox Route119_Text_BrentPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route119_EventScript_Donald::
-	trainerbattle_single TRAINER_DONALD, Route119_Text_DonaldIntro, Route119_Text_DonaldDefeat
-	msgbox Route119_Text_DonaldPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route119_EventScript_Taylor::
@@ -410,8 +406,6 @@ Route119_EventScript_Takashi::
 	end
 
 Route119_EventScript_Hideo::
-	trainerbattle_single TRAINER_HIDEO, Route119_Text_HideoIntro, Route119_Text_HideoDefeat
-	msgbox Route119_Text_HideoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route119_EventScript_Chris::

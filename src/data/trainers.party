@@ -279,13 +279,21 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Zangoose
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dunsparce (M)
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Glare
+- Bite
+- Headbutt
+- Mud Slap
 
-Seviper
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Seviper (M)
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Poison Tail
+- Bite
+- Lick
+- Swagger
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
 Name: Grunt
@@ -610,8 +618,8 @@ Sharpedo
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_LEAH ===
-Name: Leah
+=== TRAINER_MARGO ===
+Name: Margo
 Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
@@ -619,8 +627,12 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Spoink
-Level: 31
+Litwick (F)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Slowpoke-Galar (F)
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LILY ===
@@ -3904,8 +3916,8 @@ Linoone
 Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_BRENT ===
-Name: Brent
+=== TRAINER_GORDON ===
+Name: Gordon
 Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
@@ -3913,12 +3925,20 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Surskit
-Level: 26
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dewpider (M)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DONALD ===
-Name: Donald
+Venonat (M)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pineco (M)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ZEKE ===
+Name: Zeke
 Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
@@ -3926,17 +3946,13 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Wurmple
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Karrablast (M)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Silcoon
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Beautifly
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dustox (M)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TAYLOR ===
 Name: Taylor
@@ -4459,19 +4475,19 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MICAH ===
 Name: Micah
-Class: Gentleman
-Pic: Gentleman
+Class: Ninja Boy
+Pic: Ninja Boy
 Gender: Male
-Music: Rich
+Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Manectric
-Level: 44
+Skorupi (M)
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Manectric
-Level: 44
+Mienfoo (M)
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_THOMAS ===
@@ -9838,37 +9854,25 @@ Marshtomp
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_ISAAC_1 ===
+=== TRAINER_ISAAC ===
 Name: Isaac
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
+Class: Psychic
+Pic: Psychic M
 Gender: Male
-Music: Male
+Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Whismur
-Level: 11
+Munna (M)
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zigzagoon
-Level: 11
+Woobat (M)
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Aron
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Makuhita
-Level: 11
+Drowzee (M)
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAVIS ===
@@ -10623,9 +10627,13 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Meditite
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Espurr (F)
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sableye (F)
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LEONARDO ===
 Name: Leonardo
@@ -11944,30 +11952,22 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Confusion
 - Fire Punch
 
-=== TRAINER_HIDEO ===
-Name: Hideo
+=== TRAINER_ELY ===
+Name: Ely
 Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Basic Trainer / Try To Faint
+AI: Basic Trainer
 
-Koffing
-Level: 25
+Croagunk (M)
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Self Destruct
-- Sludge
-- Smokescreen
 
-Koffing
-Level: 25
+Nickit (M)
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Poison Gas
-- Sludge
-- Smokescreen
 
 === TRAINER_KEIGO ===
 Name: Keigo
