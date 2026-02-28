@@ -14,7 +14,36 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
   "object_events": [],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_EREWOOD_GROVE",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 19,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_EREWOOD_GROVE",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 20,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_EREWOOD_GROVE",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 21,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_EREWOOD_GROVE",
+      "dest_warp_id": "10"
+    }
+  ],
   "coord_events": [],
   "bg_events": []
 }
