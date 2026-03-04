@@ -4760,6 +4760,26 @@
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/Route5/border.bin",
       "blockdata_filepath": "data/layouts/Route5/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE5_REST_HOUSE",
+      "name": "Route5_RestHouse_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/Route5_RestHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route5_RestHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN",
+      "name": "FellhavenTown_Layout",
+      "width": 54,
+      "height": 48,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Cairwind",
+      "border_filepath": "data/layouts/FellhavenTown/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown/map.bin"
     }
   ]
 }

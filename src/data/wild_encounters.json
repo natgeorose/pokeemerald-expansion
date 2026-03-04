@@ -12479,6 +12479,36 @@
                 "species": "SPECIES_DWEBBLE"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 18,
+                "max_level": 20,
+                "species": "SPECIES_NOSEPASS"
+              },
+              {
+                "min_level": 18,
+                "max_level": 20,
+                "species": "SPECIES_DWEBBLE"
+              },
+              {
+                "min_level": 18,
+                "max_level": 20,
+                "species": "SPECIES_DWEBBLE"
+              },
+              {
+                "min_level": 18,
+                "max_level": 20,
+                "species": "SPECIES_NOSEPASS"
+              },
+              {
+                "min_level": 18,
+                "max_level": 20,
+                "species": "SPECIES_NOSEPASS"
+              }
+            ]
           }
         }
       ]

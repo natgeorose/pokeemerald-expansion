@@ -104,7 +104,9 @@
     "Route3",
     "Route4",
     "QuilspringTown",
-    "Route5"
+    "Route5",
+    "Route5_RestHouse",
+    "FellhavenTown"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
