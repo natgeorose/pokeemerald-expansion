@@ -1246,3 +1246,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route5_RestHouse/scripts.inc"
 
 	.include "data/maps/FellhavenTown/scripts.inc"
+
+	.include "data/maps/FellhavenTown_PC/scripts.inc"

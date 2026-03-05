@@ -37,7 +37,8 @@
     "gMapGroup_IndoorCairwind",
     "gMapGroup_IndoorMoorden",
     "gMapGroup_IndoorSerenado",
-    "gMapGroup_IndoorQuilspring"
+    "gMapGroup_IndoorQuilspring",
+    "gMapGroup_IndoorFellhaven"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -669,5 +670,8 @@
     "QuilspringTown_House_2",
     "QuilspringTown_House_3",
     "QuilspringTown_University_2F"
+  ],
+  "gMapGroup_IndoorFellhaven": [
+    "FellhavenTown_PC"
   ]
 }

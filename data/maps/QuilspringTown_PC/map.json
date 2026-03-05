@@ -27,7 +27,7 @@
       "script": "QuilspringTown_PC_EventScript_Girl",
       "flag": "0"
     },
-   {
+    {
       "local_id": "LOCALID_QUILSPRING_NURSE",
       "graphics_id": "OBJ_EVENT_GFX_NURSE",
       "x": 7,

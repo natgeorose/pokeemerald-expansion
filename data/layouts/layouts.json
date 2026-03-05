@@ -4780,6 +4780,16 @@
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/FellhavenTown/border.bin",
       "blockdata_filepath": "data/layouts/FellhavenTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_PC",
+      "name": "FellhavenTown_PC_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_PC/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_PC/map.bin"
     }
   ]
 }

@@ -119,6 +119,7 @@
 
 // gTileset_Cairwind
 #define METATILE_Cairwind_Blue_Door  0x225
+#define METATILE_Cairwind_GlassDoor  0x262
 
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
