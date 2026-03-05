@@ -2,7 +2,7 @@
   "id": "MAP_FELLHAVEN_TOWN",
   "name": "FellhavenTown",
   "layout": "LAYOUT_FELLHAVEN_TOWN",
-  "music": "MUS_BW12_028",
+  "music": "MUS_BW12_049",
   "region_map_section": "MAPSEC_FELLHAVEN_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

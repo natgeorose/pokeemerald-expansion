@@ -105,7 +105,6 @@
     "Route4",
     "QuilspringTown",
     "Route5",
-    "Route5_RestHouse",
     "FellhavenTown"
   ],
   "gMapGroup_IndoorLittleroot": [
@@ -657,7 +656,8 @@
     "MoordenVillageHouse_3"
   ],
   "gMapGroup_IndoorSerenado": [
-    "Route4_Daycare"
+    "Route4_Daycare",
+    "Route5_RestHouse"
   ],
   "gMapGroup_IndoorQuilspring": [
     "QuilspringTown_University",
