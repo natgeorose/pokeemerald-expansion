@@ -951,3 +951,14 @@ const struct Tileset gTileset_Underground =
     .metatileAttributes = gMetatileAttributes_Underground,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Sundara =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sundara,
+    .palettes = gTilesetPalettes_Sundara,
+    .metatiles = gMetatiles_Sundara,
+    .metatileAttributes = gMetatileAttributes_Sundara,
+    .callback = NULL,
+};

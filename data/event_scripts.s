@@ -1248,3 +1248,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FellhavenTown/scripts.inc"
 
 	.include "data/maps/FellhavenTown_PC/scripts.inc"
+
+	.include "data/maps/Route6/scripts.inc"
+
+	.include "data/maps/SundaraVillage/scripts.inc"

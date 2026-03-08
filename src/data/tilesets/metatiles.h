@@ -240,3 +240,6 @@ const u16 gMetatileAttributes_IndoorQuilspring[] = INCBIN_U16("data/tilesets/sec
 
 const u16 gMetatiles_Underground[] = INCBIN_U16("data/tilesets/secondary/underground/metatiles.bin");
 const u16 gMetatileAttributes_Underground[] = INCBIN_U16("data/tilesets/secondary/underground/metatile_attributes.bin");
+
+const u16 gMetatiles_Sundara[] = INCBIN_U16("data/tilesets/secondary/sundara/metatiles.bin");
+const u16 gMetatileAttributes_Sundara[] = INCBIN_U16("data/tilesets/secondary/sundara/metatile_attributes.bin");
