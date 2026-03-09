@@ -34,7 +34,16 @@
       "elevation": 0,
       "var": "VAR_TEMP_0",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Route6_EventScript_JumpRight"
+    },
+    {
+      "type": "trigger",
+      "x": 45,
+      "y": 40,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route6_EventScript_JumpLeft"
     }
   ],
   "bg_events": []
