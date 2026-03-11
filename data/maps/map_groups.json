@@ -38,7 +38,8 @@
     "gMapGroup_IndoorMoorden",
     "gMapGroup_IndoorSerenado",
     "gMapGroup_IndoorQuilspring",
-    "gMapGroup_IndoorFellhaven"
+    "gMapGroup_IndoorFellhaven",
+    "gMapGroup_IndoorSundara"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -675,5 +676,12 @@
   ],
   "gMapGroup_IndoorFellhaven": [
     "FellhavenTown_PC"
+  ],
+  "gMapGroup_IndoorSundara": [
+    "SundaraVillage_Gym",
+    "SundaraVillage_House1",
+    "SundaraVillage_House3",
+    "SundaraVillage_House2",
+    "SundaraVillage_PC"
   ]
 }

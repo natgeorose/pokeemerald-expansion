@@ -1252,3 +1252,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route6/scripts.inc"
 
 	.include "data/maps/SundaraVillage/scripts.inc"
+
+	.include "data/maps/SundaraVillage_Gym/scripts.inc"
+
+	.include "data/maps/SundaraVillage_House1/scripts.inc"
+
+	.include "data/maps/SundaraVillage_House3/scripts.inc"
+
+	.include "data/maps/SundaraVillage_PC/scripts.inc"
+
+	.include "data/maps/SundaraVillage_House2/scripts.inc"
