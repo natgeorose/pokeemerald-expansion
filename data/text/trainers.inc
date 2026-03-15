@@ -1292,16 +1292,39 @@ Route111_Text_BeauPostBattle:
 	.string "I'm going to work harder to make me\l"
 	.string "and my Pokémon stronger.$"
 
-Route111_Text_BeckyIntro:
-	.string "I heard there are fossils to be found\n"
-	.string "in the desert. Where could they be?$"
+Route5_Text_IsadoraIntro:
+	.string "I don't know where you're going, but\n"
+	.string "would you like to battle?$"
 
-Route111_Text_BeckyDefeat:
-	.string "I came up short…$"
+Route5_Text_IsadoraDefeat:
+	.string "I came up short...$"
 
-Route111_Text_BeckyPostBattle:
-	.string "If they can find fossils in the desert,\n"
-	.string "it must have been a sea before.$"
+Route5_Text_IsadoraPostBattle:
+	.string "You must travel to so many places\n"
+	.string "with such strong Pokémon!$"
+
+Route5_Text_EliIntro:
+	.string "Huff, huff...\n"
+	.string "It's tough climbing up the mountain!$"
+
+Route5_Text_EliDefeat:
+	.string "I should have waited to catch my\n"
+	.string "breath until battling...$"
+
+Route5_Text_EliPostBattle:
+	.string "You must travel to so many places\n"
+	.string "with such strong Pokémon!$"
+
+Route5_Text_JarrettIntro:
+	.string "Ah, there's nothing like the crisp\n"
+	.string "air of the outdoors!$"
+
+Route5_Text_JarrettDefeat:
+	.string "Woah!$"
+
+Route5_Text_JarrettPostBattle:
+	.string "And there's nothing like a good\n"
+	.string "Pokémon battle!$"
 
 Route111_Text_DustyIntro:
 	.string "For thirty years I have searched for\n"

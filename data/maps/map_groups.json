@@ -678,10 +678,10 @@
     "FellhavenTown_PC"
   ],
   "gMapGroup_IndoorSundara": [
+    "SundaraVillage_PC",
     "SundaraVillage_Gym",
     "SundaraVillage_House1",
-    "SundaraVillage_House3",
     "SundaraVillage_House2",
-    "SundaraVillage_PC"
+    "SundaraVillage_House3"
   ]
 }
