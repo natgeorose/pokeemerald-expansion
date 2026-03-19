@@ -15,7 +15,7 @@
 #define TRAINER_GABRIELLE_1                   9
 #define TRAINER_GRUNT_PETALBURG_WOODS        10
 #define TRAINER_MARCEL                       11
-#define TRAINER_ALBERTO                      12
+#define TRAINER_CATO                      12
 #define TRAINER_ED                           13
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_4      14
 #define TRAINER_DECLAN                       15
@@ -34,7 +34,7 @@
 #define TRAINER_GRUNT_AQUA_HIDEOUT_6         28
 #define TRAINER_FREDRICK                     29
 #define TRAINER_MATT                         30
-#define TRAINER_ZANDER                       31
+#define TRAINER_DWIGHT                       31
 #define TRAINER_SHELLY_WEATHER_INSTITUTE     32
 #define TRAINER_SHELLY_SEAFLOOR_CAVERN       33
 #define TRAINER_ARCHIE                       34
@@ -47,7 +47,7 @@
 #define TRAINER_ROSE_3                       41
 #define TRAINER_ROSE_4                       42
 #define TRAINER_ROSE_5                       43
-#define TRAINER_DUSTY_1                      44
+#define TRAINER_MAYNARD                      44
 #define TRAINER_CHIP                         45
 #define TRAINER_FOSTER                       46
 #define TRAINER_DUSTY_2                      47
@@ -215,7 +215,7 @@
 #define TRAINER_BERNIE_4                    209
 #define TRAINER_BERNIE_5                    210
 #define TRAINER_DREW                        211
-#define TRAINER_BEAU                        212
+#define TRAINER_MILES                        212
 #define TRAINER_LARRY                       213
 #define TRAINER_SHANE                       214
 #define TRAINER_JUSTIN                      215

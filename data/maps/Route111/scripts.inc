@@ -79,9 +79,6 @@ Route111_EventScript_SetWinstratesNotDefeated::
 	setflag FLAG_HIDE_EREWOOD_NICKNATE
 	setflag FLAG_HIDE_EREWOOD_JAMES
 	setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
-	cleartrainerflag TRAINER_VICTOR
-	cleartrainerflag TRAINER_VICTORIA
-	cleartrainerflag TRAINER_VIVI
 	end
 
 Route111_EventScript_SetLayoutNoMirageTower::
@@ -429,8 +426,6 @@ Route111_EventScript_RockSmashTipFatMan::
 	end
 
 Route111_EventScript_Drew::
-	trainerbattle_single TRAINER_DREW, Route111_Text_DrewIntro, Route111_Text_DrewDefeat
-	msgbox Route111_Text_DrewPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Heidi::
@@ -439,32 +434,18 @@ Route111_EventScript_Heidi::
 	end
 
 Route111_EventScript_Beau::
-	trainerbattle_single TRAINER_BEAU, Route111_Text_BeauIntro, Route111_Text_BeauDefeat
-	msgbox Route111_Text_BeauPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Becky::
 	end
 
 Route111_EventScript_Dusty::
-	trainerbattle_single TRAINER_DUSTY_1, Route111_Text_DustyIntro, Route111_Text_DustyDefeat, Route111_EventScript_RegisterDusty
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route111_EventScript_RematchDusty
-	msgbox Route111_Text_DustyPostBattle, MSGBOX_DEFAULT
-	release
 	end
 
 Route111_EventScript_RegisterDusty::
-	special PlayerFaceTrainerAfterBattle
-	waitmovement 0
-	msgbox Route111_Text_DustyRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_DUSTY_1
-	release
 	end
 
 Route111_EventScript_RematchDusty::
-	trainerbattle_rematch TRAINER_DUSTY_1, Route111_Text_DustyRematchIntro, Route111_Text_DustyRematchDefeat
-	msgbox Route111_Text_DustyPostRematch, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Travis::

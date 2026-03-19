@@ -247,6 +247,7 @@ QuilspringTown_University_Text_Isabel:
 
 QuilspringTown_University_EventScript_Pine::
 	lockall
+	faceplayer
 	goto_if_set FLAG_DEFEATED_QUILSPRING_GYM, QuilspringTown_University_EventScript_PinePostGym
 	goto_if_eq VAR_STORY, 10, QuilspringTown_University_EventScript_PineItems
 	setspeaker Speaker_Pine

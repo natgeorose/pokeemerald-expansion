@@ -257,8 +257,8 @@ Shiftry
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_ALBERTO ===
-Name: Alberto
+=== TRAINER_CATO ===
+Name: Cato
 Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
@@ -266,12 +266,12 @@ Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
-Pelipper
-Level: 30
+Wattrel (M)
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Xatu
-Level: 30
+Farfetchd (M)
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ED ===
@@ -553,7 +553,7 @@ Golbat
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_ZANDER ===
+=== TRAINER_DWIGHT ===
 Name: Zander
 Class: Black Belt
 Pic: Black Belt
@@ -562,8 +562,12 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Hariyama
-Level: 31
+Machop (M)
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pancham (M)
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
@@ -791,22 +795,23 @@ Roselia
 Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_DUSTY_1 ===
-Name: Dusty
-Class: Ruin Maniac
-Pic: Ruin Maniac
+=== TRAINER_MAYNARD ===
+Name: Maynard
+Class: Hiker
+Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Sandslash
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Lileep (M)
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Mudbray (M)
+Level: 16
+Ability: Own Tempo
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHIP ===
 Name: Chip
@@ -3721,12 +3726,20 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Sandshrew
-Level: 23
+Vanillite (M)
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BEAU ===
-Name: Beau
+Stunky (M)
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Spoink (M)
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_MILES ===
+Name: Miles
 Class: Camper
 Pic: Camper
 Gender: Male
@@ -3734,29 +3747,15 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Baltoy
-Level: 21
+Growlithe (M)
+Level: 15
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
 
-Sandshrew
-Level: 21
+Munchlax (M)
+Level: 16
+Ability: Pickup
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Sting
-- Sand Attack
-- Scratch
-- Dig
-
-Baltoy
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
 
 === TRAINER_LARRY ===
 Name: Larry
@@ -4928,6 +4927,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 Togekiss (F) @ Sitrus Berry
 Level: 29
+Ability: Serene Grace
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dazzling Gleam
 - Air Slash
@@ -5667,16 +5667,24 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_VICTORIA ===
 Name: Victoria
-Class: Winstrate
+Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Basic Trainer / Try To Faint
+AI: Basic Trainer
 
-Roselia @ Oran Berry
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Oddish (F)
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Finneon (F)
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drifloon (F)
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_VANESSA ===
 Name: Vanessa
@@ -6050,7 +6058,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Riolu (M)
+Mankey (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

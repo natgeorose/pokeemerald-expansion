@@ -1250,20 +1250,32 @@ Route110_Text_KalebPostBattle:
 	.string "Okay, okay, you've done the best you\n"
 	.string "could, my pretties.$"
 
-Route111_Text_DrewIntro:
-	.string "Oh, hey! Those Go-Goggles suit you.\n"
-	.string "But I think they look better on me.\p"
-	.string "Let's decide who they look better on\n"
-	.string "with a battle!$"
+Route5_Text_DrewIntro:
+	.string "Hey, this is my patch of grass!\n"
+	.string "I'm trying to catch some Pokémon here!\p"
+	.string "Let's decide who can stay here with\n"
+	.string "a Pokémon battle!$"
 
-Route111_Text_DrewDefeat:
-	.string "I couldn't see what was happening at\n"
-	.string "my sides because of the Go-Goggles.$"
+Route5_Text_DrewDefeat:
+	.string "No not my patch of grass!$"
 
-Route111_Text_DrewPostBattle:
-	.string "The Go-Goggles make it possible to\n"
-	.string "get through sandstorms.\l"
-	.string "That makes me happy!$"
+Route5_Text_DrewPostBattle:
+	.string "Please let me catch Pokémon here,\n"
+	.string "that would make me so happy.$"
+
+Route5_Text_MilesIntro:
+	.string "Camping's fun! You can fish, roast\n"
+	.string "marshmallows, and tell spooky stories!\p"
+	.string "But the best of all are the Pokémon\n"
+	.string "battles with friends!$"
+
+Route5_Text_MilesDefeat:
+	.string "Wow you are good!$"
+
+Route5_Text_MilesPostBattle:
+	.string "I don't need to win battles to be\n"
+	.string "happy, I'm just happy camping out on\l"
+	.string "this route and having fun.$"
 
 Route111_Text_HeidiIntro:
 	.string "I'm having a picnic in the desert.\p"
@@ -1325,6 +1337,26 @@ Route5_Text_JarrettDefeat:
 Route5_Text_JarrettPostBattle:
 	.string "And there's nothing like a good\n"
 	.string "Pokémon battle!$"
+
+Route5_Text_VictoriaIntro:
+	.string "Look at my adorable Pokémon!$"
+
+Route5_Text_VictoriaDefeat:
+	.string "How could you!$"
+
+Route5_Text_VictoriaPostBattle:
+	.string "My poor, little Pokémon...$"
+
+Route5_Text_DwightIntro:
+	.string "We have been training here all\n"
+	.string "day, we're ready to take on anyone!$"
+
+Route5_Text_DwightDefeat:
+	.string "I'm shocked!$"
+
+Route5_Text_DwightPostBattle:
+	.string "Hmm something must be off with our\n"
+	.string "training regimen!$"
 
 Route111_Text_DustyIntro:
 	.string "For thirty years I have searched for\n"
@@ -3601,20 +3633,27 @@ Route123_Text_FrederickPostBattle:
 	.string "Contribute more to your allowance?\n"
 	.string "Wasn't the prize money enough?$"
 
-Route123_Text_AlbertoIntro:
-	.string "I have to tell you, Bird Pokémon\n"
-	.string "are my obsession!\p"
-	.string "Birds are cool!\n"
-	.string "They're the best!$"
+Route5_Text_CatoIntro:
+	.string "I have to tell you, bird Pokémon\n"
+	.string "are my favorite!$"
 
-Route123_Text_AlbertoDefeat:
-	.string "Even in defeat, Bird Pokémon are cool!$"
+Route5_Text_CatoDefeat:
+	.string "Even in defeat, bird Pokémon are cool!$"
 
-Route123_Text_AlbertoPostBattle:
-	.string "I gather Bird Pokémon feathers that\n"
-	.string "scatter during battles.\p"
-	.string "I'm going to make a hat with\n"
-	.string "Bird Pokémon feathers.$"
+Route5_Text_CatoPostBattle:
+	.string "I hope you now see how cool bird\n"
+	.string "Pokémon truly are.$"
+
+Route5_Text_MaynardIntro:
+	.string "To a hiker, the mountains are the perfect\n"
+	.string "place to spend one's time!$"
+
+Route5_Text_MaynardDefeat:
+	.string "A battle is nice as well!$"
+
+Route5_Text_MaynardPostBattle:
+	.string "Well at least I can still hike in the\n"
+	.string "mountains, even if I lost.$"
 
 Route123_Text_JonasIntro:
 	.string "I lay in ambush, and a Trainer has\n"

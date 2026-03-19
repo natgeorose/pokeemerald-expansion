@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_SUNDARA_VILLAGE",
-      "offset": 4,
+      "offset": 7,
       "direction": "up"
     }
   ],
@@ -385,6 +385,24 @@
       "type": "trigger",
       "x": 48,
       "y": 4,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route6_EventScript_JumpLeft"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route6_EventScript_JumpRight"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 19,
       "elevation": 0,
       "var": "VAR_TEMP_0",
       "var_value": "0",
