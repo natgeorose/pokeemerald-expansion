@@ -48,7 +48,7 @@
 #define TRAINER_ROSE_4                       42
 #define TRAINER_ROSE_5                       43
 #define TRAINER_MAYNARD                      44
-#define TRAINER_CHIP                         45
+#define TRAINER_NOAH                         45
 #define TRAINER_FOSTER                       46
 #define TRAINER_DUSTY_2                      47
 #define TRAINER_DUSTY_3                      48
@@ -139,7 +139,7 @@
 #define TRAINER_JESSICA_3                   133
 #define TRAINER_JESSICA_4                   134
 #define TRAINER_JESSICA_5                   135
-#define TRAINER_WINSTON_1                   136
+#define TRAINER_WINSTON                   136
 #define TRAINER_MOLLIE                      137
 #define TRAINER_GARRET                      138
 #define TRAINER_WINSTON_2                   139
@@ -216,8 +216,8 @@
 #define TRAINER_BERNIE_5                    210
 #define TRAINER_DREW                        211
 #define TRAINER_MILES                        212
-#define TRAINER_LARRY                       213
-#define TRAINER_SHANE                       214
+#define TRAINER_BRODY                       213
+#define TRAINER_MARCUS                       214
 #define TRAINER_JUSTIN                      215
 #define TRAINER_ETHAN_1                     216
 #define TRAINER_AUTUMN                      217
@@ -401,7 +401,7 @@
 #define TRAINER_NICOLAS_4                   395
 #define TRAINER_NICOLAS_5                   396
 #define TRAINER_AARON                       397
-#define TRAINER_PERRY                       398
+#define TRAINER_JORDY                       398
 #define TRAINER_HUGH                        399
 #define TRAINER_PHIL                        400
 #define TRAINER_JARED                       401
@@ -420,7 +420,7 @@
 #define TRAINER_BECK                        414
 #define TRAINER_YASU                        415
 #define TRAINER_TAKASHI                     416
-#define TRAINER_DIANNE                      417
+#define TRAINER_GLORIA                      417
 #define TRAINER_JANI                        418
 #define TRAINER_LAO_1                       419
 #define TRAINER_LUNG                        420
@@ -472,7 +472,7 @@
 #define TRAINER_JENNY_3                     466
 #define TRAINER_JENNY_4                     467
 #define TRAINER_JENNY_5                     468
-#define TRAINER_HEIDI                       469
+#define TRAINER_KENDALL                       469
 #define TRAINER_ISADORA                       470
 #define TRAINER_CAROL                       471
 #define TRAINER_NANCY                       472

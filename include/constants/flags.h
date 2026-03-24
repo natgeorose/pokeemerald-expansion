@@ -549,9 +549,9 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_5_ETHER                     (FLAG_HIDDEN_ITEMS_START + 0x03)
 #define FLAG_HIDDEN_ITEM_ROUTE_5_NUGGET                    (FLAG_HIDDEN_ITEMS_START + 0x04)
 #define FLAG_HIDDEN_ITEM_ROUTE_5_GREAT_BALL                   (FLAG_HIDDEN_ITEMS_START + 0x05)
-#define FLAG_HIDDEN_ITEM_ROUTE_119_ULTRA_BALL                (FLAG_HIDDEN_ITEMS_START + 0x06)
-#define FLAG_HIDDEN_ITEM_ROUTE_123_SUPER_REPEL               (FLAG_HIDDEN_ITEMS_START + 0x07)
-#define FLAG_HIDDEN_ITEM_UNDERWATER_124_CARBOS               (FLAG_HIDDEN_ITEMS_START + 0x08)
+#define FLAG_HIDDEN_ITEM_ROUTE_6_CALCIUM                (FLAG_HIDDEN_ITEMS_START + 0x06)
+#define FLAG_HIDDEN_ITEM_ROUTE_6_ARTIFACT               (FLAG_HIDDEN_ITEMS_START + 0x07)
+#define FLAG_HIDDEN_ITEM_ROUTE_6_SUPER_POTION               (FLAG_HIDDEN_ITEMS_START + 0x08)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD          (FLAG_HIDDEN_ITEMS_START + 0x09)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_PEARL                (FLAG_HIDDEN_ITEMS_START + 0x0A)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL            (FLAG_HIDDEN_ITEMS_START + 0x0B)
@@ -1070,9 +1070,9 @@
 #define FLAG_ITEM_ROUTE_5_STEALTH_ROCK                          0x3F9
 #define FLAG_ITEM_ROUTE_5_LAGGING_TAIL                                    0x3FA
 #define FLAG_ITEM_ROUTE_5_HP_UP                                   0x3FB
-#define FLAG_ITEM_ROUTE_116_REPEL                                   0x3FC
-#define FLAG_ITEM_ROUTE_116_HP_UP                                   0x3FD
-#define FLAG_ITEM_ROUTE_117_GREAT_BALL                              0x3FE
+#define FLAG_ITEM_ROUTE_6_SUN_STONE                                   0x3FC
+#define FLAG_ITEM_ROUTE_6_OLD_AMBER                                   0x3FD
+#define FLAG_ITEM_ROUTE_6_QUICK_BALL                              0x3FE
 #define FLAG_ITEM_ROUTE_117_REVIVE                                  0x3FF
 #define FLAG_ITEM_ROUTE_119_SUPER_REPEL                             0x400
 #define FLAG_ITEM_ROUTE_119_ZINC                                    0x401

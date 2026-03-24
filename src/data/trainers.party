@@ -813,8 +813,8 @@ Level: 16
 Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_CHIP ===
-Name: Chip
+=== TRAINER_NOAH ===
+Name: Noah
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -822,29 +822,13 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Baltoy
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Psybeam
-- Self Destruct
-- Sandstorm
-- Ancient Power
+Bagon (M)
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sandshrew
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
-
-Sandslash
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Archen (M)
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FOSTER ===
 Name: Foster
@@ -1179,19 +1163,19 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_SIMON ===
 Name: Simon
-Class: Tuber M
-Pic: Tuber M
+Class: Camper
+Pic: Camper
 Gender: Male
-Music: Girl
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Azurill
-Level: 12
+Wailmer (M)
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Marill
-Level: 12
+Luxio (M)
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHARLIE ===
@@ -2537,18 +2521,22 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Glare
 - Crunch
 
-=== TRAINER_WINSTON_1 ===
+=== TRAINER_WINSTON ===
 Name: Winston
-Class: Rich Boy
-Pic: Rich Boy
+Class: Hiker
+Pic: Hiker
 Gender: Male
-Music: Rich
-Items: Full Restore
+Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Zigzagoon @ Nugget
-Level: 7
+Silicobra (M)
+Level: 17
+Ability: Shed Skin
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nosepass (M)
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MOLLIE ===
@@ -3757,8 +3745,8 @@ Level: 16
 Ability: Pickup
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_LARRY ===
-Name: Larry
+=== TRAINER_BRODY ===
+Name: Brody
 Class: Camper
 Pic: Camper
 Gender: Male
@@ -3766,24 +3754,32 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Nuzleaf
+Nuzleaf (M)
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Koffing (M)
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Litleo (M)
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_SHANE ===
-Name: Shane
-Class: Camper
-Pic: Camper
+=== TRAINER_MARCUS ===
+Name: Marcus
+Class: Bird Keeper
+Pic: Bird Keeper
 Gender: Male
-Music: Male
+Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
-Sandshrew
-Level: 18
+Doduo (M)
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nuzleaf
+Corvisquire (M)
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3826,8 +3822,12 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Shroomish
-Level: 21
+Elekid (F)
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Spinda (F)
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TRAVIS ===
@@ -4903,6 +4903,8 @@ Mugshot: Blue
 
 Swellow (F)
 Level: 28
+Ability: Guts
+Nature: Jolly
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Endeavor
 - Brave Bird
@@ -4911,6 +4913,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Sigilyph (F)
 Level: 28
+Ability: Wonder Skin
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Ancient Power
 - Psychic
@@ -4919,7 +4922,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Minior
 Level: 28
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 31 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Acrobatics
 - Rock Slide
 - Earth Power
@@ -4928,7 +4931,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 Togekiss (F) @ Sitrus Berry
 Level: 29
 Ability: Serene Grace
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 31 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dazzling Gleam
 - Air Slash
 - Aura Sphere
@@ -7349,8 +7352,8 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Energy
 - Ember
 
-=== TRAINER_PERRY ===
-Name: Perry
+=== TRAINER_JORDY ===
+Name: Jordy
 Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
@@ -7358,8 +7361,12 @@ Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 26
+Taillow (M)
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Squawkabilly (M)
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HUGH ===
@@ -7656,26 +7663,22 @@ Koffing
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DIANNE ===
-Name: Dianne
+=== TRAINER_GLORIA ===
+Name: Gloria
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 
-Claydol
-Level: 43
+Herdier (F)
+Level: 18
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
 
-Lanturn
-Level: 43
+Ivysaur (F)
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunderbolt
-- Earthquake
 
 === TRAINER_JANI ===
 Name: Jani
@@ -8575,8 +8578,8 @@ Starmie
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_HEIDI ===
-Name: Heidi
+=== TRAINER_KENDALL ===
+Name: Kendall
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
@@ -8584,21 +8587,17 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Sandshrew
-Level: 22
+Stufful (F)
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Dig
-- Sand Attack
-- Poison Sting
-- Slash
 
-Baltoy
-Level: 22
+Tinkatink (F)
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
+
+Lickitung (F)
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISADORA ===
 Name: Isadora
@@ -9340,15 +9339,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_HUDSON ===
 Name: Hudson
-Class: Sailor
-Pic: Sailor
+Class: Ruin Maniac
+Pic: Ruin Maniac
 Gender: Male
-Music: Male
+Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Wailmer
-Level: 34
+Aron (M)
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Omanyte (M)
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Yamask-Galar (M)
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CONOR ===

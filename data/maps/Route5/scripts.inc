@@ -273,3 +273,5 @@ Route5_Text_Girl:
 	.string "the Serenado region!\p"
 	.string "Thankfully the Rest House is here is you\n"
 	.string "or your Pokémon get tired.$"
+
+	

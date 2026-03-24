@@ -346,16 +346,39 @@ Route104_Text_HaleyPostRematch:
 	.string "I can accept this loss with grace.\p"
 	.string "I am still upset about losing!$"
 
-Route104_Text_WinstonIntro:
-	.string "Oh, sure, I'll accept your challenge.\n"
-	.string "I have a lot of money.$"
+Route6_Text_WinstonIntro:
+	.string "I'll accept your challenge!\n"
+	.string "Anything to keep my mind off of\l"
+	.string "the heat...$"
 
-Route104_Text_WinstonDefeat:
+Route6_Text_WinstonDefeat:
 	.string "Why couldn't I win?$"
 
-Route104_Text_WinstonPostBattle:
-	.string "There are some things money can't buy.\n"
-	.string "That's Pokémon…$"
+Route6_Text_WinstonPostBattle:
+	.string "That's Pokémon...\n"
+	.string "And now I'm even more hot...$"
+
+Route6_Text_SimonIntro:
+	.string "I'm going to catch more Pokémon\n"
+	.string "before fighting Gym Leader Magnus!$"
+
+Route6_Text_SimonDefeat:
+	.string "No, how could you?!$"
+
+Route6_Text_SimonPostBattle:
+	.string "I need to catch even more Pokémon\n"
+	.string "now...$"
+
+Route6_Text_GloriaIntro:
+	.string "Training in the hot sun has made my\n"
+	.string "Pokémon tough! We are more than ready\l"
+	.string "to take you on!$"
+
+Route6_Text_GloriaDefeat:
+	.string "No way!$"
+
+Route6_Text_GloriaPostBattle:
+	.string "A humiliating defeat...$"
 
 Route104_Text_WinstonRegister1:
 	.string "Hm?\n"
@@ -1277,17 +1300,17 @@ Route5_Text_MilesPostBattle:
 	.string "happy, I'm just happy camping out on\l"
 	.string "this route and having fun.$"
 
-Route111_Text_HeidiIntro:
-	.string "I'm having a picnic in the desert.\p"
+Route6_Text_KendallIntro:
+	.string "I'm having a picnic!\p"
 	.string "You can always find a Trainer,\n"
 	.string "so I can enjoy a battle here, too!$"
 
-Route111_Text_HeidiDefeat:
+Route6_Text_KendallDefeat:
 	.string "Ohhh! You're mean!$"
 
-Route111_Text_HeidiPostBattle:
-	.string "When you're battling in a sandstorm,\n"
-	.string "watch out for your Pokémon's HP.\p"
+Route6_Text_KendallPostBattle:
+	.string "When you're battling, watch \n"
+	.string "out for your Pokémon's HP.\p"
 	.string "It can faint if you don't keep\n"
 	.string "an eye on it!$"
 
@@ -1633,16 +1656,16 @@ Route112_Text_TrentRematchPostBattle:
 	.string "I intend to get up there and give them\n"
 	.string "a challenge!$"
 
-Route112_Text_LarryIntro:
+Route6_Text_BrodyIntro:
 	.string "I'm strong.\n"
 	.string "I won't cry if I lose.$"
 
-Route112_Text_LarryDefeat:
-	.string "Waaaah!$"
+Route6_Text_BrodyDefeat:
+	.string "Conceal, don't feel...$"
 
-Route112_Text_LarryPostBattle:
-	.string "I'm not crying because I miss my mommy!\n"
-	.string "Snivel…$"
+Route6_Text_BrodyPostBattle:
+	.string "I'm not crying because I lost!\n"
+	.string "Snivel...$"
 
 Route112_Text_CarolIntro:
 	.string "When you're out on a picnic, why,\n"
@@ -1885,18 +1908,27 @@ Route114_Text_LucasPostBattle:
 	.string "In the winter, mountains turn deadly\n"
 	.string "with blizzards and avalanches.$"
 
-Route114_Text_ShaneIntro:
-	.string "Camping's fun! You can fish, roast\n"
-	.string "marshmallows, and tell spooky stories!\p"
-	.string "But the best of all are the Pokémon\n"
-	.string "battles!$"
+Route6_Text_MarcusIntro:
+	.string "My bird Pokémon love the tall rocks\n"
+	.string "on this route!$"
 
-Route114_Text_ShaneDefeat:
-	.string "Way too strong!$"
+Route6_Text_MarcusDefeat:
+	.string "Woah!$"
 
-Route114_Text_ShanePostBattle:
-	.string "I think it's great that I can go\n"
-	.string "camping with my Pokémon.$"
+Route6_Text_MarcusPostBattle:
+	.string "I need to make sure I don't fall off\n"
+	.string "of the rocks, that would not be good.$"
+
+Route6_Text_AutumnIntro:
+	.string "I fell off the rocks!\n"
+	.string "Don't you dare make fun of me!$"
+
+Route6_Text_AutumnDefeat:
+	.string "How dare you!$"
+
+Route6_Text_AutumnPostBattle:
+	.string "Just please don't tell anyone that\n"
+	.string "I fell, I can't let anyone else know.$"
 
 Route3_Text_NancyIntro:
 	.string "I saw you coming from a mile away!\n"
@@ -2673,15 +2705,15 @@ Route118_Text_RosePostRematch:
 	.string "If you use a sweet aroma properly,\n"
 	.string "Pokémon will be attracted by it.$"
 
-Route118_Text_PerryIntro:
-	.string "Bird Pokémon that Fly elegantly in\n"
-	.string "the sky… They're the best!$"
+Route6_Text_JordyIntro:
+	.string "Bird Pokémon that fly high in\n"
+	.string "the sky... They're the best!$"
 
-Route118_Text_PerryDefeat:
+Route6_Text_JordyDefeat:
 	.string "Urgh…\n"
 	.string "I crashed…$"
 
-Route118_Text_PerryPostBattle:
+Route6_Text_JordyPostBattle:
 	.string "You've got great Pokémon.\n"
 	.string "I'll have to train mine better.$"
 
@@ -3144,19 +3176,17 @@ Route120_Text_JenniferPostBattle:
 	.string "The special abilities of Pokémon\n"
 	.string "will make battle styles change.$"
 
-Route120_Text_ChipIntro:
+Route6_Text_NoahIntro:
 	.string "Who might you be?\p"
-	.string "Are you perhaps searching for ancient\n"
-	.string "ruins that are rumored to possibly\l"
-	.string "exist according to legend?$"
+	.string "Are you perhaps searching these\n"
+	.string "badlands for rare Pokémon?$"
 
-Route120_Text_ChipDefeat:
-	.string "What a disgraceful setback…$"
+Route6_Text_NoahDefeat:
+	.string "What a disgraceful defeat...$"
 
-Route120_Text_ChipPostBattle:
-	.string "That giant rock… I would like to\n"
-	.string "believe it may indeed contain ancient\l"
-	.string "ruins. But I see no entrance.$"
+Route6_Text_NoahPostBattle:
+	.string "The rocks up ahead have turned red\n"
+	.string "from being scorched by the sun.$"
 
 Route120_Text_ClarissaIntro:
 	.string "Why am I carrying this parasol?\p"
@@ -4857,17 +4887,16 @@ Route134_Text_ReynaPostBattle:
 	.string "I'll work my way back up by taking on\n"
 	.string "Trainers I happen to meet!$"
 
-Route134_Text_HudsonIntro:
-	.string "Listen, have you seen another Sailor\n"
-	.string "around here?$"
+Route6_Text_HudsonIntro:
+	.string "Listen, have you seen any interesting\n"
+	.string "fossils around here?$"
 
-Route134_Text_HudsonDefeat:
-	.string "Now, that's something!$"
+Route6_Text_HudsonDefeat:
+	.string "Now that's something!$"
 
-Route134_Text_HudsonPostBattle:
-	.string "Our boat drifted out to sea.\p"
-	.string "My buddy's a timid fellow, so I'm\n"
-	.string "worried about him.$"
+Route6_Text_HudsonPostBattle:
+	.string "There are rumors of fossils somewhere\n"
+	.string "around here. I want to find them!$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "The battery isn't charged enough.\p"

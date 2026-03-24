@@ -143,8 +143,6 @@ JaggedPass_EventScript_Julio::
 	end
 
 JaggedPass_EventScript_Autumn::
-	trainerbattle_single TRAINER_AUTUMN, JaggedPass_Text_AutumnIntro, JaggedPass_Text_AutumnDefeat
-	msgbox JaggedPass_Text_AutumnPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 JaggedPass_Text_EricIntro:

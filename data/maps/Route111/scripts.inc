@@ -429,8 +429,7 @@ Route111_EventScript_Drew::
 	end
 
 Route111_EventScript_Heidi::
-	trainerbattle_single TRAINER_HEIDI, Route111_Text_HeidiIntro, Route111_Text_HeidiDefeat
-	msgbox Route111_Text_HeidiPostBattle, MSGBOX_AUTOCLOSE
+
 	end
 
 Route111_EventScript_Beau::

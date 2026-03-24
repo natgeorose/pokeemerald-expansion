@@ -13523,19 +13523,19 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TEA] =
     {
-        .name = ITEM_NAME("Tea"),
+        .name = ITEM_NAME("Lost Artifact"),
         .pluralName = ITEM_PLURAL_NAME("Tea"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A thirst-quenching\n"
-            "tea prepared by an\n"
-            "old lady."),
+            "An old artifact that\n"
+            "appears to be quite\n"
+            "worn down."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-        .iconPic = gItemIcon_Tea,
-        .iconPalette = gItemIconPalette_Tea,
+        .iconPic = gItemIcon_StrangeSouvenir,
+        .iconPalette = gItemIconPalette_StrangeSouvenir,
     },
 
     [ITEM_RUBY] =

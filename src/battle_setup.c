@@ -162,7 +162,7 @@ const struct RematchTrainer gRematchTable[REMATCH_TABLE_ENTRIES] =
     [REMATCH_CINDY] = REMATCH(TRAINER_CLARA, TRAINER_CINDY_3, TRAINER_CINDY_4, TRAINER_CINDY_5, TRAINER_CINDY_6, MAP_ROUTE104),
     [REMATCH_THALIA] = REMATCH(TRAINER_THALIA_1, TRAINER_THALIA_2, TRAINER_THALIA_3, TRAINER_THALIA_4, TRAINER_THALIA_5, MAP_ABANDONED_SHIP_ROOMS_1F),
     [REMATCH_JESSICA] = REMATCH(TRAINER_JESSICA_1, TRAINER_JESSICA_2, TRAINER_JESSICA_3, TRAINER_JESSICA_4, TRAINER_JESSICA_5, MAP_ROUTE121),
-    [REMATCH_WINSTON] = REMATCH(TRAINER_WINSTON_1, TRAINER_WINSTON_2, TRAINER_WINSTON_3, TRAINER_WINSTON_4, TRAINER_WINSTON_5, MAP_ROUTE104),
+    [REMATCH_WINSTON] = REMATCH(TRAINER_WINSTON, TRAINER_WINSTON_2, TRAINER_WINSTON_3, TRAINER_WINSTON_4, TRAINER_WINSTON_5, MAP_ROUTE104),
     [REMATCH_STEVE] = REMATCH(TRAINER_STEVE_1, TRAINER_STEVE_2, TRAINER_STEVE_3, TRAINER_STEVE_4, TRAINER_STEVE_5, MAP_ROUTE114),
     [REMATCH_TONY] = REMATCH(TRAINER_TONY_1, TRAINER_TONY_2, TRAINER_TONY_3, TRAINER_TONY_4, TRAINER_TONY_5, MAP_ROUTE107),
     [REMATCH_NOB] = REMATCH(TRAINER_NOB_1, TRAINER_NOB_2, TRAINER_NOB_3, TRAINER_NOB_4, TRAINER_NOB_5, MAP_ROUTE115),
@@ -662,8 +662,6 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         return BATTLE_ENVIRONMENT_WATER;
     if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
         return BATTLE_ENVIRONMENT_POND;
-    if (MetatileBehavior_IsMountain(tileBehavior))
-        return BATTLE_ENVIRONMENT_MOUNTAIN;
     if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
     {
         // Is BRIDGE_TYPE_POND_*?
@@ -680,7 +678,18 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         return BATTLE_ENVIRONMENT_GRASS;
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_EREWOOD_GROVE) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_EREWOOD_GROVE))
         return BATTLE_ENVIRONMENT_GRASS;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE5) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE5) && MetatileBehavior_IsMountain(tileBehavior))
+        return BATTLE_ENVIRONMENT_UNDERWATER;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE5) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE5))
+        return BATTLE_ENVIRONMENT_GRASS;
 
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE6) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE6) && gSaveBlock1Ptr->pos.y > 81)
+        return BATTLE_ENVIRONMENT_UNDERWATER;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE6) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE6))
+        return BATTLE_ENVIRONMENT_SAND;
+
+    if (MetatileBehavior_IsMountain(tileBehavior))
+        return BATTLE_ENVIRONMENT_UNDERWATER;
     if (MetatileBehavior_IsTallGrass(tileBehavior))
         return BATTLE_ENVIRONMENT_GRASS;
     if (MetatileBehavior_IsLongGrass(tileBehavior))
@@ -688,7 +697,6 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
     if (MetatileBehavior_IsSandOrDeepSand(tileBehavior))
         return BATTLE_ENVIRONMENT_SAND;
 
-    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE113) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE113))
         return BATTLE_ENVIRONMENT_SAND;
     if (GetSavedWeather() == WEATHER_SANDSTORM)
         return BATTLE_ENVIRONMENT_SAND;
