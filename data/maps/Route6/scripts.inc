@@ -3,6 +3,7 @@ Route6_MapScripts::
 
 Route6_EventScript_JumpRight::
 	lockall
+	playse SE_LEDGE
 	applymovement LOCALID_PLAYER, Route6_Movement_JumpRight
 	waitmovement 0
 	releaseall
@@ -15,6 +16,7 @@ Route6_Movement_JumpRight:
 
 Route6_EventScript_JumpLeft::
 	lockall
+	playse SE_LEDGE
 	applymovement LOCALID_PLAYER, Route6_Movement_JumpLeft
 	waitmovement 0
 	releaseall

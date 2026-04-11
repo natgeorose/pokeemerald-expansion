@@ -83,7 +83,6 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	waitmovement 0
 	playse SE_EXIT
 	removeobject LOCALID_PETALBURG_GYM_WALLY
-	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
 	delay 30
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
@@ -182,8 +181,6 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
 	setvar VAR_PETALBURG_GYM_STATE, 1
 	setvar VAR_PETALBURG_CITY_STATE, 2
-	clearflag FLAG_HIDE_PETALBURG_CITY_WALLY
-	clearflag FLAG_HIDE_PETALBURG_GYM_WALLY
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
 	special InitBirchState
 	warp MAP_PETALBURG_CITY, 15, 8

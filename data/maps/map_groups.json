@@ -449,7 +449,10 @@
     "MeteorFalls_StevensCave",
     "Route7_1F",
     "ErewoodGrove",
-    "ErewoodGrove_B1F"
+    "ErewoodGrove_B1F",
+    "CoalscorchQuarry",
+    "CoalscorchQuarry_B1F",
+    "CoalscorchQuarry_B2F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
@@ -675,7 +678,8 @@
     "QuilspringTown_University_2F"
   ],
   "gMapGroup_IndoorFellhaven": [
-    "FellhavenTown_PC"
+    "FellhavenTown_PC",
+    "FellhavenTown_Station"
   ],
   "gMapGroup_IndoorSundara": [
     "SundaraVillage_PC",

@@ -647,6 +647,12 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
             return BATTLE_ENVIRONMENT_POND;
         if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_EREWOOD_GROVE_B1F) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_EREWOOD_GROVE_B1F))
             return BATTLE_ENVIRONMENT_GRASS;
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_COALSCORCH_QUARRY) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_COALSCORCH_QUARRY))
+            return BATTLE_ENVIRONMENT_WATER;
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_COALSCORCH_QUARRY_B1F) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_COALSCORCH_QUARRY_B1F))
+            return BATTLE_ENVIRONMENT_WATER;
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_COALSCORCH_QUARRY_B2F) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_COALSCORCH_QUARRY_B2F))
+            return BATTLE_ENVIRONMENT_WATER;
         return BATTLE_ENVIRONMENT_CAVE;
     case MAP_TYPE_INDOOR:
     case MAP_TYPE_SECRET_BASE:

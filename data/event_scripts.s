@@ -1262,3 +1262,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SundaraVillage_PC/scripts.inc"
 
 	.include "data/maps/SundaraVillage_House2/scripts.inc"
+
+	.include "data/maps/FellhavenTown_Station/scripts.inc"
+
+	.include "data/maps/CoalscorchQuarry/scripts.inc"
+
+	.include "data/maps/CoalscorchQuarry_B1F/scripts.inc"
+
+	.include "data/maps/CoalscorchQuarry_B2F/scripts.inc"

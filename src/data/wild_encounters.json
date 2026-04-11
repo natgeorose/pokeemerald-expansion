@@ -12643,6 +12643,213 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_COALSCORCH_QUARRY",
+          "base_label": "gCoalscorchQuarry",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GLIMMET"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_MEDITITE"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_MAKUHITA"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_MEDITITE"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CHARCADET"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CHARCADET"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CHARCADET"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CHARCADET"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COALSCORCH_QUARRY_B1F",
+          "base_label": "gCoalscorchQuarry_B1F",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_NUMEL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_SALANDIT"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_SLUGMA"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_NUMEL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CYNDAQUIL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CYNDAQUIL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CYNDAQUIL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_CYNDAQUIL"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COALSCORCH_QUARRY_B2F",
+          "base_label": "gCoalscorchQuarry_B2F",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_SLUGMA"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_NUMEL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_SALANDIT"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_MAGBY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_MAGBY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_TORKOAL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_TORKOAL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_TORKOAL"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_TORKOAL"
+              }
+            ]
+          }
         }
       ]
     },

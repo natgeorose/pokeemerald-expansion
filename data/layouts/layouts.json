@@ -4444,8 +4444,8 @@
     {
       "id": "LAYOUT_ROUTE7",
       "name": "Route7_Layout",
-      "width": 40,
-      "height": 60,
+      "width": 68,
+      "height": 90,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Cairwind",
       "border_filepath": "data/layouts/Route7/border.bin",
@@ -4860,6 +4860,46 @@
       "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/SundaraVillage_House2/border.bin",
       "blockdata_filepath": "data/layouts/SundaraVillage_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_STATION",
+      "name": "FellhavenTown_Station_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_Station/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_Station/map.bin"
+    },
+    {
+      "id": "LAYOUT_COALSCORCH_QUARRY",
+      "name": "CoalscorchQuarry_Layout",
+      "width": 60,
+      "height": 50,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Underground",
+      "border_filepath": "data/layouts/CoalscorchQuarry/border.bin",
+      "blockdata_filepath": "data/layouts/CoalscorchQuarry/map.bin"
+    },
+    {
+      "id": "LAYOUT_COALSCORCH_QUARRY_B1F",
+      "name": "CoalscorchQuarry_B1F_Layout",
+      "width": 60,
+      "height": 50,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Underground",
+      "border_filepath": "data/layouts/CoalscorchQuarry_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/CoalscorchQuarry_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_COALSCORCH_QUARRY_B2F",
+      "name": "CoalscorchQuarry_B2F_Layout",
+      "width": 60,
+      "height": 50,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Underground",
+      "border_filepath": "data/layouts/CoalscorchQuarry_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/CoalscorchQuarry_B2F/map.bin"
     }
   ]
 }

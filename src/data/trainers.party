@@ -3792,8 +3792,16 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Kecleon
-Level: 24
+Pansear (M)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Slugma (M)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Larvesta (M)
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ETHAN_1 ===
@@ -4854,7 +4862,7 @@ AI: Smart Trainer
 Mugshot: Yellow
 
 Torracat (M)
-Level: 22
+Level: 23
 Ability: Intimidate
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Will O Wisp
@@ -4863,7 +4871,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Double Kick
 
 Heatmor (M)
-Level: 22
+Level: 23
 Ability: White Smoke
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Will O Wisp
@@ -4872,7 +4880,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 
 Scovillain (M)
-Level: 22
+Level: 23
 Ability: Insomnia
 IVs: 12 HP / 0 Atk / 12 Def / 0 SpA / 12 SpD / 12 Spe
 - Will O Wisp
@@ -4881,7 +4889,7 @@ IVs: 12 HP / 0 Atk / 12 Def / 0 SpA / 12 SpD / 12 Spe
 - Super Fang
 
 Ninetales (M) @ Sitrus Berry
-Level: 23
+Level: 24
 Nature: Modest
 Ability: Flash Fire
 IVs: 31 HP / 24 Atk / 31 Def / 31 SpA / 24 SpD / 31 Spe
@@ -8625,12 +8633,12 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Taillow
-Level: 17
+Salandit (F)
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lombre
-Level: 17
+Darumaka (F)
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_NANCY ===
@@ -12057,13 +12065,13 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Swellow
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Magby (M)
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Xatu
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Monferno (M)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ASHLEY ===
 Name: Ashley
@@ -12074,17 +12082,13 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Swablu
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Fletchinder (F)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Swablu
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Swablu
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ponyta (F)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
 Name: Wally
@@ -13916,8 +13920,8 @@ Spoink
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DEVAN ===
-Name: Devan
+=== TRAINER_ROCKY ===
+Name: Rocky
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -13925,12 +13929,12 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 8
+Growlithe-Hisui (M)
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Geodude
-Level: 8
+Carkol (M)
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOHNSON ===

@@ -134,6 +134,34 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE7_1F",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 36,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 33,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 25,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "4"
     }
   ],
   "coord_events": [],

@@ -337,8 +337,6 @@ Route116_EventScript_Dawson::
 	end
 
 Route116_EventScript_Devan::
-	trainerbattle_single TRAINER_DEVAN, Route116_Text_DevanIntro, Route116_Text_DevanDefeat
-	msgbox Route116_Text_DevanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_Johnson::

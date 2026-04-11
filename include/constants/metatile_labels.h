@@ -745,6 +745,9 @@
 #define METATILE_SootopolisGym_Ice_Cracked  0x20E
 #define METATILE_SootopolisGym_Stairs       0x207
 
+// gTileset_Sundara
+#define METATILE_Sundara_FireOut  0x2FA
+
 // gTileset_TrainerHill
 #define METATILE_TrainerHill_CounterDoor          0x334
 #define METATILE_TrainerHill_Door_Elevator_Lobby  0x32C
