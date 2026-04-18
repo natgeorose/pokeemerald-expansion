@@ -25,13 +25,13 @@ MoordenVillage_PC_EventScript_Clerk::
 MoordenVillage_PC_Pokemart:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_NET_BALL
+	.2byte ITEM_LURE_BALL
 	.2byte ITEM_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
 	.2byte ITEM_BURN_HEAL
 	.2byte ITEM_ICE_HEAL
-	.2byte ITEM_REPEL
 	.2byte ITEM_LURE
 	pokemartlistend
 

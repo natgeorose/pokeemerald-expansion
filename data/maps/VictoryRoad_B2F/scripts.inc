@@ -22,8 +22,6 @@ VictoryRoad_B2F_EventScript_Julie::
 	end
 
 VictoryRoad_B2F_EventScript_Felix::
-	trainerbattle_single TRAINER_FELIX, VictoryRoad_B2F_Text_FelixIntro, VictoryRoad_B2F_Text_FelixDefeat
-	msgbox VictoryRoad_B2F_Text_FelixPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VictoryRoad_B2F_EventScript_Dianne::
@@ -78,19 +76,6 @@ VictoryRoad_B2F_Text_JulieDefeat:
 VictoryRoad_B2F_Text_JuliePostBattle:
 	.string "Gaze on your collected Badges and\n"
 	.string "remember the Trainers you've faced.$"
-
-VictoryRoad_B2F_Text_FelixIntro:
-	.string "I've come this far, but the tension's\n"
-	.string "giving me awful stomach pain…$"
-
-VictoryRoad_B2F_Text_FelixDefeat:
-	.string "Ooh…\n"
-	.string "It hurts…$"
-
-VictoryRoad_B2F_Text_FelixPostBattle:
-	.string "I can't help getting all tense knowing\n"
-	.string "that I'm nearing the Pokémon League.\p"
-	.string "It's all I can do to feign calm.$"
 
 VictoryRoad_B2F_Text_DianneIntro:
 	.string "The elite among the elite gather in\n"

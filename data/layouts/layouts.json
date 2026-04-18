@@ -4900,6 +4900,16 @@
       "secondary_tileset": "gTileset_Underground",
       "border_filepath": "data/layouts/CoalscorchQuarry_B2F/border.bin",
       "blockdata_filepath": "data/layouts/CoalscorchQuarry_B2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE7_B1F",
+      "name": "Route7_B1F_Layout",
+      "width": 53,
+      "height": 73,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Underground",
+      "border_filepath": "data/layouts/Route7_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/Route7_B1F/map.bin"
     }
   ]
 }

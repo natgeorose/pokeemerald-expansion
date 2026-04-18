@@ -468,18 +468,39 @@ Route1_Text_DarianPostBattle:
 	.string "I guess I should have said no to\n"
 	.string "that Pokémon battle...$"
 
-Route105_Text_FosterIntro:
-	.string "There's supposed to be a mystical\n"
-	.string "rock around here.\l"
+Route7_B1F_Text_FosterIntro:
+	.string "There's supposed to be a hidden\n"
+	.string "cave around here.\l"
 	.string "Do you know anything about it?$"
 
-Route105_Text_FosterDefeated:
-	.string "I was thinking too much about that\n"
-	.string "rock, while my Pokémon remained weak…$"
+Route7_B1F_Text_FosterDefeat:
+	.string "I was thinking too much about this\n"
+	.string "cave system.$"
 
-Route105_Text_FosterPostBattle:
+Route7_B1F_Text_FosterPostBattle:
 	.string "I can spend hours and hours staring\n"
 	.string "at a nice rock without growing bored.$"
+
+Route7_B1F_Text_JesseIntro:
+	.string "I don't care much for the outdoors,\n"
+	.string "I'd much rather be exploring a cave!$"
+
+Route7_B1F_Text_JesseDefeat:
+	.string "You're strong!$"
+
+Route7_B1F_Text_JessePostBattle:
+	.string "Maybe I need to get outside more...$"
+
+Route7_B1F_Text_FelixIntro:
+	.string "I'm doing research on the cave system\n"
+	.string "here, there is much to do!$"
+
+Route7_B1F_Text_FelixDefeat:
+	.string "Oh no! I lost!$"
+
+Route7_B1F_Text_FelixPostBattle:
+	.string "Hopefully Professor Pine will give me\n"
+	.string "a special award for all of my work.$"
 
 Route105_Text_LuisIntro:
 	.string "Whew! I was worried that a kid was\n"
@@ -1570,17 +1591,26 @@ Route111_Text_TyronPostBattle:
 	.string "I bet everyone feels that way when\n"
 	.string "they enter a battle!$"
 
-Route111_Text_CelinaIntro:
-	.string "Show me how to put a little excitement\n"
-	.string "into my life.$"
+Route7_Text_SelenaIntro:
+	.string "The river makes all the flowers grow\n"
+	.string "so nicely, it's exciting!$"
 
-Route111_Text_CelinaDefeat:
-	.string "Oh… My…\n"
+Route7_Text_SelenaDefeat:
+	.string "Oh my...\n"
 	.string "That was too much excitement.$"
 
-Route111_Text_CelinaPostBattle:
-	.string "My pulse is still racing.\n"
+Route7_Text_SelenaPostBattle:
 	.string "You're one fabulous Trainer.$"
+
+Route7_Text_GabeIntro:
+	.string "Wooo my Pokémon love the fresh\n"
+	.string "mountain air, look at them!$"
+
+Route7_Text_GabeDefeat:
+	.string "Ahh too much!$"
+
+Route7_Text_GabePostBattle:
+	.string "At least my Pokémon are still happy.$"
 
 Route111_Text_HaydenIntro:
 	.string "When you're as famished as I am,\n"

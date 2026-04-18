@@ -224,6 +224,9 @@ const u32 gTrainerFrontPic_Nick[] = INCBIN_U32("graphics/trainers/front_pics/nic
 const u32 gTrainerFrontPic_Nate[] = INCBIN_U32("graphics/trainers/front_pics/nate.4bpp.smol");
 const u16 gTrainerPalette_NickNate[] = INCBIN_U16("graphics/trainers/front_pics/nicknate.gbapal");
 
+const u32 gTrainerFrontPic_Scientist[] = INCBIN_U32("graphics/trainers/front_pics/scientist.4bpp.smol");
+const u16 gTrainerPalette_Scientist[] = INCBIN_U16("graphics/trainers/front_pics/scientist.gbapal");
+
 const u32 gTrainerFrontPic_Brendan[] = INCBIN_U32("graphics/trainers/front_pics/brendan.4bpp.smol");
 const u16 gTrainerPalette_Brendan[] = INCBIN_U16("graphics/trainers/palettes/brendan.gbapal");
 
@@ -415,6 +418,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_ISABEL, gTrainerFrontPic_Isabel, gTrainerPalette_Isabel),
     TRAINER_SPRITE(TRAINER_PIC_NICK, gTrainerFrontPic_Nick, gTrainerPalette_NickNate),
     TRAINER_SPRITE(TRAINER_PIC_NATE, gTrainerFrontPic_Nate, gTrainerPalette_NickNate),
+    TRAINER_SPRITE(TRAINER_PIC_SCIENTIST, gTrainerFrontPic_Scientist, gTrainerPalette_Scientist),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

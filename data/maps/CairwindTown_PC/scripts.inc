@@ -70,7 +70,6 @@ CairwindTown_PC_Pokemart:
 	.2byte ITEM_AWAKENING
 	.2byte ITEM_BURN_HEAL
 	.2byte ITEM_ICE_HEAL
-	.2byte ITEM_REPEL
 	.2byte ITEM_LURE
 	pokemartlistend
 

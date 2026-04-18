@@ -111,6 +111,45 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_ROUTE7_1F_UNOWN"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 21,
+      "y": 49,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_TEMP_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 22,
+      "y": 50,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_TEMP_11"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 23,
+      "y": 51,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_TEMP_12"
     }
   ],
   "warp_events": [
@@ -161,6 +200,41 @@
       "y": 11,
       "elevation": 0,
       "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 37,
+      "y": 55,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7_B1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 23,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7_B1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 33,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7_B1F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7_B1F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 33,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7_B1F",
       "dest_warp_id": "4"
     }
   ],

@@ -24,10 +24,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SundaraVillage_House1_EventScript_Man",
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_FRILLISH",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(FRILLISH)",
       "x": 1,
       "y": 5,
@@ -37,10 +38,11 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SundaraVillage_House1_EventScript_Frillish",
+      "flag": "FLAG_TEMP_10"
     },
     {
+      "local_id": "LOCALID_HORSEA",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(HORSEA)",
       "x": 5,
       "y": 3,
@@ -50,10 +52,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SundaraVillage_House1_EventScript_Horsea",
+      "flag": "FLAG_TEMP_11"
     },
     {
+      "local_id": "LOCALID_STARYU",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(STARYU)",
       "x": 10,
       "y": 3,
@@ -63,8 +66,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SundaraVillage_House1_EventScript_Staryu",
+      "flag": "FLAG_TEMP_12"
     }
   ],
   "warp_events": [

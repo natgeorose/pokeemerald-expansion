@@ -274,4 +274,7 @@ Route5_Text_Girl:
 	.string "Thankfully the Rest House is here is you\n"
 	.string "or your Pokémon get tired.$"
 
+
+
+
 	

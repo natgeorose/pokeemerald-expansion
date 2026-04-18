@@ -1270,3 +1270,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CoalscorchQuarry_B1F/scripts.inc"
 
 	.include "data/maps/CoalscorchQuarry_B2F/scripts.inc"
+
+	.include "data/maps/Route7_B1F/scripts.inc"

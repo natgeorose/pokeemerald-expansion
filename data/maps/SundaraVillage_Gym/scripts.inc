@@ -258,6 +258,8 @@ SundaraVillage_Gym_EventScript_Magnus::
 	end
 
 SundaraVillage_Gym_EventScript_MagnusDefeated::
+	lockall
+	closemessage
 	msgbox SundaraVillage_Gym_Text_ReceivedCampfireBadge, MSGBOX_DEFAULT
 	closemessage
 	call Common_EventScript_PlayGymBadgeFanfare
@@ -265,7 +267,7 @@ SundaraVillage_Gym_EventScript_MagnusDefeated::
 	msgbox SundaraVillage_Gym_Text_CampfireBadgeInfoTakeThis, MSGBOX_DEFAULT
 	closemessage
 	setflag FLAG_DEFEATED_SUNDARA_GYM
-	setflag FLAG_BADGE01_GET
+	setflag FLAG_BADGE02_GET
 	setvar VAR_LEVEL_CAP, 29
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
@@ -279,6 +281,63 @@ SundaraVillage_Gym_EventScript_GiveWillOWisp::
 	setspeaker Speaker_Magnus
 	msgbox SundaraVillage_Gym_Text_ExplainWillOWisp, MSGBOX_DEFAULT
 	closemessage
+	goto SundaraVillage_Gym_EventScript_NewTrouble
+	end
+
+SundaraVillage_Gym_EventScript_NewTrouble::
+	lockall
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	playse SE_PIN
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	applymovement LOCALID_MAGNUS, Common_Movement_ExclamationMark
+	waitmovement 0
+	setspeaker Speaker_Magnus
+	msgbox SundaraVillage_Gym_Text_WhatWasThat, MSGBOX_DEFAULT
+	closemessage
+	clearflag FLAG_HIDE_SUNDARA_JIM
+	addobject LOCALID_SUNDARA_JIM
+	special SpawnCameraObject
+	applymovement LOCALID_CAMERA, Common_Movement_WalkDown2
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
+	applymovement LOCALID_SUNDARA_JIM, SundaraVillage_Gym_Movement_JimEnter
+	waitmovement 0
+	setspeaker Speaker_Jim
+	msgbox SundaraVillage_Gym_Text_JimTrouble, MSGBOX_DEFAULT
+	closemessage
+	playse SE_PIN
+	applymovement LOCALID_MAGNUS, Common_Movement_ExclamationMark
+	waitmovement 0
+	setspeaker Speaker_Magnus
+	msgbox SundaraVillage_Gym_Text_MagnusOhNo, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
+	setspeaker Speaker_Magnus
+	msgbox SundaraVillage_Gym_Text_MagnusPlayer, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkRightFast
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
+	applymovement LOCALID_MAGNUS, SundaraVillage_Gym_Movement_MagnusExit
+	delay 30
+	applymovement LOCALID_SUNDARA_JIM, SundaraVillage_Gym_Movement_JimExit
+	waitmovement 0
+	applymovement LOCALID_CAMERA, Common_Movement_WalkUp2
+	waitmovement 0
+	applymovement LOCALID_CAMERA, Common_Movement_WalkRight
+	waitmovement 0
+	special RemoveCameraObject
+	removeobject LOCALID_MAGNUS
+	removeobject LOCALID_SUNDARA_JIM
+	setflag FLAG_HIDE_SUNDARA_JIM
+	setflag FLAG_MAGNUS_GYM
+	clearflag FLAG_MAGNUS_OUTSIDE
+	setvar VAR_STORY, 18
 	releaseall
 	end
 
@@ -320,4 +379,54 @@ SundaraVillage_Gym_Text_ExplainWillOWisp:
 SundaraVillage_Gym_Text_MagnusPostBattle:
 	.string "As much as I love being a Gym Leader,\n"
 	.string "I do miss leading the Rangers.$"
+
+SundaraVillage_Gym_Text_WhatWasThat:
+	.string "What was that??$"
+
+SundaraVillage_Gym_Movement_JimEnter:
+    walk_fast_up
+    walk_fast_up
+    walk_fast_up
+    walk_fast_up
+    step_end
+
+SundaraVillage_Gym_Text_JimTrouble:
+	.string "Magnus, there appears to be something\n"
+	.string "going on in Coalscorch Quarry!$"
+
+SundaraVillage_Gym_Text_MagnusOhNo:
+	.string "Oh no! The miners in the quarry could\n"
+	.string "be in danger! We have to move now!$"
+
+SundaraVillage_Gym_Text_MagnusPlayer:
+	.string "I'm sorry to ask something of you,\n"
+	.string "but you are a capable trainer and\l"
+	.string "this is urgent!\p"
+	.string "Please meet me in Coalscorch Quarry,\n"
+	.string "hopefully we can figure out what is\l"
+	.string "going on!$"
+
+SundaraVillage_Gym_Movement_MagnusExit:
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    walk_fast_left
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    step_end
+
+SundaraVillage_Gym_Movement_JimExit:
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    walk_fast_down
+    step_end
+
+
+
 

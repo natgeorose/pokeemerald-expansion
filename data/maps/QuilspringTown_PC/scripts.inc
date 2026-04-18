@@ -35,7 +35,7 @@ QuilspringTown_PC_EventScript_Clerk::
 	.align 2
 QuilspringTown_PC_Pokemart:
 	.2byte ITEM_POKE_BALL
-	.2byte ITEM_LUXURY_BALL
+	.2byte ITEM_REPEAT_BALL
 	.2byte ITEM_HEAL_BALL
 	.2byte ITEM_POTION
 	.2byte ITEM_ANTIDOTE
@@ -43,6 +43,5 @@ QuilspringTown_PC_Pokemart:
 	.2byte ITEM_AWAKENING
 	.2byte ITEM_BURN_HEAL
 	.2byte ITEM_ICE_HEAL
-	.2byte ITEM_REPEL
 	.2byte ITEM_LURE
 	pokemartlistend

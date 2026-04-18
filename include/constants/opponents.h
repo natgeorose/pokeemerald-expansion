@@ -50,7 +50,7 @@
 #define TRAINER_MAYNARD                      44
 #define TRAINER_NOAH                         45
 #define TRAINER_FOSTER                       46
-#define TRAINER_DUSTY_2                      47
+#define TRAINER_JESSE                      47
 #define TRAINER_DUSTY_3                      48
 #define TRAINER_DUSTY_4                      49
 #define TRAINER_DUSTY_5                      50
@@ -219,7 +219,7 @@
 #define TRAINER_BRODY                       213
 #define TRAINER_MARCUS                       214
 #define TRAINER_JUSTIN                      215
-#define TRAINER_ETHAN_1                     216
+#define TRAINER_GABE                     216
 #define TRAINER_AUTUMN                      217
 #define TRAINER_TRAVIS                      218
 #define TRAINER_ETHAN_2                     219
@@ -708,7 +708,7 @@
 #define TRAINER_MARCOS                      702
 #define TRAINER_RHETT                       703
 #define TRAINER_TYRON                       704
-#define TRAINER_CELINA                      705
+#define TRAINER_SELENA                      705
 #define TRAINER_OPAL                      706
 #define TRAINER_HAYDEN                      707
 #define TRAINER_SOPHIE                      708

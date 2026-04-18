@@ -236,7 +236,7 @@ Route_7_Text_IsabelEntrance:
 
 Route_7_Text_JamesRetort:
 	.string "Hey! It's not my fault, I was waiting\n"
-	.string "on {PLAYER}. Besides, we are here\p"
+	.string "on {PLAYER}. Besides, we are here\l"
 	.string "to train my Pokémon, not for you!$"
 
 Route_7_Text_IsabelRetort:
@@ -393,13 +393,13 @@ Route_7_Text_IsabelPine:
 
 Route_7_Text_PineAh:
 	.string "Ah yes, we were nearby and\n"
-	.string "heard shouting from over here!\p"
+	.string "heard shouting from over here!\l"
 	.string "Is everything okay?$"
 
 Route_7_Text_JamesWild:
-	.string "Professor, it was wild!\n"
-	.string "We were in the cave and out of\p"
-	.string "nowhere these three Zubat came and\n"
+	.string "Professor, it was wild!\p"
+	.string "We were in the cave and out of\n"
+	.string "nowhere these three Zubat came and\l"
 	.string "attacked us!$"
 
 Route_7_Text_IsabelProtect:
@@ -442,9 +442,9 @@ Route7_Movement_PlayerOut:
 	step_end
 
 Route_7_Text_PineApologies:
-	.string "I apologize for my colleague.\n"
-	.string "That is Berith, one of Serenado's\p"
-	.string "leading religious figures and a\n"
+	.string "I apologize for my colleague.\p"
+	.string "That is Berith, one of Serenado's\n"
+	.string "leading religious figures and a\l"
 	.string "fellow lecturer at the University.\p"
 	.string "He means well, but as a leading expert\n"
 	.string "on the natives of ancient Serenado,\p"
@@ -481,7 +481,7 @@ Route_7_Text_PineNeedPokemon:
 Route_7_Text_BerithTrue:
 	.string "It's incredible!\p"
 	.string "I've heard stories about texts like these,\n"
-	.string "but I thought they were just legends!\p"
+	.string "but I thought they were just legends!\l"
 	.string "Professor, I must research these more!$"
 
 Route_7_Text_PineTeam:
@@ -490,8 +490,8 @@ Route_7_Text_PineTeam:
 	.string "University over here at once!$"
 
 Route_7_Text_PineNeedPokemon2:
-	.string "Now, in my bag I have three Pokémon,\p"
-	.string "the three Pokémon we give out to new\n"
+	.string "Now, in my bag I have three Pokémon,\n"
+	.string "the three Pokémon we give out to new\l"
 	.string "Trainers in the Serenado region!\p"
 	.string "Choose one of them to be your partner!$"
 
@@ -595,12 +595,12 @@ Route_7_Text_PineMustApologize:
 	.string "and I will make sure that you have\n"
 	.string "everything you need.\p"
 	.string "That will be convenient, as the first\n"
-	.string "step in taking on the Pokémon League\p"
+	.string "step in taking on the Pokémon League\l"
 	.string "will be in that same town.$"
 
 Route_7_Text_JamesMustBattle:
 	.string "{PLAYER}, now that you have a Pokémon,\n"
-	.string "we need to have a Pokémon battle!\p"
+	.string "we need to have a Pokémon battle!\l"
 	.string "I'll be waiting on Route 1!$"
 
 Route7_Movement_JamesLeaveBattle:
@@ -620,7 +620,7 @@ Route_7_Text_GoMom:
 	.string "Now {PLAYER}, before you go on this\n"
 	.string "journey, you should tell your mom!\p"
 	.string "I will explain to her what happened\n"
-	.string "here, but I know she will want to see\p"
+	.string "here, but I know she will want to see\l"
 	.string "you before you depart.\p"
 	.string "Berith, let's go, and then we can\n"
 	.string "return to our fieldwork here.$"
@@ -630,7 +630,7 @@ Route_7_Text_BerithGo:
 	
 Route_7_Text_BerithSorry:
 	.string "And I do apologize for my behavior\n"
-	.string "earlier, I am perhaps a little too\p"
+	.string "earlier, I am perhaps a little too\l"
 	.string "passionate about ancient history.$"
 
 Route7_Movement_BeginLeave:
@@ -660,7 +660,7 @@ Route_7_EventScript_IsabelStay::
 
 Route_7_Text_IsabelStay:
 	.string "I know you have a journey to go on,\n"
-	.string "But I think I'm going stay and\p"
+	.string "But I think I'm going stay and\l"
 	.string "do more research on the runes here!$"
 
 Route7_EventScript_James::
@@ -719,4 +719,38 @@ Route_7_EventScript_StopRight::
 	waitmovement 0
 	releaseall
 	end
+
+Speaker_Selena:
+    .string "Selena$"
+
+Route7_EventScript_Selena::
+	trainerbattle_single TRAINER_SELENA, Route7_Text_SelenaIntro, Route7_Text_SelenaDefeat
+	setspeaker Speaker_Selena
+	msgbox Route7_Text_SelenaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Speaker_Gabe:
+    .string "Gabe$"
+
+Route7_EventScript_Gabe::
+	trainerbattle_single TRAINER_GABE, Route7_Text_GabeIntro, Route7_Text_GabeDefeat
+	setspeaker Speaker_Gabe
+	msgbox Route7_Text_GabePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Speaker_Hiker:
+    .string "Hiker$"
+
+Route7_EventScript_Hiker::
+	lockall
+	setspeaker Speaker_Hiker
+	msgbox Route7_Text_Hiker, MSGBOX_NPC
+	releaseall
+	end
+
+Route7_Text_Hiker:
+	.string "Be careful if you are trying through\n"
+	.string "Route 7 to Cairwind Town!\p"
+	.string "It's easy going down the mountain, but\n"
+	.string "much harder climbing back up!$"
 
