@@ -680,7 +680,9 @@
   ],
   "gMapGroup_IndoorFellhaven": [
     "FellhavenTown_PC",
-    "FellhavenTown_Station"
+    "FellhavenTown_Station",
+    "FellhavenTown_HerbShop",
+    "FellhavenTown_Tutor"
   ],
   "gMapGroup_IndoorSundara": [
     "SundaraVillage_PC",

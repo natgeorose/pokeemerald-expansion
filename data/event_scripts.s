@@ -1272,3 +1272,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CoalscorchQuarry_B2F/scripts.inc"
 
 	.include "data/maps/Route7_B1F/scripts.inc"
+
+	.include "data/maps/FellhavenTown_HerbShop/scripts.inc"
+
+	.include "data/maps/FellhavenTown_Tutor/scripts.inc"

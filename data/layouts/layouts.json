@@ -4910,6 +4910,26 @@
       "secondary_tileset": "gTileset_Underground",
       "border_filepath": "data/layouts/Route7_B1F/border.bin",
       "blockdata_filepath": "data/layouts/Route7_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_HERB_SHOP",
+      "name": "FellhavenTown_HerbShop_Layout",
+      "width": 13,
+      "height": 8,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_HerbShop/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_HerbShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_TUTOR",
+      "name": "FellhavenTown_Tutor_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_Tutor/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_Tutor/map.bin"
     }
   ]
 }
