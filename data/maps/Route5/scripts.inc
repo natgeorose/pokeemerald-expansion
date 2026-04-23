@@ -61,6 +61,9 @@ Route5_Text_StopExplore:
 Route5_EventScript_OldWoman::
 	lockall
 	faceplayer
+	setspeaker Speaker_Elder
+	msgbox Route5_Text_OldWomanHello, MSGBOX_NPC
+	closemessage
 	switch VAR_BEEDRILL_QUEST
 	case 0, Route5_EventScript_OldWomanIntro
 	case 1, Route5_EventScript_OldWomanReady
@@ -134,8 +137,10 @@ Route5_EventScript_OldWomanExit::
 	releaseall
 	end
 
-Route5_Text_OldWomanIntro:
+Route5_Text_OldWomanHello:
 	.string "Hello there young Trainer.\n"
+
+Route5_Text_OldWomanIntro:
 	.string "I'm an elder from Fellhaven Town.\p"
 	.string "There have been reports of a rogue\n"
 	.string "Pokémon terrorizing those passing by.\p"

@@ -441,6 +441,14 @@
       "elevation": 0,
       "item": "ITEM_TEA",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_6_ARTIFACT"
+    },
+    {
+      "type": "hidden_item",
+      "x": 24,
+      "y": 32,
+      "elevation": 0,
+      "item": "ITEM_HEART_SCALE",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_6_HEART_SCALE"
     }
   ]
 }

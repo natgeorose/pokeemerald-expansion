@@ -5,6 +5,7 @@
 
 void StartDodrioBerryPicking(u16 partyId, MainCallback exitCallback);
 void IsDodrioInParty(void);
+void IsWyrdeerInParty(void);
 void ShowDodrioBerryPickingRecords(void);
 
 #endif // GUARD_DODRIO_BERRY_PICKING_H

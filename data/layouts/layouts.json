@@ -4864,8 +4864,8 @@
     {
       "id": "LAYOUT_FELLHAVEN_TOWN_STATION",
       "name": "FellhavenTown_Station_Layout",
-      "width": 14,
-      "height": 10,
+      "width": 20,
+      "height": 11,
       "primary_tileset": "gTileset_Indoor",
       "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/FellhavenTown_Station/border.bin",
@@ -4915,7 +4915,7 @@
       "id": "LAYOUT_FELLHAVEN_TOWN_HERB_SHOP",
       "name": "FellhavenTown_HerbShop_Layout",
       "width": 13,
-      "height": 8,
+      "height": 10,
       "primary_tileset": "gTileset_Indoor",
       "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/FellhavenTown_HerbShop/border.bin",
@@ -4930,6 +4930,56 @@
       "secondary_tileset": "gTileset_pc",
       "border_filepath": "data/layouts/FellhavenTown_Tutor/border.bin",
       "blockdata_filepath": "data/layouts/FellhavenTown_Tutor/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_HOUSE_1",
+      "name": "FellhavenTown_House_1_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_House_1/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_House_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_HOUSE_4",
+      "name": "FellhavenTown_House_4_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_House_4/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_House_4/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_HOUSE_5",
+      "name": "FellhavenTown_House_5_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_House_5/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_House_5/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_HOUSE_3",
+      "name": "FellhavenTown_House_3_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_House_3/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_House_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_FELLHAVEN_TOWN_HOUSE_2",
+      "name": "FellhavenTown_House_2_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Indoor",
+      "secondary_tileset": "gTileset_pc",
+      "border_filepath": "data/layouts/FellhavenTown_House_2/border.bin",
+      "blockdata_filepath": "data/layouts/FellhavenTown_House_2/map.bin"
     }
   ]
 }

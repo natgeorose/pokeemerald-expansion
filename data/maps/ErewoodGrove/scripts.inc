@@ -40,6 +40,9 @@ ErewoodGrove_EventScript_PostEscapeRope::
 	removeobject LOCALID_EREWOOD_JAMES
 	waitfieldeffect FLDEFF_NPCFLY_OUT
 	setflag FLAG_HIDE_EREWOOD_JAMES
+	setflag FLAG_HIDE_QUILSPRING_BERITH
+	setflag FLAG_HIDE_QUILSPRING_ISABEL
+	setflag FLAG_HIDE_QUILSPRING_PINE
 	releaseall
 	end
 

@@ -10,8 +10,8 @@ SundaraVillage_House3_EventScript_ExpertM::
 	end
 
 SundaraVillage_House3_Text_ExpertM:
-	.string "It's hot in Sundara Village, but my\n"
-	.string "old bones love the sun.$"
+	.string "It's hot in Sundara Village, but my old\n"
+	.string "bones love the sun.$"
 
 SundaraVillage_House3_EventScript_ExpertF::
 	lockall
@@ -21,6 +21,6 @@ SundaraVillage_House3_EventScript_ExpertF::
 	end
 
 SundaraVillage_House3_Text_ExpertF:
-	.string "Our tiny village here is mostly\n"
-	.string "made up of those who work in\l"
+	.string "Our tiny village here is mostly made\n"
+	.string "up of the miners who work in\l"
 	.string "Coalscorch Quarry.$"

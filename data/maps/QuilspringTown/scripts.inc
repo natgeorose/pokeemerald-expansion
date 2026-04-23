@@ -66,7 +66,7 @@ QuilspringTown_EventScript_SignMilkBar::
 
 QuilspringTown_Text_SignMilkBar:
 	.string "Quilspring Town Milk Bar\n"
-	.string "'The hottest spot in town!'$"
+	.string "“The hottest spot in town!”$"
 
 QuilspringTown_EventScript_University::
 	msgbox QuilspringTown_Text_University, MSGBOX_SIGN
@@ -97,7 +97,7 @@ QuilspringTown_EventScript_TownSign::
 
 QuilspringTown_Text_TownSign:
 	.string "Quilspring Town\n"
-	.string "Where knowledge is born.$"
+	.string "“Where knowledge is born.”$"
 
 QuilspringTown_EventScript_JamesInitiate::
 	lockall

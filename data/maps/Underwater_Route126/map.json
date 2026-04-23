@@ -47,7 +47,7 @@
       "y": 17,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_HEART_SCALE"
+      "flag": "FLAG_HIDDEN_ITEM_MOORDEN_ZINC"
     },
     {
       "type": "hidden_item",
@@ -55,7 +55,7 @@
       "y": 19,
       "elevation": 3,
       "item": "ITEM_ULTRA_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_ULTRA_BALL"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_6_HEART_SCALE"
     },
     {
       "type": "hidden_item",
@@ -103,7 +103,7 @@
       "y": 77,
       "elevation": 3,
       "item": "ITEM_BLUE_SHARD",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_BLUE_SHARD"
+      "flag": "FLAG_HIDDEN_ITEM_FELLHAVEN_HEART_SCALE"
     }
   ]
 }

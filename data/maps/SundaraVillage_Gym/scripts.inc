@@ -374,14 +374,18 @@ SundaraVillage_Gym_Text_ExplainWillOWisp:
 	.string "TM20 contains the move Will-O-Wisp.\p"
 	.string "It inflicts your opponent with a\n"
 	.string "nasty burn, dealing damage over time\l"
-	.string "and cutting their Attack in half.$"
+	.string "and cutting their Attack in half.\p"
+	.string "Hmm there was something else you\n"
+	.string "wanted to talk with me about?\l"
+	.string "What is it?$"
 
 SundaraVillage_Gym_Text_MagnusPostBattle:
 	.string "As much as I love being a Gym Leader,\n"
 	.string "I do miss leading the Rangers.$"
 
 SundaraVillage_Gym_Text_WhatWasThat:
-	.string "What was that??$"
+	.string "We can speak about that later,\n"
+	.string "what was that??$"
 
 SundaraVillage_Gym_Movement_JimEnter:
     walk_fast_up

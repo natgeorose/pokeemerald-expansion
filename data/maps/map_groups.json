@@ -682,7 +682,12 @@
     "FellhavenTown_PC",
     "FellhavenTown_Station",
     "FellhavenTown_HerbShop",
-    "FellhavenTown_Tutor"
+    "FellhavenTown_Tutor",
+    "FellhavenTown_House_1",
+    "FellhavenTown_House_2",
+    "FellhavenTown_House_3",
+    "FellhavenTown_House_4",
+    "FellhavenTown_House_5"
   ],
   "gMapGroup_IndoorSundara": [
     "SundaraVillage_PC",

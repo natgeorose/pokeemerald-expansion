@@ -1276,3 +1276,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FellhavenTown_HerbShop/scripts.inc"
 
 	.include "data/maps/FellhavenTown_Tutor/scripts.inc"
+
+	.include "data/maps/FellhavenTown_House_1/scripts.inc"
+
+	.include "data/maps/FellhavenTown_House_4/scripts.inc"
+
+	.include "data/maps/FellhavenTown_House_5/scripts.inc"
+
+	.include "data/maps/FellhavenTown_House_2/scripts.inc"
+
+	.include "data/maps/FellhavenTown_House_3/scripts.inc"

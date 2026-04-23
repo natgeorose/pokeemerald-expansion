@@ -16,7 +16,7 @@ SundaraVillage_EventScript_TownSign::
 
 SundaraVillage_Text_TownSign:
 	.string "Sundara Village\n"
-	.string "The sunny mining town.$"
+	.string "“The sunny mining town.”$"
 
 SundaraVillage_EventScript_RockSmash::
 	lockall
