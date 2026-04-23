@@ -3142,18 +3142,19 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Relics,
     },
 
-    [ITEM_STRANGE_SOUVENIR] =
+    [ITEM_ALOLAN_SOUVENIR] =
     {
-        .name = ITEM_NAME("Strange Souvenir"),
+        .name = ITEM_NAME("Alolan Souvenir"),
         .price = (I_PRICE >= GEN_7) ? 3000 : 10,
         .description = COMPOUND_STRING(
             "An ornament that\n"
             "depicts a Pokémon\n"
             "from Alola."),
         .pocket = POCKET_ITEMS,
-        .sortType = ITEM_TYPE_RELIC,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .sortType = ITEM_TYPE_EVOLUTION_STONE,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .effect = gItemEffect_EvoItem,
         .flingPower = 30,
         .iconPic = gItemIcon_StrangeSouvenir,
         .iconPalette = gItemIconPalette_StrangeSouvenir,
@@ -3769,37 +3770,39 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_GalaricaItem,
     },
 
-    [ITEM_ARMORITE_ORE] =
+    [ITEM_HISUIAN_ORE] =
     {
-        .name = ITEM_NAME("Armorite Ore"),
-        .pluralName = ITEM_PLURAL_NAME("Armorite Ore"),
-        .price = 20,
+        .name = ITEM_NAME("Hisuian Ore"),
+        .pluralName = ITEM_PLURAL_NAME("Hisuian Ore"),
+        .price = 2000,
         .description = COMPOUND_STRING(
             "A rare ore. Can be\n"
-            "found in the Isle\n"
-            "of Armor at Galar."),
+            "found in the Hisui\n"
+            "region."),
         .pocket = POCKET_ITEMS,
-        .sortType = ITEM_TYPE_EVOLUTION_ITEM,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .sortType = ITEM_TYPE_EVOLUTION_STONE,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .effect = gItemEffect_EvoItem,
         .flingPower = 30,
         .iconPic = gItemIcon_ArmoriteOre,
         .iconPalette = gItemIconPalette_ArmoriteOre,
     },
 
-    [ITEM_DYNITE_ORE] =
+    [ITEM_GALARIAN_ORE] =
     {
-        .name = ITEM_NAME("Dynite Ore"),
-        .pluralName = ITEM_PLURAL_NAME("Dynite Ore"),
+        .name = ITEM_NAME("Galarian Ore"),
+        .pluralName = ITEM_PLURAL_NAME("Galarian Ore"),
         .price = 20,
         .description = COMPOUND_STRING(
             "A mysterious ore.\n"
             "It can be found in\n"
             "Galar's Max Lair."),
         .pocket = POCKET_ITEMS,
-        .sortType = ITEM_TYPE_EVOLUTION_ITEM,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .sortType = ITEM_TYPE_EVOLUTION_STONE,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .effect = gItemEffect_EvoItem,
         .flingPower = 30,
         .iconPic = gItemIcon_DyniteOre,
         .iconPalette = gItemIconPalette_DyniteOre,
