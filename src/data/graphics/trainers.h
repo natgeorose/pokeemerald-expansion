@@ -293,6 +293,10 @@ const u16 gTrainerPalette_RubySapphireBrendan[] = INCBIN_U16("graphics/trainers/
 const u32 gTrainerFrontPic_RubySapphireMay[] = INCBIN_U32("graphics/trainers/front_pics/may_rs.4bpp.smol");
 const u16 gTrainerPalette_RubySapphireMay[] = INCBIN_U16("graphics/trainers/palettes/may_rs.gbapal");
 
+const u32 gTrainerFrontPic_ChosenGruntM[] = INCBIN_U32("graphics/trainers/front_pics/chosen_m.4bpp.smol");
+const u32 gTrainerFrontPic_ChosenGruntF[] = INCBIN_U32("graphics/trainers/front_pics/chosen_f.4bpp.smol");
+const u16 gTrainerPalette_Chosen[] = INCBIN_U16("graphics/trainers/front_pics/chosen.gbapal");
+
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red.4bpp");
@@ -419,6 +423,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_NICK, gTrainerFrontPic_Nick, gTrainerPalette_NickNate),
     TRAINER_SPRITE(TRAINER_PIC_NATE, gTrainerFrontPic_Nate, gTrainerPalette_NickNate),
     TRAINER_SPRITE(TRAINER_PIC_SCIENTIST, gTrainerFrontPic_Scientist, gTrainerPalette_Scientist),
+    TRAINER_SPRITE(TRAINER_PIC_CHOSEN_GRUNT_M, gTrainerFrontPic_ChosenGruntM, gTrainerPalette_Chosen),
+    TRAINER_SPRITE(TRAINER_PIC_CHOSEN_GRUNT_F, gTrainerFrontPic_ChosenGruntF, gTrainerPalette_Chosen),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =
