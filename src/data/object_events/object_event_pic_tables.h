@@ -497,6 +497,14 @@ static const struct SpriteFrameImage sPicTable_ChosenGruntF[] = {
     overworld_ascending_frames(gObjectEventPic_ChosenGruntF, 2, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_Laverna[] = {
+    overworld_ascending_frames(gObjectEventPic_Laverna, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Miner[] = {
+    overworld_ascending_frames(gObjectEventPic_Miner, 2, 4),
+};
+
 static const struct SpriteFrameImage sPicTable_Sidney[] = {
     overworld_frame(gObjectEventPic_Sidney, 2, 4, 0),
     overworld_frame(gObjectEventPic_Sidney, 2, 4, 1),

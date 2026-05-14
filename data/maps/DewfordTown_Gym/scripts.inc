@@ -127,7 +127,7 @@ DewfordTown_Gym_EventScript_CheckCristian::
 	goto_if_not_defeated TRAINER_CRISTIAN, DewfordTown_Gym_EventScript_CheckLilith
 	addvar VAR_0x8000, 1
 DewfordTown_Gym_EventScript_CheckLilith::
-	goto_if_not_defeated TRAINER_LILITH, DewfordTown_Gym_EventScript_StopCountingTrainers
+	goto_if_not_defeated TRAINER_GRUNT_LILITH, DewfordTown_Gym_EventScript_StopCountingTrainers
 	addvar VAR_0x8000, 1
 DewfordTown_Gym_EventScript_StopCountingTrainers::
 	return
@@ -238,7 +238,7 @@ DewfordTown_Gym_EventScript_CristianBrightenRoom::
 	end
 
 DewfordTown_Gym_EventScript_Lilith::
-	trainerbattle_single TRAINER_LILITH, DewfordTown_Gym_Text_LilithIntro, DewfordTown_Gym_Text_LilithDefeat, DewfordTown_Gym_EventScript_LilithBrightenRoom
+	trainerbattle_single TRAINER_GRUNT_LILITH, DewfordTown_Gym_Text_LilithIntro, DewfordTown_Gym_Text_LilithDefeat, DewfordTown_Gym_EventScript_LilithBrightenRoom
 	msgbox DewfordTown_Gym_Text_LilithPostBattle, MSGBOX_AUTOCLOSE
 	end
 

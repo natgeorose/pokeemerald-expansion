@@ -810,6 +810,7 @@ u8 GetTrainerBattleTransition(void)
     if (trainerClass == TRAINER_CLASS_TEAM_MAGMA
         || trainerClass == TRAINER_CLASS_MAGMA_LEADER
         || trainerClass == TRAINER_CLASS_CHOSEN_GRUNT
+        || trainerClass == TRAINER_CLASS_CHOSEN_ADMIN
         || trainerClass == TRAINER_CLASS_MAGMA_ADMIN)
         return B_TRANSITION_AQUA;
 

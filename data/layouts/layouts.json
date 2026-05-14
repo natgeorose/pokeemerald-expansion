@@ -4874,8 +4874,8 @@
     {
       "id": "LAYOUT_COALSCORCH_QUARRY",
       "name": "CoalscorchQuarry_Layout",
-      "width": 60,
-      "height": 50,
+      "width": 62,
+      "height": 78,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Underground",
       "border_filepath": "data/layouts/CoalscorchQuarry/border.bin",
@@ -4884,8 +4884,8 @@
     {
       "id": "LAYOUT_COALSCORCH_QUARRY_B1F",
       "name": "CoalscorchQuarry_B1F_Layout",
-      "width": 60,
-      "height": 50,
+      "width": 64,
+      "height": 56,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Underground",
       "border_filepath": "data/layouts/CoalscorchQuarry_B1F/border.bin",

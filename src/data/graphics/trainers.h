@@ -297,6 +297,9 @@ const u32 gTrainerFrontPic_ChosenGruntM[] = INCBIN_U32("graphics/trainers/front_
 const u32 gTrainerFrontPic_ChosenGruntF[] = INCBIN_U32("graphics/trainers/front_pics/chosen_f.4bpp.smol");
 const u16 gTrainerPalette_Chosen[] = INCBIN_U16("graphics/trainers/front_pics/chosen.gbapal");
 
+const u32 gTrainerFrontPic_Laverna[] = INCBIN_U32("graphics/trainers/front_pics/laverna.4bpp.smol");
+const u16 gTrainerPalette_Laverna[] = INCBIN_U16("graphics/trainers/front_pics/laverna.gbapal");
+
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red.4bpp");
@@ -425,6 +428,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_SCIENTIST, gTrainerFrontPic_Scientist, gTrainerPalette_Scientist),
     TRAINER_SPRITE(TRAINER_PIC_CHOSEN_GRUNT_M, gTrainerFrontPic_ChosenGruntM, gTrainerPalette_Chosen),
     TRAINER_SPRITE(TRAINER_PIC_CHOSEN_GRUNT_F, gTrainerFrontPic_ChosenGruntF, gTrainerPalette_Chosen),
+    TRAINER_SPRITE(TRAINER_PIC_LAVERNA, gTrainerFrontPic_Laverna, gTrainerPalette_Laverna),
+
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

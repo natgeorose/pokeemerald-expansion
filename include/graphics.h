@@ -473,6 +473,8 @@ extern const u32 gItemIcon_LavaCookie[];
 extern const u16 gItemIconPalette_LavaCookieAndLetter[];
 extern const u32 gItemIcon_Axe[];
 extern const u16 gItemIconPalette_Axe[];
+extern const u32 gItemIcon_Pickaxe[];
+extern const u16 gItemIconPalette_Pickaxe[];
 extern const u32 gItemIcon_OldGateau[];
 extern const u16 gItemIconPalette_OldGateau[];
 extern const u32 gItemIcon_Casteliacone[];

@@ -5005,3 +5005,126 @@ Route4_Text_ViolaDefeat:
 Route4_Text_ViolaPostBattle:
 	.string "Just ignore us and look at\n"
 	.string "flowers.$"
+
+CoalscorchQuarry_Text_MichaelIntro:
+	.string "Hey, there's not supposed to be anyone\n"
+	.string "here! There's uhh..\l"
+	.string "Uhhhh a collapsed cave ahead!\p"
+	.string "Huh? No you can't go and help out!\n"
+	.string "Why???\l"
+	.string "Because I'm an adult, and I said so!\p"
+	.string "Grr this isn't working, I'll just have\n"
+	.string "to make you leave the hard way!$"
+
+CoalscorchQuarry_Text_MichaelDefeat:
+	.string "What just happened?$"
+
+CoalscorchQuarry_Text_MichaelPostBattle:
+	.string "Grr I can't beleive I lost to a\n"
+	.string "kid...\l"
+	.string "Don't go any further though!$"
+
+CoalscorchQuarry_Text_LilithIntro:
+	.string "Scram twerp, or I'll be forced to\n"
+	.string "eliminate you!$"
+
+CoalscorchQuarry_Text_LilithDefeat:
+	.string "There's no way...$"
+
+CoalscorchQuarry_Text_LilithPostBattle:
+	.string "The Admin is not going to be happy\n"
+	.string "with me for losing.$"
+
+CoalscorchQuarry_Text_AzrielIntro:
+	.string "You! Soon you will know the name\n"
+	.string "of the Chosen!\l"
+	.string "Huh? You've already heard of us?\p"
+	.string "Well you're still going down!$"
+
+CoalscorchQuarry_Text_AzrielDefeat:
+	.string "No!$"
+
+CoalscorchQuarry_Text_AzrielPostBattle:
+	.string "I was the one who lost...$"
+
+CoalscorchQuarry_Text_SarahIntro:
+	.string "Some other Trainer got past us,\n"
+	.string "we can't let it happen again!$"
+
+CoalscorchQuarry_Text_SarahDefeat:
+	.string "Not again!$"
+
+CoalscorchQuarry_Text_SarahPostBattle:
+	.string "This is not going to look good\n"
+	.string "on my next performance review.$"
+
+CoalscorchQuarry_Text_AmyIntro:
+	.string "What are we doing here?\n"
+	.string "Like I would tell you something\l"
+	.string "so important to the mission!$"
+
+CoalscorchQuarry_Text_AmyDefeat:
+	.string "Ugh I'm going down!$"
+
+CoalscorchQuarry_Text_AmyPostBattle:
+	.string "It has nothing to do with the\n"
+	.string "mining equipment! You won't get\l"
+	.string "a single word out of me.$"
+
+CoalscorchQuarry_B1F_Text_MullinIntro:
+	.string "Hahaha we turned off the switches\n"
+	.string "for the bridges! Now those\l"
+	.string "workers are trapped!\p"
+	.string "And I won't let you save them!$"
+
+CoalscorchQuarry_B1F_Text_MullinDefeat:
+	.string "Grrrr!$"
+
+CoalscorchQuarry_B1F_Text_MullinPostBattle:
+	.string "I need to warn the Admin that\n"
+	.string "some twerp is here!$"
+
+CoalscorchQuarry_B2F_Text_SitriIntro:
+	.string "Hey you shouldn't be here!\n"
+	.string "Get out of here!$"
+
+CoalscorchQuarry_B2F_Text_SitriDefeat:
+	.string "There's no way!$"
+
+CoalscorchQuarry_B2F_Text_SitriPostBattle:
+	.string "Don't you dare try to ruin\n"
+	.string "our mission!$"
+
+CoalscorchQuarry_B1F_Text_MaryIntro:
+	.string "How did you get here?\n"
+	.string "You freed the miners??\p"
+	.string "I wont let you get any further!$"
+
+CoalscorchQuarry_B1F_Text_MaryDefeat:
+	.string "This won't be the last you hear\n"
+	.string "from me!$"
+
+CoalscorchQuarry_B1F_Text_MaryPostBattle:
+	.string "I couldn't stop you...$"
+
+CoalscorchQuarry_B1F_Text_NiconIntro:
+	.string "Even if I fall, the Chosen\n"
+	.string "shall have our Glory!$"
+
+CoalscorchQuarry_B1F_Text_NiconDefeat:
+	.string "For the Chosen!$"
+
+CoalscorchQuarry_B1F_Text_NiconPostBattle:
+	.string "We shall reign supreme!$"
+
+CoalscorchQuarry_B2F_Text_MatthewIntro:
+	.string "I won't let you reach the\n"
+	.string "Admin that's up ahead,\l"
+	.string "your time here ends with me!$"
+
+CoalscorchQuarry_B2F_Text_MatthewDefeat:
+	.string "I'm so sorry Admin...!$"
+
+CoalscorchQuarry_B2F_Text_MatthewPostBattle:
+	.string "I can't believe I lost...$"
+

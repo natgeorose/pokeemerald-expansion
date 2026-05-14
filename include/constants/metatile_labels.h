@@ -793,6 +793,17 @@
 #define METATILE_TrickHousePuzzle_RedDoorV_Retracted          0x24A
 #define METATILE_TrickHousePuzzle_Stairs_Down                 0x20B
 
+// gTileset_Underground
+#define METATILE_Underground_CenterBottom  0x2A6
+#define METATILE_Underground_CenterMiddle  0x29E
+#define METATILE_Underground_CenterTop     0x296
+#define METATILE_Underground_LeftBottom    0x2A5
+#define METATILE_Underground_LeftMiddle    0x29D
+#define METATILE_Underground_LeftTop       0x295
+#define METATILE_Underground_RightBottom   0x2A7
+#define METATILE_Underground_RightMiddle   0x29F
+#define METATILE_Underground_RightTop      0x297
+
 // gTileset_Underwater
 #define METATILE_Underwater_FloorShadow  0x228
 #define METATILE_Underwater_RockWall     0x21E

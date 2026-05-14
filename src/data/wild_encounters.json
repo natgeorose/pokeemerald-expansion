@@ -12741,6 +12741,36 @@
                 "species": "SPECIES_CHARCADET"
               }
             ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GLIMMET"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GLIMMET"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GLIMMET"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GLIMMET"
+              }
+            ]
           }
         },
         {
@@ -12808,6 +12838,36 @@
                 "min_level": 16,
                 "max_level": 18,
                 "species": "SPECIES_CYNDAQUIL"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GROWLITHE_HISUI"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GROWLITHE_HISUI"
               }
             ]
           }

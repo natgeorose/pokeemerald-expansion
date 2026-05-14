@@ -98,100 +98,211 @@ Onix (M)
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
+=== TRAINER_GRUNT_MICHAEL ===
+Name: Michael
+Class: Chosen Grunt
+Pic: Chosen Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Poochyena
-Level: 32
+Maschiff (M)
+Level: 21
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Snarl
+- Scary Face
+- Tackle
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
+Grimer-Alola (M)
+Level: 21
+Ability: Poison Touch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Minimize
+- Poison Fang
+- Shadow Sneak
+- Poison Gas
+
+Nidorino (M)
+Level: 21
+Ability: Poison Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Tail
+- Venom Drench
+- Fury Attack
+- Peck
+
+=== TRAINER_GRUNT_AZRIEL ===
+Name: Azriel
+Class: Chosen Grunt
+Pic: Chosen Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Zubat
-Level: 31
+Clodsire (M)
+Level: 22
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bulldoze
+- Poison Tail
+- Acid Spray
+- Slam
 
-Carvanha
-Level: 31
+Mightyena (M)
+Level: 22
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Howl
+- Fire Fang
+- Covet
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
+=== TRAINER_GRUNT_SARAH ===
+Name: Sarah
+Class: Chosen Grunt
+Pic: Chosen Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Basic Trainer
+
+Murkrow (F)
+Level: 22
+Ability: Prankster
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feather Dance
+- Confuse Ray
+- Wing Attack
+- Snarl
+
+Golbat (F)
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Wing Attack
+- Feint Attack
+- Venoshock
+
+=== TRAINER_GRUNT_MULLIN ===
+Name: Mullin
+Class: Chosen Grunt
+Pic: Chosen Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Zubat
-Level: 32
+Honedge (M)
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Sneak
+- Aerial Ace
+- Slash
+- Screech
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
+Trubbish (M)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge
+- Poison Gas
+- Pound
+- Clear Smog
+
+Sableye (M)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Night Shade
+- Shadow Sneak
+- Sucker Punch
+
+=== TRAINER_GRUNT_AMY ===
+Name: Amy
+Class: Chosen Grunt
+Pic: Chosen Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Basic Trainer
+
+Mareanie (F)
+Level: 21
+Ability: Merciless
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Peck
+- Venoshock
+- Infestation
+
+Pawniard (F)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Fury Cutter
+- Metal Claw
+- Torment
+
+Dustox (F)
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Bug Bite
+- Gust
+- Poison Sting
+
+=== TRAINER_GRUNT_SITRI ===
+Name: Sitri
+Class: Chosen Grunt
+Pic: Chosen Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Basic Trainer
+
+Nidorina (F)
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Tail
+- Venom Drench
+- Fury Attack
+- Peck
+
+Corsola-Galar (F)
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hex
+- Disable
+- Ancient Power
+- Tackle
+
+=== TRAINER_GRUNT_NICON ===
+Name: Nicon
+Class: Chosen Grunt
+Pic: Chosen Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Carvanha
-Level: 32
+Glimmet (M)
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Ancient Power
+- Venoshock
+- Rock Polish
 
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Basic Trainer
-
-Poochyena
-Level: 36
+Linoone-Galar (M)
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Basic Trainer
-
-Carvanha
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Basic Trainer
-
-Zubat
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Headbutt
+- Hone Claws
+- Baby-Doll Eyes
 
 === TRAINER_GABRIELLE_1 ===
 Name: Gabrielle
@@ -226,18 +337,39 @@ Taillow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_PETALBURG_WOODS ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
+=== TRAINER_GRUNT_MARY ===
+Name: Mary
+Class: Chosen Grunt
+Pic: Chosen Grunt F
+Gender: Female
 Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Poochyena
-Level: 9
+Scraggy (F)
+Level: 22
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Counter
+- Low Kick
+- Headbutt
+- Payback
+
+Loudred (F)
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Echoed Voice
+- Bite
+- Endeavor
+
+Grimer (F)
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Minimize
+- Poison Gas
+- Sludge
+- Mud Shot
 
 === TRAINER_MARCEL ===
 Name: Marcel
@@ -299,18 +431,38 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Lick
 - Swagger
 
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
+=== TRAINER_GRUNT_MATTHEW ===
 Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
+Class: Chosen Grunt
+Pic: Chosen Grunt M
+Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Carvanha
-Level: 36
+Zorua (M)
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Snarl
+- Extrasensory
+- Hone Claws
+- Fury Swipes
+
+Carvanha (M)
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Poison Fang
+- Bite
+- Ice Fang
+
+Foongus (M)
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore
+- Clear Smog
+- Mega Drain
+- Astonish
 
 === TRAINER_DECLAN ===
 Name: Declan
@@ -3957,7 +4109,7 @@ Karrablast (M)
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Dustox (M)
+Yanma (M)
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9422,13 +9574,14 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Pawniard (M)
+Mawile (M)
 Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thief
-- Metal Claw
-- Fury Cutter
-- Headbutt
+Nature: Modest
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Fairy Wind
+- Fake Tears
+- Tackle
 
 Tatsugiri-Stretchy (M)
 Level: 16
@@ -10625,18 +10778,32 @@ Machop
 Level: 13
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_LILITH ===
+=== TRAINER_GRUNT_LILITH ===
 Name: Lilith
-Class: Battle Girl
-Pic: Battle Girl
+Class: Chosen Grunt
+Pic: Chosen Grunt F
 Gender: Female
-Music: Intense
+Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Whirlipede (F)
+Level: 21
+Ability: Poison Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mortal Spin
+- Venoshock
+- Pin Missile
+- Infestation
+
+Raticate-Alola (F)
+Level: 21
+Ability: Gluttony
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Assurance
+- Hyper Fang
+- Scary Face
+- Quick Attack
 
 === TRAINER_CRISTIAN ===
 Name: Cristian

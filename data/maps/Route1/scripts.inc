@@ -247,7 +247,7 @@ Speaker_Gentleman:
 Route1_EventScript_Gentleman::
 	lockall
 	faceplayer
-	goto_if_set FLAG_ITEM_ROUTE_1_FULL_HEAL, Route1_EventScript_ReceivedFullHeal
+	goto_if_set FLAG_ITEM_COALSCORCH_IRON, Route1_EventScript_ReceivedFullHeal
 	setspeaker Speaker_Gentleman
 	msgbox Route1_Text_GentlemanGiveItem, MSGBOX_DEFAULT
 	closemessage	
@@ -255,7 +255,7 @@ Route1_EventScript_Gentleman::
 	setspeaker Speaker_Gentleman
 	msgbox Route1_Text_GentlemanGoodLuck, MSGBOX_DEFAULT
 	closemessage
-	setflag FLAG_ITEM_ROUTE_1_FULL_HEAL
+	setflag FLAG_ITEM_COALSCORCH_IRON
 	releaseall
 	end
 

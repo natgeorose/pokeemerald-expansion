@@ -246,6 +246,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Isabel;
 
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChosenGruntF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChosenGruntM;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Laverna;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Miner;
 
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
@@ -502,6 +504,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_ISABEL] =                   &gObjectEventGraphicsInfo_Isabel,
     [OBJ_EVENT_GFX_CHOSEN_GRUNT_F] =           &gObjectEventGraphicsInfo_ChosenGruntF,
     [OBJ_EVENT_GFX_CHOSEN_GRUNT_M] =           &gObjectEventGraphicsInfo_ChosenGruntM,
+    [OBJ_EVENT_GFX_LAVERNA] =                  &gObjectEventGraphicsInfo_Laverna,
+    [OBJ_EVENT_GFX_MINER] =                    &gObjectEventGraphicsInfo_Miner,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

@@ -14838,7 +14838,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ROCK_SMASH_TOOL] =
     {
-        .name = ITEM_NAME("Rock Smash Item"),
+        .name = ITEM_NAME("Miner's Pickaxe"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A sturdy tool for\n"
@@ -14848,8 +14848,8 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_RockSmash,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_Pickaxe,
+        .iconPalette = gItemIconPalette_Pickaxe,
     },
 
     [ITEM_WATERFALL_TOOL] =

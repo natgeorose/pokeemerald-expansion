@@ -5,19 +5,19 @@
 
 #define TRAINER_NONE                          0
 #define TRAINER_JARRETT                      1
-#define TRAINER_GRUNT_AQUA_HIDEOUT_1          2
-#define TRAINER_GRUNT_AQUA_HIDEOUT_2          3
-#define TRAINER_GRUNT_AQUA_HIDEOUT_3          4
-#define TRAINER_GRUNT_AQUA_HIDEOUT_4          5
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_1       6
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_2       7
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_3       8
+#define TRAINER_GRUNT_MICHAEL          2
+#define TRAINER_GRUNT_AZRIEL          3
+#define TRAINER_GRUNT_SARAH          4
+#define TRAINER_GRUNT_MULLIN          5
+#define TRAINER_GRUNT_AMY       6
+#define TRAINER_GRUNT_SITRI       7
+#define TRAINER_GRUNT_NICON       8
 #define TRAINER_GABRIELLE_1                   9
-#define TRAINER_GRUNT_PETALBURG_WOODS        10
+#define TRAINER_GRUNT_MARY        10
 #define TRAINER_MARCEL                       11
 #define TRAINER_CATO                      12
 #define TRAINER_ED                           13
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_4      14
+#define TRAINER_GRUNT_MATTHEW      14
 #define TRAINER_DECLAN                       15
 #define TRAINER_GRUNT_RUSTURF_TUNNEL         16
 #define TRAINER_GRUNT_WEATHER_INST_1         17
@@ -576,7 +576,7 @@
 #define TRAINER_GRUNT_JAGGED_PASS           570
 #define TRAINER_MARC                        571
 #define TRAINER_BRENDEN                     572
-#define TRAINER_LILITH                      573
+#define TRAINER_GRUNT_LILITH                      573
 #define TRAINER_CRISTIAN                    574
 #define TRAINER_SYLVIA                      575
 #define TRAINER_LEONARDO                    576

@@ -63,7 +63,7 @@
       "y": 19,
       "elevation": 3,
       "item": "ITEM_STARDUST",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_STARDUST"
+      "flag": "FLAG_HIDDEN_ITEM_COALSCORCH_HEART_SCALE"
     },
     {
       "type": "hidden_item",

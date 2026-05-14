@@ -516,10 +516,10 @@
 #define FLAG_DEFEATED_HO_OH                  0x1DC
 #define FLAG_DEFEATED_LUGIA                  0x1DD
 
-#define FLAG_UNUSED_0x1DE                    0x1DE // Unused Flag
-#define FLAG_UNUSED_0x1DF                    0x1DF // Unused Flag
-#define FLAG_UNUSED_0x1E0                    0x1E0 // Unused Flag
-#define FLAG_UNUSED_0x1E1                    0x1E1 // Unused Flag
+#define FLAG_COALSCORCH_BRIDGE_1                    0x1DE // Unused Flag
+#define FLAG_COALSCORCH_BRIDGE_2                    0x1DF // Unused Flag
+#define FLAG_COALSCORCH_BRIDGE_3                    0x1E0 // Unused Flag
+#define FLAG_COALSCORCH_BRIDGE_4                    0x1E1 // Unused Flag
 #define FLAG_UNUSED_0x1E2                    0x1E2 // Unused Flag
 #define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
 
@@ -559,7 +559,7 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_7_1F_HEART_SCALE        (FLAG_HIDDEN_ITEMS_START + 0x0D)
 #define FLAG_HIDDEN_ITEM_MOORDEN_ZINC          (FLAG_HIDDEN_ITEMS_START + 0x0E)
 #define FLAG_HIDDEN_ITEM_ROUTE_6_HEART_SCALE           (FLAG_HIDDEN_ITEMS_START + 0x0F)
-#define FLAG_HIDDEN_ITEM_UNDERWATER_126_STARDUST             (FLAG_HIDDEN_ITEMS_START + 0x10)
+#define FLAG_HIDDEN_ITEM_COALSCORCH_HEART_SCALE             (FLAG_HIDDEN_ITEMS_START + 0x10)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_126_PEARL                (FLAG_HIDDEN_ITEMS_START + 0x11)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_126_YELLOW_SHARD         (FLAG_HIDDEN_ITEMS_START + 0x12)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_126_IRON                 (FLAG_HIDDEN_ITEMS_START + 0x13)
@@ -1078,10 +1078,10 @@
 #define FLAG_ITEM_ROUTE_7_CALM_MINT                                    0x401
 #define FLAG_ITEM_BLACK_GLASSES                                0x402
 #define FLAG_ITEM_EREWOOD_PROTEIN                              0x403
-#define FLAG_ITEM_ROUTE_119_RARE_CANDY                              0x404
-#define FLAG_ITEM_ROUTE_119_HYPER_POTION_1                          0x405
-#define FLAG_ITEM_ROUTE_120_NUGGET                                  0x406
-#define FLAG_ITEM_ROUTE_1_FULL_HEAL                                 0x407
+#define FLAG_ITEM_COALSCORCH_ADAMANT_MINT                              0x404
+#define FLAG_ITEM_COALSCORCH_TM_BULLDOZE                          0x405
+#define FLAG_ITEM_COALSCORCH_FIRE_STONE                                  0x406
+#define FLAG_ITEM_COALSCORCH_IRON                                 0x407
 #define FLAG_ITEM_ROUTE_123_CALCIUM                                 0x408
 #define FLAG_ITEM_ROUTE_123_RARE_CANDY                              0x409 // Unused Flag, leftover from R/S. In Emerald this is a hidden item and uses a different flag
 #define FLAG_ITEM_ROUTE_127_ZINC                                    0x40A

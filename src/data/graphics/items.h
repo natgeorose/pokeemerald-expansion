@@ -180,6 +180,9 @@ const u16 gItemIconPalette_LavaCookieAndLetter[] = INCBIN_U16("graphics/items/ic
 const u32 gItemIcon_Axe[] = INCBIN_U32("graphics/items/icons/axe.4bpp.smol");
 const u16 gItemIconPalette_Axe[] = INCBIN_U16("graphics/items/icon_palettes/axe.gbapal");
 
+const u32 gItemIcon_Pickaxe[] = INCBIN_U32("graphics/items/icons/pickaxe.4bpp.smol");
+const u16 gItemIconPalette_Pickaxe[] = INCBIN_U16("graphics/items/icon_palettes/pickaxe.gbapal");
+
 const u32 gItemIcon_OldGateau[] = INCBIN_U32("graphics/items/icons/old_gateau.4bpp.smol");
 const u16 gItemIconPalette_OldGateau[] = INCBIN_U16("graphics/items/icon_palettes/old_gateau.gbapal");
 
