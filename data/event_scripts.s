@@ -1735,3 +1735,9 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/dexnav.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/RoseIsland/scripts.inc"
+
+	.include "data/maps/RoseIslandSouth/scripts.inc"
+
+	.include "data/maps/RoseIslandNorth/scripts.inc"
