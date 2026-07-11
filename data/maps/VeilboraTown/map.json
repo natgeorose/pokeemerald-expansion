@@ -1,0 +1,31 @@
+{
+  "id": "MAP_VEILBORA_TOWN",
+  "name": "VeilboraTown",
+  "layout": "LAYOUT_VEILBORA_TOWN",
+  "music": "MUS_BW12_028",
+  "region_map_section": "MAPSEC_VEILBORA_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE8",
+      "offset": 26,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE9",
+      "offset": -2,
+      "direction": "up"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

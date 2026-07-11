@@ -91,7 +91,7 @@ CairwindTown_Player_1F_Text_MomMap:
 	.string "And how exciting that you got your\n"
 	.string "very first Pokémon!\p"
 	.string "I always knew you would leave home one\n"
-	.string "day, but just like every mother,\p"
+	.string "day, but just like every mother,\l"
 	.string "I never thought it would be so soon.\p"
 	.string "Before you leave, you'll need this!$"
 
@@ -100,8 +100,8 @@ CairwindTown_Player_1F_Text_MomSuitcase:
 	.string "your suitcase for the trip!$"
 
 CairwindTown_Player_1F_Text_MomGoodbye:
-	.string "Have so much fun on your adventure\p"
-	.string "and be safe! Know that you can always\p"
+	.string "Have so much fun on your adventure\n"
+	.string "and be safe! Know that you can always\l"
 	.string "come home and rest.$"
 
 CairwindTown_Player_1F_EventScript_MomPost::

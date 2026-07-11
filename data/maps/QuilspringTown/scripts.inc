@@ -82,7 +82,7 @@ QuilspringTown_EventScript_Gym::
 QuilspringTown_Text_Gym:
 	.string "Quilspring Town Gym\n"
 	.string "Leader: Nyx\l"
-	.string "Level Cap: 15$"
+	.string "Level Cap: 14$"
 
 QuilspringTown_EventScript_PineHouse::
 	msgbox QuilspringTown_Text_PineHouse, MSGBOX_SIGN

@@ -77,5 +77,14 @@ CoalscorchQuarry_B2F_EventScript_Matthew::
 	msgbox CoalscorchQuarry_B2F_Text_MatthewPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Speaker_Laverna:
+    .string "Laverna$"
+
+
+
+
+
+
+
 
 

@@ -1286,3 +1286,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FellhavenTown_House_2/scripts.inc"
 
 	.include "data/maps/FellhavenTown_House_3/scripts.inc"
+
+	.include "data/maps/Route8/scripts.inc"
+
+	.include "data/maps/VeilboraTown/scripts.inc"
+
+	.include "data/maps/Route9/scripts.inc"
+
+	.include "data/maps/HigardTown/scripts.inc"
+
+	.include "data/maps/HigardTownCableCar/scripts.inc"

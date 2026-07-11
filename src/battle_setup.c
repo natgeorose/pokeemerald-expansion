@@ -702,12 +702,10 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         return BATTLE_ENVIRONMENT_LONG_GRASS;
     if (MetatileBehavior_IsSandOrDeepSand(tileBehavior))
         return BATTLE_ENVIRONMENT_SAND;
-
-        return BATTLE_ENVIRONMENT_SAND;
     if (GetSavedWeather() == WEATHER_SANDSTORM)
         return BATTLE_ENVIRONMENT_SAND;
 
-    return BATTLE_ENVIRONMENT_PLAIN;
+    return BATTLE_ENVIRONMENT_GRASS;
 }
 
 static u8 GetBattleTransitionTypeByMap(void)

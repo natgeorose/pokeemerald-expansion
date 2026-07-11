@@ -1862,3 +1862,41 @@ const u16 gTilesetPalettes_Sundara[][16] =
 };
 
 const u32 gTilesetTiles_Sundara[] = INCBIN_U32("data/tilesets/secondary/sundara/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Veilbora[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/veilbora/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Veilbora[] = INCBIN_U32("data/tilesets/secondary/veilbora/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Cable[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/cable/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Cable[] = INCBIN_U32("data/tilesets/secondary/cable/tiles.4bpp.lz");

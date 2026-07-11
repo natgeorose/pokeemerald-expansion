@@ -16,7 +16,7 @@ gText_Birch_MainSpeech::
 	.string "by creatures known as Pokémon.\p"
 	.string "However, due to the major geologoical\n"
 	.string "shifts in Hoenn a few years ago, the\l"
-	.string "Pokémon across the region have changed.\p"
+	.string "Pokémon across Serenado have changed.\p"
 	.string "I study the migration of Pokémon in\n"
 	.string "response to transforming environments.\p"
 	.string "We have seen many Pokémon appear in\n"
@@ -36,7 +36,7 @@ gText_Birch_BoyOrGirl::
 	.string "Or are you a girl?$"
 
 gText_Birch_WhatsYourName::
-	.string "Please input your name to receive.\n"
+	.string "Please input your name to receive\n"
 	.string "credit for this lesson.$"
 
 gText_Birch_SoItsPlayer::
@@ -46,7 +46,7 @@ gText_Birch_YourePlayer::
 	.string "Thank you for listening!\p"
 	.string "You have received credit for today's\n"
 	.string "lesson on Pokémon migration.\l"
-	.string "I hope you learned a lot.\p"
+	.string "I hope you learned a lot!\p"
 	.string "$"
 
 gText_Birch_AreYouReady::

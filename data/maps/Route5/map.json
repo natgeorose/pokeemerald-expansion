@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_FELLHAVEN_TOWN",
-      "offset": -24,
+      "offset": -26,
       "direction": "right"
     },
     {

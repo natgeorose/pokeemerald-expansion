@@ -687,23 +687,50 @@ Machoke
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_MATT ===
-Name: Matt
-Class: Aqua Admin
-Pic: Aqua Admin M
-Gender: Male
+=== TRAINER_LAVERNA ===
+Name: Laverna
+Class: Chosen Admin
+Pic: Laverna
+Gender: Female
 Music: Aqua
-Items: Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Mightyena
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ariados (F)
+Level: 25
+Ability: 
+IVs: 26 HP / 16 Atk / 26 Def / 16 SpA / 26 SpD / 16 Spe
+- Sticky Web 
+- Bug Bite
+- Sucker Punch
+- Scary Face
 
-Golbat
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Qwilfish-Hisui (F)
+Level: 25
+Ability: Intimidate
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brine 
+- Bite
+- Fell Stinger
+- Toxic
+
+Absol (F)
+Level: 25
+Ability: Super Luck
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Knock Off
+- Slash
+- Quick Attack
+- Aerial Ace
+
+Nidoqueen (F)
+Level: 26
+Ability: Poison Point
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Bulldoze
+- Poison Jab 
+- Crunch
+- Shadow Ball
 
 === TRAINER_DWIGHT ===
 Name: Zander
@@ -4973,7 +5000,7 @@ AI: Smart Trainer
 Mugshot: Pink
 
 Zorua (F)
-Level: 14
+Level: 13
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Hone Claws
 - Fury Swipes
@@ -4981,7 +5008,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Torment
 
 Vullaby (F)
-Level: 14
+Level: 13
 Ability: Big Pecks
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Snarl
@@ -4990,9 +5017,9 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Mean Look
 
 Persian-Alola (F) @ Oran Berry
-Level: 15
+Level: 14
 Ability: Technician
-IVs: 31 HP / 31 Atk / 31 Def / 15 SpA / 18 SpD / 15 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 15 SpA / 18 SpD / 15 Spe
 - Snarl
 - Scratch
 - Icy Wind
@@ -6156,8 +6183,12 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Poochyena
-Level: 5
+Ekans (M)
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Greavard (M)
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BILLY ===
@@ -11619,20 +11650,37 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_JAMES_3 ===
 Name: James
-Class: Bug Catcher
-Pic: Bug Catcher
+Class: Pkmn Trainer 1
+Pic: James
 Gender: Male
 Music: Male
+Mugshot: Yellow
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Dustox
-Level: 29
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Rufflet (M)
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Hone Claws
+- Peck
+- Rock Smash
 
-Ninjask
-Level: 29
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Skiddo (M)
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Vine Whip
+- Tackle
+- Growth
+
+Riolu (M)
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Quick Attack
+- Low Sweep
+- Metal Claw
+- Bite
 
 === TRAINER_JAMES_4 ===
 Name: James

@@ -243,3 +243,9 @@ const u16 gMetatileAttributes_Underground[] = INCBIN_U16("data/tilesets/secondar
 
 const u16 gMetatiles_Sundara[] = INCBIN_U16("data/tilesets/secondary/sundara/metatiles.bin");
 const u16 gMetatileAttributes_Sundara[] = INCBIN_U16("data/tilesets/secondary/sundara/metatile_attributes.bin");
+
+const u16 gMetatiles_Veilbora[] = INCBIN_U16("data/tilesets/secondary/veilbora/metatiles.bin");
+const u16 gMetatileAttributes_Veilbora[] = INCBIN_U16("data/tilesets/secondary/veilbora/metatile_attributes.bin");
+
+const u16 gMetatiles_Cable[] = INCBIN_U16("data/tilesets/secondary/cable/metatiles.bin");
+const u16 gMetatileAttributes_Cable[] = INCBIN_U16("data/tilesets/secondary/cable/metatile_attributes.bin");

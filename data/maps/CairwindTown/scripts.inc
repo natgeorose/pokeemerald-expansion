@@ -95,7 +95,7 @@ CairwindTown_Text_JamesSpeech:
 	.string "mistake of telling her and she\n"
 	.string "insisted on coming, blabbering\p"
 	.string "about research and ruins and whatnot.\n"
-	.string "We'll be waiting just north of town,\p"
+	.string "We'll be waiting just north of town,\l"
 	.string "you better be there soon!$"
 
 CairwindTown_Movement_JamesAfterSpeech:
@@ -164,7 +164,7 @@ CairwindTown_EventScript_Maniac::
 
 CairwindTown_Text_Maniac:
 	.string "I'm not even interested in Pokémon,\n"
-	.string "I just want to do research with\p"
+	.string "I just want to do research with\l"
 	.string "Professor Pine!$"
 
 Speaker_Cameraman:

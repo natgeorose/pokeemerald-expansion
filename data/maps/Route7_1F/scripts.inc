@@ -425,8 +425,8 @@ Route_7_1F_Text_IsabelWhy:
 
 Route_7_1F_Text_JamesHey:
 	.string "Hey I didn't know it was a dead\n"
-	.string "end! Besides, look at these weird\p"
-	.string "markings!\n"
+	.string "end! Besides, look at these weird\l"
+	.string "markings!\p"
 	.string "You're welcome! $"
 
 Route_7_1F_Text_IsabelRuins:
@@ -483,7 +483,7 @@ Route_7_1F_Text_JamesGone:
 
 Route_7_1F_Text_IsabelGone:
 	.string "And the Zubat are as well!\n"
-	.string "{PLAYER} that was incredible.\p"
+	.string "{PLAYER} that was incredible.\l"
 	.string "You were controlling that Pokémon!$"
 
 Route_7_1F_Text_JamesCrazy:

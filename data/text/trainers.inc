@@ -5006,6 +5006,18 @@ Route4_Text_ViolaPostBattle:
 	.string "Just ignore us and look at\n"
 	.string "flowers.$"
 
+Route4_Text_CalvinIntro:
+	.string "Don't disturb me, I'm trying\n"
+	.string "to find some new Pokémon!$"
+
+Route4_Text_CalvinDefeat:
+	.string "Too strong!$"
+
+Route4_Text_CalvinPostBattle:
+	.string "Just you wait and see, soon I'll\n"
+	.string "have even more Pokémon to use in\p"
+	.string "battles. I'll be invincible!$"
+
 CoalscorchQuarry_Text_MichaelIntro:
 	.string "Hey, there's not supposed to be anyone\n"
 	.string "here! There's uhh..\l"

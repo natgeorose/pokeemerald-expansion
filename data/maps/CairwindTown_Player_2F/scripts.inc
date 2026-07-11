@@ -9,7 +9,7 @@ CairwindTown_Player_2F_OnFrame:
 CairwindTown_Player_2F_EventScript_IntroSets::
 	setflag FLAG_SYS_B_DASH
 	setflag FLAG_UNUSED_0x055
-	setvar VAR_LEVEL_CAP, 15
+	setvar VAR_LEVEL_CAP, 14
 	setvar VAR_STORY, 1
 	end
 

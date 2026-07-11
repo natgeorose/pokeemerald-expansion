@@ -76,6 +76,15 @@ Route4_EventScript_Viola::
 	msgbox Route4_Text_ViolaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Speaker_Calvin:
+    .string "Calvin$"
+
+Route4_EventScript_Calvin::
+	trainerbattle_single TRAINER_CALVIN_1, Route4_Text_CalvinIntro, Route4_Text_CalvinDefeat
+	setspeaker Speaker_Calvin
+	msgbox Route4_Text_CalvinPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route4_EventScript_Elder::
 	lockall
 	setspeaker Speaker_Elder

@@ -13009,6 +13009,105 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_ROUTE8",
+          "base_label": "gRoute8",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_STANTLER"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_NACLI"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_SKARMORY"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_SNORUNT"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_TIMBURR"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_STANTLER"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_SNORUNT"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GEODUDE_ALOLA"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GEODUDE_ALOLA"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GEODUDE_ALOLA"
+              },
+              {
+                "min_level": 17,
+                "max_level": 19,
+                "species": "SPECIES_GEODUDE_ALOLA"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_BERGMITE"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_NACLI"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GEODUDE_ALOLA"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GEODUDE_ALOLA"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_GEODUDE_ALOLA"
+              }
+            ]
+          }
         }
       ]
     },

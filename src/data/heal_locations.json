@@ -210,6 +210,18 @@
       "map": "MAP_ROUTE6",
       "x": 24,
       "y": 2
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE8",
+      "map": "MAP_ROUTE8",
+      "x": 89,
+      "y": 25
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE9",
+      "map": "MAP_ROUTE9",
+      "x": 44,
+      "y": 70
     }
   ]
 }

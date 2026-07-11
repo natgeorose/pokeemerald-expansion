@@ -520,7 +520,7 @@
 #define FLAG_COALSCORCH_BRIDGE_2                    0x1DF // Unused Flag
 #define FLAG_COALSCORCH_BRIDGE_3                    0x1E0 // Unused Flag
 #define FLAG_COALSCORCH_BRIDGE_4                    0x1E1 // Unused Flag
-#define FLAG_UNUSED_0x1E2                    0x1E2 // Unused Flag
+#define FLAG_COALSCORCH_CLEARED                    0x1E2 // Unused Flag
 #define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
 
 // Mystery Gift Flags (Unknown)

@@ -109,7 +109,12 @@
     "Route5",
     "FellhavenTown",
     "Route6",
-    "SundaraVillage"
+    "SundaraVillage",
+    "Route8",
+    "VeilboraTown",
+    "Route9",
+    "HigardTown",
+    "HigardTownCableCar"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

@@ -262,9 +262,7 @@ Route7_EventScript_Unown::
 	msgbox Route_7_Text_PineWhat, MSGBOX_DEFAULT
 	closemessage
 	special SpawnCameraObject
-	applymovement LOCALID_CAMERA, Common_Movement_WalkDown
-	waitmovement 0
-	applymovement LOCALID_CAMERA, Common_Movement_WalkDown
+	applymovement LOCALID_CAMERA, Common_Movement_WalkDown2
 	waitmovement 0
 	applymovement LOCALID_PINE, Route7_Movement_PineApproach
 	applymovement LOCALID_BERITH, Route7_Movement_PineApproach
@@ -363,8 +361,6 @@ Route7_EventScript_Unown::
 	closemessage
 	addobject LOCALID_BAG
 	applymovement LOCALID_JAMES_2, Route7_Movement_JamesAway
-	applymovement LOCALID_CAMERA, Common_Movement_WalkDown
-	applymovement LOCALID_CAMERA, Common_Movement_WalkDown
 	waitmovement 0
 	special RemoveCameraObject
 	setvar VAR_STORY, 6
@@ -465,7 +461,7 @@ Route_7_Text_PineToPlayer:
 	.string "don't have a Pokémon yet, do you?\p"
 	.string "Unown are a Pokémon from ancient times,\n"
 	.string "said to be messengers of the gods.\p"
-	.string "they haven't been seen in many years,\n"
+	.string "They haven't been seen in many years,\n"
 	.string "much less controlled by a Trainer.$"
 
 Route_7_Text_PineNeedPokemon:
