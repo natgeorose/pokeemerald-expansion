@@ -5030,6 +5030,16 @@
       "secondary_tileset": "gTileset_Cable",
       "border_filepath": "data/layouts/HigardTownCableCar/border.bin",
       "blockdata_filepath": "data/layouts/HigardTownCableCar/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE2",
+      "name": "Route2_Layout",
+      "width": 62,
+      "height": 90,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Elaru",
+      "border_filepath": "data/layouts/Route2/border.bin",
+      "blockdata_filepath": "data/layouts/Route2/map.bin"
     }
   ]
 }

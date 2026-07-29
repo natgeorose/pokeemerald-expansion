@@ -984,3 +984,14 @@ const struct Tileset gTileset_Cable =
     .metatileAttributes = gMetatileAttributes_Cable,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Elaru =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Elaru,
+    .palettes = gTilesetPalettes_Elaru,
+    .metatiles = gMetatiles_Elaru,
+    .metatileAttributes = gMetatileAttributes_Elaru,
+    .callback = NULL,
+};

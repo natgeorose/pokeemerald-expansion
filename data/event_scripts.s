@@ -1296,3 +1296,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/HigardTown/scripts.inc"
 
 	.include "data/maps/HigardTownCableCar/scripts.inc"
+
+	.include "data/maps/Route2/scripts.inc"
