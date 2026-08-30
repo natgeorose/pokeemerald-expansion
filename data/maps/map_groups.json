@@ -115,7 +115,9 @@
     "Route9",
     "HigardTown",
     "HigardTownCableCar",
-    "Route2"
+    "Route2",
+    "ElaruTown",
+    "Route10"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

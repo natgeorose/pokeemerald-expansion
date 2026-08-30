@@ -693,6 +693,10 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         return BATTLE_ENVIRONMENT_UNDERWATER;
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE6) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE6))
         return BATTLE_ENVIRONMENT_SAND;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE8) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE8))
+        return BATTLE_ENVIRONMENT_SNOW;
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE9) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE9))
+        return BATTLE_ENVIRONMENT_SNOW;
 
     if (MetatileBehavior_IsMountain(tileBehavior))
         return BATTLE_ENVIRONMENT_UNDERWATER;

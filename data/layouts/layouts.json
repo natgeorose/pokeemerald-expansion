@@ -5035,11 +5035,31 @@
       "id": "LAYOUT_ROUTE2",
       "name": "Route2_Layout",
       "width": 62,
-      "height": 90,
+      "height": 100,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Elaru",
       "border_filepath": "data/layouts/Route2/border.bin",
       "blockdata_filepath": "data/layouts/Route2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ELARU_TOWN",
+      "name": "ElaruTown_Layout",
+      "width": 58,
+      "height": 44,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Elaru",
+      "border_filepath": "data/layouts/ElaruTown/border.bin",
+      "blockdata_filepath": "data/layouts/ElaruTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE10",
+      "name": "Route10_Layout",
+      "width": 140,
+      "height": 52,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Veilbora",
+      "border_filepath": "data/layouts/Route10/border.bin",
+      "blockdata_filepath": "data/layouts/Route10/map.bin"
     }
   ]
 }

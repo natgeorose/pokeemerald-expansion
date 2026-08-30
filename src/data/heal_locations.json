@@ -222,6 +222,12 @@
       "map": "MAP_ROUTE9",
       "x": 44,
       "y": 70
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE2",
+      "map": "MAP_ROUTE2",
+      "x": 31,
+      "y": 61
     }
   ]
 }
