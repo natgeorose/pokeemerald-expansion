@@ -17,6 +17,11 @@
       "map": "MAP_VEILBORA_TOWN",
       "offset": -30,
       "direction": "left"
+    },
+    {
+      "map": "MAP_REME_CITY",
+      "offset": -12,
+      "direction": "right"
     }
   ],
   "object_events": [],

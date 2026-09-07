@@ -252,3 +252,6 @@ const u16 gMetatileAttributes_Cable[] = INCBIN_U16("data/tilesets/secondary/cabl
 
 const u16 gMetatiles_Elaru[] = INCBIN_U16("data/tilesets/secondary/elaru/metatiles.bin");
 const u16 gMetatileAttributes_Elaru[] = INCBIN_U16("data/tilesets/secondary/elaru/metatile_attributes.bin");
+
+const u16 gMetatiles_Reme[] = INCBIN_U16("data/tilesets/secondary/reme/metatiles.bin");
+const u16 gMetatileAttributes_Reme[] = INCBIN_U16("data/tilesets/secondary/reme/metatile_attributes.bin");

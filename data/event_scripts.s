@@ -1302,3 +1302,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/ElaruTown/scripts.inc"
 
 	.include "data/maps/Route10/scripts.inc"
+
+	.include "data/maps/RemeCity/scripts.inc"

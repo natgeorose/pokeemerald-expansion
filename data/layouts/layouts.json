@@ -5060,6 +5060,16 @@
       "secondary_tileset": "gTileset_Veilbora",
       "border_filepath": "data/layouts/Route10/border.bin",
       "blockdata_filepath": "data/layouts/Route10/map.bin"
+    },
+    {
+      "id": "LAYOUT_REME_CITY",
+      "name": "RemeCity_Layout",
+      "width": 74,
+      "height": 92,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Reme",
+      "border_filepath": "data/layouts/RemeCity/border.bin",
+      "blockdata_filepath": "data/layouts/RemeCity/map.bin"
     }
   ]
 }

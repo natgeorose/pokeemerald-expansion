@@ -1,0 +1,26 @@
+{
+  "id": "MAP_REME_CITY",
+  "name": "RemeCity",
+  "layout": "LAYOUT_REME_CITY",
+  "music": "MUS_BW12_BLACK_CITY",
+  "region_map_section": "MAPSEC_REME_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE10",
+      "offset": 12,
+      "direction": "left"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}
