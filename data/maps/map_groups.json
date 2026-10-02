@@ -118,7 +118,12 @@
     "Route2",
     "ElaruTown",
     "Route10",
-    "RemeCity"
+    "RemeCity",
+    "Route11",
+    "CloudKingdom",
+    "RajanorTown",
+    "Route12",
+    "KaraduneTown"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

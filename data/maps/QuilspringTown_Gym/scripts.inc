@@ -274,6 +274,7 @@ QuilspringTown_Gym_EventScript_Nyx::
 	end
 
 QuilspringTown_Gym_EventScript_NyxDefeated::
+	closemessage
 	message QuilspringTown_Gym_Text_ReceivedInkBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
@@ -282,7 +283,7 @@ QuilspringTown_Gym_EventScript_NyxDefeated::
 	closemessage
 	setflag FLAG_DEFEATED_QUILSPRING_GYM
 	setflag FLAG_BADGE01_GET
-	setvar VAR_LEVEL_CAP, 24
+	setvar VAR_LEVEL_CAP, 23
 	setvar VAR_0x8008, 1
 	call Common_EventScript_SetGymTrainers
 	goto QuilspringTown_Gym_EventScript_GiveSnarl

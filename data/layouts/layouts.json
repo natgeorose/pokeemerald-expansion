@@ -5070,6 +5070,56 @@
       "secondary_tileset": "gTileset_Reme",
       "border_filepath": "data/layouts/RemeCity/border.bin",
       "blockdata_filepath": "data/layouts/RemeCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE11",
+      "name": "Route11_Layout",
+      "width": 78,
+      "height": 88,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Rajanor",
+      "border_filepath": "data/layouts/Route11/border.bin",
+      "blockdata_filepath": "data/layouts/Route11/map.bin"
+    },
+    {
+      "id": "LAYOUT_CLOUD_KINGDOM",
+      "name": "CloudKingdom_Layout",
+      "width": 44,
+      "height": 40,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Unicorn",
+      "border_filepath": "data/layouts/CloudKingdom/border.bin",
+      "blockdata_filepath": "data/layouts/CloudKingdom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAJANOR_TOWN",
+      "name": "RajanorTown_Layout",
+      "width": 46,
+      "height": 50,
+      "primary_tileset": "gTileset_Serenado",
+      "secondary_tileset": "gTileset_Rajanor",
+      "border_filepath": "data/layouts/RajanorTown/border.bin",
+      "blockdata_filepath": "data/layouts/RajanorTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_KARADUNE_TOWN",
+      "name": "KaraduneTown_Layout",
+      "width": 60,
+      "height": 40,
+      "primary_tileset": "gTileset_Desert",
+      "secondary_tileset": "gTileset_Karadune",
+      "border_filepath": "data/layouts/KaraduneTown/border.bin",
+      "blockdata_filepath": "data/layouts/KaraduneTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE12",
+      "name": "Route12_Layout",
+      "width": 90,
+      "height": 40,
+      "primary_tileset": "gTileset_Desert",
+      "secondary_tileset": "gTileset_Route1",
+      "border_filepath": "data/layouts/Route12/border.bin",
+      "blockdata_filepath": "data/layouts/Route12/map.bin"
     }
   ]
 }

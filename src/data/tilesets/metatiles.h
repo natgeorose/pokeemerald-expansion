@@ -255,3 +255,15 @@ const u16 gMetatileAttributes_Elaru[] = INCBIN_U16("data/tilesets/secondary/elar
 
 const u16 gMetatiles_Reme[] = INCBIN_U16("data/tilesets/secondary/reme/metatiles.bin");
 const u16 gMetatileAttributes_Reme[] = INCBIN_U16("data/tilesets/secondary/reme/metatile_attributes.bin");
+
+const u16 gMetatiles_Rajanor[] = INCBIN_U16("data/tilesets/secondary/rajanor/metatiles.bin");
+const u16 gMetatileAttributes_Rajanor[] = INCBIN_U16("data/tilesets/secondary/rajanor/metatile_attributes.bin");
+
+const u16 gMetatiles_Unicorn[] = INCBIN_U16("data/tilesets/secondary/unicorn/metatiles.bin");
+const u16 gMetatileAttributes_Unicorn[] = INCBIN_U16("data/tilesets/secondary/unicorn/metatile_attributes.bin");
+
+const u16 gMetatiles_Karadune[] = INCBIN_U16("data/tilesets/secondary/karadune/metatiles.bin");
+const u16 gMetatileAttributes_Karadune[] = INCBIN_U16("data/tilesets/secondary/karadune/metatile_attributes.bin");
+
+const u16 gMetatiles_Desert[] = INCBIN_U16("data/tilesets/primary/desert/metatiles.bin");
+const u16 gMetatileAttributes_Desert[] = INCBIN_U16("data/tilesets/primary/desert/metatile_attributes.bin");

@@ -1006,3 +1006,47 @@ const struct Tileset gTileset_Reme =
     .metatileAttributes = gMetatileAttributes_Reme,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Rajanor =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Rajanor,
+    .palettes = gTilesetPalettes_Rajanor,
+    .metatiles = gMetatiles_Rajanor,
+    .metatileAttributes = gMetatileAttributes_Rajanor,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Unicorn =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Unicorn,
+    .palettes = gTilesetPalettes_Unicorn,
+    .metatiles = gMetatiles_Unicorn,
+    .metatileAttributes = gMetatileAttributes_Unicorn,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Karadune =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Karadune,
+    .palettes = gTilesetPalettes_Karadune,
+    .metatiles = gMetatiles_Karadune,
+    .metatileAttributes = gMetatileAttributes_Karadune,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Desert =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Desert,
+    .palettes = gTilesetPalettes_Desert,
+    .metatiles = gMetatiles_Desert,
+    .metatileAttributes = gMetatileAttributes_Desert,
+    .callback = NULL,
+};

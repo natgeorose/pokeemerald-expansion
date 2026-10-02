@@ -210,7 +210,7 @@ Route_7_EventScript_BeforeCave::
 	waitmovement 0
 	removeobject LOCALID_ISABEL
 	playse SE_EXIT
-	setflag FLAG_UNUSED_0x054
+	setflag FLAG_HIDE_ISABEL_ROUTE_7
 	applymovement LOCALID_JAMES, Common_Movement_WalkRight
 	waitmovement 0
 	applymovement LOCALID_JAMES, Common_Movement_FaceDown

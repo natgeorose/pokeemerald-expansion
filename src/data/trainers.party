@@ -5001,7 +5001,7 @@ Mugshot: Pink
 
 Zorua (F)
 Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Hone Claws
 - Fury Swipes
 - Snarl
@@ -5010,7 +5010,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Vullaby (F)
 Level: 13
 Ability: Big Pecks
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Snarl
 - Pluck
 - Leer
@@ -5019,7 +5019,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Persian-Alola (F) @ Oran Berry
 Level: 14
 Ability: Technician
-IVs: 26 HP / 26 Atk / 26 Def / 15 SpA / 18 SpD / 15 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 10 SpA / 10 SpD / 10 Spe
 - Snarl
 - Scratch
 - Icy Wind
@@ -5037,7 +5037,7 @@ AI: Smart Trainer
 Mugshot: Yellow
 
 Torracat (M)
-Level: 23
+Level: 22
 Ability: Intimidate
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Will O Wisp
@@ -5046,7 +5046,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Double Kick
 
 Heatmor (M)
-Level: 23
+Level: 22
 Ability: White Smoke
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Will O Wisp
@@ -5055,7 +5055,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 
 Scovillain (M)
-Level: 23
+Level: 22
 Ability: Insomnia
 IVs: 12 HP / 0 Atk / 12 Def / 0 SpA / 12 SpD / 12 Spe
 - Will O Wisp
@@ -5064,7 +5064,7 @@ IVs: 12 HP / 0 Atk / 12 Def / 0 SpA / 12 SpD / 12 Spe
 - Super Fang
 
 Ninetales (M) @ Sitrus Berry
-Level: 24
+Level: 23
 Nature: Modest
 Ability: Flash Fire
 IVs: 31 HP / 24 Atk / 31 Def / 31 SpA / 24 SpD / 31 Spe
@@ -9605,23 +9605,22 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
+Hatenna (F)
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Psybeam
+- Nuzzle
+- Disarming Voice
+- Life Dew
+
 Mawile (M)
 Level: 15
 Nature: Modest
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bite
 - Fairy Wind
 - Fake Tears
 - Tackle
-
-Tatsugiri-Stretchy (M)
-Level: 16
-Nature: Adamant
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Gun
-- Rapid Spin
-- Helping Hand
-- Icy Wind
 
 === TRAINER_EDWIN_2 ===
 Name: Edwin
@@ -13816,21 +13815,22 @@ Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
+Torchic (M)
+Level: 14
+Ability: Speed Boost
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Flame Charge
+- Detect
+- Quick Attack
+- Peck
+
 Gastly (M)
 Level: 15
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Hex
 - Smog
 - Confuse Ray
 - Disable
-
-Combusken (M)
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Charge
-- Double Kick
-- Quick Attack
-- Peck
 
 === TRAINER_PETE ===
 Name: Pete

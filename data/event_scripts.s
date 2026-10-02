@@ -1304,3 +1304,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route10/scripts.inc"
 
 	.include "data/maps/RemeCity/scripts.inc"
+
+	.include "data/maps/Route11/scripts.inc"
+
+	.include "data/maps/CloudKingdom/scripts.inc"
+
+	.include "data/maps/RajanorTown/scripts.inc"
+
+	.include "data/maps/KaraduneTown/scripts.inc"
+
+	.include "data/maps/Route12/scripts.inc"

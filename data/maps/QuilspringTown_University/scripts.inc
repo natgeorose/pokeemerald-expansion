@@ -272,7 +272,7 @@ QuilspringTown_University_EventScript_PineItems::
 	end
 
 QuilspringTown_University_EventScript_PinePostGym::
-	goto_if_set FLAG_RECEIVED_HM_CUT, LOCALID_QUIL_JAMES
+	goto_if_set FLAG_RECEIVED_HM_CUT, QuilspringTown_University_EventScript_PineDefaultPost
 	setspeaker Speaker_Pine
 	msgbox QuilspringTown_University_Text_PineCongrats, MSGBOX_DEFAULT
 	closemessage
