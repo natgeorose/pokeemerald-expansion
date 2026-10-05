@@ -4,6 +4,7 @@ CoalscorchQuarry_B2F_MapScripts::
 
 CoalscorchQuarry_B2F_OnLoad:
 	call_if_set FLAG_COALSCORCH_BRIDGE_4, CoalscorchQuarry_B2F_EventScript_Bridge4
+	setflag FLAG_COALSCORCH_B2_MAGNUS
 	end
 
 CoalscorchQuarry_B2F_EventScript_Bridge4::
@@ -80,11 +81,201 @@ CoalscorchQuarry_B2F_EventScript_Matthew::
 Speaker_Laverna:
     .string "Laverna$"
 
+CoalscorchQuarry_B2F_EventScript_LavernaLeftEnter::
+	lockall
+	applymovement LOCALID_COALSCORCH_LAVERNA, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_COALSCORCH_LAVERNA, CoalscorchQuarry_B2F_Movement_LavernaLeft
+	waitmovement 0
+	setspeaker Speaker_Laverna
+	msgbox CoalscorchQuarry_B2F_Text_LavernaEnter, MSGBOX_DEFAULT
+	closemessage
+	trainerbattle_no_intro TRAINER_LAVERNA_COALSCORCH, CoalscorchQuarry_B2F_Text_LavernaDefeat
+	setspeaker Speaker_Laverna
+	msgbox CoalscorchQuarry_B2F_Text_LavernaLeave, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_COALSCORCH_LAVERNA, CoalscorchQuarry_B2F_Movement_LavernaLeaveLeft
+	waitmovement 0
+	removeobject LOCALID_COALSCORCH_LAVERNA
+	clearflag FLAG_COALSCORCH_B2_MAGNUS
+	addobject FLAG_COALSCORCH_B2_MAGNUS
+	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusLeft
+	waitmovement
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
+	waitmovement
+	setspeaker Speaker_Magnus
+	msgbox CoalscorchQuarry_B2F_Text_Magnus, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusLeave
+	waitmovement
+	removeobject LOCALID_COALSCORCH_B2_MAGNUS
+	setflag FLAG_COALSCORCH_B2_MAGNUS
+	setvar VAR_STORY, 20
+	setflag FLAG_COALSCORCH_CLEARED
+	clearflag FLAG_MAGNUS_GYM
+	releaseall
+	end
 
+CoalscorchQuarry_B2F_EventScript_LavernaRightEnter::
+	lockall
+	applymovement LOCALID_COALSCORCH_LAVERNA, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_COALSCORCH_LAVERNA, CoalscorchQuarry_B2F_Movement_LavernaRight
+	waitmovement 0
+	setspeaker Speaker_Laverna
+	msgbox CoalscorchQuarry_B2F_Text_LavernaEnter, MSGBOX_DEFAULT
+	closemessage
+	trainerbattle_no_intro TRAINER_LAVERNA_COALSCORCH, CoalscorchQuarry_B2F_Text_LavernaDefeat
+	setspeaker Speaker_Laverna
+	msgbox CoalscorchQuarry_B2F_Text_LavernaLeave, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_COALSCORCH_LAVERNA, CoalscorchQuarry_B2F_Movement_LavernaLeaveRight
+	waitmovement 0
+	removeobject LOCALID_COALSCORCH_LAVERNA
+	clearflag FLAG_COALSCORCH_B2_MAGNUS
+	addobject FLAG_COALSCORCH_B2_MAGNUS
+	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusRight
+	waitmovement
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
+	waitmovement
+	setspeaker Speaker_Magnus
+	msgbox CoalscorchQuarry_B2F_Text_Magnus, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusLeave
+	waitmovement
+	removeobject LOCALID_COALSCORCH_B2_MAGNUS
+	setflag FLAG_COALSCORCH_B2_MAGNUS
+	setvar VAR_STORY, 20
+	setflag FLAG_COALSCORCH_CLEARED
+	clearflag FLAG_MAGNUS_GYM
+	setflag FLAG_FELLHAVEN_JAMES
+	releaseall
+	end
 
+CoalscorchQuarry_B2F_Movement_LavernaLeft:
+	walk_left
+	walk_down
+	walk_down
+	step_end
 
+CoalscorchQuarry_B2F_Movement_LavernaRight:
+	walk_down
+	walk_down
+	step_end
 
+CoalscorchQuarry_B2F_Text_LavernaEnter:
+.string "So... you're the one who's been\n"
+.string "getting in our way, I heard there was\l"
+.string "a rat in our midst.\p"
+.string "I was expecting it to be that pesky\n"
+.string "Gym Leader, not some kid.\p"
+.string "You'll certaintly be much easier to\n"
+.string "deal with.\p"
+.string "I would tell you to stay out of our\n"
+.string "way, but you've already done more than\l"
+.string "enough to piss me off.\p"
+.string "Thankfully we were able to get all of\n"
+.string "the mining equipment out before you\l"
+.string "could interfere with that.\p"
+.string "What do we need it for?\p"
+.string "Hah you'll learn about that soon\n"
+.string "enough, don't you worry.\l"
+.string "All part of the boss's master plan.\p"
+.string "Now enough toying around. Just\n"
+.string "because you're a kid doesn't mean\l"
+.string "I'll show you any mercy!\p"
+.string "Prepare to face the full power of a\n"
+.string "Chosen Admin!$"
 
+CoalscorchQuarry_B2F_Text_LavernaDefeat:
+.string "What...\n"
+.string "Hmm maybe I have underestimated you.$"
 
+CoalscorchQuarry_B2F_Text_LavernaLeave:
+.string "Well that was unexpected.\n"
+.string "Pay it no attention though, that's the\l"
+.string "last time you will defeat me.\p"
+.string "In any case, I have what I need, so\n"
+.string "I'll be going.\p"
+.string "I would advise you to not get in our\n"
+.string "way again, there are powers at play\l"
+.string "far beyond your comprehension.\p"
+.string "But enjoy your tiny victory...\n"
+.string "For now.$"
 
+CoalscorchQuarry_B2F_Movement_LavernaLeaveLeft:
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+CoalscorchQuarry_B2F_Movement_LavernaLeaveRight:
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+CoalscorchQuarry_B2F_Movement_MagnusLeft:
+	walk_left
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+CoalscorchQuarry_B2F_Movement_MagnusRight:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+CoalscorchQuarry_B2F_Movement_MagnusLeave:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+CoalscorchQuarry_B2F_Text_Magnus:
+.string "You did it {PLAYER}!\n"
+.string "You truly are worthy of the\l"
+.string "Campfire Badge.\p"
+.string "I cannot thank you enough, even\n"
+.string "if we couldn't stop the Chosen\l"
+.string "from taking the mining equipment,\p"
+.string "helping the miners is quite the\n"
+.string "silver lining.\p"
+.string "If your friends are trying to\n"
+.string "find out more about the motives\l"
+.string "of the Chosen,\p"
+.string "then I suggest you head to Reme\n"
+.string "City to help them out.\p"
+.string "It's a long journey, but I think\n"
+.string "they'll need all the help they\l"
+.string "can get agains the Chosen.\p"
+.string "I hope we'll meet again, safe\n"
+.string "travels on your journey.$"
 

@@ -236,6 +236,8 @@ SundaraVillage_Gym_Text_JimAdvice:
 	.string "Hey challenger! The Leader of Sundara\n"
 	.string "Village Gym, Magnus, is a Fire type\l"
 	.string "enthusiast.\p"
+	.string "He's teaching his gym trainers how to\n"
+	.string "safely start and put out fires.\p"
 	.string "Rock, Ground, and Water type Pokémon\n"
 	.string "can give you the edge in this battle.\l"
 	.string "Good luck!$"
@@ -380,8 +382,10 @@ SundaraVillage_Gym_Text_ExplainWillOWisp:
 	.string "What is it?$"
 
 SundaraVillage_Gym_Text_MagnusPostBattle:
-	.string "As much as I love being a Gym Leader,\n"
-	.string "I do miss leading the Rangers.$"
+	.string "Thank you again for your help with\n"
+	.string "dealing with the Chosen at the quarry.\p"
+	.string "I don't know if I could have beat them\n"
+	.string "and saved the miners on my own.$"
 
 SundaraVillage_Gym_Text_WhatWasThat:
 	.string "We can speak about that later,\n"

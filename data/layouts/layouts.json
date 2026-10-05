@@ -4794,7 +4794,7 @@
     {
       "id": "LAYOUT_ROUTE6",
       "name": "Route6_Layout",
-      "width": 60,
+      "width": 64,
       "height": 114,
       "primary_tileset": "gTileset_Serenado",
       "secondary_tileset": "gTileset_Sundara",

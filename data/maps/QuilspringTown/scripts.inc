@@ -1,5 +1,10 @@
 QuilspringTown_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, QuilspringTown_OnLoad
 	.byte 0
+
+QuilspringTown_OnLoad:
+	setflag FLAG_HIDE_QUILSPRING_JAMES
+	end
 
 QuilspringTown_EventScript_Jim::
 	lockall

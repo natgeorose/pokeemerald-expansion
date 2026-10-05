@@ -773,7 +773,7 @@
 #define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4
 #define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5
 #define FLAG_HIDE_SUNDARA_JIM                                       0x2D6
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
+#define FLAG_COALSCORCH_B2_MAGNUS                              0x2D7
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8
 
 #define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
@@ -1052,7 +1052,7 @@
 // Item Ball Flags
 #define FLAG_ITEM_ROUTE_1_ETHER                                  0x3E8
 #define FLAG_ITEM_ROUTE_1_LURE                               0x3E9
-#define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA
+#define FLAG_ITEM_ROUTE_1_FULL_HEAL                                   0x3EA
 #define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
 #define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED

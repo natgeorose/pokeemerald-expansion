@@ -108,7 +108,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Maschiff (M)
-Level: 21
+Level: 20
 Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
@@ -117,7 +117,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer-Alola (M)
-Level: 21
+Level: 20
 Ability: Poison Touch
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
@@ -126,7 +126,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Gas
 
 Nidorino (M)
-Level: 21
+Level: 20
 Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Tail
@@ -144,7 +144,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Clodsire (M)
-Level: 22
+Level: 21
 Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bulldoze
@@ -171,7 +171,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Murkrow (F)
-Level: 22
+Level: 21
 Ability: Prankster
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Feather Dance
@@ -197,7 +197,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Honedge (M)
-Level: 21
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shadow Sneak
 - Aerial Ace
@@ -205,7 +205,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 
 Trubbish (M)
-Level: 21
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Poison Gas
@@ -213,7 +213,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Clear Smog
 
 Sableye (M)
-Level: 21
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fake Out
 - Night Shade
@@ -230,7 +230,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Mareanie (F)
-Level: 21
+Level: 20
 Ability: Merciless
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
@@ -239,19 +239,19 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Infestation
 
 Pawniard (F)
-Level: 21
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
 - Fury Cutter
 - Metal Claw
 - Torment
 
-Dustox (F)
-Level: 21
+Beedrill (F)
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Confusion
+- Fury Attack
 - Bug Bite
-- Gust
+- Focus Energy
 - Poison Sting
 
 === TRAINER_GRUNT_SITRI ===
@@ -264,7 +264,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Nidorina (F)
-Level: 22
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Tail
 - Venom Drench
@@ -272,7 +272,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Peck
 
 Corsola-Galar (F)
-Level: 22
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Hex
 - Disable
@@ -289,7 +289,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Glimmet (M)
-Level: 22
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic
 - Ancient Power
@@ -297,7 +297,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Polish
 
 Linoone-Galar (M)
-Level: 22
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Night Slash
 - Headbutt
@@ -347,7 +347,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Scraggy (F)
-Level: 22
+Level: 21
 Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Counter
@@ -356,7 +356,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Payback
 
 Loudred (F)
-Level: 22
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disarming Voice
 - Echoed Voice
@@ -364,7 +364,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Endeavor
 
 Grimer (F)
-Level: 22
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Poison Gas
@@ -415,13 +415,13 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Dunsparce (M)
+Bibarel (M)
 Level: 16
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Glare
+- Water Pulse
 - Bite
-- Headbutt
-- Mud Slap
+- Tackle
+- Rollout
 
 Seviper (M)
 Level: 16
@@ -687,7 +687,7 @@ Machoke
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_LAVERNA ===
+=== TRAINER_LAVERNA_COALSCORCH ===
 Name: Laverna
 Class: Chosen Admin
 Pic: Laverna
@@ -718,7 +718,7 @@ Absol (F)
 Level: 25
 Ability: Super Luck
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Knock Off
+- Assurance
 - Slash
 - Quick Attack
 - Aerial Ace
@@ -733,7 +733,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Shadow Ball
 
 === TRAINER_DWIGHT ===
-Name: Zander
+Name: Dwight
 Class: Black Belt
 Pic: Black Belt
 Gender: Male
@@ -741,11 +741,11 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Machop (M)
+Crabrawler (M)
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Pancham (M)
+Farfetchd-Galar (M)
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -815,7 +815,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Litwick (F)
-Level: 13
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Slowpoke-Galar (F)
@@ -835,7 +835,7 @@ Gossifleur (F)
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spritzee (F)
+Hatenna (F)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1345,7 +1345,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Wailmer (M)
+Qwilfish (M)
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3967,12 +3967,12 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Pansear (M)
-Level: 21
+Charcadet (M)
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Slugma (M)
-Level: 21
+Pignite (M)
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Larvesta (M)
@@ -3992,7 +3992,7 @@ Flaaffy (M)
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Beedrill (M)
+Skrelp (M)
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4009,7 +4009,7 @@ Elekid (F)
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spinda (F)
+Tandemaus (F)
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4112,11 +4112,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Dewpider (M)
-Level: 13
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Venonat (M)
-Level: 13
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pineco (M)
@@ -4669,7 +4669,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Skorupi (M)
-Level: 14
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mienfoo (M)
@@ -5036,13 +5036,13 @@ Double Battle: No
 AI: Smart Trainer
 Mugshot: Yellow
 
-Torracat (M)
+Combusken (M)
 Level: 22
-Ability: Intimidate
+Ability: Speed Boost
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Will O Wisp
 - Fire Pledge
-- Trailblaze
+- Rock Tomb
 - Double Kick
 
 Heatmor (M)
@@ -5491,7 +5491,7 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Milcery (F)
+Fidough (F)
 Level: 9
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -5860,11 +5860,11 @@ Music: Twins
 Double Battle: No
 AI: Basic Trainer
 
-Oddish (F)
+Bellsprout (F)
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Finneon (F)
+Shellos (F)
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6183,7 +6183,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Ekans (M)
+Zubat (M)
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6252,7 +6252,7 @@ Mankey (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Skwovet (M)
+Hoothoot (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7552,7 +7552,7 @@ Taillow (M)
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Squawkabilly (M)
+Staravia (M)
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8782,7 +8782,7 @@ Tinkatink (F)
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lickitung (F)
+Eevee (F)
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8833,7 +8833,7 @@ Marill (F)
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Glameow (F)
+Meowth (F)
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10817,23 +10817,23 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Whirlipede (F)
-Level: 21
+Sneasel (F)
+Level: 20
 Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mortal Spin
-- Venoshock
-- Pin Missile
-- Infestation
+- Metal Claw
+- Ice Shard
+- Taunt
+- Bite
 
-Raticate-Alola (F)
-Level: 21
-Ability: Gluttony
+Liepard (F)
+Level: 20
+Ability: Prankster
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Torment
+- Fake Out
 - Assurance
-- Hyper Fang
-- Scary Face
-- Quick Attack
 
 === TRAINER_CRISTIAN ===
 Name: Cristian
@@ -11502,11 +11502,11 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Paras (M)
+Sewaddle (M)
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Cascoon (M)
+Spewpa (M)
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12209,10 +12209,10 @@ Double Battle: No
 AI: Basic Trainer
 
 Croagunk (M)
-Level: 13
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nickit (M)
+Deino (M)
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12279,7 +12279,7 @@ Magby (M)
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Monferno (M)
+Quilava (M)
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12293,7 +12293,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Fletchinder (F)
-Level: 21
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ponyta (F)
@@ -13828,7 +13828,7 @@ Gastly (M)
 Level: 15
 IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Hex
-- Smog
+- Venoshock
 - Confuse Ray
 - Disable
 
@@ -14145,7 +14145,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Growlithe-Hisui (M)
-Level: 21
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Carkol (M)

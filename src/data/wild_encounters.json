@@ -12200,7 +12200,7 @@
               {
                 "min_level": 6,
                 "max_level": 8,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_ZIGZAGOON_GALAR"
               },
               {
                 "min_level": 6,
@@ -12220,7 +12220,7 @@
               {
                 "min_level": 6,
                 "max_level": 8,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_ZIGZAGOON_GALAR"
               },
               {
                 "min_level": 6,
@@ -12432,7 +12432,7 @@
               {
                 "min_level": 9,
                 "max_level": 11,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_ZIGZAGOON_GALAR"
               },
               {
                 "min_level": 9,
@@ -12447,7 +12447,7 @@
               {
                 "min_level": 9,
                 "max_level": 11,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_ZIGZAGOON_GALAR"
               },
               {
                 "min_level": 9,
@@ -12496,7 +12496,7 @@
               {
                 "min_level": 10,
                 "max_level": 12,
-                "species": "SPECIES_METAPOD"
+                "species": "SPECIES_SPEWPA"
               },
               {
                 "min_level": 10,
@@ -12605,7 +12605,7 @@
               {
                 "min_level": 12,
                 "max_level": 14,
-                "species": "SPECIES_PHANPY"
+                "species": "SPECIES_CUBONE"
               },
               {
                 "min_level": 12,
@@ -12802,7 +12802,7 @@
               {
                 "min_level": 16,
                 "max_level": 18,
-                "species": "SPECIES_SLUGMA"
+                "species": "SPECIES_HEATMOR"
               },
               {
                 "min_level": 16,
@@ -12886,7 +12886,7 @@
               {
                 "min_level": 16,
                 "max_level": 18,
-                "species": "SPECIES_SLUGMA"
+                "species": "SPECIES_HEATMOR"
               },
               {
                 "min_level": 16,

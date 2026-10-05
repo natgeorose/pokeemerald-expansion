@@ -8,7 +8,7 @@ SundaraVillage_EventScript_Gym::
 SundaraVillage_Text_Gym:
 	.string "Sundara Village Gym\n"
 	.string "Leader: Magnus\l"
-	.string "Level Cap: 24$"
+	.string "Level Cap: 23$"
 
 SundaraVillage_EventScript_TownSign::
 	msgbox SundaraVillage_Text_TownSign, MSGBOX_SIGN

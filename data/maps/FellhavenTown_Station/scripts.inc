@@ -196,6 +196,7 @@ FellhavenTown_Station_EventScript_MainSpeech::
 	msgbox FellhavenTown_Station_Text_BerithTakeThis, MSGBOX_DEFAULT
 	closemessage
 	giveitem ITEM_TM_PROTECT
+	closemessage
 	applymovement LOCALID_FELLHAVEN_PINE, FellhavenTown_Station_Movement_PineLeave
 	applymovement LOCALID_FELLHAVEN_BERITH, FellhavenTown_Station_Movement_BerithLeave
 	waitmovement 0
@@ -302,9 +303,9 @@ FellhavenTown_Station_Text_PineReme:
 	.string "Now then!\p"
 	.string "After getting in touch with Magnus in\n"
 	.string "Sundara Village,\p"
-	.string "I know James and Isabel would appreciate\n"
-	.string "Isabel would appreciate your help in\l"
-	.string "Reme City, as would we of course.\p"
+	.string "I know James and Isabel would\n"
+	.string "appreciate your help in Reme City,\l"
+	.string "as would we of course.\p"
 	.string "And please avoid any confrontation with\n"
 	.string "the Chosen, they are dangerous, and we\l"
 	.string "have no idea how many of them there are.$"

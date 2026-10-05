@@ -142,6 +142,8 @@ Route7_1F_Movement_Zubat1Enter:
 	walk_down
 	walk_down
 	walk_down
+	walk_in_place_down
+	walk_in_place_down
 	step_end
 
 Route7_1F_Movement_Zubat2Enter:
@@ -152,6 +154,8 @@ Route7_1F_Movement_Zubat2Enter:
 	walk_right
 	walk_right
 	walk_right
+	walk_in_place_right
+	walk_in_place_right
 	step_end
 
 Route7_1F_Movement_Zubat3Enter:
@@ -162,6 +166,8 @@ Route7_1F_Movement_Zubat3Enter:
 	walk_left
 	walk_left
 	walk_left
+	walk_in_place_left
+	walk_in_place_left
 	step_end
 
 Route_7_1F_Text_JamesGetThem:
@@ -452,6 +458,8 @@ Route7_1F_Movement_ZubatRuins:
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
+	walk_in_place_up
+	walk_in_place_up
 	step_end
 
 Route_7_1F_Text_JamesLikeNow:

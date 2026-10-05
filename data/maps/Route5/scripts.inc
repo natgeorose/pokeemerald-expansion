@@ -67,44 +67,35 @@ Route5_EventScript_OldWoman::
 	switch VAR_BEEDRILL_QUEST
 	case 0, Route5_EventScript_OldWomanIntro
 	case 1, Route5_EventScript_OldWomanReady
-	case 2, Route5_EventScript_OldWomanBattle
-	case 3, Route5_EventScript_OldWomanExit
-	releaseall 
+	case 2, Route5_EventScript_OldWomanExit
+	releaseall
 	end
 
 Route5_EventScript_OldWomanIntro::
-	lockall
-	faceplayer
 	setvar VAR_BEEDRILL_QUEST, 1
 	setspeaker Speaker_Elder
 	msgbox Route5_Text_OldWomanIntro, MSGBOX_YESNO
-	closemessage
-	goto_if_eq VAR_RESULT, YES, Route5_EventScript_OldWomanBattle
-	setspeaker Speaker_Elder
+	goto_if_eq VAR_RESULT, YES, Route5_EventScript_OldWomanAccept
 	msgbox Route5_Text_OldWomanNo, MSGBOX_DEFAULT
-	closemessage
+	releaseall
+	end
+
+Route5_EventScript_OldWomanAccept::
+	msgbox Route5_Text_OldWomanReady, MSGBOX_DEFAULT
 	releaseall
 	end
 
 Route5_EventScript_OldWomanReady::
-	lockall
-	faceplayer
 	setspeaker Speaker_Elder
 	msgbox Route5_Text_OldWomanReady, MSGBOX_YESNO
-	closemessage
 	goto_if_eq VAR_RESULT, YES, Route5_EventScript_OldWomanBattle
-	setspeaker Speaker_Elder
 	msgbox Route5_Text_OldWomanNo, MSGBOX_DEFAULT
-	closemessage
 	releaseall
 	end
 
 Route5_EventScript_OldWomanBattle::
-	lockall
-	faceplayer
 	setspeaker Speaker_Elder
 	msgbox Route5_Text_OldWomanBattle, MSGBOX_DEFAULT
-	closemessage
 	playmoncry SPECIES_BEEDRILL, CRY_MODE_NORMAL
 	waitmoncry
 	delay 15
@@ -119,26 +110,21 @@ Route5_EventScript_OldWomanBattle::
 	clearflag FLAG_NO_CATCHING
 	setspeaker Speaker_Elder
 	msgbox Route5_Text_OldWomanWellDone, MSGBOX_DEFAULT
-	closemessage
-	giveitem ITEM_HEART_SCALE
+	giveitem ITEM_HEART_SCALE, 1
 	setspeaker Speaker_Elder
 	msgbox Route5_Text_OldWomanSomething, MSGBOX_DEFAULT
-	closemessage
-	setvar VAR_BEEDRILL_QUEST, 3
+	setvar VAR_BEEDRILL_QUEST, 2
 	releaseall
 	end
 
 Route5_EventScript_OldWomanExit::
-	lockall
-	faceplayer
 	setspeaker Speaker_Elder
 	msgbox Route5_Text_OldWomanExit, MSGBOX_NPC
-	closemessage
 	releaseall
 	end
 
 Route5_Text_OldWomanHello:
-	.string "Hello there young Trainer.\n"
+	.string "Hello there young Trainer.$"
 
 Route5_Text_OldWomanIntro:
 	.string "I'm an elder from Fellhaven Town.\p"

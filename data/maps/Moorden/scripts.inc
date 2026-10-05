@@ -22,7 +22,7 @@ Moorden_EventScript_Fashionista::
 Moorden_EventScript_ReceivedScarf::
 	lockall
 	setspeaker Speaker_Fashionista
-	msgbox Moorden_Text_FashionistaGoodLuck, MSGBOX_DEFAULT
+	msgbox Moorden_Text_FashionistaGoodLuck, MSGBOX_NPC
 	closemessage
 	releaseall
 	end

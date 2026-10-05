@@ -44,7 +44,7 @@
       "local_id": "LOCALID_COALSCORCH_LAVERNA",
       "graphics_id": "OBJ_EVENT_GFX_LAVERNA",
       "x": 45,
-      "y": 6,
+      "y": 7,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -66,6 +66,20 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "CoalscorchQuarry_B2F_EventScript_Matthew",
       "flag": "FLAG_COALSCORCH_CLEARED"
+    },
+    {
+      "local_id": "LOCALID_COALSCORCH_B2_MAGNUS",
+      "graphics_id": "OBJ_EVENT_GFX_BRAWLY",
+      "x": 45,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_COALSCORCH_B2_MAGNUS"
     }
   ],
   "warp_events": [
@@ -134,18 +148,18 @@
       "x": 44,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_STORY",
+      "var_value": "19",
+      "script": "CoalscorchQuarry_B2F_EventScript_LavernaLeftEnter"
     },
     {
       "type": "trigger",
       "x": 45,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_STORY",
+      "var_value": "19",
+      "script": "CoalscorchQuarry_B2F_EventScript_LavernaRightEnter"
     }
   ],
   "bg_events": []
