@@ -2775,3 +2775,10 @@
 	callnative NativeVsSeekerRematchId, requests_effects=1
 	.2byte \rematchId
 	.endm
+
+@	Clears Pokedex entry for specific mon, use for Unown and scripted battles
+	.macro clearseenmon species:req
+    setvar VAR_TEMP_1, \species
+    special ClearSeenMon
+	.endm
+

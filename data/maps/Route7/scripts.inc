@@ -565,6 +565,7 @@ Route7_EventScript_Pokedex::
 	removeobject LOCALID_PINE
 	setvar VAR_STORY, 8
 	clearflag FLAG_CAIRWIND_MOVE
+	clearseenmon SPECIES_UNOWN
 	releaseall
 	end
 

@@ -4549,6 +4549,9 @@ s8 GetSetPokedexFlag(enum NationalDexOrder nationalDexNo, u8 caseID)
     case FLAG_SET_SEEN:
         gSaveBlock1Ptr->dexSeen[index] |= mask;
         break;
+    case FLAG_CLEAR_SEEN:
+        gSaveBlock1Ptr->dexSeen[index] &= ~mask;
+        break;
     case FLAG_SET_CAUGHT:
         gSaveBlock1Ptr->dexCaught[index] |= mask;
         break;
