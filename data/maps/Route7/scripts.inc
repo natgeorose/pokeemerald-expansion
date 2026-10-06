@@ -524,8 +524,6 @@ Route7_EventScript_Pokedex::
 	setflag FLAG_ADVENTURE_STARTED
 	special SetUnlockedPokedexFlags
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
-	setflag FLAG_SYS_NATIONAL_DEX
-	special EnableNationalPokedex
 	setspeaker Speaker_Pine
 	msgbox Route_7_Text_PineMustApologize, MSGBOX_DEFAULT
 	closemessage

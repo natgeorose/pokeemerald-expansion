@@ -8848,7 +8848,7 @@ static void ClearSearchParameterBoxText(void)
 static u16 SpeciesToDexListNum(u16 species)
 {
     int i;
-    u16 targetNum = SpeciesToPokedexNum(species);
+    u16 targetNum = SpeciesToNationalPokedexNum(species);
     for (i = 0; i < NATIONAL_DEX_COUNT; i++)
     {
         if (sPokedexView->pokedexList[i].dexNum == targetNum)
