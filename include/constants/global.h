@@ -77,13 +77,13 @@
 #define ROAMER_COUNT 1 // Number of maximum concurrent active roamers
 
 // Bag constants
-#define BAG_ITEMS_COUNT 130
-#define BAG_KEYITEMS_COUNT 40
-#define BAG_POKEBALLS_COUNT 40
+#define BAG_ITEMS_COUNT 150
+#define BAG_KEYITEMS_COUNT 60
+#define BAG_POKEBALLS_COUNT 60
 #define BAG_TMHM_COUNT 110
-#define BAG_BERRIES_COUNT 46
-#define BAG_MEDICINE_COUNT 75
-#define BAG_BATTLEITEMS_COUNT 75
+#define BAG_BERRIES_COUNT 67
+#define BAG_MEDICINE_COUNT 120
+#define BAG_BATTLEITEMS_COUNT 120
 #define BAG_MEGASTONES_COUNT 110
 
 // Number of facilities for Ranking Hall.
