@@ -1,2 +1,2 @@
 void HeatMenus_LoadPalettes(void);
-#define MENU_PAL_COUNT 4
+#define MENU_PAL_COUNT 8
