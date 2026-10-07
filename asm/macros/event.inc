@@ -2782,3 +2782,9 @@
     special ClearSeenMon
 	.endm
 
+@	Clears caught Pokedex flag for specific mon, use for Unown and scripted battles
+	.macro clearcaughtmon species:req
+    setvar VAR_TEMP_1, \species
+    special ClearCaughtMon
+	.endm
+

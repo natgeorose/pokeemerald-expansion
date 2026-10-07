@@ -4368,3 +4368,11 @@ void ClearSeenMon(void)
     );
 }
 
+void ClearCaughtMon(void)
+{
+    GetSetPokedexFlag(
+        SpeciesToNationalPokedexNum(VarGet(VAR_TEMP_1)),
+        FLAG_CLEAR_CAUGHT
+    );
+}
+

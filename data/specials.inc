@@ -566,3 +566,4 @@ gSpecials::
 	def_special GetCodeFeedback
 	def_special SetHiddenNature
 	def_special ClearSeenMon
+	def_special ClearCaughtMon

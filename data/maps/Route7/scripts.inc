@@ -566,6 +566,7 @@ Route7_EventScript_Pokedex::
 	setvar VAR_STORY, 8
 	clearflag FLAG_CAIRWIND_MOVE
 	clearseenmon SPECIES_UNOWN
+	clearcaughtmon SPECIES_UNOWN
 	releaseall
 	end
 
