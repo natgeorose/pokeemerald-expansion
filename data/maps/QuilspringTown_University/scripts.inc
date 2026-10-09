@@ -262,7 +262,7 @@ QuilspringTown_University_EventScript_PineItems::
 	closemessage
 	giveitem ITEM_PARCEL
 	setspeaker Speaker_Pine
-	msgbox QuilspringTown_University_Text_PineExplain, MSGBOX_DEFAULT
+	msgbox QuilspringTown_University_Text_PineExplain, MSGBOX_NPC
 	closemessage
 	setflag FLAG_ENABLE_SELECT_MENU
 	setflag FLAG_DEXNAV_GET
@@ -295,7 +295,7 @@ QuilspringTown_University_EventScript_PinePostGym::
 	closemessage
 	giveitem ITEM_CUT_TOOL
 	setspeaker Speaker_James
-	msgbox QuilspringTown_University_Text_JamesCut, MSGBOX_DEFAULT
+	msgbox QuilspringTown_University_Text_JamesCut, MSGBOX_NPC
 	closemessage
 	applymovement LOCALID_UNI_JAMES, QuilspringTown_University_Movement_JamesLeave
 	waitmovement 0

@@ -21,7 +21,7 @@ QuilspringTown_University_2F_EventScript_Berith::
 	closemessage	
 	giveitem ITEM_CARBOS
 	setspeaker Speaker_Berith
-	msgbox QuilspringTown_University_2F_Text_BerithGoodLuck, MSGBOX_DEFAULT
+	msgbox QuilspringTown_University_2F_Text_BerithGoodLuck, MSGBOX_NPC
 	closemessage
 	setflag FLAG_ITEM_QUILSPRING_CARBOS
 	releaseall
@@ -30,7 +30,7 @@ QuilspringTown_University_2F_EventScript_Berith::
 QuilspringTown_University_2F_EventScript_ReceivedCarbos::
 	lockall
 	setspeaker Speaker_Berith
-	msgbox QuilspringTown_University_2F_Text_BerithGoodLuck, MSGBOX_DEFAULT
+	msgbox QuilspringTown_University_2F_Text_BerithGoodLuck, MSGBOX_NPC
 	closemessage
 	releaseall
 	end

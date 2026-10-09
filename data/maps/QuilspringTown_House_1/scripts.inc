@@ -10,5 +10,5 @@ QuilspringTown_House_1_EventScript_Scientist::
 
 QuilspringTown_House_1_Text_Scientist:
 	.string "I conduct research with Professor\n"
-	.string "Pine. For someone so dedicated to his\p"
+	.string "Pine. For someone so dedicated to his\l"
 	.string "research, he's actually quite easygoing.$"

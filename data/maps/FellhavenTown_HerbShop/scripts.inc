@@ -40,7 +40,7 @@ FellhavenTown_HerbShop_EventScript_GiveWailmerPail::
 	msgbox FellhavenTown_HerbShop_Text_YouCanHaveThis, MSGBOX_DEFAULT
 	closemessage
 	giveitem ITEM_WAILMER_PAIL
-	msgbox FellhavenTown_HerbShop_Text_WailmerPailExplanation, MSGBOX_DEFAULT
+	msgbox FellhavenTown_HerbShop_Text_WailmerPailExplanation, MSGBOX_NPC
 	closemessage
 	setflag FLAG_RECEIVED_WAILMER_PAIL
 	releaseall

@@ -54,7 +54,7 @@ MoordenVillage_Text_Elder:
 	.string "and those immigrating to Serenado.\p"
 	.string "Me? I've been in this area for a\n"
 	.string "very long time now. But I always\l"
-	.string "welcomed those fearing disaster.$"
+	.string "welcomed those fleeing disaster.$"
 
 MoordenVillage_EventScript_TownSign::
 	msgbox MoordenVillage_Text_TownSign, MSGBOX_SIGN

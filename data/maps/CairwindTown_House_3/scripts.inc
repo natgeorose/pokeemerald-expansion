@@ -13,7 +13,7 @@ CairwindTown_House3_EventScript_Woman::
 
 CairwindTown_House3_Text_Woman:
 	.string "Cairwind Town is a great place to\n"
-	.string "raise a family.\p"
+	.string "raise a family.\l"
 	.string "I know my little one loves it here.$"
 
 CairwindTown_House3_EventScript_Boy::
@@ -25,5 +25,5 @@ CairwindTown_House3_EventScript_Boy::
 
 CairwindTown_House3_Text_Boy:
 	.string "I hope mommy gives me a Pokémon\n"
-	.string "soon,\p"
+	.string "soon,\l"
 	.string "I want to battle like my sister!$"

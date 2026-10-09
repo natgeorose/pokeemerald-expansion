@@ -31,20 +31,25 @@ ErewoodGrove_EventScript_PostEscapeRope::
 	msgbox ErewoodGrove_Text_JamesLeave, MSGBOX_DEFAULT
 	closemessage
 	setvar VAR_STORY, 15
-	applymovement LOCALID_EREWOOD_JAMES, Common_Movement_FaceDown
+	applymovement LOCALID_EREWOOD_JAMES, ErewoodGrove_Movement_JamesExit
 	waitmovement 0
-	delay 10
-	setfieldeffectargument 0, 1
-	dofieldeffect FLDEFF_NPCFLY_OUT
-	delay 15
 	removeobject LOCALID_EREWOOD_JAMES
-	waitfieldeffect FLDEFF_NPCFLY_OUT
 	setflag FLAG_HIDE_EREWOOD_JAMES
 	setflag FLAG_HIDE_QUILSPRING_BERITH
 	setflag FLAG_HIDE_QUILSPRING_ISABEL
 	setflag FLAG_HIDE_QUILSPRING_PINE
 	releaseall
 	end
+
+ErewoodGrove_Movement_JamesExit:
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	step_end
 
 Speaker_Reid:
     .string "Reid$"
@@ -515,7 +520,10 @@ ErewoodGrove_Text_JamesLeave:
 	.string "definitely needs to know about it.\p"
 	.string "I'll go let him know, you should\n"
 	.string "follow those guys and stop whatever\l"
-	.string "they are trying to do!$"
+	.string "they are trying to do!\p"
+	.string "And now that you have that Escape\n"
+	.string "Rope, I bet you would be able to\l"
+	.string "go in and out of the tree hollows!$"
 
 ErewoodGrove_Movement_JamesGoToProf:
 	walk_right

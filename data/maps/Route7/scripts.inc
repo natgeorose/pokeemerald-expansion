@@ -273,6 +273,7 @@ Route7_EventScript_Unown::
 	playse SE_PIN
 	applymovement LOCALID_ISABEL_2, Common_Movement_ExclamationMark
 	waitmovement 0
+	playse SE_PIN
 	setspeaker Speaker_Isabel
 	msgbox Route_7_Text_IsabelPine, MSGBOX_DEFAULT
 	closemessage
@@ -325,9 +326,12 @@ Route7_EventScript_Unown::
 	setspeaker Speaker_James
 	msgbox Route_7_Text_JamesPlayer, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_JAMES_2, Common_Movement_FaceLeft
+	waitmovement 0
 	setspeaker Speaker_Pine
 	msgbox Route_7_Text_PineToPlayer, MSGBOX_DEFAULT
 	closemessage
+	playse SE_PIN
 	applymovement LOCALID_PINE, Common_Movement_ExclamationMark
 	waitmovement 0
 	setspeaker Speaker_Pine
@@ -347,6 +351,7 @@ Route7_EventScript_Unown::
 	setspeaker Speaker_Berith
 	msgbox Route_7_Text_BerithTrue, MSGBOX_DEFAULT
 	closemessage
+	playse SE_PIN
 	applymovement LOCALID_PINE, Common_Movement_ExclamationMark
 	waitmovement 0
 	setspeaker Speaker_Pine
@@ -548,7 +553,8 @@ Route7_EventScript_Pokedex::
 	msgbox Route_7_Text_BerithGo, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
-	applymovement LOCALID_BERITH, Common_Movement_FaceRight
+	applymovement LOCALID_BERITH, Common_Movement_FaceDown
+	applymovement LOCALID_ISABEL_2, Common_Movement_FaceUp
 	waitmovement 0
 	setspeaker Speaker_Berith
 	msgbox Route_7_Text_BerithSorry, MSGBOX_DEFAULT
@@ -563,6 +569,16 @@ Route7_EventScript_Pokedex::
 	waitmovement 0
 	removeobject LOCALID_BERITH
 	removeobject LOCALID_PINE
+	applymovement LOCALID_PLAYER, Common_Movement_FaceRight
+	applymovement LOCALID_ISABEL_2, Common_Movement_FaceLeft
+	waitmovement 0
+	setspeaker Speaker_Isabel
+	msgbox Route_7_Text_IsabelStay, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_ISABEL_2, Route7_Movement_IsabelFinishLeave
+	waitmovement 0
+	removeobject LOCALID_ISABEL_2
+	playse SE_EXIT
 	setvar VAR_STORY, 8
 	clearflag FLAG_CAIRWIND_MOVE
 	clearseenmon SPECIES_UNOWN
@@ -650,13 +666,17 @@ Route7_Movement_FinishLeave:
 Route_7_EventScript_IsabelStay::
 	lockall
 	setspeaker Speaker_Isabel
-	msgbox Route_7_Text_IsabelStay, MSGBOX_NPC
+	msgbox Route_7_Text_IsabelNiceOfPine, MSGBOX_NPC
 	releaseall
 	end
 
+Route_7_Text_IsabelNiceOfPine:
+	.string "That's nice of Professor Pine to\n"
+	.string "give you your own Pokémon!$"
+
 Route_7_Text_IsabelStay:
 	.string "I know you have a journey to go on,\n"
-	.string "But I think I'm going stay and\l"
+	.string "but I think I'm going stay and\l"
 	.string "do more research on the runes here!$"
 
 Route7_EventScript_James::
@@ -715,6 +735,12 @@ Route_7_EventScript_StopRight::
 	waitmovement 0
 	releaseall
 	end
+
+Route7_Movement_IsabelFinishLeave:
+	walk_up
+	walk_left
+	walk_up
+	step_end
 
 Speaker_Selena:
     .string "Selena$"

@@ -13,7 +13,7 @@ Moorden_EventScript_Fashionista::
 	closemessage	
 	giveitem ITEM_SILK_SCARF
 	setspeaker Speaker_Fashionista
-	msgbox Moorden_Text_FashionistaGoodLuck, MSGBOX_DEFAULT
+	msgbox Moorden_Text_FashionistaGoodLuck, MSGBOX_NPC
 	closemessage
 	setflag FLAG_RECEIVED_SILK_SCARF
 	releaseall

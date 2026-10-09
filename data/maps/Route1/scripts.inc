@@ -79,6 +79,10 @@ Route_1_EventScript_JamesBattle::
 	applymovement LOCALID_JAMES, Common_Movement_FaceDown
 	waitmovement 0
 	delay 15
+	setspeaker Speaker_James
+	msgbox Route_1_Text_JamesSigh, MSGBOX_DEFAULT
+	closemessage
+	delay 15
 	applymovement LOCALID_JAMES, Common_Movement_FaceLeft
 	waitmovement 0
 	setspeaker Speaker_James
@@ -88,6 +92,21 @@ Route_1_EventScript_JamesBattle::
 	setspeaker Speaker_James
 	msgbox Route_1_Text_JamesFinal, MSGBOX_DEFAULT
 	closemessage
+	getplayerxy VAR_0x8004, VAR_0x8005
+	goto_if_eq VAR_0x8004, 79, Route_1_EventScript_PlayerAdditionalMove
+	delay 8
+	applymovement LOCALID_JAMES, Route_1_Movement_JamesDefeatUp
+	waitmovement 0
+	removeobject LOCALID_JAMES
+	setvar VAR_STORY, 10
+	setflag FLAG_JAMES_ROUTE_1
+	setflag FLAG_HIDE_QUILSPRING_ISABEL
+	setflag FLAG_HIDE_QUILSPRING_JAMES
+	clearflag FLAG_CAIRWIND_MART
+	releaseall
+	end
+
+Route_1_EventScript_PlayerAdditionalMove::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkDown
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_FaceRight
@@ -118,9 +137,12 @@ Route_1_Text_JamesLeave:
 	.string "I even got Riolu before you got your\n"
 	.string "Pokémon, and you still beat us.$"
 
+Route_1_Text_JamesSigh:
+	.string "...sigh...$"
+
 Route_1_Text_JamesRival:
 	.string "I guess I shouldn't be that hard on\n"
-	.string "myself, we did get our Pokémon on\p"
+	.string "myself, we did get our Pokémon on\l"
 	.string "the same day.\p"
 	.string "That's it, we'll just have to train\n"
 	.string "harder and win next time!\p"
@@ -136,6 +158,15 @@ Route_1_Text_JamesFinal:
 
 Route_1_Movement_JamesDefeat:
 	walk_left
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+Route_1_Movement_JamesDefeatUp:
 	walk_up
 	walk_up
 	walk_up
@@ -196,7 +227,7 @@ Route1_EventScript_FishingRodFisherman::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_SUPER_ROD
 	setspeaker Speaker_Fisherman
-	msgbox Route1_Text_TryDroppingRodInWater, MSGBOX_DEFAULT
+	msgbox Route1_Text_TryDroppingRodInWater, MSGBOX_NPC
 	releaseall
 	end
 
@@ -253,7 +284,7 @@ Route1_EventScript_Gentleman::
 	closemessage	
 	giveitem ITEM_FULL_HEAL
 	setspeaker Speaker_Gentleman
-	msgbox Route1_Text_GentlemanGoodLuck, MSGBOX_DEFAULT
+	msgbox Route1_Text_GentlemanGoodLuck, MSGBOX_NPC
 	closemessage
 	setflag FLAG_ITEM_ROUTE_1_FULL_HEAL
 	releaseall
@@ -270,7 +301,7 @@ Route1_EventScript_ReceivedFullHeal::
 Route1_Text_GentlemanGiveItem:
 	.string "Are you coming from Cairwind Town?\p"
 	.string "Moorden Town is just up ahead, but\n"
-	.string "if your objective is Quilspring Town\p"
+	.string "if your objective is Quilspring Town\l"
 	.string "you still have quite a ways to go.\p"
 	.string "The road up ahead is treacherous,\n"
 	.string "you should take this to help keep\l"

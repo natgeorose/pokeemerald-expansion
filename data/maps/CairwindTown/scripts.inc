@@ -243,7 +243,7 @@ CairwindTown_EventScript_LassPost::
 
 CairwindTown_Text_LassPost:
 	.string "You can only carry 6 Pokémon on\n"
-	.string "you at any given time, so make sure\p"
+	.string "you at any given time, so make sure\l"
 	.string "to switch them out occasionally!$"
 
 CairwindTown_EventScript_GirlPost::

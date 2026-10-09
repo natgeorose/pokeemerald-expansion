@@ -53,6 +53,9 @@ Route4_PokemonDayCare_EventScript_ManGiveEgg::
 	setspeaker Speaker_Caretaker
 	msgbox Route4_PokemonDayCare_Text_ManThanks, MSGBOX_NPC
 	closemessage
+	playfanfare MUS_OBTAIN_ITEM
+	message Route4_PokemonDayCare_Text_ReceivedTheEgg
+	waitfanfare
 	giveegg SPECIES_TOGEPI
 	setspeaker Speaker_Caretaker
 	msgbox Route4_PokemonDayCare_Text_ManLeave, MSGBOX_NPC
@@ -60,6 +63,9 @@ Route4_PokemonDayCare_EventScript_ManGiveEgg::
 	setvar VAR_EGG_QUEST, 3
 	releaseall
 	end
+
+Route4_PokemonDayCare_Text_ReceivedTheEgg:
+	.string "{PLAYER} received the egg.$"
 
 Route4_PokemonDayCare_Text_ManThanks:
 	.string "The thief came back and returned our\n"
