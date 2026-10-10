@@ -156,14 +156,14 @@
   ],
   "warp_events": [
     {
-      "x": 56,
+      "x": 57,
       "y": 27,
       "elevation": 0,
       "dest_map": "MAP_EREWOOD_GROVE",
       "dest_warp_id": "5"
     },
     {
-      "x": 56,
+      "x": 57,
       "y": 28,
       "elevation": 0,
       "dest_map": "MAP_EREWOOD_GROVE",
