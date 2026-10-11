@@ -646,7 +646,7 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
             return BATTLE_ENVIRONMENT_POND;
         if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_EREWOOD_GROVE_B1F) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_EREWOOD_GROVE_B1F))
-            return BATTLE_ENVIRONMENT_GRASS;
+            return BATTLE_ENVIRONMENT_DARKWOOD;
         if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_COALSCORCH_QUARRY) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_COALSCORCH_QUARRY))
             return BATTLE_ENVIRONMENT_WATER;
         if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_COALSCORCH_QUARRY_B1F) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_COALSCORCH_QUARRY_B1F))
@@ -683,7 +683,7 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE1) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE1))
         return BATTLE_ENVIRONMENT_GRASS;
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_EREWOOD_GROVE) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_EREWOOD_GROVE))
-        return BATTLE_ENVIRONMENT_GRASS;
+        return BATTLE_ENVIRONMENT_DARKWOOD;
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE5) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE5) && MetatileBehavior_IsMountain(tileBehavior))
         return BATTLE_ENVIRONMENT_UNDERWATER;
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE5) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE5))

@@ -30386,7 +30386,7 @@ gBattleAnimMove_SecretPower::
 	jumpargeq 0, BATTLE_ENVIRONMENT_SOARING,        gBattleAnimMove_Gust
 	jumpargeq 0, BATTLE_ENVIRONMENT_SKY_PILLAR,     gBattleAnimMove_Gust
 	jumpargeq 0, BATTLE_ENVIRONMENT_BURIAL_GROUND,  gBattleAnimMove_ShadowSneak
-	jumpargeq 0, BATTLE_ENVIRONMENT_PUDDLE,         gBattleAnimMove_MudShot
+	jumpargeq 0, BATTLE_ENVIRONMENT_DARKWOOD,       gBattleAnimMove_ShadowSneak
 	jumpargeq 0, BATTLE_ENVIRONMENT_MARSH,          gBattleAnimMove_MudShot
 	jumpargeq 0, BATTLE_ENVIRONMENT_SWAMP,          gBattleAnimMove_MudShot
 	jumpargeq 0, BATTLE_ENVIRONMENT_ICE,            gBattleAnimMove_IceShard

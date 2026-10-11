@@ -46,6 +46,12 @@ const u32 gBattleEnvironmentTilemap_Snow[] = INCBIN_U32("graphics/battle_environ
 const u16 gBattleEnvironmentPaletteMorning_Snow[] = INCBIN_U16("graphics/battle_environment/snow/palette_morning.gbapal");
 const u16 gBattleEnvironmentPaletteNight_Snow[] = INCBIN_U16("graphics/battle_environment/snow/palette_night.gbapal");
 
+const u32 gBattleEnvironmentTiles_Darkwood[] = INCBIN_U32("graphics/battle_environment/darkwood/tiles.4bpp.smol");
+const u16 gBattleEnvironmentPalette_Darkwood[] = INCBIN_U16("graphics/battle_environment/darkwood/palette.gbapal");
+const u32 gBattleEnvironmentTilemap_Darkwood[] = INCBIN_U32("graphics/battle_environment/darkwood/map.bin.smolTM");
+const u16 gBattleEnvironmentPaletteMorning_Darkwood[] = INCBIN_U16("graphics/battle_environment/darkwood/palette_morning.gbapal");
+const u16 gBattleEnvironmentPaletteNight_Darkwood[] = INCBIN_U16("graphics/battle_environment/darkwood/palette_night.gbapal");
+
 const u32 gBattleEnvironmentTiles_Cave[] = INCBIN_U32("graphics/battle_environment/cave/tiles.4bpp.smol");
 const u16 gBattleEnvironmentPalette_Cave[] = INCBIN_U16("graphics/battle_environment/cave/palette.gbapal");
 const u32 gBattleEnvironmentTilemap_Cave[] = INCBIN_U32("graphics/battle_environment/cave/map.bin.smolTM");
@@ -378,11 +384,19 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
         .camouflageType = TYPE_GHOST,
     },
 
-    [BATTLE_ENVIRONMENT_PUDDLE] =
+    [BATTLE_ENVIRONMENT_DARKWOOD] =
     {
-        .naturePower = MOVE_MUD_BOMB,
-        .secretPowerEffect = B_SECRET_POWER_EFFECT >= GEN_5 ? MOVE_EFFECT_SPD_MINUS_1 : MOVE_EFFECT_ACC_MINUS_1,
-        .camouflageType = TYPE_GROUND,
+        .naturePower = MOVE_NIGHT_SLASH,
+        .secretPowerEffect = MOVE_EFFECT_ACC_MINUS_1,
+        .camouflageType = TYPE_DARK,
+        .background =
+        {
+            .tileset = gBattleEnvironmentTiles_Darkwood,
+            .tilemap = gBattleEnvironmentTilemap_Darkwood,
+            .entryTileset = gBattleEnvironmentAnimTiles_Building,
+            .entryTilemap = gBattleEnvironmentAnimTilemap_Building,
+            .palette = {gBattleEnvironmentPaletteMorning_Darkwood, gBattleEnvironmentPalette_Darkwood, gBattleEnvironmentPalette_Darkwood, gBattleEnvironmentPaletteNight_Darkwood},
+        },
     },
 
     [BATTLE_ENVIRONMENT_MARSH] =
