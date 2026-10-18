@@ -168,7 +168,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CoalscorchQuarry_EventScript_Miner5",
       "flag": "FLAG_COALSCORCH_CLEARED"
     },
     {
@@ -181,7 +181,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CoalscorchQuarry_EventScript_Miner1",
       "flag": "FLAG_COALSCORCH_CLEARED"
     },
     {
@@ -194,7 +194,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CoalscorchQuarry_EventScript_Miner2",
       "flag": "FLAG_COALSCORCH_CLEARED"
     },
     {
@@ -207,7 +207,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CoalscorchQuarry_EventScript_Miner3",
       "flag": "FLAG_COALSCORCH_CLEARED"
     },
     {
@@ -220,7 +220,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CoalscorchQuarry_EventScript_Miner4",
       "flag": "FLAG_COALSCORCH_CLEARED"
     },
     {

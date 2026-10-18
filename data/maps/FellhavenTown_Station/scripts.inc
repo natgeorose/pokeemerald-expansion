@@ -381,7 +381,7 @@ FellhavenTown_Station_EventScript_Trader::
 	lock
 	faceplayer
 	goto_if_set FLAG_FELLHAVEN_NPC_TRADE_COMPLETED, FellhavenTown_Station_EventScript_TradeCompleted
-	setvar VAR_0x8008, INGAME_TRADE_GIRAFARIG
+	setvar VAR_0x8008, INGAME_TRADE_FIDOUGH
 	copyvar VAR_0x8004, VAR_0x8008
 	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
 	copyvar VAR_0x8009, VAR_RESULT
@@ -436,7 +436,7 @@ FellhavenTown_Station_Text_IllTradeIfYouWant:
 	.string "a {STR_VAR_1} if you want.$"
 
 FellhavenTown_Station_Text_PleaseBeGoodToMyPokemon:
-	.string "Please be good to my Girafarig!$"
+	.string "Please be good to my Fidough!$"
 
 FellhavenTown_Station_Text_DoesntLookLikeMonToMe:
 	.string "Um that doesn't look like a\n"

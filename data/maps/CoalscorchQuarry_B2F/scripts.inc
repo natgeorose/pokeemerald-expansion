@@ -98,7 +98,7 @@ CoalscorchQuarry_B2F_EventScript_LavernaLeftEnter::
 	waitmovement 0
 	removeobject LOCALID_COALSCORCH_LAVERNA
 	clearflag FLAG_COALSCORCH_B2_MAGNUS
-	addobject FLAG_COALSCORCH_B2_MAGNUS
+	addobject LOCALID_COALSCORCH_B2_MAGNUS
 	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusLeft
 	waitmovement
 	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
@@ -109,7 +109,9 @@ CoalscorchQuarry_B2F_EventScript_LavernaLeftEnter::
 	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusLeave
 	waitmovement
 	removeobject LOCALID_COALSCORCH_B2_MAGNUS
+	removeobject LOCALID_COALSCORCH_MATTHEW
 	setflag FLAG_COALSCORCH_B2_MAGNUS
+	setflag FLAG_FELLHAVEN_JAMES
 	setvar VAR_STORY, 20
 	setflag FLAG_COALSCORCH_CLEARED
 	clearflag FLAG_MAGNUS_GYM
@@ -133,7 +135,7 @@ CoalscorchQuarry_B2F_EventScript_LavernaRightEnter::
 	waitmovement 0
 	removeobject LOCALID_COALSCORCH_LAVERNA
 	clearflag FLAG_COALSCORCH_B2_MAGNUS
-	addobject FLAG_COALSCORCH_B2_MAGNUS
+	addobject LOCALID_COALSCORCH_B2_MAGNUS
 	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusRight
 	waitmovement
 	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
@@ -144,7 +146,9 @@ CoalscorchQuarry_B2F_EventScript_LavernaRightEnter::
 	applymovement LOCALID_COALSCORCH_B2_MAGNUS, CoalscorchQuarry_B2F_Movement_MagnusLeave
 	waitmovement
 	removeobject LOCALID_COALSCORCH_B2_MAGNUS
+	removeobject LOCALID_COALSCORCH_MATTHEW
 	setflag FLAG_COALSCORCH_B2_MAGNUS
+	setflag FLAG_FELLHAVEN_JAMES
 	setvar VAR_STORY, 20
 	setflag FLAG_COALSCORCH_CLEARED
 	clearflag FLAG_MAGNUS_GYM

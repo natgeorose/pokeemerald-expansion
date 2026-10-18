@@ -193,7 +193,7 @@
 #define P_FAMILY_ZIGZAGOON               P_GEN_3_POKEMON
 #define P_FAMILY_WURMPLE                 FALSE
 #define P_FAMILY_LOTAD                   P_GEN_3_POKEMON
-#define P_FAMILY_SEEDOT                  P_GEN_3_POKEMON
+#define P_FAMILY_SEEDOT                  FALSE
 #define P_FAMILY_TAILLOW                 P_GEN_3_POKEMON
 #define P_FAMILY_WINGULL                 P_GEN_3_POKEMON
 #define P_FAMILY_RALTS                   P_GEN_3_POKEMON
@@ -201,7 +201,7 @@
 #define P_FAMILY_SHROOMISH               P_GEN_3_POKEMON
 #define P_FAMILY_SLAKOTH                 P_GEN_3_POKEMON
 #define P_FAMILY_NINCADA                 FALSE
-#define P_FAMILY_WHISMUR                 P_GEN_3_POKEMON
+#define P_FAMILY_WHISMUR                 FALSE
 #define P_FAMILY_MAKUHITA                P_GEN_3_POKEMON
 #define P_FAMILY_NOSEPASS                P_GEN_3_POKEMON
 #define P_FAMILY_SKITTY                  FALSE

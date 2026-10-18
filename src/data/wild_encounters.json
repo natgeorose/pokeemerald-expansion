@@ -552,22 +552,22 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_MASCHIFF"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_MASCHIFF"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_MASCHIFF"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_MASCHIFF"
               }
             ]
           },
@@ -789,7 +789,7 @@
               {
                 "min_level": 6,
                 "max_level": 8,
-                "species": "SPECIES_MASCHIFF"
+                "species": "SPECIES_PURRLOIN"
               },
               {
                 "min_level": 6,

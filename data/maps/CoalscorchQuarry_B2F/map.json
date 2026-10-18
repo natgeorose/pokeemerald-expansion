@@ -55,6 +55,7 @@
       "flag": "FLAG_COALSCORCH_CLEARED"
     },
     {
+      "local_id": "LOCALID_COALSCORCH_MATTHEW",
       "graphics_id": "OBJ_EVENT_GFX_CHOSEN_GRUNT_M",
       "x": 40,
       "y": 16,

@@ -347,7 +347,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Scraggy (F)
-Level: 21
+Level: 20
 Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Counter
@@ -355,13 +355,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Headbutt
 - Payback
 
-Loudred (F)
-Level: 21
+Whirlipede (F)
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Disarming Voice
-- Echoed Voice
-- Bite
-- Endeavor
+- Rollout
+- Poison Tail
+- Bug Bite
+- Iron Defense
 
 Grimer (F)
 Level: 21
@@ -3929,7 +3929,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Nuzleaf (M)
+Flaaffy (M)
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3980,7 +3980,7 @@ Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GABE ===
-Name: Ethan
+Name: Gabe
 Class: Camper
 Pic: Camper
 Gender: Male
@@ -3988,7 +3988,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Flaaffy (M)
+Swadloon (M)
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

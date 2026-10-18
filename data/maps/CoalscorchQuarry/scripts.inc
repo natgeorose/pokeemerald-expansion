@@ -142,66 +142,66 @@ CoalscorchQuarry_Text_Magnus:
 Speaker_Miner:
 .string "Miner$"
 
-Route1_EventScript_Miner1::
+CoalscorchQuarry_EventScript_Miner1::
 lockall
 faceplayer
 setspeaker Speaker_Miner
-msgbox Route1_Text_Miner1, MSGBOX_NPC
+msgbox CoalscorchQuarry_Text_Miner1, MSGBOX_NPC
 releaseall
 end
 
-Route1_Text_Miner1:
+CoalscorchQuarry_Text_Miner1:
 .string "Whew... I thought we were finished!\p"
 .string "I can't thank you enough for helping\n"
 .string "us out here.$"
 
-Route1_EventScript_Miner2::
+CoalscorchQuarry_EventScript_Miner2::
 lockall
 faceplayer
 setspeaker Speaker_Miner
-msgbox Route1_Text_Miner2, MSGBOX_NPC
+msgbox CoalscorchQuarry_Text_Miner2, MSGBOX_NPC
 releaseall
 end
 
-Route1_Text_Miner2:
+CoalscorchQuarry_Text_Miner2:
 .string "You have no idea how long we've been\n"
 .string "stuck in this quarry.\p"
 .string "Huh? It just happened?\n"
 .string "Well it feels like a very long time$"
 
-Route1_EventScript_Miner3::
+CoalscorchQuarry_EventScript_Miner3::
 lockall
 faceplayer
 setspeaker Speaker_Miner
-msgbox Route1_Text_Miner3, MSGBOX_NPC
+msgbox CoalscorchQuarry_Text_Miner3, MSGBOX_NPC
 releaseall
 end
 
-Route1_Text_Miner3:
+CoalscorchQuarry_Text_Miner3:
 .string "I was starting to think I'd never\n"
 .string "see the sunlight again.\p"
 .string "I'll never forget what you did for us.$"
 
-Route1_EventScript_Miner4::
+CoalscorchQuarry_EventScript_Miner4::
 lockall
 setspeaker Speaker_Miner
-msgbox Route1_Text_Miner4, MSGBOX_NPC
+msgbox CoalscorchQuarry_Text_Miner4, MSGBOX_NPC
 releaseall
 end
 
-Route1_Text_Miner4:
+CoalscorchQuarry_Text_Miner4:
 .string "I can't beleive yo're taking on the\n"
 .string "Chosen, kid. I don't know if its\l"
 .string "stupidity or courage, but thanks.$"
 
-Route1_EventScript_Miner5::
+CoalscorchQuarry_EventScript_Miner5::
 lockall
 setspeaker Speaker_Miner
-msgbox Route1_Text_Miner5, MSGBOX_NPC
+msgbox CoalscorchQuarry_Text_Miner5, MSGBOX_NPC
 releaseall
 end
 
-Route1_Text_Miner5:
+CoalscorchQuarry_Text_Miner5:
 .string "Thank god you showed up.\p"
 .string "I was beginning to wonder if we\n"
 .string "would ever get out of here.$"
