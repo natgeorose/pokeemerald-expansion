@@ -102,7 +102,7 @@
 #define TRAINER_HOPE                         96
 #define TRAINER_SHANNON                      97
 #define TRAINER_MICHELLE                     98
-#define TRAINER_CAROLINE                     99
+#define TRAINER_RENEE                     99
 #define TRAINER_JULIE                       100
 #define TRAINER_BROOKE_2                    101
 #define TRAINER_BROOKE_3                    102
@@ -194,7 +194,7 @@
 #define TRAINER_YUJI                        188
 #define TRAINER_DAISUKE                     189
 #define TRAINER_ATSUSHI                     190
-#define TRAINER_KIRK                        191
+#define TRAINER_MARCELLUS                        191
 #define TRAINER_GRUNT_AQUA_HIDEOUT_7        192
 #define TRAINER_GRUNT_AQUA_HIDEOUT_8        193
 #define TRAINER_SHAWN                       194
@@ -221,7 +221,7 @@
 #define TRAINER_JUSTIN                      215
 #define TRAINER_GABE                     216
 #define TRAINER_AUTUMN                      217
-#define TRAINER_TRAVIS                      218
+#define TRAINER_WILLIS                      218
 #define TRAINER_ETHAN_2                     219
 #define TRAINER_ETHAN_3                     220
 #define TRAINER_ETHAN_4                     221
@@ -476,7 +476,7 @@
 #define TRAINER_ISADORA                       470
 #define TRAINER_CAROL                       471
 #define TRAINER_NANCY                       472
-#define TRAINER_MARTHA                      473
+#define TRAINER_LORIE                      473
 #define TRAINER_DIANA_1                     474
 #define TRAINER_CEDRIC                      475
 #define TRAINER_IRENE                       476
@@ -574,10 +574,10 @@
 #define TRAINER_GRUNT_UNUSED                568
 #define TRAINER_GRUNT_MT_PYRE_4             569
 #define TRAINER_GRUNT_JAGGED_PASS           570
-#define TRAINER_MARC                        571
+#define TRAINER_DON                        571
 #define TRAINER_BRENDEN                     572
 #define TRAINER_GRUNT_LILITH                      573
-#define TRAINER_CRISTIAN                    574
+#define TRAINER_CASEY                    574
 #define TRAINER_SYLVIA                      575
 #define TRAINER_LEONARDO                    576
 #define TRAINER_ATHENA                      577
@@ -675,7 +675,7 @@
 #define TRAINER_ROGER                       669
 #define TRAINER_ALEXA                       670
 #define TRAINER_RUBEN                       671
-#define TRAINER_KOJI_1                      672
+#define TRAINER_JERICHO                      672
 #define TRAINER_WAYNE                       673
 #define TRAINER_AIDAN                       674
 #define TRAINER_REED                        675

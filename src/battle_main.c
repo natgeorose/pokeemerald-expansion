@@ -302,8 +302,8 @@ static const s8 sCenterToCornerVecXs[8] ={-32, -16, -16, -32, -32};
 // [TRAINER_CLASS_XYZ] = { _("name"), <money=5>, <ball=BALL_POKE> }
 const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
 {
-    [TRAINER_CLASS_PKMN_TRAINER_1] = { _("{PKMN} Trainer") },
-    [TRAINER_CLASS_PKMN_TRAINER_2] = { _("{PKMN} Trainer") },
+    [TRAINER_CLASS_PKMN_TRAINER_1] = { _("{PKMN} Trainer"), 8 },
+    [TRAINER_CLASS_PKMN_TRAINER_2] = { _("{PKMN} Trainer"), 8 },
     [TRAINER_CLASS_HIKER] = { _("Hiker"), 10 },
     [TRAINER_CLASS_TEAM_AQUA] = { _("Team Aqua") },
     [TRAINER_CLASS_PKMN_BREEDER] = { _("{PKMN} Breeder"), 10, B_TRAINER_CLASS_POKE_BALLS >= GEN_8 ? BALL_HEAL : BALL_FRIEND },
@@ -369,8 +369,8 @@ const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
     [TRAINER_CLASS_PYRAMID_KING] = { _("Pyramid King") },
     [TRAINER_CLASS_RS_PROTAG] = { _("{PKMN} Trainer") },
     [TRAINER_CLASS_SCIENTIST] = { _("Scientist"), 15 },
-    [TRAINER_CLASS_CHOSEN_GRUNT] = { _("Chosen Grunt"), 2, BALL_MOON },
-    [TRAINER_CLASS_CHOSEN_ADMIN] = { _("Chosen Admin"), 10, BALL_BEAST },
+    [TRAINER_CLASS_CHOSEN_GRUNT] = { _("Chosen Grunt"), 4, BALL_MOON },
+    [TRAINER_CLASS_CHOSEN_ADMIN] = { _("Chosen Admin"), 12, BALL_BEAST },
 };
 
 static void (*const sTurnActionsFuncsTable[])(void) =

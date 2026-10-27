@@ -5140,3 +5140,106 @@ CoalscorchQuarry_B2F_Text_MatthewDefeat:
 CoalscorchQuarry_B2F_Text_MatthewPostBattle:
 	.string "I can't believe I lost...$"
 
+Route8_Text_MarcellusIntro:
+    .string "Hear that echo off the mountain?\n"
+    .string "That's my latest riff!\p"
+    .string "This freezing cold won't stop me\n"
+    .string "from rocking out!\l"
+    .string "Let's see if you can keep the beat!$"
+
+Route8_Text_MarcellusDefeat:
+    .string "Whoa! You really struck a chord!$"
+
+Route8_Text_MarcellusPostBattle:
+    .string "The acoustics on this mountain\n"
+	.string "are amazing!$"
+
+Route8_Text_CaseyIntro:
+    .string "I spend every day perfecting my\n"
+    .string "martial arts!\p"
+    .string "Let's see how you handle a real\n"
+    .string "test of strength!$"
+
+Route8_Text_CaseyDefeat:
+    .string "You've got some serious\n"
+    .string "fighting skills!$"
+
+Route8_Text_CaseyPostBattle:
+    .string "My technique still isn't perfect.$"
+
+Route8_Text_ReneeIntro:
+    .string "A mountain trek is the perfect\n"
+    .string "chance to test my Pokémon!\p"
+    .string "Let's see how you handle a\n"
+    .string "battle in this cold!$"
+
+Route8_Text_ReneeDefeat:
+    .string "You battled beautifully!\n"
+    .string "I couldn't keep up!$"
+
+Route8_Text_ReneePostBattle:
+    .string "A little cold won't stop me from\n"
+    .string "battling my hardest!$"
+
+Route8_Text_WillisIntro:
+    .string "Hey! Want to see the Pokémon\n"
+    .string "I've been raising?$"
+
+Route8_Text_WillisDefeat:
+    .string "Aww I thought I had you there!$"
+
+Route8_Text_WillisPostBattle:
+    .string "I'm going to train my Pokémon\n"
+    .string "even harder from now on!$"
+
+Route8_Text_LorieIntro:
+    .string "I was just taking a break\n"
+    .string "from my travels.\p"
+    .string "A Pokémon battle sounds like\n"
+    .string "a fun way to spend the time!$"
+
+Route8_Text_LorieDefeat:
+    .string "You're really good!$"
+
+Route8_Text_LoriePostBattle:
+    .string "I can't wait to tell my friends anout\n"
+    .string "our battle!$"
+
+Route8_Text_JerichoIntro:
+    .string "A true Black Belt never backs down\n"
+    .string "from a challenge!\p"
+    .string "Come on! Show me what you've got!$"
+
+Route8_Text_JerichoDefeat:
+    .string "I fought with everything I had...$"
+
+Route8_Text_JerichoPostBattle:
+    .string "True strength isn't just about power,\n"
+    .string "you need discipline too!$"
+
+Route8_Text_DonIntro:
+    .string "I've hiked these snowy trails for\n"
+    .string "years, kid!\p"
+    .string "Let's see if you've got the stamina\n"
+    .string "to keep up with me!$"
+
+Route8_Text_DonDefeat:
+    .string "Well, I'll be!$"
+
+Route8_Text_DonPostBattle:
+    .string "Take care on the trail ahead.\n"
+    .string "The snow gets pretty deep!$"
+
+Route8_Text_LyleIntro:
+    .string "I've put a lot of effort into\n"
+    .string "building a strong team.\p"
+    .string "Let's see if you can keep up against\n"
+    .string "our power!$"
+
+Route8_Text_LyleDefeat:
+    .string "Whoa what a team!$"
+
+Route8_Text_LylePostBattle:
+    .string "Your strategy was better than mine.\n"
+    .string "I'll give you that!$"
+

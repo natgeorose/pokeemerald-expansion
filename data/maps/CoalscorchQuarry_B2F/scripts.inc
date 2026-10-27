@@ -83,6 +83,7 @@ Speaker_Laverna:
 
 CoalscorchQuarry_B2F_EventScript_LavernaLeftEnter::
 	lockall
+	playse SE_PIN
 	applymovement LOCALID_COALSCORCH_LAVERNA, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement LOCALID_COALSCORCH_LAVERNA, CoalscorchQuarry_B2F_Movement_LavernaLeft
@@ -120,6 +121,7 @@ CoalscorchQuarry_B2F_EventScript_LavernaLeftEnter::
 
 CoalscorchQuarry_B2F_EventScript_LavernaRightEnter::
 	lockall
+	playse SE_PIN
 	applymovement LOCALID_COALSCORCH_LAVERNA, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement LOCALID_COALSCORCH_LAVERNA, CoalscorchQuarry_B2F_Movement_LavernaRight

@@ -2012,22 +2012,25 @@ Ludicolo
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_CAROLINE ===
-Name: Caroline
+=== TRAINER_RENEE ===
+Name: Renee
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Skarmory
-Level: 43
+Cetoddle (F)
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Sableye
-Level: 43
+Exeggcute (F)
+Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Ponyta-Galar (F)
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JULIE ===
@@ -3537,8 +3540,8 @@ Hariyama
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_KIRK ===
-Name: Kirk
+=== TRAINER_MARCELLUS ===
+Name: Marcellus
 Class: Guitarist
 Pic: Guitarist
 Gender: Male
@@ -3546,20 +3549,13 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Electrike
-Level: 17
+Noibat (M)
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Quick Attack
-- Thunder Wave
-- Spark
-- Leer
 
-Voltorb
-Level: 17
+Charjabug (M)
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
-- Shock Wave
-- Screech
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: Grunt
@@ -4013,8 +4009,8 @@ Tandemaus (F)
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TRAVIS ===
-Name: Travis
+=== TRAINER_WILLIS ===
+Name: Willis
 Class: Camper
 Pic: Camper
 Gender: Male
@@ -4022,9 +4018,14 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Snover (M)
+Level: 24
+Ability: Snow Warning
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Pawmo (M)
+Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ETHAN_2 ===
 Name: Ethan
@@ -5908,20 +5909,49 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ISABEL_1 ===
 Name: Isabel
-Class: Pokefan
-Pic: Pokefan F
+Class: Pkmn Trainer 2
+Pic: Isabel
 Gender: Female
-Music: Twins
+Music: Girl
+Mugshot: Pink
 Double Battle: No
 AI: Basic Trainer
 
-Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Teddiursa (F)
+Level: 25
+Ability: Quick Feet
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Baby-Doll Eyes
+- Slash
+- Payback
+- Yawn
 
-Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bronzor
+Level: 25
+Ability: Levitate
+Nature: Brave
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 0 Spe
+- Gyro Ball
+- Payback
+- Confusion
+- Confuse Ray
+
+Misdreavus (F)
+Level: 25
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hex
+- Thunder Wave
+- Grass Knot
+- Psybeam
+
+Drampa (F)
+Level: 26
+Ability: Sap Sipper
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Dragon Breath
+- Echoed Voice
+- Snarl
+- Glare
 
 === TRAINER_ISABEL_2 ===
 Name: Isabel
@@ -8837,8 +8867,8 @@ Meowth (F)
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_MARTHA ===
-Name: Martha
+=== TRAINER_LORIE ===
+Name: Lorie
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
@@ -8846,12 +8876,16 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Skitty
-Level: 23
+Deerling (F)
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Swablu
-Level: 23
+Clefairy (F)
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Lombre (F)
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DIANA_1 ===
@@ -10778,8 +10812,8 @@ Numel
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_MARC ===
-Name: Marc
+=== TRAINER_DON ===
+Name: Don
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -10787,13 +10821,21 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Cranidos (M)
+Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Smash
+- Headbutt
+- Rock Tomb
+- Assurance
 
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Sudowoodo (M)
+Level: 25
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Tomb
+- Slam
+- Hammer Arm
+- Copycat
 
 === TRAINER_BRENDEN ===
 Name: Brenden
@@ -10835,8 +10877,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fake Out
 - Assurance
 
-=== TRAINER_CRISTIAN ===
-Name: Cristian
+=== TRAINER_CASEY ===
+Name: Casey
 Class: Black Belt
 Pic: Black Belt
 Gender: Male
@@ -10844,9 +10886,13 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Makuhita
-Level: 13
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Timburr (M)
+Level: 24 
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Sneasel-Hisui (M)
+Level: 24 
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_SYLVIA ===
 Name: Sylvia
@@ -11199,17 +11245,34 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer / Try To Faint / Force Setup First Turn
+AI: Basic Trainer
 
-Kecleon
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacool (M)
+Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Acid
+- Bubblebeam
+- Confuse Ray
+- Rapid Spin
 
-Loudred
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gumshoos (M)
+Level: 24
+Ability: Strong Jaw
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Tackle
+- Mud-Slap
+- Yawn
+
+Kadabra (M)
+Level: 24
+Ability: Inner Focus
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Reflect
+- Psybeam
+- Charge Beam
+- Psycho Cut
 
 === TRAINER_BRENDAN_RUSTBORO_TORCHIC ===
 Name: Brendan
@@ -11512,28 +11575,38 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LYLE ===
 Name: Lyle
-Class: Bug Catcher
-Pic: Bug Catcher
+Class: Cooltrainer
+Pic: Cooltrainer M
 Gender: Male
-Music: Male
+Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacool (M)
+Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Acid
+- Bubblebeam
+- Confuse Ray
+- Rapid Spin
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gumshoos (M)
+Level: 24
+Ability: Strong Jaw
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Tackle
+- Mud-Slap
+- Yawn
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kadabra (M)
+Level: 24
+Ability: Inner Focus
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Reflect
+- Psybeam
+- Charge Beam
+- Psycho Cut
 
 === TRAINER_JOSE ===
 Name: Jose
@@ -12758,8 +12831,8 @@ Nosepass
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_KOJI_1 ===
-Name: Koji
+=== TRAINER_JERICHO ===
+Name: Jericho
 Class: Black Belt
 Pic: Black Belt
 Gender: Male
@@ -12767,9 +12840,22 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Machoke
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meditite (M)
+Level: 24
+Ability: Pure Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Force Palm
+- Psycho Cut
+- Bullet Punch
+
+Gurdurr (M)
+Level: 25
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bulk Up
+- Rock Slide
+- Low Kick
+- Slam
 
 === TRAINER_WAYNE ===
 Name: Wayne

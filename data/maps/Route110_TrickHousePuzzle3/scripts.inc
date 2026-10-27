@@ -292,7 +292,7 @@ Route110_TrickHousePuzzle3_EventScript_Justin::
 	end
 
 Route110_TrickHousePuzzle3_EventScript_Martha::
-	trainerbattle_single TRAINER_MARTHA, Route110_TrickHousePuzzle3_Text_MarthaIntro, Route110_TrickHousePuzzle3_Text_MarthaDefeat
+	trainerbattle_single TRAINER_LORIE, Route110_TrickHousePuzzle3_Text_MarthaIntro, Route110_TrickHousePuzzle3_Text_MarthaDefeat
 	msgbox Route110_TrickHousePuzzle3_Text_MarthaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

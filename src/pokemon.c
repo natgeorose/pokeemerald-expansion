@@ -6355,6 +6355,8 @@ u16 GetBattleBGM(void)
             if (!StringCompare(GetTrainerNameFromId(TRAINER_BATTLE_PARAM.opponentA), gText_BattleJamesName))
                 return MUS_BW12_VS_HUGH;
             return MUS_VS_TRAINER;
+        case TRAINER_CLASS_PKMN_TRAINER_2:
+            return MUS_BW12_VS_CHEREN_BIANCA;
         case TRAINER_CLASS_SALON_MAIDEN:
         case TRAINER_CLASS_DOME_ACE:
         case TRAINER_CLASS_PALACE_MAVEN:
