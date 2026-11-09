@@ -67,6 +67,7 @@
 #include "constants/union_room.h"
 #include "constants/weather.h"
 #include "wild_encounter.h"
+#include "variant_colours.h"
 
 #define FRIENDSHIP_EVO_THRESHOLD ((P_FRIENDSHIP_EVO_THRESHOLD >= GEN_8) ? 160 : 220)
 
@@ -83,6 +84,7 @@ static union PokemonSubstruct *GetSubstruct(struct BoxPokemon *boxMon, u32 perso
 static void EncryptBoxMon(struct BoxPokemon *boxMon);
 static void DecryptBoxMon(struct BoxPokemon *boxMon);
 static void Task_PlayMapChosenOrBattleBGM(u8 taskId);
+const u16 *GetMonSpritePalFromSpeciesInternal(u16 species, bool32 isShiny, bool32 isFemale);
 void TrySpecialOverworldEvo();
 
 EWRAM_DATA static u8 sLearningMoveTableID = 0;
@@ -6427,10 +6429,23 @@ const u16 *GetMonFrontSpritePal(struct Pokemon *mon)
 
 const u16 *GetMonSpritePalFromSpeciesAndPersonality(u16 species, bool32 isShiny, u32 personality)
 {
-    return GetMonSpritePalFromSpecies(species, isShiny, IsPersonalityFemale(species, personality));
+    const u16 *base = GetMonSpritePalFromSpeciesInternal(species, isShiny, IsPersonalityFemale(species, personality));
+    static u16 sVariantPal[16];
+    CpuCopy16(base, sVariantPal, sizeof(sVariantPal));
+    ApplyMonSpeciesVariantToPaletteBuffer(species, isShiny, personality, sVariantPal);
+    return sVariantPal;
 }
 
 const u16 *GetMonSpritePalFromSpecies(u16 species, bool32 isShiny, bool32 isFemale)
+{
+    const u16 *base = GetMonSpritePalFromSpeciesInternal(species, isShiny, isFemale);
+    static u16 sVariantPal[16];
+    CpuCopy16(base, sVariantPal, sizeof(sVariantPal));
+    ApplyMonSpeciesVariantToPaletteBuffer(species, isShiny, 0x00000000, sVariantPal);
+    return sVariantPal;
+}
+
+const u16 *GetMonSpritePalFromSpeciesInternal(u16 species, bool32 isShiny, bool32 isFemale)
 {
     species = SanitizeSpeciesId(species);
 
